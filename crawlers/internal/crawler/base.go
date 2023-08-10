@@ -9,16 +9,16 @@ import (
 	"github.com/gocolly/colly/v2"
 )
 
-type Data struct {
-	Index  string `json:"Index"`
-	NameEn string `json:"NameEn"`
-	NameTw string `json:"NameTw"`
+type PokedexBaseData struct {
+	Index  string `json:"index"`
+	NameEn string `json:"name-en"`
+	NameTw string `json:"name-tw"`
 }
 
-func GetBasePokedex() {
+func GetBasePokedex() ([]PokedexBaseData, error) {
 	c := colly.NewCollector()
 
-	var results []Data
+	var results []PokedexBaseData
 
 	c.OnHTML(".eplist tr", func(e *colly.HTMLElement) {
 		index := e.ChildText("td:nth-child(1)")
@@ -26,7 +26,7 @@ func GetBasePokedex() {
 		nameEn := e.ChildText("td:nth-child(4) a")
 
 		if index != "" && nameEn != "" && nameTw != "" {
-			results = append(results, Data{
+			results = append(results, PokedexBaseData{
 				Index:  index,
 				NameTw: nameTw,
 				NameEn: nameEn,
@@ -51,4 +51,6 @@ func GetBasePokedex() {
 	}
 
 	fmt.Println("Data saved to output.json!")
+
+	return results, nil
 }

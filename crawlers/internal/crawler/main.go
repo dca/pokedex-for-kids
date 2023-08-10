@@ -1,0 +1,26 @@
+package crawler
+
+func main() {
+
+}
+
+func Start() {
+	pokedexData, err := GetBasePokedex()
+	if err != nil {
+		panic(err)
+	}
+
+	for _, pokemon := range pokedexData {
+		err := SynthesizeText("en-US", pokemon.NameEn, "assets/mp3/" + pokemon.Index + "-" + pokemon.NameEn + ".mp3")
+		if err != nil {
+			panic(err)
+		}
+	}
+
+
+	// err := SynthesizeText("en-US", "妙蛙種子", "assets/hihi.mp3")
+
+	if err != nil {
+		panic(err)
+	}
+}

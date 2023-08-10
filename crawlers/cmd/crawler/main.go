@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	crawler.GetBasePokedex()
+	crawler.Start()
 }

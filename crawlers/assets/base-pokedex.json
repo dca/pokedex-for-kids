@@ -1,5077 +1,5077 @@
 [
  {
-  "Index": "#0001",
-  "NameEn": "Bulbasaur",
-  "NameTw": "妙蛙種子"
+  "index": "#0001",
+  "name-en": "Bulbasaur",
+  "name-tw": "妙蛙種子"
  },
  {
-  "Index": "#0002",
-  "NameEn": "Ivysaur",
-  "NameTw": "妙蛙草"
+  "index": "#0002",
+  "name-en": "Ivysaur",
+  "name-tw": "妙蛙草"
  },
  {
-  "Index": "#0003",
-  "NameEn": "Venusaur",
-  "NameTw": "妙蛙花"
+  "index": "#0003",
+  "name-en": "Venusaur",
+  "name-tw": "妙蛙花"
  },
  {
-  "Index": "#0004",
-  "NameEn": "Charmander",
-  "NameTw": "小火龍"
+  "index": "#0004",
+  "name-en": "Charmander",
+  "name-tw": "小火龍"
  },
  {
-  "Index": "#0005",
-  "NameEn": "Charmeleon",
-  "NameTw": "火恐龍"
+  "index": "#0005",
+  "name-en": "Charmeleon",
+  "name-tw": "火恐龍"
  },
  {
-  "Index": "#0006",
-  "NameEn": "Charizard",
-  "NameTw": "噴火龍"
+  "index": "#0006",
+  "name-en": "Charizard",
+  "name-tw": "噴火龍"
  },
  {
-  "Index": "#0007",
-  "NameEn": "Squirtle",
-  "NameTw": "傑尼龜"
+  "index": "#0007",
+  "name-en": "Squirtle",
+  "name-tw": "傑尼龜"
  },
  {
-  "Index": "#0008",
-  "NameEn": "Wartortle",
-  "NameTw": "卡咪龜"
+  "index": "#0008",
+  "name-en": "Wartortle",
+  "name-tw": "卡咪龜"
  },
  {
-  "Index": "#0009",
-  "NameEn": "Blastoise",
-  "NameTw": "水箭龜"
+  "index": "#0009",
+  "name-en": "Blastoise",
+  "name-tw": "水箭龜"
  },
  {
-  "Index": "#0010",
-  "NameEn": "Caterpie",
-  "NameTw": "綠毛蟲"
+  "index": "#0010",
+  "name-en": "Caterpie",
+  "name-tw": "綠毛蟲"
  },
  {
-  "Index": "#0011",
-  "NameEn": "Metapod",
-  "NameTw": "鐵甲蛹"
+  "index": "#0011",
+  "name-en": "Metapod",
+  "name-tw": "鐵甲蛹"
  },
  {
-  "Index": "#0012",
-  "NameEn": "Butterfree",
-  "NameTw": "巴大蝶"
+  "index": "#0012",
+  "name-en": "Butterfree",
+  "name-tw": "巴大蝶"
  },
  {
-  "Index": "#0013",
-  "NameEn": "Weedle",
-  "NameTw": "獨角蟲"
+  "index": "#0013",
+  "name-en": "Weedle",
+  "name-tw": "獨角蟲"
  },
  {
-  "Index": "#0014",
-  "NameEn": "Kakuna",
-  "NameTw": "鐵殼蛹"
+  "index": "#0014",
+  "name-en": "Kakuna",
+  "name-tw": "鐵殼蛹"
  },
  {
-  "Index": "#0015",
-  "NameEn": "Beedrill",
-  "NameTw": "大針蜂"
+  "index": "#0015",
+  "name-en": "Beedrill",
+  "name-tw": "大針蜂"
  },
  {
-  "Index": "#0016",
-  "NameEn": "Pidgey",
-  "NameTw": "波波"
+  "index": "#0016",
+  "name-en": "Pidgey",
+  "name-tw": "波波"
  },
  {
-  "Index": "#0017",
-  "NameEn": "Pidgeotto",
-  "NameTw": "比比鳥"
+  "index": "#0017",
+  "name-en": "Pidgeotto",
+  "name-tw": "比比鳥"
  },
  {
-  "Index": "#0018",
-  "NameEn": "Pidgeot",
-  "NameTw": "大比鳥"
+  "index": "#0018",
+  "name-en": "Pidgeot",
+  "name-tw": "大比鳥"
  },
  {
-  "Index": "#0019",
-  "NameEn": "Rattata",
-  "NameTw": "小拉達"
+  "index": "#0019",
+  "name-en": "Rattata",
+  "name-tw": "小拉達"
  },
  {
-  "Index": "#0020",
-  "NameEn": "Raticate",
-  "NameTw": "拉達"
+  "index": "#0020",
+  "name-en": "Raticate",
+  "name-tw": "拉達"
  },
  {
-  "Index": "#0021",
-  "NameEn": "Spearow",
-  "NameTw": "烈雀"
+  "index": "#0021",
+  "name-en": "Spearow",
+  "name-tw": "烈雀"
  },
  {
-  "Index": "#0022",
-  "NameEn": "Fearow",
-  "NameTw": "大嘴雀"
+  "index": "#0022",
+  "name-en": "Fearow",
+  "name-tw": "大嘴雀"
  },
  {
-  "Index": "#0023",
-  "NameEn": "Ekans",
-  "NameTw": "阿柏蛇"
+  "index": "#0023",
+  "name-en": "Ekans",
+  "name-tw": "阿柏蛇"
  },
  {
-  "Index": "#0024",
-  "NameEn": "Arbok",
-  "NameTw": "阿柏怪"
+  "index": "#0024",
+  "name-en": "Arbok",
+  "name-tw": "阿柏怪"
  },
  {
-  "Index": "#0025",
-  "NameEn": "Pikachu",
-  "NameTw": "皮卡丘"
+  "index": "#0025",
+  "name-en": "Pikachu",
+  "name-tw": "皮卡丘"
  },
  {
-  "Index": "#0026",
-  "NameEn": "Raichu",
-  "NameTw": "雷丘"
+  "index": "#0026",
+  "name-en": "Raichu",
+  "name-tw": "雷丘"
  },
  {
-  "Index": "#0027",
-  "NameEn": "Sandshrew",
-  "NameTw": "穿山鼠"
+  "index": "#0027",
+  "name-en": "Sandshrew",
+  "name-tw": "穿山鼠"
  },
  {
-  "Index": "#0028",
-  "NameEn": "Sandslash",
-  "NameTw": "穿山王"
+  "index": "#0028",
+  "name-en": "Sandslash",
+  "name-tw": "穿山王"
  },
  {
-  "Index": "#0029",
-  "NameEn": "Nidoran♀",
-  "NameTw": "尼多蘭"
+  "index": "#0029",
+  "name-en": "Nidoran♀",
+  "name-tw": "尼多蘭"
  },
  {
-  "Index": "#0030",
-  "NameEn": "Nidorina",
-  "NameTw": "尼多娜"
+  "index": "#0030",
+  "name-en": "Nidorina",
+  "name-tw": "尼多娜"
  },
  {
-  "Index": "#0031",
-  "NameEn": "Nidoqueen",
-  "NameTw": "尼多后"
+  "index": "#0031",
+  "name-en": "Nidoqueen",
+  "name-tw": "尼多后"
  },
  {
-  "Index": "#0032",
-  "NameEn": "Nidoran♂",
-  "NameTw": "尼多朗"
+  "index": "#0032",
+  "name-en": "Nidoran♂",
+  "name-tw": "尼多朗"
  },
  {
-  "Index": "#0033",
-  "NameEn": "Nidorino",
-  "NameTw": "尼多力諾"
+  "index": "#0033",
+  "name-en": "Nidorino",
+  "name-tw": "尼多力諾"
  },
  {
-  "Index": "#0034",
-  "NameEn": "Nidoking",
-  "NameTw": "尼多王"
+  "index": "#0034",
+  "name-en": "Nidoking",
+  "name-tw": "尼多王"
  },
  {
-  "Index": "#0035",
-  "NameEn": "Clefairy",
-  "NameTw": "皮皮"
+  "index": "#0035",
+  "name-en": "Clefairy",
+  "name-tw": "皮皮"
  },
  {
-  "Index": "#0036",
-  "NameEn": "Clefable",
-  "NameTw": "皮可西"
+  "index": "#0036",
+  "name-en": "Clefable",
+  "name-tw": "皮可西"
  },
  {
-  "Index": "#0037",
-  "NameEn": "Vulpix",
-  "NameTw": "六尾"
+  "index": "#0037",
+  "name-en": "Vulpix",
+  "name-tw": "六尾"
  },
  {
-  "Index": "#0038",
-  "NameEn": "Ninetales",
-  "NameTw": "九尾"
+  "index": "#0038",
+  "name-en": "Ninetales",
+  "name-tw": "九尾"
  },
  {
-  "Index": "#0039",
-  "NameEn": "Jigglypuff",
-  "NameTw": "胖丁"
+  "index": "#0039",
+  "name-en": "Jigglypuff",
+  "name-tw": "胖丁"
  },
  {
-  "Index": "#0040",
-  "NameEn": "Wigglytuff",
-  "NameTw": "胖可丁"
+  "index": "#0040",
+  "name-en": "Wigglytuff",
+  "name-tw": "胖可丁"
  },
  {
-  "Index": "#0041",
-  "NameEn": "Zubat",
-  "NameTw": "超音蝠"
+  "index": "#0041",
+  "name-en": "Zubat",
+  "name-tw": "超音蝠"
  },
  {
-  "Index": "#0042",
-  "NameEn": "Golbat",
-  "NameTw": "大嘴蝠"
+  "index": "#0042",
+  "name-en": "Golbat",
+  "name-tw": "大嘴蝠"
  },
  {
-  "Index": "#0043",
-  "NameEn": "Oddish",
-  "NameTw": "走路草"
+  "index": "#0043",
+  "name-en": "Oddish",
+  "name-tw": "走路草"
  },
  {
-  "Index": "#0044",
-  "NameEn": "Gloom",
-  "NameTw": "臭臭花"
+  "index": "#0044",
+  "name-en": "Gloom",
+  "name-tw": "臭臭花"
  },
  {
-  "Index": "#0045",
-  "NameEn": "Vileplume",
-  "NameTw": "霸王花"
+  "index": "#0045",
+  "name-en": "Vileplume",
+  "name-tw": "霸王花"
  },
  {
-  "Index": "#0046",
-  "NameEn": "Paras",
-  "NameTw": "派拉斯"
+  "index": "#0046",
+  "name-en": "Paras",
+  "name-tw": "派拉斯"
  },
  {
-  "Index": "#0047",
-  "NameEn": "Parasect",
-  "NameTw": "派拉斯特"
+  "index": "#0047",
+  "name-en": "Parasect",
+  "name-tw": "派拉斯特"
  },
  {
-  "Index": "#0048",
-  "NameEn": "Venonat",
-  "NameTw": "毛球"
+  "index": "#0048",
+  "name-en": "Venonat",
+  "name-tw": "毛球"
  },
  {
-  "Index": "#0049",
-  "NameEn": "Venomoth",
-  "NameTw": "摩魯蛾"
+  "index": "#0049",
+  "name-en": "Venomoth",
+  "name-tw": "摩魯蛾"
  },
  {
-  "Index": "#0050",
-  "NameEn": "Diglett",
-  "NameTw": "地鼠"
+  "index": "#0050",
+  "name-en": "Diglett",
+  "name-tw": "地鼠"
  },
  {
-  "Index": "#0051",
-  "NameEn": "Dugtrio",
-  "NameTw": "三地鼠"
+  "index": "#0051",
+  "name-en": "Dugtrio",
+  "name-tw": "三地鼠"
  },
  {
-  "Index": "#0052",
-  "NameEn": "Meowth",
-  "NameTw": "喵喵"
+  "index": "#0052",
+  "name-en": "Meowth",
+  "name-tw": "喵喵"
  },
  {
-  "Index": "#0053",
-  "NameEn": "Persian",
-  "NameTw": "貓老大"
+  "index": "#0053",
+  "name-en": "Persian",
+  "name-tw": "貓老大"
  },
  {
-  "Index": "#0054",
-  "NameEn": "Psyduck",
-  "NameTw": "可達鴨"
+  "index": "#0054",
+  "name-en": "Psyduck",
+  "name-tw": "可達鴨"
  },
  {
-  "Index": "#0055",
-  "NameEn": "Golduck",
-  "NameTw": "哥達鴨"
+  "index": "#0055",
+  "name-en": "Golduck",
+  "name-tw": "哥達鴨"
  },
  {
-  "Index": "#0056",
-  "NameEn": "Mankey",
-  "NameTw": "猴怪"
+  "index": "#0056",
+  "name-en": "Mankey",
+  "name-tw": "猴怪"
  },
  {
-  "Index": "#0057",
-  "NameEn": "Primeape",
-  "NameTw": "火爆猴"
+  "index": "#0057",
+  "name-en": "Primeape",
+  "name-tw": "火爆猴"
  },
  {
-  "Index": "#0058",
-  "NameEn": "Growlithe",
-  "NameTw": "卡蒂狗"
+  "index": "#0058",
+  "name-en": "Growlithe",
+  "name-tw": "卡蒂狗"
  },
  {
-  "Index": "#0059",
-  "NameEn": "Arcanine",
-  "NameTw": "風速狗"
+  "index": "#0059",
+  "name-en": "Arcanine",
+  "name-tw": "風速狗"
  },
  {
-  "Index": "#0060",
-  "NameEn": "Poliwag",
-  "NameTw": "蚊香蝌蚪"
+  "index": "#0060",
+  "name-en": "Poliwag",
+  "name-tw": "蚊香蝌蚪"
  },
  {
-  "Index": "#0061",
-  "NameEn": "Poliwhirl",
-  "NameTw": "蚊香君"
+  "index": "#0061",
+  "name-en": "Poliwhirl",
+  "name-tw": "蚊香君"
  },
  {
-  "Index": "#0062",
-  "NameEn": "Poliwrath",
-  "NameTw": "蚊香泳士"
+  "index": "#0062",
+  "name-en": "Poliwrath",
+  "name-tw": "蚊香泳士"
  },
  {
-  "Index": "#0063",
-  "NameEn": "Abra",
-  "NameTw": "凱西"
+  "index": "#0063",
+  "name-en": "Abra",
+  "name-tw": "凱西"
  },
  {
-  "Index": "#0064",
-  "NameEn": "Kadabra",
-  "NameTw": "勇基拉"
+  "index": "#0064",
+  "name-en": "Kadabra",
+  "name-tw": "勇基拉"
  },
  {
-  "Index": "#0065",
-  "NameEn": "Alakazam",
-  "NameTw": "胡地"
+  "index": "#0065",
+  "name-en": "Alakazam",
+  "name-tw": "胡地"
  },
  {
-  "Index": "#0066",
-  "NameEn": "Machop",
-  "NameTw": "腕力"
+  "index": "#0066",
+  "name-en": "Machop",
+  "name-tw": "腕力"
  },
  {
-  "Index": "#0067",
-  "NameEn": "Machoke",
-  "NameTw": "豪力"
+  "index": "#0067",
+  "name-en": "Machoke",
+  "name-tw": "豪力"
  },
  {
-  "Index": "#0068",
-  "NameEn": "Machamp",
-  "NameTw": "怪力"
+  "index": "#0068",
+  "name-en": "Machamp",
+  "name-tw": "怪力"
  },
  {
-  "Index": "#0069",
-  "NameEn": "Bellsprout",
-  "NameTw": "喇叭芽"
+  "index": "#0069",
+  "name-en": "Bellsprout",
+  "name-tw": "喇叭芽"
  },
  {
-  "Index": "#0070",
-  "NameEn": "Weepinbell",
-  "NameTw": "口呆花"
+  "index": "#0070",
+  "name-en": "Weepinbell",
+  "name-tw": "口呆花"
  },
  {
-  "Index": "#0071",
-  "NameEn": "Victreebel",
-  "NameTw": "大食花"
+  "index": "#0071",
+  "name-en": "Victreebel",
+  "name-tw": "大食花"
  },
  {
-  "Index": "#0072",
-  "NameEn": "Tentacool",
-  "NameTw": "瑪瑙水母"
+  "index": "#0072",
+  "name-en": "Tentacool",
+  "name-tw": "瑪瑙水母"
  },
  {
-  "Index": "#0073",
-  "NameEn": "Tentacruel",
-  "NameTw": "毒刺水母"
+  "index": "#0073",
+  "name-en": "Tentacruel",
+  "name-tw": "毒刺水母"
  },
  {
-  "Index": "#0074",
-  "NameEn": "Geodude",
-  "NameTw": "小拳石"
+  "index": "#0074",
+  "name-en": "Geodude",
+  "name-tw": "小拳石"
  },
  {
-  "Index": "#0075",
-  "NameEn": "Graveler",
-  "NameTw": "隆隆石"
+  "index": "#0075",
+  "name-en": "Graveler",
+  "name-tw": "隆隆石"
  },
  {
-  "Index": "#0076",
-  "NameEn": "Golem",
-  "NameTw": "隆隆岩"
+  "index": "#0076",
+  "name-en": "Golem",
+  "name-tw": "隆隆岩"
  },
  {
-  "Index": "#0077",
-  "NameEn": "Ponyta",
-  "NameTw": "小火馬"
+  "index": "#0077",
+  "name-en": "Ponyta",
+  "name-tw": "小火馬"
  },
  {
-  "Index": "#0078",
-  "NameEn": "Rapidash",
-  "NameTw": "烈焰馬"
+  "index": "#0078",
+  "name-en": "Rapidash",
+  "name-tw": "烈焰馬"
  },
  {
-  "Index": "#0079",
-  "NameEn": "Slowpoke",
-  "NameTw": "呆呆獸"
+  "index": "#0079",
+  "name-en": "Slowpoke",
+  "name-tw": "呆呆獸"
  },
  {
-  "Index": "#0080",
-  "NameEn": "Slowbro",
-  "NameTw": "呆殼獸"
+  "index": "#0080",
+  "name-en": "Slowbro",
+  "name-tw": "呆殼獸"
  },
  {
-  "Index": "#0081",
-  "NameEn": "Magnemite",
-  "NameTw": "小磁怪"
+  "index": "#0081",
+  "name-en": "Magnemite",
+  "name-tw": "小磁怪"
  },
  {
-  "Index": "#0082",
-  "NameEn": "Magneton",
-  "NameTw": "三合一磁怪"
+  "index": "#0082",
+  "name-en": "Magneton",
+  "name-tw": "三合一磁怪"
  },
  {
-  "Index": "#0083",
-  "NameEn": "Farfetch'd",
-  "NameTw": "大蔥鴨"
+  "index": "#0083",
+  "name-en": "Farfetch'd",
+  "name-tw": "大蔥鴨"
  },
  {
-  "Index": "#0084",
-  "NameEn": "Doduo",
-  "NameTw": "嘟嘟"
+  "index": "#0084",
+  "name-en": "Doduo",
+  "name-tw": "嘟嘟"
  },
  {
-  "Index": "#0085",
-  "NameEn": "Dodrio",
-  "NameTw": "嘟嘟利"
+  "index": "#0085",
+  "name-en": "Dodrio",
+  "name-tw": "嘟嘟利"
  },
  {
-  "Index": "#0086",
-  "NameEn": "Seel",
-  "NameTw": "小海獅"
+  "index": "#0086",
+  "name-en": "Seel",
+  "name-tw": "小海獅"
  },
  {
-  "Index": "#0087",
-  "NameEn": "Dewgong",
-  "NameTw": "白海獅"
+  "index": "#0087",
+  "name-en": "Dewgong",
+  "name-tw": "白海獅"
  },
  {
-  "Index": "#0088",
-  "NameEn": "Grimer",
-  "NameTw": "臭泥"
+  "index": "#0088",
+  "name-en": "Grimer",
+  "name-tw": "臭泥"
  },
  {
-  "Index": "#0089",
-  "NameEn": "Muk",
-  "NameTw": "臭臭泥"
+  "index": "#0089",
+  "name-en": "Muk",
+  "name-tw": "臭臭泥"
  },
  {
-  "Index": "#0090",
-  "NameEn": "Shellder",
-  "NameTw": "大舌貝"
+  "index": "#0090",
+  "name-en": "Shellder",
+  "name-tw": "大舌貝"
  },
  {
-  "Index": "#0091",
-  "NameEn": "Cloyster",
-  "NameTw": "刺甲貝"
+  "index": "#0091",
+  "name-en": "Cloyster",
+  "name-tw": "刺甲貝"
  },
  {
-  "Index": "#0092",
-  "NameEn": "Gastly",
-  "NameTw": "鬼斯"
+  "index": "#0092",
+  "name-en": "Gastly",
+  "name-tw": "鬼斯"
  },
  {
-  "Index": "#0093",
-  "NameEn": "Haunter",
-  "NameTw": "鬼斯通"
+  "index": "#0093",
+  "name-en": "Haunter",
+  "name-tw": "鬼斯通"
  },
  {
-  "Index": "#0094",
-  "NameEn": "Gengar",
-  "NameTw": "耿鬼"
+  "index": "#0094",
+  "name-en": "Gengar",
+  "name-tw": "耿鬼"
  },
  {
-  "Index": "#0095",
-  "NameEn": "Onix",
-  "NameTw": "大岩蛇"
+  "index": "#0095",
+  "name-en": "Onix",
+  "name-tw": "大岩蛇"
  },
  {
-  "Index": "#0096",
-  "NameEn": "Drowzee",
-  "NameTw": "催眠貘"
+  "index": "#0096",
+  "name-en": "Drowzee",
+  "name-tw": "催眠貘"
  },
  {
-  "Index": "#0097",
-  "NameEn": "Hypno",
-  "NameTw": "引夢貘人"
+  "index": "#0097",
+  "name-en": "Hypno",
+  "name-tw": "引夢貘人"
  },
  {
-  "Index": "#0098",
-  "NameEn": "Krabby",
-  "NameTw": "大鉗蟹"
+  "index": "#0098",
+  "name-en": "Krabby",
+  "name-tw": "大鉗蟹"
  },
  {
-  "Index": "#0099",
-  "NameEn": "Kingler",
-  "NameTw": "巨鉗蟹"
+  "index": "#0099",
+  "name-en": "Kingler",
+  "name-tw": "巨鉗蟹"
  },
  {
-  "Index": "#0100",
-  "NameEn": "Voltorb",
-  "NameTw": "霹靂電球"
+  "index": "#0100",
+  "name-en": "Voltorb",
+  "name-tw": "霹靂電球"
  },
  {
-  "Index": "#0101",
-  "NameEn": "Electrode",
-  "NameTw": "頑皮雷彈"
+  "index": "#0101",
+  "name-en": "Electrode",
+  "name-tw": "頑皮雷彈"
  },
  {
-  "Index": "#0102",
-  "NameEn": "Exeggcute",
-  "NameTw": "蛋蛋"
+  "index": "#0102",
+  "name-en": "Exeggcute",
+  "name-tw": "蛋蛋"
  },
  {
-  "Index": "#0103",
-  "NameEn": "Exeggutor",
-  "NameTw": "椰蛋樹"
+  "index": "#0103",
+  "name-en": "Exeggutor",
+  "name-tw": "椰蛋樹"
  },
  {
-  "Index": "#0104",
-  "NameEn": "Cubone",
-  "NameTw": "卡拉卡拉"
+  "index": "#0104",
+  "name-en": "Cubone",
+  "name-tw": "卡拉卡拉"
  },
  {
-  "Index": "#0105",
-  "NameEn": "Marowak",
-  "NameTw": "嘎啦嘎啦"
+  "index": "#0105",
+  "name-en": "Marowak",
+  "name-tw": "嘎啦嘎啦"
  },
  {
-  "Index": "#0106",
-  "NameEn": "Hitmonlee",
-  "NameTw": "飛腿郎"
+  "index": "#0106",
+  "name-en": "Hitmonlee",
+  "name-tw": "飛腿郎"
  },
  {
-  "Index": "#0107",
-  "NameEn": "Hitmonchan",
-  "NameTw": "快拳郎"
+  "index": "#0107",
+  "name-en": "Hitmonchan",
+  "name-tw": "快拳郎"
  },
  {
-  "Index": "#0108",
-  "NameEn": "Lickitung",
-  "NameTw": "大舌頭"
+  "index": "#0108",
+  "name-en": "Lickitung",
+  "name-tw": "大舌頭"
  },
  {
-  "Index": "#0109",
-  "NameEn": "Koffing",
-  "NameTw": "瓦斯彈"
+  "index": "#0109",
+  "name-en": "Koffing",
+  "name-tw": "瓦斯彈"
  },
  {
-  "Index": "#0110",
-  "NameEn": "Weezing",
-  "NameTw": "雙彈瓦斯"
+  "index": "#0110",
+  "name-en": "Weezing",
+  "name-tw": "雙彈瓦斯"
  },
  {
-  "Index": "#0111",
-  "NameEn": "Rhyhorn",
-  "NameTw": "獨角犀牛"
+  "index": "#0111",
+  "name-en": "Rhyhorn",
+  "name-tw": "獨角犀牛"
  },
  {
-  "Index": "#0112",
-  "NameEn": "Rhydon",
-  "NameTw": "鑽角犀獸"
+  "index": "#0112",
+  "name-en": "Rhydon",
+  "name-tw": "鑽角犀獸"
  },
  {
-  "Index": "#0113",
-  "NameEn": "Chansey",
-  "NameTw": "吉利蛋"
+  "index": "#0113",
+  "name-en": "Chansey",
+  "name-tw": "吉利蛋"
  },
  {
-  "Index": "#0114",
-  "NameEn": "Tangela",
-  "NameTw": "蔓藤怪"
+  "index": "#0114",
+  "name-en": "Tangela",
+  "name-tw": "蔓藤怪"
  },
  {
-  "Index": "#0115",
-  "NameEn": "Kangaskhan",
-  "NameTw": "袋獸"
+  "index": "#0115",
+  "name-en": "Kangaskhan",
+  "name-tw": "袋獸"
  },
  {
-  "Index": "#0116",
-  "NameEn": "Horsea",
-  "NameTw": "墨海馬"
+  "index": "#0116",
+  "name-en": "Horsea",
+  "name-tw": "墨海馬"
  },
  {
-  "Index": "#0117",
-  "NameEn": "Seadra",
-  "NameTw": "海刺龍"
+  "index": "#0117",
+  "name-en": "Seadra",
+  "name-tw": "海刺龍"
  },
  {
-  "Index": "#0118",
-  "NameEn": "Goldeen",
-  "NameTw": "角金魚"
+  "index": "#0118",
+  "name-en": "Goldeen",
+  "name-tw": "角金魚"
  },
  {
-  "Index": "#0119",
-  "NameEn": "Seaking",
-  "NameTw": "金魚王"
+  "index": "#0119",
+  "name-en": "Seaking",
+  "name-tw": "金魚王"
  },
  {
-  "Index": "#0120",
-  "NameEn": "Staryu",
-  "NameTw": "海星星"
+  "index": "#0120",
+  "name-en": "Staryu",
+  "name-tw": "海星星"
  },
  {
-  "Index": "#0121",
-  "NameEn": "Starmie",
-  "NameTw": "寶石海星"
+  "index": "#0121",
+  "name-en": "Starmie",
+  "name-tw": "寶石海星"
  },
  {
-  "Index": "#0122",
-  "NameEn": "Mr. Mime",
-  "NameTw": "魔牆人偶"
+  "index": "#0122",
+  "name-en": "Mr. Mime",
+  "name-tw": "魔牆人偶"
  },
  {
-  "Index": "#0123",
-  "NameEn": "Scyther",
-  "NameTw": "飛天螳螂"
+  "index": "#0123",
+  "name-en": "Scyther",
+  "name-tw": "飛天螳螂"
  },
  {
-  "Index": "#0124",
-  "NameEn": "Jynx",
-  "NameTw": "迷唇姐"
+  "index": "#0124",
+  "name-en": "Jynx",
+  "name-tw": "迷唇姐"
  },
  {
-  "Index": "#0125",
-  "NameEn": "Electabuzz",
-  "NameTw": "電擊獸"
+  "index": "#0125",
+  "name-en": "Electabuzz",
+  "name-tw": "電擊獸"
  },
  {
-  "Index": "#0126",
-  "NameEn": "Magmar",
-  "NameTw": "鴨嘴火獸"
+  "index": "#0126",
+  "name-en": "Magmar",
+  "name-tw": "鴨嘴火獸"
  },
  {
-  "Index": "#0127",
-  "NameEn": "Pinsir",
-  "NameTw": "凱羅斯"
+  "index": "#0127",
+  "name-en": "Pinsir",
+  "name-tw": "凱羅斯"
  },
  {
-  "Index": "#0128",
-  "NameEn": "Tauros",
-  "NameTw": "肯泰羅"
+  "index": "#0128",
+  "name-en": "Tauros",
+  "name-tw": "肯泰羅"
  },
  {
-  "Index": "#0129",
-  "NameEn": "Magikarp",
-  "NameTw": "鯉魚王"
+  "index": "#0129",
+  "name-en": "Magikarp",
+  "name-tw": "鯉魚王"
  },
  {
-  "Index": "#0130",
-  "NameEn": "Gyarados",
-  "NameTw": "暴鯉龍"
+  "index": "#0130",
+  "name-en": "Gyarados",
+  "name-tw": "暴鯉龍"
  },
  {
-  "Index": "#0131",
-  "NameEn": "Lapras",
-  "NameTw": "拉普拉斯"
+  "index": "#0131",
+  "name-en": "Lapras",
+  "name-tw": "拉普拉斯"
  },
  {
-  "Index": "#0132",
-  "NameEn": "Ditto",
-  "NameTw": "百變怪"
+  "index": "#0132",
+  "name-en": "Ditto",
+  "name-tw": "百變怪"
  },
  {
-  "Index": "#0133",
-  "NameEn": "Eevee",
-  "NameTw": "伊布"
+  "index": "#0133",
+  "name-en": "Eevee",
+  "name-tw": "伊布"
  },
  {
-  "Index": "#0134",
-  "NameEn": "Vaporeon",
-  "NameTw": "水伊布"
+  "index": "#0134",
+  "name-en": "Vaporeon",
+  "name-tw": "水伊布"
  },
  {
-  "Index": "#0135",
-  "NameEn": "Jolteon",
-  "NameTw": "雷伊布"
+  "index": "#0135",
+  "name-en": "Jolteon",
+  "name-tw": "雷伊布"
  },
  {
-  "Index": "#0136",
-  "NameEn": "Flareon",
-  "NameTw": "火伊布"
+  "index": "#0136",
+  "name-en": "Flareon",
+  "name-tw": "火伊布"
  },
  {
-  "Index": "#0137",
-  "NameEn": "Porygon",
-  "NameTw": "多邊獸"
+  "index": "#0137",
+  "name-en": "Porygon",
+  "name-tw": "多邊獸"
  },
  {
-  "Index": "#0138",
-  "NameEn": "Omanyte",
-  "NameTw": "菊石獸"
+  "index": "#0138",
+  "name-en": "Omanyte",
+  "name-tw": "菊石獸"
  },
  {
-  "Index": "#0139",
-  "NameEn": "Omastar",
-  "NameTw": "多刺菊石獸"
+  "index": "#0139",
+  "name-en": "Omastar",
+  "name-tw": "多刺菊石獸"
  },
  {
-  "Index": "#0140",
-  "NameEn": "Kabuto",
-  "NameTw": "化石盔"
+  "index": "#0140",
+  "name-en": "Kabuto",
+  "name-tw": "化石盔"
  },
  {
-  "Index": "#0141",
-  "NameEn": "Kabutops",
-  "NameTw": "鐮刀盔"
+  "index": "#0141",
+  "name-en": "Kabutops",
+  "name-tw": "鐮刀盔"
  },
  {
-  "Index": "#0142",
-  "NameEn": "Aerodactyl",
-  "NameTw": "化石翼龍"
+  "index": "#0142",
+  "name-en": "Aerodactyl",
+  "name-tw": "化石翼龍"
  },
  {
-  "Index": "#0143",
-  "NameEn": "Snorlax",
-  "NameTw": "卡比獸"
+  "index": "#0143",
+  "name-en": "Snorlax",
+  "name-tw": "卡比獸"
  },
  {
-  "Index": "#0144",
-  "NameEn": "Articuno",
-  "NameTw": "急凍鳥"
+  "index": "#0144",
+  "name-en": "Articuno",
+  "name-tw": "急凍鳥"
  },
  {
-  "Index": "#0145",
-  "NameEn": "Zapdos",
-  "NameTw": "閃電鳥"
+  "index": "#0145",
+  "name-en": "Zapdos",
+  "name-tw": "閃電鳥"
  },
  {
-  "Index": "#0146",
-  "NameEn": "Moltres",
-  "NameTw": "火焰鳥"
+  "index": "#0146",
+  "name-en": "Moltres",
+  "name-tw": "火焰鳥"
  },
  {
-  "Index": "#0147",
-  "NameEn": "Dratini",
-  "NameTw": "迷你龍"
+  "index": "#0147",
+  "name-en": "Dratini",
+  "name-tw": "迷你龍"
  },
  {
-  "Index": "#0148",
-  "NameEn": "Dragonair",
-  "NameTw": "哈克龍"
+  "index": "#0148",
+  "name-en": "Dragonair",
+  "name-tw": "哈克龍"
  },
  {
-  "Index": "#0149",
-  "NameEn": "Dragonite",
-  "NameTw": "快龍"
+  "index": "#0149",
+  "name-en": "Dragonite",
+  "name-tw": "快龍"
  },
  {
-  "Index": "#0150",
-  "NameEn": "Mewtwo",
-  "NameTw": "超夢"
+  "index": "#0150",
+  "name-en": "Mewtwo",
+  "name-tw": "超夢"
  },
  {
-  "Index": "#0151",
-  "NameEn": "Mew",
-  "NameTw": "夢幻"
+  "index": "#0151",
+  "name-en": "Mew",
+  "name-tw": "夢幻"
  },
  {
-  "Index": "#0152",
-  "NameEn": "Chikorita",
-  "NameTw": "菊草葉"
+  "index": "#0152",
+  "name-en": "Chikorita",
+  "name-tw": "菊草葉"
  },
  {
-  "Index": "#0153",
-  "NameEn": "Bayleef",
-  "NameTw": "月桂葉"
+  "index": "#0153",
+  "name-en": "Bayleef",
+  "name-tw": "月桂葉"
  },
  {
-  "Index": "#0154",
-  "NameEn": "Meganium",
-  "NameTw": "大竺葵"
+  "index": "#0154",
+  "name-en": "Meganium",
+  "name-tw": "大竺葵"
  },
  {
-  "Index": "#0155",
-  "NameEn": "Cyndaquil",
-  "NameTw": "火球鼠"
+  "index": "#0155",
+  "name-en": "Cyndaquil",
+  "name-tw": "火球鼠"
  },
  {
-  "Index": "#0156",
-  "NameEn": "Quilava",
-  "NameTw": "火岩鼠"
+  "index": "#0156",
+  "name-en": "Quilava",
+  "name-tw": "火岩鼠"
  },
  {
-  "Index": "#0157",
-  "NameEn": "Typhlosion",
-  "NameTw": "火爆獸"
+  "index": "#0157",
+  "name-en": "Typhlosion",
+  "name-tw": "火爆獸"
  },
  {
-  "Index": "#0158",
-  "NameEn": "Totodile",
-  "NameTw": "小鋸鱷"
+  "index": "#0158",
+  "name-en": "Totodile",
+  "name-tw": "小鋸鱷"
  },
  {
-  "Index": "#0159",
-  "NameEn": "Croconaw",
-  "NameTw": "藍鱷"
+  "index": "#0159",
+  "name-en": "Croconaw",
+  "name-tw": "藍鱷"
  },
  {
-  "Index": "#0160",
-  "NameEn": "Feraligatr",
-  "NameTw": "大力鱷"
+  "index": "#0160",
+  "name-en": "Feraligatr",
+  "name-tw": "大力鱷"
  },
  {
-  "Index": "#0161",
-  "NameEn": "Sentret",
-  "NameTw": "尾立"
+  "index": "#0161",
+  "name-en": "Sentret",
+  "name-tw": "尾立"
  },
  {
-  "Index": "#0162",
-  "NameEn": "Furret",
-  "NameTw": "大尾立"
+  "index": "#0162",
+  "name-en": "Furret",
+  "name-tw": "大尾立"
  },
  {
-  "Index": "#0163",
-  "NameEn": "Hoothoot",
-  "NameTw": "咕咕"
+  "index": "#0163",
+  "name-en": "Hoothoot",
+  "name-tw": "咕咕"
  },
  {
-  "Index": "#0164",
-  "NameEn": "Noctowl",
-  "NameTw": "貓頭夜鷹"
+  "index": "#0164",
+  "name-en": "Noctowl",
+  "name-tw": "貓頭夜鷹"
  },
  {
-  "Index": "#0165",
-  "NameEn": "Ledyba",
-  "NameTw": "芭瓢蟲"
+  "index": "#0165",
+  "name-en": "Ledyba",
+  "name-tw": "芭瓢蟲"
  },
  {
-  "Index": "#0166",
-  "NameEn": "Ledian",
-  "NameTw": "安瓢蟲"
+  "index": "#0166",
+  "name-en": "Ledian",
+  "name-tw": "安瓢蟲"
  },
  {
-  "Index": "#0167",
-  "NameEn": "Spinarak",
-  "NameTw": "圓絲蛛"
+  "index": "#0167",
+  "name-en": "Spinarak",
+  "name-tw": "圓絲蛛"
  },
  {
-  "Index": "#0168",
-  "NameEn": "Ariados",
-  "NameTw": "阿利多斯"
+  "index": "#0168",
+  "name-en": "Ariados",
+  "name-tw": "阿利多斯"
  },
  {
-  "Index": "#0169",
-  "NameEn": "Crobat",
-  "NameTw": "叉字蝠"
+  "index": "#0169",
+  "name-en": "Crobat",
+  "name-tw": "叉字蝠"
  },
  {
-  "Index": "#0170",
-  "NameEn": "Chinchou",
-  "NameTw": "燈籠魚"
+  "index": "#0170",
+  "name-en": "Chinchou",
+  "name-tw": "燈籠魚"
  },
  {
-  "Index": "#0171",
-  "NameEn": "Lanturn",
-  "NameTw": "電燈怪"
+  "index": "#0171",
+  "name-en": "Lanturn",
+  "name-tw": "電燈怪"
  },
  {
-  "Index": "#0172",
-  "NameEn": "Pichu",
-  "NameTw": "皮丘"
+  "index": "#0172",
+  "name-en": "Pichu",
+  "name-tw": "皮丘"
  },
  {
-  "Index": "#0173",
-  "NameEn": "Cleffa",
-  "NameTw": "皮寶寶"
+  "index": "#0173",
+  "name-en": "Cleffa",
+  "name-tw": "皮寶寶"
  },
  {
-  "Index": "#0174",
-  "NameEn": "Igglybuff",
-  "NameTw": "寶寶丁"
+  "index": "#0174",
+  "name-en": "Igglybuff",
+  "name-tw": "寶寶丁"
  },
  {
-  "Index": "#0175",
-  "NameEn": "Togepi",
-  "NameTw": "波克比"
+  "index": "#0175",
+  "name-en": "Togepi",
+  "name-tw": "波克比"
  },
  {
-  "Index": "#0176",
-  "NameEn": "Togetic",
-  "NameTw": "波克基古"
+  "index": "#0176",
+  "name-en": "Togetic",
+  "name-tw": "波克基古"
  },
  {
-  "Index": "#0177",
-  "NameEn": "Natu",
-  "NameTw": "天然雀"
+  "index": "#0177",
+  "name-en": "Natu",
+  "name-tw": "天然雀"
  },
  {
-  "Index": "#0178",
-  "NameEn": "Xatu",
-  "NameTw": "天然鳥"
+  "index": "#0178",
+  "name-en": "Xatu",
+  "name-tw": "天然鳥"
  },
  {
-  "Index": "#0179",
-  "NameEn": "Mareep",
-  "NameTw": "咩利羊"
+  "index": "#0179",
+  "name-en": "Mareep",
+  "name-tw": "咩利羊"
  },
  {
-  "Index": "#0180",
-  "NameEn": "Flaaffy",
-  "NameTw": "茸茸羊"
+  "index": "#0180",
+  "name-en": "Flaaffy",
+  "name-tw": "茸茸羊"
  },
  {
-  "Index": "#0181",
-  "NameEn": "Ampharos",
-  "NameTw": "電龍"
+  "index": "#0181",
+  "name-en": "Ampharos",
+  "name-tw": "電龍"
  },
  {
-  "Index": "#0182",
-  "NameEn": "Bellossom",
-  "NameTw": "美麗花"
+  "index": "#0182",
+  "name-en": "Bellossom",
+  "name-tw": "美麗花"
  },
  {
-  "Index": "#0183",
-  "NameEn": "Marill",
-  "NameTw": "瑪力露"
+  "index": "#0183",
+  "name-en": "Marill",
+  "name-tw": "瑪力露"
  },
  {
-  "Index": "#0184",
-  "NameEn": "Azumarill",
-  "NameTw": "瑪力露麗"
+  "index": "#0184",
+  "name-en": "Azumarill",
+  "name-tw": "瑪力露麗"
  },
  {
-  "Index": "#0185",
-  "NameEn": "Sudowoodo",
-  "NameTw": "樹才怪"
+  "index": "#0185",
+  "name-en": "Sudowoodo",
+  "name-tw": "樹才怪"
  },
  {
-  "Index": "#0186",
-  "NameEn": "Politoed",
-  "NameTw": "蚊香蛙皇"
+  "index": "#0186",
+  "name-en": "Politoed",
+  "name-tw": "蚊香蛙皇"
  },
  {
-  "Index": "#0187",
-  "NameEn": "Hoppip",
-  "NameTw": "毽子草"
+  "index": "#0187",
+  "name-en": "Hoppip",
+  "name-tw": "毽子草"
  },
  {
-  "Index": "#0188",
-  "NameEn": "Skiploom",
-  "NameTw": "毽子花"
+  "index": "#0188",
+  "name-en": "Skiploom",
+  "name-tw": "毽子花"
  },
  {
-  "Index": "#0189",
-  "NameEn": "Jumpluff",
-  "NameTw": "毽子棉"
+  "index": "#0189",
+  "name-en": "Jumpluff",
+  "name-tw": "毽子棉"
  },
  {
-  "Index": "#0190",
-  "NameEn": "Aipom",
-  "NameTw": "長尾怪手"
+  "index": "#0190",
+  "name-en": "Aipom",
+  "name-tw": "長尾怪手"
  },
  {
-  "Index": "#0191",
-  "NameEn": "Sunkern",
-  "NameTw": "向日種子"
+  "index": "#0191",
+  "name-en": "Sunkern",
+  "name-tw": "向日種子"
  },
  {
-  "Index": "#0192",
-  "NameEn": "Sunflora",
-  "NameTw": "向日花怪"
+  "index": "#0192",
+  "name-en": "Sunflora",
+  "name-tw": "向日花怪"
  },
  {
-  "Index": "#0193",
-  "NameEn": "Yanma",
-  "NameTw": "蜻蜻蜓"
+  "index": "#0193",
+  "name-en": "Yanma",
+  "name-tw": "蜻蜻蜓"
  },
  {
-  "Index": "#0194",
-  "NameEn": "Wooper",
-  "NameTw": "烏波"
+  "index": "#0194",
+  "name-en": "Wooper",
+  "name-tw": "烏波"
  },
  {
-  "Index": "#0195",
-  "NameEn": "Quagsire",
-  "NameTw": "沼王"
+  "index": "#0195",
+  "name-en": "Quagsire",
+  "name-tw": "沼王"
  },
  {
-  "Index": "#0196",
-  "NameEn": "Espeon",
-  "NameTw": "太陽伊布"
+  "index": "#0196",
+  "name-en": "Espeon",
+  "name-tw": "太陽伊布"
  },
  {
-  "Index": "#0197",
-  "NameEn": "Umbreon",
-  "NameTw": "月亮伊布"
+  "index": "#0197",
+  "name-en": "Umbreon",
+  "name-tw": "月亮伊布"
  },
  {
-  "Index": "#0198",
-  "NameEn": "Murkrow",
-  "NameTw": "黑暗鴉"
+  "index": "#0198",
+  "name-en": "Murkrow",
+  "name-tw": "黑暗鴉"
  },
  {
-  "Index": "#0199",
-  "NameEn": "Slowking",
-  "NameTw": "呆呆王"
+  "index": "#0199",
+  "name-en": "Slowking",
+  "name-tw": "呆呆王"
  },
  {
-  "Index": "#0200",
-  "NameEn": "Misdreavus",
-  "NameTw": "夢妖"
+  "index": "#0200",
+  "name-en": "Misdreavus",
+  "name-tw": "夢妖"
  },
  {
-  "Index": "#0201",
-  "NameEn": "Unown",
-  "NameTw": "未知圖騰"
+  "index": "#0201",
+  "name-en": "Unown",
+  "name-tw": "未知圖騰"
  },
  {
-  "Index": "#0202",
-  "NameEn": "Wobbuffet",
-  "NameTw": "果然翁"
+  "index": "#0202",
+  "name-en": "Wobbuffet",
+  "name-tw": "果然翁"
  },
  {
-  "Index": "#0203",
-  "NameEn": "Girafarig",
-  "NameTw": "麒麟奇"
+  "index": "#0203",
+  "name-en": "Girafarig",
+  "name-tw": "麒麟奇"
  },
  {
-  "Index": "#0204",
-  "NameEn": "Pineco",
-  "NameTw": "榛果球"
+  "index": "#0204",
+  "name-en": "Pineco",
+  "name-tw": "榛果球"
  },
  {
-  "Index": "#0205",
-  "NameEn": "Forretress",
-  "NameTw": "佛烈托斯"
+  "index": "#0205",
+  "name-en": "Forretress",
+  "name-tw": "佛烈托斯"
  },
  {
-  "Index": "#0206",
-  "NameEn": "Dunsparce",
-  "NameTw": "土龍弟弟"
+  "index": "#0206",
+  "name-en": "Dunsparce",
+  "name-tw": "土龍弟弟"
  },
  {
-  "Index": "#0207",
-  "NameEn": "Gligar",
-  "NameTw": "天蠍"
+  "index": "#0207",
+  "name-en": "Gligar",
+  "name-tw": "天蠍"
  },
  {
-  "Index": "#0208",
-  "NameEn": "Steelix",
-  "NameTw": "大鋼蛇"
+  "index": "#0208",
+  "name-en": "Steelix",
+  "name-tw": "大鋼蛇"
  },
  {
-  "Index": "#0209",
-  "NameEn": "Snubbull",
-  "NameTw": "布魯"
+  "index": "#0209",
+  "name-en": "Snubbull",
+  "name-tw": "布魯"
  },
  {
-  "Index": "#0210",
-  "NameEn": "Granbull",
-  "NameTw": "布魯皇"
+  "index": "#0210",
+  "name-en": "Granbull",
+  "name-tw": "布魯皇"
  },
  {
-  "Index": "#0211",
-  "NameEn": "Qwilfish",
-  "NameTw": "千針魚"
+  "index": "#0211",
+  "name-en": "Qwilfish",
+  "name-tw": "千針魚"
  },
  {
-  "Index": "#0212",
-  "NameEn": "Scizor",
-  "NameTw": "巨鉗螳螂"
+  "index": "#0212",
+  "name-en": "Scizor",
+  "name-tw": "巨鉗螳螂"
  },
  {
-  "Index": "#0213",
-  "NameEn": "Shuckle",
-  "NameTw": "壺壺"
+  "index": "#0213",
+  "name-en": "Shuckle",
+  "name-tw": "壺壺"
  },
  {
-  "Index": "#0214",
-  "NameEn": "Heracross",
-  "NameTw": "赫拉克羅斯"
+  "index": "#0214",
+  "name-en": "Heracross",
+  "name-tw": "赫拉克羅斯"
  },
  {
-  "Index": "#0215",
-  "NameEn": "Sneasel",
-  "NameTw": "狃拉"
+  "index": "#0215",
+  "name-en": "Sneasel",
+  "name-tw": "狃拉"
  },
  {
-  "Index": "#0216",
-  "NameEn": "Teddiursa",
-  "NameTw": "熊寶寶"
+  "index": "#0216",
+  "name-en": "Teddiursa",
+  "name-tw": "熊寶寶"
  },
  {
-  "Index": "#0217",
-  "NameEn": "Ursaring",
-  "NameTw": "圈圈熊"
+  "index": "#0217",
+  "name-en": "Ursaring",
+  "name-tw": "圈圈熊"
  },
  {
-  "Index": "#0218",
-  "NameEn": "Slugma",
-  "NameTw": "熔岩蟲"
+  "index": "#0218",
+  "name-en": "Slugma",
+  "name-tw": "熔岩蟲"
  },
  {
-  "Index": "#0219",
-  "NameEn": "Magcargo",
-  "NameTw": "熔岩蝸牛"
+  "index": "#0219",
+  "name-en": "Magcargo",
+  "name-tw": "熔岩蝸牛"
  },
  {
-  "Index": "#0220",
-  "NameEn": "Swinub",
-  "NameTw": "小山豬"
+  "index": "#0220",
+  "name-en": "Swinub",
+  "name-tw": "小山豬"
  },
  {
-  "Index": "#0221",
-  "NameEn": "Piloswine",
-  "NameTw": "長毛豬"
+  "index": "#0221",
+  "name-en": "Piloswine",
+  "name-tw": "長毛豬"
  },
  {
-  "Index": "#0222",
-  "NameEn": "Corsola",
-  "NameTw": "太陽珊瑚"
+  "index": "#0222",
+  "name-en": "Corsola",
+  "name-tw": "太陽珊瑚"
  },
  {
-  "Index": "#0223",
-  "NameEn": "Remoraid",
-  "NameTw": "鐵炮魚"
+  "index": "#0223",
+  "name-en": "Remoraid",
+  "name-tw": "鐵炮魚"
  },
  {
-  "Index": "#0224",
-  "NameEn": "Octillery",
-  "NameTw": "章魚桶"
+  "index": "#0224",
+  "name-en": "Octillery",
+  "name-tw": "章魚桶"
  },
  {
-  "Index": "#0225",
-  "NameEn": "Delibird",
-  "NameTw": "信使鳥"
+  "index": "#0225",
+  "name-en": "Delibird",
+  "name-tw": "信使鳥"
  },
  {
-  "Index": "#0226",
-  "NameEn": "Mantine",
-  "NameTw": "巨翅飛魚"
+  "index": "#0226",
+  "name-en": "Mantine",
+  "name-tw": "巨翅飛魚"
  },
  {
-  "Index": "#0227",
-  "NameEn": "Skarmory",
-  "NameTw": "盔甲鳥"
+  "index": "#0227",
+  "name-en": "Skarmory",
+  "name-tw": "盔甲鳥"
  },
  {
-  "Index": "#0228",
-  "NameEn": "Houndour",
-  "NameTw": "戴魯比"
+  "index": "#0228",
+  "name-en": "Houndour",
+  "name-tw": "戴魯比"
  },
  {
-  "Index": "#0229",
-  "NameEn": "Houndoom",
-  "NameTw": "黑魯加"
+  "index": "#0229",
+  "name-en": "Houndoom",
+  "name-tw": "黑魯加"
  },
  {
-  "Index": "#0230",
-  "NameEn": "Kingdra",
-  "NameTw": "刺龍王"
+  "index": "#0230",
+  "name-en": "Kingdra",
+  "name-tw": "刺龍王"
  },
  {
-  "Index": "#0231",
-  "NameEn": "Phanpy",
-  "NameTw": "小小象"
+  "index": "#0231",
+  "name-en": "Phanpy",
+  "name-tw": "小小象"
  },
  {
-  "Index": "#0232",
-  "NameEn": "Donphan",
-  "NameTw": "頓甲"
+  "index": "#0232",
+  "name-en": "Donphan",
+  "name-tw": "頓甲"
  },
  {
-  "Index": "#0233",
-  "NameEn": "Porygon2",
-  "NameTw": "多邊獸Ⅱ"
+  "index": "#0233",
+  "name-en": "Porygon2",
+  "name-tw": "多邊獸Ⅱ"
  },
  {
-  "Index": "#0234",
-  "NameEn": "Stantler",
-  "NameTw": "驚角鹿"
+  "index": "#0234",
+  "name-en": "Stantler",
+  "name-tw": "驚角鹿"
  },
  {
-  "Index": "#0235",
-  "NameEn": "Smeargle",
-  "NameTw": "圖圖犬"
+  "index": "#0235",
+  "name-en": "Smeargle",
+  "name-tw": "圖圖犬"
  },
  {
-  "Index": "#0236",
-  "NameEn": "Tyrogue",
-  "NameTw": "無畏小子"
+  "index": "#0236",
+  "name-en": "Tyrogue",
+  "name-tw": "無畏小子"
  },
  {
-  "Index": "#0237",
-  "NameEn": "Hitmontop",
-  "NameTw": "戰舞郎"
+  "index": "#0237",
+  "name-en": "Hitmontop",
+  "name-tw": "戰舞郎"
  },
  {
-  "Index": "#0238",
-  "NameEn": "Smoochum",
-  "NameTw": "迷唇娃"
+  "index": "#0238",
+  "name-en": "Smoochum",
+  "name-tw": "迷唇娃"
  },
  {
-  "Index": "#0239",
-  "NameEn": "Elekid",
-  "NameTw": "電擊怪"
+  "index": "#0239",
+  "name-en": "Elekid",
+  "name-tw": "電擊怪"
  },
  {
-  "Index": "#0240",
-  "NameEn": "Magby",
-  "NameTw": "鴨嘴寶寶"
+  "index": "#0240",
+  "name-en": "Magby",
+  "name-tw": "鴨嘴寶寶"
  },
  {
-  "Index": "#0241",
-  "NameEn": "Miltank",
-  "NameTw": "大奶罐"
+  "index": "#0241",
+  "name-en": "Miltank",
+  "name-tw": "大奶罐"
  },
  {
-  "Index": "#0242",
-  "NameEn": "Blissey",
-  "NameTw": "幸福蛋"
+  "index": "#0242",
+  "name-en": "Blissey",
+  "name-tw": "幸福蛋"
  },
  {
-  "Index": "#0243",
-  "NameEn": "Raikou",
-  "NameTw": "雷公"
+  "index": "#0243",
+  "name-en": "Raikou",
+  "name-tw": "雷公"
  },
  {
-  "Index": "#0244",
-  "NameEn": "Entei",
-  "NameTw": "炎帝"
+  "index": "#0244",
+  "name-en": "Entei",
+  "name-tw": "炎帝"
  },
  {
-  "Index": "#0245",
-  "NameEn": "Suicune",
-  "NameTw": "水君"
+  "index": "#0245",
+  "name-en": "Suicune",
+  "name-tw": "水君"
  },
  {
-  "Index": "#0246",
-  "NameEn": "Larvitar",
-  "NameTw": "幼基拉斯"
+  "index": "#0246",
+  "name-en": "Larvitar",
+  "name-tw": "幼基拉斯"
  },
  {
-  "Index": "#0247",
-  "NameEn": "Pupitar",
-  "NameTw": "沙基拉斯"
+  "index": "#0247",
+  "name-en": "Pupitar",
+  "name-tw": "沙基拉斯"
  },
  {
-  "Index": "#0248",
-  "NameEn": "Tyranitar",
-  "NameTw": "班基拉斯"
+  "index": "#0248",
+  "name-en": "Tyranitar",
+  "name-tw": "班基拉斯"
  },
  {
-  "Index": "#0249",
-  "NameEn": "Lugia",
-  "NameTw": "洛奇亞"
+  "index": "#0249",
+  "name-en": "Lugia",
+  "name-tw": "洛奇亞"
  },
  {
-  "Index": "#0250",
-  "NameEn": "Ho-Oh",
-  "NameTw": "鳳王"
+  "index": "#0250",
+  "name-en": "Ho-Oh",
+  "name-tw": "鳳王"
  },
  {
-  "Index": "#0251",
-  "NameEn": "Celebi",
-  "NameTw": "時拉比"
+  "index": "#0251",
+  "name-en": "Celebi",
+  "name-tw": "時拉比"
  },
  {
-  "Index": "#0252",
-  "NameEn": "Treecko",
-  "NameTw": "木守宮"
+  "index": "#0252",
+  "name-en": "Treecko",
+  "name-tw": "木守宮"
  },
  {
-  "Index": "#0253",
-  "NameEn": "Grovyle",
-  "NameTw": "森林蜥蜴"
+  "index": "#0253",
+  "name-en": "Grovyle",
+  "name-tw": "森林蜥蜴"
  },
  {
-  "Index": "#0254",
-  "NameEn": "Sceptile",
-  "NameTw": "蜥蜴王"
+  "index": "#0254",
+  "name-en": "Sceptile",
+  "name-tw": "蜥蜴王"
  },
  {
-  "Index": "#0255",
-  "NameEn": "Torchic",
-  "NameTw": "火稚雞"
+  "index": "#0255",
+  "name-en": "Torchic",
+  "name-tw": "火稚雞"
  },
  {
-  "Index": "#0256",
-  "NameEn": "Combusken",
-  "NameTw": "力壯雞"
+  "index": "#0256",
+  "name-en": "Combusken",
+  "name-tw": "力壯雞"
  },
  {
-  "Index": "#0257",
-  "NameEn": "Blaziken",
-  "NameTw": "火焰雞"
+  "index": "#0257",
+  "name-en": "Blaziken",
+  "name-tw": "火焰雞"
  },
  {
-  "Index": "#0258",
-  "NameEn": "Mudkip",
-  "NameTw": "水躍魚"
+  "index": "#0258",
+  "name-en": "Mudkip",
+  "name-tw": "水躍魚"
  },
  {
-  "Index": "#0259",
-  "NameEn": "Marshtomp",
-  "NameTw": "沼躍魚"
+  "index": "#0259",
+  "name-en": "Marshtomp",
+  "name-tw": "沼躍魚"
  },
  {
-  "Index": "#0260",
-  "NameEn": "Swampert",
-  "NameTw": "巨沼怪"
+  "index": "#0260",
+  "name-en": "Swampert",
+  "name-tw": "巨沼怪"
  },
  {
-  "Index": "#0261",
-  "NameEn": "Poochyena",
-  "NameTw": "土狼犬"
+  "index": "#0261",
+  "name-en": "Poochyena",
+  "name-tw": "土狼犬"
  },
  {
-  "Index": "#0262",
-  "NameEn": "Mightyena",
-  "NameTw": "大狼犬"
+  "index": "#0262",
+  "name-en": "Mightyena",
+  "name-tw": "大狼犬"
  },
  {
-  "Index": "#0263",
-  "NameEn": "Zigzagoon",
-  "NameTw": "蛇紋熊"
+  "index": "#0263",
+  "name-en": "Zigzagoon",
+  "name-tw": "蛇紋熊"
  },
  {
-  "Index": "#0264",
-  "NameEn": "Linoone",
-  "NameTw": "直衝熊"
+  "index": "#0264",
+  "name-en": "Linoone",
+  "name-tw": "直衝熊"
  },
  {
-  "Index": "#0265",
-  "NameEn": "Wurmple",
-  "NameTw": "刺尾蟲"
+  "index": "#0265",
+  "name-en": "Wurmple",
+  "name-tw": "刺尾蟲"
  },
  {
-  "Index": "#0266",
-  "NameEn": "Silcoon",
-  "NameTw": "甲殼繭"
+  "index": "#0266",
+  "name-en": "Silcoon",
+  "name-tw": "甲殼繭"
  },
  {
-  "Index": "#0267",
-  "NameEn": "Beautifly",
-  "NameTw": "狩獵鳳蝶"
+  "index": "#0267",
+  "name-en": "Beautifly",
+  "name-tw": "狩獵鳳蝶"
  },
  {
-  "Index": "#0268",
-  "NameEn": "Cascoon",
-  "NameTw": "盾甲繭"
+  "index": "#0268",
+  "name-en": "Cascoon",
+  "name-tw": "盾甲繭"
  },
  {
-  "Index": "#0269",
-  "NameEn": "Dustox",
-  "NameTw": "毒粉蛾"
+  "index": "#0269",
+  "name-en": "Dustox",
+  "name-tw": "毒粉蛾"
  },
  {
-  "Index": "#0270",
-  "NameEn": "Lotad",
-  "NameTw": "蓮葉童子"
+  "index": "#0270",
+  "name-en": "Lotad",
+  "name-tw": "蓮葉童子"
  },
  {
-  "Index": "#0271",
-  "NameEn": "Lombre",
-  "NameTw": "蓮帽小童"
+  "index": "#0271",
+  "name-en": "Lombre",
+  "name-tw": "蓮帽小童"
  },
  {
-  "Index": "#0272",
-  "NameEn": "Ludicolo",
-  "NameTw": "樂天河童"
+  "index": "#0272",
+  "name-en": "Ludicolo",
+  "name-tw": "樂天河童"
  },
  {
-  "Index": "#0273",
-  "NameEn": "Seedot",
-  "NameTw": "橡實果"
+  "index": "#0273",
+  "name-en": "Seedot",
+  "name-tw": "橡實果"
  },
  {
-  "Index": "#0274",
-  "NameEn": "Nuzleaf",
-  "NameTw": "長鼻葉"
+  "index": "#0274",
+  "name-en": "Nuzleaf",
+  "name-tw": "長鼻葉"
  },
  {
-  "Index": "#0275",
-  "NameEn": "Shiftry",
-  "NameTw": "狡猾天狗"
+  "index": "#0275",
+  "name-en": "Shiftry",
+  "name-tw": "狡猾天狗"
  },
  {
-  "Index": "#0276",
-  "NameEn": "Taillow",
-  "NameTw": "傲骨燕"
+  "index": "#0276",
+  "name-en": "Taillow",
+  "name-tw": "傲骨燕"
  },
  {
-  "Index": "#0277",
-  "NameEn": "Swellow",
-  "NameTw": "大王燕"
+  "index": "#0277",
+  "name-en": "Swellow",
+  "name-tw": "大王燕"
  },
  {
-  "Index": "#0278",
-  "NameEn": "Wingull",
-  "NameTw": "長翅鷗"
+  "index": "#0278",
+  "name-en": "Wingull",
+  "name-tw": "長翅鷗"
  },
  {
-  "Index": "#0279",
-  "NameEn": "Pelipper",
-  "NameTw": "大嘴鷗"
+  "index": "#0279",
+  "name-en": "Pelipper",
+  "name-tw": "大嘴鷗"
  },
  {
-  "Index": "#0280",
-  "NameEn": "Ralts",
-  "NameTw": "拉魯拉絲"
+  "index": "#0280",
+  "name-en": "Ralts",
+  "name-tw": "拉魯拉絲"
  },
  {
-  "Index": "#0281",
-  "NameEn": "Kirlia",
-  "NameTw": "奇魯莉安"
+  "index": "#0281",
+  "name-en": "Kirlia",
+  "name-tw": "奇魯莉安"
  },
  {
-  "Index": "#0282",
-  "NameEn": "Gardevoir",
-  "NameTw": "沙奈朵"
+  "index": "#0282",
+  "name-en": "Gardevoir",
+  "name-tw": "沙奈朵"
  },
  {
-  "Index": "#0283",
-  "NameEn": "Surskit",
-  "NameTw": "溜溜糖球"
+  "index": "#0283",
+  "name-en": "Surskit",
+  "name-tw": "溜溜糖球"
  },
  {
-  "Index": "#0284",
-  "NameEn": "Masquerain",
-  "NameTw": "雨翅蛾"
+  "index": "#0284",
+  "name-en": "Masquerain",
+  "name-tw": "雨翅蛾"
  },
  {
-  "Index": "#0285",
-  "NameEn": "Shroomish",
-  "NameTw": "蘑蘑菇"
+  "index": "#0285",
+  "name-en": "Shroomish",
+  "name-tw": "蘑蘑菇"
  },
  {
-  "Index": "#0286",
-  "NameEn": "Breloom",
-  "NameTw": "斗笠菇"
+  "index": "#0286",
+  "name-en": "Breloom",
+  "name-tw": "斗笠菇"
  },
  {
-  "Index": "#0287",
-  "NameEn": "Slakoth",
-  "NameTw": "懶人獺"
+  "index": "#0287",
+  "name-en": "Slakoth",
+  "name-tw": "懶人獺"
  },
  {
-  "Index": "#0288",
-  "NameEn": "Vigoroth",
-  "NameTw": "過動猿"
+  "index": "#0288",
+  "name-en": "Vigoroth",
+  "name-tw": "過動猿"
  },
  {
-  "Index": "#0289",
-  "NameEn": "Slaking",
-  "NameTw": "請假王"
+  "index": "#0289",
+  "name-en": "Slaking",
+  "name-tw": "請假王"
  },
  {
-  "Index": "#0290",
-  "NameEn": "Nincada",
-  "NameTw": "土居忍士"
+  "index": "#0290",
+  "name-en": "Nincada",
+  "name-tw": "土居忍士"
  },
  {
-  "Index": "#0291",
-  "NameEn": "Ninjask",
-  "NameTw": "鐵面忍者"
+  "index": "#0291",
+  "name-en": "Ninjask",
+  "name-tw": "鐵面忍者"
  },
  {
-  "Index": "#0292",
-  "NameEn": "Shedinja",
-  "NameTw": "脫殼忍者"
+  "index": "#0292",
+  "name-en": "Shedinja",
+  "name-tw": "脫殼忍者"
  },
  {
-  "Index": "#0293",
-  "NameEn": "Whismur",
-  "NameTw": "咕妞妞"
+  "index": "#0293",
+  "name-en": "Whismur",
+  "name-tw": "咕妞妞"
  },
  {
-  "Index": "#0294",
-  "NameEn": "Loudred",
-  "NameTw": "吼爆彈"
+  "index": "#0294",
+  "name-en": "Loudred",
+  "name-tw": "吼爆彈"
  },
  {
-  "Index": "#0295",
-  "NameEn": "Exploud",
-  "NameTw": "爆音怪"
+  "index": "#0295",
+  "name-en": "Exploud",
+  "name-tw": "爆音怪"
  },
  {
-  "Index": "#0296",
-  "NameEn": "Makuhita",
-  "NameTw": "幕下力士"
+  "index": "#0296",
+  "name-en": "Makuhita",
+  "name-tw": "幕下力士"
  },
  {
-  "Index": "#0297",
-  "NameEn": "Hariyama",
-  "NameTw": "鐵掌力士"
+  "index": "#0297",
+  "name-en": "Hariyama",
+  "name-tw": "鐵掌力士"
  },
  {
-  "Index": "#0298",
-  "NameEn": "Azurill",
-  "NameTw": "露力麗"
+  "index": "#0298",
+  "name-en": "Azurill",
+  "name-tw": "露力麗"
  },
  {
-  "Index": "#0299",
-  "NameEn": "Nosepass",
-  "NameTw": "朝北鼻"
+  "index": "#0299",
+  "name-en": "Nosepass",
+  "name-tw": "朝北鼻"
  },
  {
-  "Index": "#0300",
-  "NameEn": "Skitty",
-  "NameTw": "向尾喵"
+  "index": "#0300",
+  "name-en": "Skitty",
+  "name-tw": "向尾喵"
  },
  {
-  "Index": "#0301",
-  "NameEn": "Delcatty",
-  "NameTw": "優雅貓"
+  "index": "#0301",
+  "name-en": "Delcatty",
+  "name-tw": "優雅貓"
  },
  {
-  "Index": "#0302",
-  "NameEn": "Sableye",
-  "NameTw": "勾魂眼"
+  "index": "#0302",
+  "name-en": "Sableye",
+  "name-tw": "勾魂眼"
  },
  {
-  "Index": "#0303",
-  "NameEn": "Mawile",
-  "NameTw": "大嘴娃"
+  "index": "#0303",
+  "name-en": "Mawile",
+  "name-tw": "大嘴娃"
  },
  {
-  "Index": "#0304",
-  "NameEn": "Aron",
-  "NameTw": "可可多拉"
+  "index": "#0304",
+  "name-en": "Aron",
+  "name-tw": "可可多拉"
  },
  {
-  "Index": "#0305",
-  "NameEn": "Lairon",
-  "NameTw": "可多拉"
+  "index": "#0305",
+  "name-en": "Lairon",
+  "name-tw": "可多拉"
  },
  {
-  "Index": "#0306",
-  "NameEn": "Aggron",
-  "NameTw": "波士可多拉"
+  "index": "#0306",
+  "name-en": "Aggron",
+  "name-tw": "波士可多拉"
  },
  {
-  "Index": "#0307",
-  "NameEn": "Meditite",
-  "NameTw": "瑪沙那"
+  "index": "#0307",
+  "name-en": "Meditite",
+  "name-tw": "瑪沙那"
  },
  {
-  "Index": "#0308",
-  "NameEn": "Medicham",
-  "NameTw": "恰雷姆"
+  "index": "#0308",
+  "name-en": "Medicham",
+  "name-tw": "恰雷姆"
  },
  {
-  "Index": "#0309",
-  "NameEn": "Electrike",
-  "NameTw": "落雷獸"
+  "index": "#0309",
+  "name-en": "Electrike",
+  "name-tw": "落雷獸"
  },
  {
-  "Index": "#0310",
-  "NameEn": "Manectric",
-  "NameTw": "雷電獸"
+  "index": "#0310",
+  "name-en": "Manectric",
+  "name-tw": "雷電獸"
  },
  {
-  "Index": "#0311",
-  "NameEn": "Plusle",
-  "NameTw": "正電拍拍"
+  "index": "#0311",
+  "name-en": "Plusle",
+  "name-tw": "正電拍拍"
  },
  {
-  "Index": "#0312",
-  "NameEn": "Minun",
-  "NameTw": "負電拍拍"
+  "index": "#0312",
+  "name-en": "Minun",
+  "name-tw": "負電拍拍"
  },
  {
-  "Index": "#0313",
-  "NameEn": "Volbeat",
-  "NameTw": "電螢蟲"
+  "index": "#0313",
+  "name-en": "Volbeat",
+  "name-tw": "電螢蟲"
  },
  {
-  "Index": "#0314",
-  "NameEn": "Illumise",
-  "NameTw": "甜甜螢"
+  "index": "#0314",
+  "name-en": "Illumise",
+  "name-tw": "甜甜螢"
  },
  {
-  "Index": "#0315",
-  "NameEn": "Roselia",
-  "NameTw": "毒薔薇"
+  "index": "#0315",
+  "name-en": "Roselia",
+  "name-tw": "毒薔薇"
  },
  {
-  "Index": "#0316",
-  "NameEn": "Gulpin",
-  "NameTw": "溶食獸"
+  "index": "#0316",
+  "name-en": "Gulpin",
+  "name-tw": "溶食獸"
  },
  {
-  "Index": "#0317",
-  "NameEn": "Swalot",
-  "NameTw": "吞食獸"
+  "index": "#0317",
+  "name-en": "Swalot",
+  "name-tw": "吞食獸"
  },
  {
-  "Index": "#0318",
-  "NameEn": "Carvanha",
-  "NameTw": "利牙魚"
+  "index": "#0318",
+  "name-en": "Carvanha",
+  "name-tw": "利牙魚"
  },
  {
-  "Index": "#0319",
-  "NameEn": "Sharpedo",
-  "NameTw": "巨牙鯊"
+  "index": "#0319",
+  "name-en": "Sharpedo",
+  "name-tw": "巨牙鯊"
  },
  {
-  "Index": "#0320",
-  "NameEn": "Wailmer",
-  "NameTw": "吼吼鯨"
+  "index": "#0320",
+  "name-en": "Wailmer",
+  "name-tw": "吼吼鯨"
  },
  {
-  "Index": "#0321",
-  "NameEn": "Wailord",
-  "NameTw": "吼鯨王"
+  "index": "#0321",
+  "name-en": "Wailord",
+  "name-tw": "吼鯨王"
  },
  {
-  "Index": "#0322",
-  "NameEn": "Numel",
-  "NameTw": "呆火駝"
+  "index": "#0322",
+  "name-en": "Numel",
+  "name-tw": "呆火駝"
  },
  {
-  "Index": "#0323",
-  "NameEn": "Camerupt",
-  "NameTw": "噴火駝"
+  "index": "#0323",
+  "name-en": "Camerupt",
+  "name-tw": "噴火駝"
  },
  {
-  "Index": "#0324",
-  "NameEn": "Torkoal",
-  "NameTw": "煤炭龜"
+  "index": "#0324",
+  "name-en": "Torkoal",
+  "name-tw": "煤炭龜"
  },
  {
-  "Index": "#0325",
-  "NameEn": "Spoink",
-  "NameTw": "跳跳豬"
+  "index": "#0325",
+  "name-en": "Spoink",
+  "name-tw": "跳跳豬"
  },
  {
-  "Index": "#0326",
-  "NameEn": "Grumpig",
-  "NameTw": "噗噗豬"
+  "index": "#0326",
+  "name-en": "Grumpig",
+  "name-tw": "噗噗豬"
  },
  {
-  "Index": "#0327",
-  "NameEn": "Spinda",
-  "NameTw": "晃晃斑"
+  "index": "#0327",
+  "name-en": "Spinda",
+  "name-tw": "晃晃斑"
  },
  {
-  "Index": "#0328",
-  "NameEn": "Trapinch",
-  "NameTw": "大顎蟻"
+  "index": "#0328",
+  "name-en": "Trapinch",
+  "name-tw": "大顎蟻"
  },
  {
-  "Index": "#0329",
-  "NameEn": "Vibrava",
-  "NameTw": "超音波幼蟲"
+  "index": "#0329",
+  "name-en": "Vibrava",
+  "name-tw": "超音波幼蟲"
  },
  {
-  "Index": "#0330",
-  "NameEn": "Flygon",
-  "NameTw": "沙漠蜻蜓"
+  "index": "#0330",
+  "name-en": "Flygon",
+  "name-tw": "沙漠蜻蜓"
  },
  {
-  "Index": "#0331",
-  "NameEn": "Cacnea",
-  "NameTw": "刺球仙人掌"
+  "index": "#0331",
+  "name-en": "Cacnea",
+  "name-tw": "刺球仙人掌"
  },
  {
-  "Index": "#0332",
-  "NameEn": "Cacturne",
-  "NameTw": "夢歌仙人掌"
+  "index": "#0332",
+  "name-en": "Cacturne",
+  "name-tw": "夢歌仙人掌"
  },
  {
-  "Index": "#0333",
-  "NameEn": "Swablu",
-  "NameTw": "青綿鳥"
+  "index": "#0333",
+  "name-en": "Swablu",
+  "name-tw": "青綿鳥"
  },
  {
-  "Index": "#0334",
-  "NameEn": "Altaria",
-  "NameTw": "七夕青鳥"
+  "index": "#0334",
+  "name-en": "Altaria",
+  "name-tw": "七夕青鳥"
  },
  {
-  "Index": "#0335",
-  "NameEn": "Zangoose",
-  "NameTw": "貓鼬斬"
+  "index": "#0335",
+  "name-en": "Zangoose",
+  "name-tw": "貓鼬斬"
  },
  {
-  "Index": "#0336",
-  "NameEn": "Seviper",
-  "NameTw": "飯匙蛇"
+  "index": "#0336",
+  "name-en": "Seviper",
+  "name-tw": "飯匙蛇"
  },
  {
-  "Index": "#0337",
-  "NameEn": "Lunatone",
-  "NameTw": "月石"
+  "index": "#0337",
+  "name-en": "Lunatone",
+  "name-tw": "月石"
  },
  {
-  "Index": "#0338",
-  "NameEn": "Solrock",
-  "NameTw": "太陽岩"
+  "index": "#0338",
+  "name-en": "Solrock",
+  "name-tw": "太陽岩"
  },
  {
-  "Index": "#0339",
-  "NameEn": "Barboach",
-  "NameTw": "泥泥鰍"
+  "index": "#0339",
+  "name-en": "Barboach",
+  "name-tw": "泥泥鰍"
  },
  {
-  "Index": "#0340",
-  "NameEn": "Whiscash",
-  "NameTw": "鯰魚王"
+  "index": "#0340",
+  "name-en": "Whiscash",
+  "name-tw": "鯰魚王"
  },
  {
-  "Index": "#0341",
-  "NameEn": "Corphish",
-  "NameTw": "龍蝦小兵"
+  "index": "#0341",
+  "name-en": "Corphish",
+  "name-tw": "龍蝦小兵"
  },
  {
-  "Index": "#0342",
-  "NameEn": "Crawdaunt",
-  "NameTw": "鐵螯龍蝦"
+  "index": "#0342",
+  "name-en": "Crawdaunt",
+  "name-tw": "鐵螯龍蝦"
  },
  {
-  "Index": "#0343",
-  "NameEn": "Baltoy",
-  "NameTw": "天秤偶"
+  "index": "#0343",
+  "name-en": "Baltoy",
+  "name-tw": "天秤偶"
  },
  {
-  "Index": "#0344",
-  "NameEn": "Claydol",
-  "NameTw": "念力土偶"
+  "index": "#0344",
+  "name-en": "Claydol",
+  "name-tw": "念力土偶"
  },
  {
-  "Index": "#0345",
-  "NameEn": "Lileep",
-  "NameTw": "觸手百合"
+  "index": "#0345",
+  "name-en": "Lileep",
+  "name-tw": "觸手百合"
  },
  {
-  "Index": "#0346",
-  "NameEn": "Cradily",
-  "NameTw": "搖籃百合"
+  "index": "#0346",
+  "name-en": "Cradily",
+  "name-tw": "搖籃百合"
  },
  {
-  "Index": "#0347",
-  "NameEn": "Anorith",
-  "NameTw": "太古羽蟲"
+  "index": "#0347",
+  "name-en": "Anorith",
+  "name-tw": "太古羽蟲"
  },
  {
-  "Index": "#0348",
-  "NameEn": "Armaldo",
-  "NameTw": "太古盔甲"
+  "index": "#0348",
+  "name-en": "Armaldo",
+  "name-tw": "太古盔甲"
  },
  {
-  "Index": "#0349",
-  "NameEn": "Feebas",
-  "NameTw": "醜醜魚"
+  "index": "#0349",
+  "name-en": "Feebas",
+  "name-tw": "醜醜魚"
  },
  {
-  "Index": "#0350",
-  "NameEn": "Milotic",
-  "NameTw": "美納斯"
+  "index": "#0350",
+  "name-en": "Milotic",
+  "name-tw": "美納斯"
  },
  {
-  "Index": "#0351",
-  "NameEn": "Castform",
-  "NameTw": "飄浮泡泡"
+  "index": "#0351",
+  "name-en": "Castform",
+  "name-tw": "飄浮泡泡"
  },
  {
-  "Index": "#0352",
-  "NameEn": "Kecleon",
-  "NameTw": "變隱龍"
+  "index": "#0352",
+  "name-en": "Kecleon",
+  "name-tw": "變隱龍"
  },
  {
-  "Index": "#0353",
-  "NameEn": "Shuppet",
-  "NameTw": "怨影娃娃"
+  "index": "#0353",
+  "name-en": "Shuppet",
+  "name-tw": "怨影娃娃"
  },
  {
-  "Index": "#0354",
-  "NameEn": "Banette",
-  "NameTw": "詛咒娃娃"
+  "index": "#0354",
+  "name-en": "Banette",
+  "name-tw": "詛咒娃娃"
  },
  {
-  "Index": "#0355",
-  "NameEn": "Duskull",
-  "NameTw": "夜巡靈"
+  "index": "#0355",
+  "name-en": "Duskull",
+  "name-tw": "夜巡靈"
  },
  {
-  "Index": "#0356",
-  "NameEn": "Dusclops",
-  "NameTw": "彷徨夜靈"
+  "index": "#0356",
+  "name-en": "Dusclops",
+  "name-tw": "彷徨夜靈"
  },
  {
-  "Index": "#0357",
-  "NameEn": "Tropius",
-  "NameTw": "熱帶龍"
+  "index": "#0357",
+  "name-en": "Tropius",
+  "name-tw": "熱帶龍"
  },
  {
-  "Index": "#0358",
-  "NameEn": "Chimecho",
-  "NameTw": "風鈴鈴"
+  "index": "#0358",
+  "name-en": "Chimecho",
+  "name-tw": "風鈴鈴"
  },
  {
-  "Index": "#0359",
-  "NameEn": "Absol",
-  "NameTw": "阿勃梭魯"
+  "index": "#0359",
+  "name-en": "Absol",
+  "name-tw": "阿勃梭魯"
  },
  {
-  "Index": "#0360",
-  "NameEn": "Wynaut",
-  "NameTw": "小果然"
+  "index": "#0360",
+  "name-en": "Wynaut",
+  "name-tw": "小果然"
  },
  {
-  "Index": "#0361",
-  "NameEn": "Snorunt",
-  "NameTw": "雪童子"
+  "index": "#0361",
+  "name-en": "Snorunt",
+  "name-tw": "雪童子"
  },
  {
-  "Index": "#0362",
-  "NameEn": "Glalie",
-  "NameTw": "冰鬼護"
+  "index": "#0362",
+  "name-en": "Glalie",
+  "name-tw": "冰鬼護"
  },
  {
-  "Index": "#0363",
-  "NameEn": "Spheal",
-  "NameTw": "海豹球"
+  "index": "#0363",
+  "name-en": "Spheal",
+  "name-tw": "海豹球"
  },
  {
-  "Index": "#0364",
-  "NameEn": "Sealeo",
-  "NameTw": "海魔獅"
+  "index": "#0364",
+  "name-en": "Sealeo",
+  "name-tw": "海魔獅"
  },
  {
-  "Index": "#0365",
-  "NameEn": "Walrein",
-  "NameTw": "帝牙海獅"
+  "index": "#0365",
+  "name-en": "Walrein",
+  "name-tw": "帝牙海獅"
  },
  {
-  "Index": "#0366",
-  "NameEn": "Clamperl",
-  "NameTw": "珍珠貝"
+  "index": "#0366",
+  "name-en": "Clamperl",
+  "name-tw": "珍珠貝"
  },
  {
-  "Index": "#0367",
-  "NameEn": "Huntail",
-  "NameTw": "獵斑魚"
+  "index": "#0367",
+  "name-en": "Huntail",
+  "name-tw": "獵斑魚"
  },
  {
-  "Index": "#0368",
-  "NameEn": "Gorebyss",
-  "NameTw": "櫻花魚"
+  "index": "#0368",
+  "name-en": "Gorebyss",
+  "name-tw": "櫻花魚"
  },
  {
-  "Index": "#0369",
-  "NameEn": "Relicanth",
-  "NameTw": "古空棘魚"
+  "index": "#0369",
+  "name-en": "Relicanth",
+  "name-tw": "古空棘魚"
  },
  {
-  "Index": "#0370",
-  "NameEn": "Luvdisc",
-  "NameTw": "愛心魚"
+  "index": "#0370",
+  "name-en": "Luvdisc",
+  "name-tw": "愛心魚"
  },
  {
-  "Index": "#0371",
-  "NameEn": "Bagon",
-  "NameTw": "寶貝龍"
+  "index": "#0371",
+  "name-en": "Bagon",
+  "name-tw": "寶貝龍"
  },
  {
-  "Index": "#0372",
-  "NameEn": "Shelgon",
-  "NameTw": "甲殼龍"
+  "index": "#0372",
+  "name-en": "Shelgon",
+  "name-tw": "甲殼龍"
  },
  {
-  "Index": "#0373",
-  "NameEn": "Salamence",
-  "NameTw": "暴飛龍"
+  "index": "#0373",
+  "name-en": "Salamence",
+  "name-tw": "暴飛龍"
  },
  {
-  "Index": "#0374",
-  "NameEn": "Beldum",
-  "NameTw": "鐵啞鈴"
+  "index": "#0374",
+  "name-en": "Beldum",
+  "name-tw": "鐵啞鈴"
  },
  {
-  "Index": "#0375",
-  "NameEn": "Metang",
-  "NameTw": "金屬怪"
+  "index": "#0375",
+  "name-en": "Metang",
+  "name-tw": "金屬怪"
  },
  {
-  "Index": "#0376",
-  "NameEn": "Metagross",
-  "NameTw": "巨金怪"
+  "index": "#0376",
+  "name-en": "Metagross",
+  "name-tw": "巨金怪"
  },
  {
-  "Index": "#0377",
-  "NameEn": "Regirock",
-  "NameTw": "雷吉洛克"
+  "index": "#0377",
+  "name-en": "Regirock",
+  "name-tw": "雷吉洛克"
  },
  {
-  "Index": "#0378",
-  "NameEn": "Regice",
-  "NameTw": "雷吉艾斯"
+  "index": "#0378",
+  "name-en": "Regice",
+  "name-tw": "雷吉艾斯"
  },
  {
-  "Index": "#0379",
-  "NameEn": "Registeel",
-  "NameTw": "雷吉斯奇魯"
+  "index": "#0379",
+  "name-en": "Registeel",
+  "name-tw": "雷吉斯奇魯"
  },
  {
-  "Index": "#0380",
-  "NameEn": "Latias",
-  "NameTw": "拉帝亞斯"
+  "index": "#0380",
+  "name-en": "Latias",
+  "name-tw": "拉帝亞斯"
  },
  {
-  "Index": "#0381",
-  "NameEn": "Latios",
-  "NameTw": "拉帝歐斯"
+  "index": "#0381",
+  "name-en": "Latios",
+  "name-tw": "拉帝歐斯"
  },
  {
-  "Index": "#0382",
-  "NameEn": "Kyogre",
-  "NameTw": "蓋歐卡"
+  "index": "#0382",
+  "name-en": "Kyogre",
+  "name-tw": "蓋歐卡"
  },
  {
-  "Index": "#0383",
-  "NameEn": "Groudon",
-  "NameTw": "固拉多"
+  "index": "#0383",
+  "name-en": "Groudon",
+  "name-tw": "固拉多"
  },
  {
-  "Index": "#0384",
-  "NameEn": "Rayquaza",
-  "NameTw": "烈空坐"
+  "index": "#0384",
+  "name-en": "Rayquaza",
+  "name-tw": "烈空坐"
  },
  {
-  "Index": "#0385",
-  "NameEn": "Jirachi",
-  "NameTw": "基拉祈"
+  "index": "#0385",
+  "name-en": "Jirachi",
+  "name-tw": "基拉祈"
  },
  {
-  "Index": "#0386",
-  "NameEn": "Deoxys",
-  "NameTw": "代歐奇希斯"
+  "index": "#0386",
+  "name-en": "Deoxys",
+  "name-tw": "代歐奇希斯"
  },
  {
-  "Index": "#0387",
-  "NameEn": "Turtwig",
-  "NameTw": "草苗龜"
+  "index": "#0387",
+  "name-en": "Turtwig",
+  "name-tw": "草苗龜"
  },
  {
-  "Index": "#0388",
-  "NameEn": "Grotle",
-  "NameTw": "樹林龜"
+  "index": "#0388",
+  "name-en": "Grotle",
+  "name-tw": "樹林龜"
  },
  {
-  "Index": "#0389",
-  "NameEn": "Torterra",
-  "NameTw": "土台龜"
+  "index": "#0389",
+  "name-en": "Torterra",
+  "name-tw": "土台龜"
  },
  {
-  "Index": "#0390",
-  "NameEn": "Chimchar",
-  "NameTw": "小火焰猴"
+  "index": "#0390",
+  "name-en": "Chimchar",
+  "name-tw": "小火焰猴"
  },
  {
-  "Index": "#0391",
-  "NameEn": "Monferno",
-  "NameTw": "猛火猴"
+  "index": "#0391",
+  "name-en": "Monferno",
+  "name-tw": "猛火猴"
  },
  {
-  "Index": "#0392",
-  "NameEn": "Infernape",
-  "NameTw": "烈焰猴"
+  "index": "#0392",
+  "name-en": "Infernape",
+  "name-tw": "烈焰猴"
  },
  {
-  "Index": "#0393",
-  "NameEn": "Piplup",
-  "NameTw": "波加曼"
+  "index": "#0393",
+  "name-en": "Piplup",
+  "name-tw": "波加曼"
  },
  {
-  "Index": "#0394",
-  "NameEn": "Prinplup",
-  "NameTw": "波皇子"
+  "index": "#0394",
+  "name-en": "Prinplup",
+  "name-tw": "波皇子"
  },
  {
-  "Index": "#0395",
-  "NameEn": "Empoleon",
-  "NameTw": "帝王拿波"
+  "index": "#0395",
+  "name-en": "Empoleon",
+  "name-tw": "帝王拿波"
  },
  {
-  "Index": "#0396",
-  "NameEn": "Starly",
-  "NameTw": "姆克兒"
+  "index": "#0396",
+  "name-en": "Starly",
+  "name-tw": "姆克兒"
  },
  {
-  "Index": "#0397",
-  "NameEn": "Staravia",
-  "NameTw": "姆克鳥"
+  "index": "#0397",
+  "name-en": "Staravia",
+  "name-tw": "姆克鳥"
  },
  {
-  "Index": "#0398",
-  "NameEn": "Staraptor",
-  "NameTw": "姆克鷹"
+  "index": "#0398",
+  "name-en": "Staraptor",
+  "name-tw": "姆克鷹"
  },
  {
-  "Index": "#0399",
-  "NameEn": "Bidoof",
-  "NameTw": "大牙狸"
+  "index": "#0399",
+  "name-en": "Bidoof",
+  "name-tw": "大牙狸"
  },
  {
-  "Index": "#0400",
-  "NameEn": "Bibarel",
-  "NameTw": "大尾狸"
+  "index": "#0400",
+  "name-en": "Bibarel",
+  "name-tw": "大尾狸"
  },
  {
-  "Index": "#0401",
-  "NameEn": "Kricketot",
-  "NameTw": "圓法師"
+  "index": "#0401",
+  "name-en": "Kricketot",
+  "name-tw": "圓法師"
  },
  {
-  "Index": "#0402",
-  "NameEn": "Kricketune",
-  "NameTw": "音箱蟀"
+  "index": "#0402",
+  "name-en": "Kricketune",
+  "name-tw": "音箱蟀"
  },
  {
-  "Index": "#0403",
-  "NameEn": "Shinx",
-  "NameTw": "小貓怪"
+  "index": "#0403",
+  "name-en": "Shinx",
+  "name-tw": "小貓怪"
  },
  {
-  "Index": "#0404",
-  "NameEn": "Luxio",
-  "NameTw": "勒克貓"
+  "index": "#0404",
+  "name-en": "Luxio",
+  "name-tw": "勒克貓"
  },
  {
-  "Index": "#0405",
-  "NameEn": "Luxray",
-  "NameTw": "倫琴貓"
+  "index": "#0405",
+  "name-en": "Luxray",
+  "name-tw": "倫琴貓"
  },
  {
-  "Index": "#0406",
-  "NameEn": "Budew",
-  "NameTw": "含羞苞"
+  "index": "#0406",
+  "name-en": "Budew",
+  "name-tw": "含羞苞"
  },
  {
-  "Index": "#0407",
-  "NameEn": "Roserade",
-  "NameTw": "羅絲雷朵"
+  "index": "#0407",
+  "name-en": "Roserade",
+  "name-tw": "羅絲雷朵"
  },
  {
-  "Index": "#0408",
-  "NameEn": "Cranidos",
-  "NameTw": "頭蓋龍"
+  "index": "#0408",
+  "name-en": "Cranidos",
+  "name-tw": "頭蓋龍"
  },
  {
-  "Index": "#0409",
-  "NameEn": "Rampardos",
-  "NameTw": "戰槌龍"
+  "index": "#0409",
+  "name-en": "Rampardos",
+  "name-tw": "戰槌龍"
  },
  {
-  "Index": "#0410",
-  "NameEn": "Shieldon",
-  "NameTw": "盾甲龍"
+  "index": "#0410",
+  "name-en": "Shieldon",
+  "name-tw": "盾甲龍"
  },
  {
-  "Index": "#0411",
-  "NameEn": "Bastiodon",
-  "NameTw": "護城龍"
+  "index": "#0411",
+  "name-en": "Bastiodon",
+  "name-tw": "護城龍"
  },
  {
-  "Index": "#0412",
-  "NameEn": "Burmy",
-  "NameTw": "結草兒"
+  "index": "#0412",
+  "name-en": "Burmy",
+  "name-tw": "結草兒"
  },
  {
-  "Index": "#0413",
-  "NameEn": "Wormadam",
-  "NameTw": "結草貴婦"
+  "index": "#0413",
+  "name-en": "Wormadam",
+  "name-tw": "結草貴婦"
  },
  {
-  "Index": "#0414",
-  "NameEn": "Mothim",
-  "NameTw": "紳士蛾"
+  "index": "#0414",
+  "name-en": "Mothim",
+  "name-tw": "紳士蛾"
  },
  {
-  "Index": "#0415",
-  "NameEn": "Combee",
-  "NameTw": "三蜜蜂"
+  "index": "#0415",
+  "name-en": "Combee",
+  "name-tw": "三蜜蜂"
  },
  {
-  "Index": "#0416",
-  "NameEn": "Vespiquen",
-  "NameTw": "蜂女王"
+  "index": "#0416",
+  "name-en": "Vespiquen",
+  "name-tw": "蜂女王"
  },
  {
-  "Index": "#0417",
-  "NameEn": "Pachirisu",
-  "NameTw": "帕奇利茲"
+  "index": "#0417",
+  "name-en": "Pachirisu",
+  "name-tw": "帕奇利茲"
  },
  {
-  "Index": "#0418",
-  "NameEn": "Buizel",
-  "NameTw": "泳圈鼬"
+  "index": "#0418",
+  "name-en": "Buizel",
+  "name-tw": "泳圈鼬"
  },
  {
-  "Index": "#0419",
-  "NameEn": "Floatzel",
-  "NameTw": "浮潛鼬"
+  "index": "#0419",
+  "name-en": "Floatzel",
+  "name-tw": "浮潛鼬"
  },
  {
-  "Index": "#0420",
-  "NameEn": "Cherubi",
-  "NameTw": "櫻花寶"
+  "index": "#0420",
+  "name-en": "Cherubi",
+  "name-tw": "櫻花寶"
  },
  {
-  "Index": "#0421",
-  "NameEn": "Cherrim",
-  "NameTw": "櫻花兒"
+  "index": "#0421",
+  "name-en": "Cherrim",
+  "name-tw": "櫻花兒"
  },
  {
-  "Index": "#0422",
-  "NameEn": "Shellos",
-  "NameTw": "無殼海兔"
+  "index": "#0422",
+  "name-en": "Shellos",
+  "name-tw": "無殼海兔"
  },
  {
-  "Index": "#0423",
-  "NameEn": "Gastrodon",
-  "NameTw": "海兔獸"
+  "index": "#0423",
+  "name-en": "Gastrodon",
+  "name-tw": "海兔獸"
  },
  {
-  "Index": "#0424",
-  "NameEn": "Ambipom",
-  "NameTw": "雙尾怪手"
+  "index": "#0424",
+  "name-en": "Ambipom",
+  "name-tw": "雙尾怪手"
  },
  {
-  "Index": "#0425",
-  "NameEn": "Drifloon",
-  "NameTw": "飄飄球"
+  "index": "#0425",
+  "name-en": "Drifloon",
+  "name-tw": "飄飄球"
  },
  {
-  "Index": "#0426",
-  "NameEn": "Drifblim",
-  "NameTw": "隨風球"
+  "index": "#0426",
+  "name-en": "Drifblim",
+  "name-tw": "隨風球"
  },
  {
-  "Index": "#0427",
-  "NameEn": "Buneary",
-  "NameTw": "捲捲耳"
+  "index": "#0427",
+  "name-en": "Buneary",
+  "name-tw": "捲捲耳"
  },
  {
-  "Index": "#0428",
-  "NameEn": "Lopunny",
-  "NameTw": "長耳兔"
+  "index": "#0428",
+  "name-en": "Lopunny",
+  "name-tw": "長耳兔"
  },
  {
-  "Index": "#0429",
-  "NameEn": "Mismagius",
-  "NameTw": "夢妖魔"
+  "index": "#0429",
+  "name-en": "Mismagius",
+  "name-tw": "夢妖魔"
  },
  {
-  "Index": "#0430",
-  "NameEn": "Honchkrow",
-  "NameTw": "烏鴉頭頭"
+  "index": "#0430",
+  "name-en": "Honchkrow",
+  "name-tw": "烏鴉頭頭"
  },
  {
-  "Index": "#0431",
-  "NameEn": "Glameow",
-  "NameTw": "魅力喵"
+  "index": "#0431",
+  "name-en": "Glameow",
+  "name-tw": "魅力喵"
  },
  {
-  "Index": "#0432",
-  "NameEn": "Purugly",
-  "NameTw": "東施喵"
+  "index": "#0432",
+  "name-en": "Purugly",
+  "name-tw": "東施喵"
  },
  {
-  "Index": "#0433",
-  "NameEn": "Chingling",
-  "NameTw": "鈴鐺響"
+  "index": "#0433",
+  "name-en": "Chingling",
+  "name-tw": "鈴鐺響"
  },
  {
-  "Index": "#0434",
-  "NameEn": "Stunky",
-  "NameTw": "臭鼬噗"
+  "index": "#0434",
+  "name-en": "Stunky",
+  "name-tw": "臭鼬噗"
  },
  {
-  "Index": "#0435",
-  "NameEn": "Skuntank",
-  "NameTw": "坦克臭鼬"
+  "index": "#0435",
+  "name-en": "Skuntank",
+  "name-tw": "坦克臭鼬"
  },
  {
-  "Index": "#0436",
-  "NameEn": "Bronzor",
-  "NameTw": "銅鏡怪"
+  "index": "#0436",
+  "name-en": "Bronzor",
+  "name-tw": "銅鏡怪"
  },
  {
-  "Index": "#0437",
-  "NameEn": "Bronzong",
-  "NameTw": "青銅鐘"
+  "index": "#0437",
+  "name-en": "Bronzong",
+  "name-tw": "青銅鐘"
  },
  {
-  "Index": "#0438",
-  "NameEn": "Bonsly",
-  "NameTw": "盆才怪"
+  "index": "#0438",
+  "name-en": "Bonsly",
+  "name-tw": "盆才怪"
  },
  {
-  "Index": "#0439",
-  "NameEn": "Mime Jr.",
-  "NameTw": "魔尼尼"
+  "index": "#0439",
+  "name-en": "Mime Jr.",
+  "name-tw": "魔尼尼"
  },
  {
-  "Index": "#0440",
-  "NameEn": "Happiny",
-  "NameTw": "小福蛋"
+  "index": "#0440",
+  "name-en": "Happiny",
+  "name-tw": "小福蛋"
  },
  {
-  "Index": "#0441",
-  "NameEn": "Chatot",
-  "NameTw": "聒噪鳥"
+  "index": "#0441",
+  "name-en": "Chatot",
+  "name-tw": "聒噪鳥"
  },
  {
-  "Index": "#0442",
-  "NameEn": "Spiritomb",
-  "NameTw": "花岩怪"
+  "index": "#0442",
+  "name-en": "Spiritomb",
+  "name-tw": "花岩怪"
  },
  {
-  "Index": "#0443",
-  "NameEn": "Gible",
-  "NameTw": "圓陸鯊"
+  "index": "#0443",
+  "name-en": "Gible",
+  "name-tw": "圓陸鯊"
  },
  {
-  "Index": "#0444",
-  "NameEn": "Gabite",
-  "NameTw": "尖牙陸鯊"
+  "index": "#0444",
+  "name-en": "Gabite",
+  "name-tw": "尖牙陸鯊"
  },
  {
-  "Index": "#0445",
-  "NameEn": "Garchomp",
-  "NameTw": "烈咬陸鯊"
+  "index": "#0445",
+  "name-en": "Garchomp",
+  "name-tw": "烈咬陸鯊"
  },
  {
-  "Index": "#0446",
-  "NameEn": "Munchlax",
-  "NameTw": "小卡比獸"
+  "index": "#0446",
+  "name-en": "Munchlax",
+  "name-tw": "小卡比獸"
  },
  {
-  "Index": "#0447",
-  "NameEn": "Riolu",
-  "NameTw": "利歐路"
+  "index": "#0447",
+  "name-en": "Riolu",
+  "name-tw": "利歐路"
  },
  {
-  "Index": "#0448",
-  "NameEn": "Lucario",
-  "NameTw": "路卡利歐"
+  "index": "#0448",
+  "name-en": "Lucario",
+  "name-tw": "路卡利歐"
  },
  {
-  "Index": "#0449",
-  "NameEn": "Hippopotas",
-  "NameTw": "沙河馬"
+  "index": "#0449",
+  "name-en": "Hippopotas",
+  "name-tw": "沙河馬"
  },
  {
-  "Index": "#0450",
-  "NameEn": "Hippowdon",
-  "NameTw": "河馬獸"
+  "index": "#0450",
+  "name-en": "Hippowdon",
+  "name-tw": "河馬獸"
  },
  {
-  "Index": "#0451",
-  "NameEn": "Skorupi",
-  "NameTw": "鉗尾蠍"
+  "index": "#0451",
+  "name-en": "Skorupi",
+  "name-tw": "鉗尾蠍"
  },
  {
-  "Index": "#0452",
-  "NameEn": "Drapion",
-  "NameTw": "龍王蠍"
+  "index": "#0452",
+  "name-en": "Drapion",
+  "name-tw": "龍王蠍"
  },
  {
-  "Index": "#0453",
-  "NameEn": "Croagunk",
-  "NameTw": "不良蛙"
+  "index": "#0453",
+  "name-en": "Croagunk",
+  "name-tw": "不良蛙"
  },
  {
-  "Index": "#0454",
-  "NameEn": "Toxicroak",
-  "NameTw": "毒骷蛙"
+  "index": "#0454",
+  "name-en": "Toxicroak",
+  "name-tw": "毒骷蛙"
  },
  {
-  "Index": "#0455",
-  "NameEn": "Carnivine",
-  "NameTw": "尖牙籠"
+  "index": "#0455",
+  "name-en": "Carnivine",
+  "name-tw": "尖牙籠"
  },
  {
-  "Index": "#0456",
-  "NameEn": "Finneon",
-  "NameTw": "螢光魚"
+  "index": "#0456",
+  "name-en": "Finneon",
+  "name-tw": "螢光魚"
  },
  {
-  "Index": "#0457",
-  "NameEn": "Lumineon",
-  "NameTw": "霓虹魚"
+  "index": "#0457",
+  "name-en": "Lumineon",
+  "name-tw": "霓虹魚"
  },
  {
-  "Index": "#0458",
-  "NameEn": "Mantyke",
-  "NameTw": "小球飛魚"
+  "index": "#0458",
+  "name-en": "Mantyke",
+  "name-tw": "小球飛魚"
  },
  {
-  "Index": "#0459",
-  "NameEn": "Snover",
-  "NameTw": "雪笠怪"
+  "index": "#0459",
+  "name-en": "Snover",
+  "name-tw": "雪笠怪"
  },
  {
-  "Index": "#0460",
-  "NameEn": "Abomasnow",
-  "NameTw": "暴雪王"
+  "index": "#0460",
+  "name-en": "Abomasnow",
+  "name-tw": "暴雪王"
  },
  {
-  "Index": "#0461",
-  "NameEn": "Weavile",
-  "NameTw": "瑪狃拉"
+  "index": "#0461",
+  "name-en": "Weavile",
+  "name-tw": "瑪狃拉"
  },
  {
-  "Index": "#0462",
-  "NameEn": "Magnezone",
-  "NameTw": "自爆磁怪"
+  "index": "#0462",
+  "name-en": "Magnezone",
+  "name-tw": "自爆磁怪"
  },
  {
-  "Index": "#0463",
-  "NameEn": "Lickilicky",
-  "NameTw": "大舌舔"
+  "index": "#0463",
+  "name-en": "Lickilicky",
+  "name-tw": "大舌舔"
  },
  {
-  "Index": "#0464",
-  "NameEn": "Rhyperior",
-  "NameTw": "超甲狂犀"
+  "index": "#0464",
+  "name-en": "Rhyperior",
+  "name-tw": "超甲狂犀"
  },
  {
-  "Index": "#0465",
-  "NameEn": "Tangrowth",
-  "NameTw": "巨蔓藤"
+  "index": "#0465",
+  "name-en": "Tangrowth",
+  "name-tw": "巨蔓藤"
  },
  {
-  "Index": "#0466",
-  "NameEn": "Electivire",
-  "NameTw": "電擊魔獸"
+  "index": "#0466",
+  "name-en": "Electivire",
+  "name-tw": "電擊魔獸"
  },
  {
-  "Index": "#0467",
-  "NameEn": "Magmortar",
-  "NameTw": "鴨嘴炎獸"
+  "index": "#0467",
+  "name-en": "Magmortar",
+  "name-tw": "鴨嘴炎獸"
  },
  {
-  "Index": "#0468",
-  "NameEn": "Togekiss",
-  "NameTw": "波克基斯"
+  "index": "#0468",
+  "name-en": "Togekiss",
+  "name-tw": "波克基斯"
  },
  {
-  "Index": "#0469",
-  "NameEn": "Yanmega",
-  "NameTw": "遠古巨蜓"
+  "index": "#0469",
+  "name-en": "Yanmega",
+  "name-tw": "遠古巨蜓"
  },
  {
-  "Index": "#0470",
-  "NameEn": "Leafeon",
-  "NameTw": "葉伊布"
+  "index": "#0470",
+  "name-en": "Leafeon",
+  "name-tw": "葉伊布"
  },
  {
-  "Index": "#0471",
-  "NameEn": "Glaceon",
-  "NameTw": "冰伊布"
+  "index": "#0471",
+  "name-en": "Glaceon",
+  "name-tw": "冰伊布"
  },
  {
-  "Index": "#0472",
-  "NameEn": "Gliscor",
-  "NameTw": "天蠍王"
+  "index": "#0472",
+  "name-en": "Gliscor",
+  "name-tw": "天蠍王"
  },
  {
-  "Index": "#0473",
-  "NameEn": "Mamoswine",
-  "NameTw": "象牙豬"
+  "index": "#0473",
+  "name-en": "Mamoswine",
+  "name-tw": "象牙豬"
  },
  {
-  "Index": "#0474",
-  "NameEn": "Porygon-Z",
-  "NameTw": "多邊獸Ｚ"
+  "index": "#0474",
+  "name-en": "Porygon-Z",
+  "name-tw": "多邊獸Ｚ"
  },
  {
-  "Index": "#0475",
-  "NameEn": "Gallade",
-  "NameTw": "艾路雷朵"
+  "index": "#0475",
+  "name-en": "Gallade",
+  "name-tw": "艾路雷朵"
  },
  {
-  "Index": "#0476",
-  "NameEn": "Probopass",
-  "NameTw": "大朝北鼻"
+  "index": "#0476",
+  "name-en": "Probopass",
+  "name-tw": "大朝北鼻"
  },
  {
-  "Index": "#0477",
-  "NameEn": "Dusknoir",
-  "NameTw": "黑夜魔靈"
+  "index": "#0477",
+  "name-en": "Dusknoir",
+  "name-tw": "黑夜魔靈"
  },
  {
-  "Index": "#0478",
-  "NameEn": "Froslass",
-  "NameTw": "雪妖女"
+  "index": "#0478",
+  "name-en": "Froslass",
+  "name-tw": "雪妖女"
  },
  {
-  "Index": "#0479",
-  "NameEn": "Rotom",
-  "NameTw": "洛托姆"
+  "index": "#0479",
+  "name-en": "Rotom",
+  "name-tw": "洛托姆"
  },
  {
-  "Index": "#0480",
-  "NameEn": "Uxie",
-  "NameTw": "由克希"
+  "index": "#0480",
+  "name-en": "Uxie",
+  "name-tw": "由克希"
  },
  {
-  "Index": "#0481",
-  "NameEn": "Mesprit",
-  "NameTw": "艾姆利多"
+  "index": "#0481",
+  "name-en": "Mesprit",
+  "name-tw": "艾姆利多"
  },
  {
-  "Index": "#0482",
-  "NameEn": "Azelf",
-  "NameTw": "亞克諾姆"
+  "index": "#0482",
+  "name-en": "Azelf",
+  "name-tw": "亞克諾姆"
  },
  {
-  "Index": "#0483",
-  "NameEn": "Dialga",
-  "NameTw": "帝牙盧卡"
+  "index": "#0483",
+  "name-en": "Dialga",
+  "name-tw": "帝牙盧卡"
  },
  {
-  "Index": "#0484",
-  "NameEn": "Palkia",
-  "NameTw": "帕路奇亞"
+  "index": "#0484",
+  "name-en": "Palkia",
+  "name-tw": "帕路奇亞"
  },
  {
-  "Index": "#0485",
-  "NameEn": "Heatran",
-  "NameTw": "席多藍恩"
+  "index": "#0485",
+  "name-en": "Heatran",
+  "name-tw": "席多藍恩"
  },
  {
-  "Index": "#0486",
-  "NameEn": "Regigigas",
-  "NameTw": "雷吉奇卡斯"
+  "index": "#0486",
+  "name-en": "Regigigas",
+  "name-tw": "雷吉奇卡斯"
  },
  {
-  "Index": "#0487",
-  "NameEn": "Giratina",
-  "NameTw": "騎拉帝納"
+  "index": "#0487",
+  "name-en": "Giratina",
+  "name-tw": "騎拉帝納"
  },
  {
-  "Index": "#0488",
-  "NameEn": "Cresselia",
-  "NameTw": "克雷色利亞"
+  "index": "#0488",
+  "name-en": "Cresselia",
+  "name-tw": "克雷色利亞"
  },
  {
-  "Index": "#0489",
-  "NameEn": "Phione",
-  "NameTw": "霏歐納"
+  "index": "#0489",
+  "name-en": "Phione",
+  "name-tw": "霏歐納"
  },
  {
-  "Index": "#0490",
-  "NameEn": "Manaphy",
-  "NameTw": "瑪納霏"
+  "index": "#0490",
+  "name-en": "Manaphy",
+  "name-tw": "瑪納霏"
  },
  {
-  "Index": "#0491",
-  "NameEn": "Darkrai",
-  "NameTw": "達克萊伊"
+  "index": "#0491",
+  "name-en": "Darkrai",
+  "name-tw": "達克萊伊"
  },
  {
-  "Index": "#0492",
-  "NameEn": "Shaymin",
-  "NameTw": "謝米"
+  "index": "#0492",
+  "name-en": "Shaymin",
+  "name-tw": "謝米"
  },
  {
-  "Index": "#0493",
-  "NameEn": "Arceus",
-  "NameTw": "阿爾宙斯"
+  "index": "#0493",
+  "name-en": "Arceus",
+  "name-tw": "阿爾宙斯"
  },
  {
-  "Index": "#0494",
-  "NameEn": "Victini",
-  "NameTw": "比克提尼"
+  "index": "#0494",
+  "name-en": "Victini",
+  "name-tw": "比克提尼"
  },
  {
-  "Index": "#0495",
-  "NameEn": "Snivy",
-  "NameTw": "藤藤蛇"
+  "index": "#0495",
+  "name-en": "Snivy",
+  "name-tw": "藤藤蛇"
  },
  {
-  "Index": "#0496",
-  "NameEn": "Servine",
-  "NameTw": "青藤蛇"
+  "index": "#0496",
+  "name-en": "Servine",
+  "name-tw": "青藤蛇"
  },
  {
-  "Index": "#0497",
-  "NameEn": "Serperior",
-  "NameTw": "君主蛇"
+  "index": "#0497",
+  "name-en": "Serperior",
+  "name-tw": "君主蛇"
  },
  {
-  "Index": "#0498",
-  "NameEn": "Tepig",
-  "NameTw": "暖暖豬"
+  "index": "#0498",
+  "name-en": "Tepig",
+  "name-tw": "暖暖豬"
  },
  {
-  "Index": "#0499",
-  "NameEn": "Pignite",
-  "NameTw": "炒炒豬"
+  "index": "#0499",
+  "name-en": "Pignite",
+  "name-tw": "炒炒豬"
  },
  {
-  "Index": "#0500",
-  "NameEn": "Emboar",
-  "NameTw": "炎武王"
+  "index": "#0500",
+  "name-en": "Emboar",
+  "name-tw": "炎武王"
  },
  {
-  "Index": "#0501",
-  "NameEn": "Oshawott",
-  "NameTw": "水水獺"
+  "index": "#0501",
+  "name-en": "Oshawott",
+  "name-tw": "水水獺"
  },
  {
-  "Index": "#0502",
-  "NameEn": "Dewott",
-  "NameTw": "雙刃丸"
+  "index": "#0502",
+  "name-en": "Dewott",
+  "name-tw": "雙刃丸"
  },
  {
-  "Index": "#0503",
-  "NameEn": "Samurott",
-  "NameTw": "大劍鬼"
+  "index": "#0503",
+  "name-en": "Samurott",
+  "name-tw": "大劍鬼"
  },
  {
-  "Index": "#0504",
-  "NameEn": "Patrat",
-  "NameTw": "探探鼠"
+  "index": "#0504",
+  "name-en": "Patrat",
+  "name-tw": "探探鼠"
  },
  {
-  "Index": "#0505",
-  "NameEn": "Watchog",
-  "NameTw": "步哨鼠"
+  "index": "#0505",
+  "name-en": "Watchog",
+  "name-tw": "步哨鼠"
  },
  {
-  "Index": "#0506",
-  "NameEn": "Lillipup",
-  "NameTw": "小約克"
+  "index": "#0506",
+  "name-en": "Lillipup",
+  "name-tw": "小約克"
  },
  {
-  "Index": "#0507",
-  "NameEn": "Herdier",
-  "NameTw": "哈約克"
+  "index": "#0507",
+  "name-en": "Herdier",
+  "name-tw": "哈約克"
  },
  {
-  "Index": "#0508",
-  "NameEn": "Stoutland",
-  "NameTw": "長毛狗"
+  "index": "#0508",
+  "name-en": "Stoutland",
+  "name-tw": "長毛狗"
  },
  {
-  "Index": "#0509",
-  "NameEn": "Purrloin",
-  "NameTw": "扒手貓"
+  "index": "#0509",
+  "name-en": "Purrloin",
+  "name-tw": "扒手貓"
  },
  {
-  "Index": "#0510",
-  "NameEn": "Liepard",
-  "NameTw": "酷豹"
+  "index": "#0510",
+  "name-en": "Liepard",
+  "name-tw": "酷豹"
  },
  {
-  "Index": "#0511",
-  "NameEn": "Pansage",
-  "NameTw": "花椰猴"
+  "index": "#0511",
+  "name-en": "Pansage",
+  "name-tw": "花椰猴"
  },
  {
-  "Index": "#0512",
-  "NameEn": "Simisage",
-  "NameTw": "花椰猿"
+  "index": "#0512",
+  "name-en": "Simisage",
+  "name-tw": "花椰猿"
  },
  {
-  "Index": "#0513",
-  "NameEn": "Pansear",
-  "NameTw": "爆香猴"
+  "index": "#0513",
+  "name-en": "Pansear",
+  "name-tw": "爆香猴"
  },
  {
-  "Index": "#0514",
-  "NameEn": "Simisear",
-  "NameTw": "爆香猿"
+  "index": "#0514",
+  "name-en": "Simisear",
+  "name-tw": "爆香猿"
  },
  {
-  "Index": "#0515",
-  "NameEn": "Panpour",
-  "NameTw": "冷水猴"
+  "index": "#0515",
+  "name-en": "Panpour",
+  "name-tw": "冷水猴"
  },
  {
-  "Index": "#0516",
-  "NameEn": "Simipour",
-  "NameTw": "冷水猿"
+  "index": "#0516",
+  "name-en": "Simipour",
+  "name-tw": "冷水猿"
  },
  {
-  "Index": "#0517",
-  "NameEn": "Munna",
-  "NameTw": "食夢夢"
+  "index": "#0517",
+  "name-en": "Munna",
+  "name-tw": "食夢夢"
  },
  {
-  "Index": "#0518",
-  "NameEn": "Musharna",
-  "NameTw": "夢夢蝕"
+  "index": "#0518",
+  "name-en": "Musharna",
+  "name-tw": "夢夢蝕"
  },
  {
-  "Index": "#0519",
-  "NameEn": "Pidove",
-  "NameTw": "豆豆鴿"
+  "index": "#0519",
+  "name-en": "Pidove",
+  "name-tw": "豆豆鴿"
  },
  {
-  "Index": "#0520",
-  "NameEn": "Tranquill",
-  "NameTw": "咕咕鴿"
+  "index": "#0520",
+  "name-en": "Tranquill",
+  "name-tw": "咕咕鴿"
  },
  {
-  "Index": "#0521",
-  "NameEn": "Unfezant",
-  "NameTw": "高傲雉雞"
+  "index": "#0521",
+  "name-en": "Unfezant",
+  "name-tw": "高傲雉雞"
  },
  {
-  "Index": "#0522",
-  "NameEn": "Blitzle",
-  "NameTw": "斑斑馬"
+  "index": "#0522",
+  "name-en": "Blitzle",
+  "name-tw": "斑斑馬"
  },
  {
-  "Index": "#0523",
-  "NameEn": "Zebstrika",
-  "NameTw": "雷電斑馬"
+  "index": "#0523",
+  "name-en": "Zebstrika",
+  "name-tw": "雷電斑馬"
  },
  {
-  "Index": "#0524",
-  "NameEn": "Roggenrola",
-  "NameTw": "石丸子"
+  "index": "#0524",
+  "name-en": "Roggenrola",
+  "name-tw": "石丸子"
  },
  {
-  "Index": "#0525",
-  "NameEn": "Boldore",
-  "NameTw": "地幔岩"
+  "index": "#0525",
+  "name-en": "Boldore",
+  "name-tw": "地幔岩"
  },
  {
-  "Index": "#0526",
-  "NameEn": "Gigalith",
-  "NameTw": "龐岩怪"
+  "index": "#0526",
+  "name-en": "Gigalith",
+  "name-tw": "龐岩怪"
  },
  {
-  "Index": "#0527",
-  "NameEn": "Woobat",
-  "NameTw": "滾滾蝙蝠"
+  "index": "#0527",
+  "name-en": "Woobat",
+  "name-tw": "滾滾蝙蝠"
  },
  {
-  "Index": "#0528",
-  "NameEn": "Swoobat",
-  "NameTw": "心蝙蝠"
+  "index": "#0528",
+  "name-en": "Swoobat",
+  "name-tw": "心蝙蝠"
  },
  {
-  "Index": "#0529",
-  "NameEn": "Drilbur",
-  "NameTw": "螺釘地鼠"
+  "index": "#0529",
+  "name-en": "Drilbur",
+  "name-tw": "螺釘地鼠"
  },
  {
-  "Index": "#0530",
-  "NameEn": "Excadrill",
-  "NameTw": "龍頭地鼠"
+  "index": "#0530",
+  "name-en": "Excadrill",
+  "name-tw": "龍頭地鼠"
  },
  {
-  "Index": "#0531",
-  "NameEn": "Audino",
-  "NameTw": "差不多娃娃"
+  "index": "#0531",
+  "name-en": "Audino",
+  "name-tw": "差不多娃娃"
  },
  {
-  "Index": "#0532",
-  "NameEn": "Timburr",
-  "NameTw": "搬運小匠"
+  "index": "#0532",
+  "name-en": "Timburr",
+  "name-tw": "搬運小匠"
  },
  {
-  "Index": "#0533",
-  "NameEn": "Gurdurr",
-  "NameTw": "鐵骨土人"
+  "index": "#0533",
+  "name-en": "Gurdurr",
+  "name-tw": "鐵骨土人"
  },
  {
-  "Index": "#0534",
-  "NameEn": "Conkeldurr",
-  "NameTw": "修建老匠"
+  "index": "#0534",
+  "name-en": "Conkeldurr",
+  "name-tw": "修建老匠"
  },
  {
-  "Index": "#0535",
-  "NameEn": "Tympole",
-  "NameTw": "圓蝌蚪"
+  "index": "#0535",
+  "name-en": "Tympole",
+  "name-tw": "圓蝌蚪"
  },
  {
-  "Index": "#0536",
-  "NameEn": "Palpitoad",
-  "NameTw": "藍蟾蜍"
+  "index": "#0536",
+  "name-en": "Palpitoad",
+  "name-tw": "藍蟾蜍"
  },
  {
-  "Index": "#0537",
-  "NameEn": "Seismitoad",
-  "NameTw": "蟾蜍王"
+  "index": "#0537",
+  "name-en": "Seismitoad",
+  "name-tw": "蟾蜍王"
  },
  {
-  "Index": "#0538",
-  "NameEn": "Throh",
-  "NameTw": "投摔鬼"
+  "index": "#0538",
+  "name-en": "Throh",
+  "name-tw": "投摔鬼"
  },
  {
-  "Index": "#0539",
-  "NameEn": "Sawk",
-  "NameTw": "打擊鬼"
+  "index": "#0539",
+  "name-en": "Sawk",
+  "name-tw": "打擊鬼"
  },
  {
-  "Index": "#0540",
-  "NameEn": "Sewaddle",
-  "NameTw": "蟲寶包"
+  "index": "#0540",
+  "name-en": "Sewaddle",
+  "name-tw": "蟲寶包"
  },
  {
-  "Index": "#0541",
-  "NameEn": "Swadloon",
-  "NameTw": "寶包繭"
+  "index": "#0541",
+  "name-en": "Swadloon",
+  "name-tw": "寶包繭"
  },
  {
-  "Index": "#0542",
-  "NameEn": "Leavanny",
-  "NameTw": "保母蟲"
+  "index": "#0542",
+  "name-en": "Leavanny",
+  "name-tw": "保母蟲"
  },
  {
-  "Index": "#0543",
-  "NameEn": "Venipede",
-  "NameTw": "百足蜈蚣"
+  "index": "#0543",
+  "name-en": "Venipede",
+  "name-tw": "百足蜈蚣"
  },
  {
-  "Index": "#0544",
-  "NameEn": "Whirlipede",
-  "NameTw": "車輪毬"
+  "index": "#0544",
+  "name-en": "Whirlipede",
+  "name-tw": "車輪毬"
  },
  {
-  "Index": "#0545",
-  "NameEn": "Scolipede",
-  "NameTw": "蜈蚣王"
+  "index": "#0545",
+  "name-en": "Scolipede",
+  "name-tw": "蜈蚣王"
  },
  {
-  "Index": "#0546",
-  "NameEn": "Cottonee",
-  "NameTw": "木棉球"
+  "index": "#0546",
+  "name-en": "Cottonee",
+  "name-tw": "木棉球"
  },
  {
-  "Index": "#0547",
-  "NameEn": "Whimsicott",
-  "NameTw": "風妖精"
+  "index": "#0547",
+  "name-en": "Whimsicott",
+  "name-tw": "風妖精"
  },
  {
-  "Index": "#0548",
-  "NameEn": "Petilil",
-  "NameTw": "百合根娃娃"
+  "index": "#0548",
+  "name-en": "Petilil",
+  "name-tw": "百合根娃娃"
  },
  {
-  "Index": "#0549",
-  "NameEn": "Lilligant",
-  "NameTw": "裙兒小姐"
+  "index": "#0549",
+  "name-en": "Lilligant",
+  "name-tw": "裙兒小姐"
  },
  {
-  "Index": "#0550",
-  "NameEn": "Basculin",
-  "NameTw": "野蠻鱸魚"
+  "index": "#0550",
+  "name-en": "Basculin",
+  "name-tw": "野蠻鱸魚"
  },
  {
-  "Index": "#0551",
-  "NameEn": "Sandile",
-  "NameTw": "黑眼鱷"
+  "index": "#0551",
+  "name-en": "Sandile",
+  "name-tw": "黑眼鱷"
  },
  {
-  "Index": "#0552",
-  "NameEn": "Krokorok",
-  "NameTw": "混混鱷"
+  "index": "#0552",
+  "name-en": "Krokorok",
+  "name-tw": "混混鱷"
  },
  {
-  "Index": "#0553",
-  "NameEn": "Krookodile",
-  "NameTw": "流氓鱷"
+  "index": "#0553",
+  "name-en": "Krookodile",
+  "name-tw": "流氓鱷"
  },
  {
-  "Index": "#0554",
-  "NameEn": "Darumaka",
-  "NameTw": "火紅不倒翁"
+  "index": "#0554",
+  "name-en": "Darumaka",
+  "name-tw": "火紅不倒翁"
  },
  {
-  "Index": "#0555",
-  "NameEn": "Darmanitan",
-  "NameTw": "達摩狒狒"
+  "index": "#0555",
+  "name-en": "Darmanitan",
+  "name-tw": "達摩狒狒"
  },
  {
-  "Index": "#0556",
-  "NameEn": "Maractus",
-  "NameTw": "沙鈴仙人掌"
+  "index": "#0556",
+  "name-en": "Maractus",
+  "name-tw": "沙鈴仙人掌"
  },
  {
-  "Index": "#0557",
-  "NameEn": "Dwebble",
-  "NameTw": "石居蟹"
+  "index": "#0557",
+  "name-en": "Dwebble",
+  "name-tw": "石居蟹"
  },
  {
-  "Index": "#0558",
-  "NameEn": "Crustle",
-  "NameTw": "岩殿居蟹"
+  "index": "#0558",
+  "name-en": "Crustle",
+  "name-tw": "岩殿居蟹"
  },
  {
-  "Index": "#0559",
-  "NameEn": "Scraggy",
-  "NameTw": "滑滑小子"
+  "index": "#0559",
+  "name-en": "Scraggy",
+  "name-tw": "滑滑小子"
  },
  {
-  "Index": "#0560",
-  "NameEn": "Scrafty",
-  "NameTw": "頭巾混混"
+  "index": "#0560",
+  "name-en": "Scrafty",
+  "name-tw": "頭巾混混"
  },
  {
-  "Index": "#0561",
-  "NameEn": "Sigilyph",
-  "NameTw": "象徵鳥"
+  "index": "#0561",
+  "name-en": "Sigilyph",
+  "name-tw": "象徵鳥"
  },
  {
-  "Index": "#0562",
-  "NameEn": "Yamask",
-  "NameTw": "哭哭面具"
+  "index": "#0562",
+  "name-en": "Yamask",
+  "name-tw": "哭哭面具"
  },
  {
-  "Index": "#0563",
-  "NameEn": "Cofagrigus",
-  "NameTw": "死神棺"
+  "index": "#0563",
+  "name-en": "Cofagrigus",
+  "name-tw": "死神棺"
  },
  {
-  "Index": "#0564",
-  "NameEn": "Tirtouga",
-  "NameTw": "原蓋海龜"
+  "index": "#0564",
+  "name-en": "Tirtouga",
+  "name-tw": "原蓋海龜"
  },
  {
-  "Index": "#0565",
-  "NameEn": "Carracosta",
-  "NameTw": "肋骨海龜"
+  "index": "#0565",
+  "name-en": "Carracosta",
+  "name-tw": "肋骨海龜"
  },
  {
-  "Index": "#0566",
-  "NameEn": "Archen",
-  "NameTw": "始祖小鳥"
+  "index": "#0566",
+  "name-en": "Archen",
+  "name-tw": "始祖小鳥"
  },
  {
-  "Index": "#0567",
-  "NameEn": "Archeops",
-  "NameTw": "始祖大鳥"
+  "index": "#0567",
+  "name-en": "Archeops",
+  "name-tw": "始祖大鳥"
  },
  {
-  "Index": "#0568",
-  "NameEn": "Trubbish",
-  "NameTw": "破破袋"
+  "index": "#0568",
+  "name-en": "Trubbish",
+  "name-tw": "破破袋"
  },
  {
-  "Index": "#0569",
-  "NameEn": "Garbodor",
-  "NameTw": "灰塵山"
+  "index": "#0569",
+  "name-en": "Garbodor",
+  "name-tw": "灰塵山"
  },
  {
-  "Index": "#0570",
-  "NameEn": "Zorua",
-  "NameTw": "索羅亞"
+  "index": "#0570",
+  "name-en": "Zorua",
+  "name-tw": "索羅亞"
  },
  {
-  "Index": "#0571",
-  "NameEn": "Zoroark",
-  "NameTw": "索羅亞克"
+  "index": "#0571",
+  "name-en": "Zoroark",
+  "name-tw": "索羅亞克"
  },
  {
-  "Index": "#0572",
-  "NameEn": "Minccino",
-  "NameTw": "泡沫栗鼠"
+  "index": "#0572",
+  "name-en": "Minccino",
+  "name-tw": "泡沫栗鼠"
  },
  {
-  "Index": "#0573",
-  "NameEn": "Cinccino",
-  "NameTw": "奇諾栗鼠"
+  "index": "#0573",
+  "name-en": "Cinccino",
+  "name-tw": "奇諾栗鼠"
  },
  {
-  "Index": "#0574",
-  "NameEn": "Gothita",
-  "NameTw": "哥德寶寶"
+  "index": "#0574",
+  "name-en": "Gothita",
+  "name-tw": "哥德寶寶"
  },
  {
-  "Index": "#0575",
-  "NameEn": "Gothorita",
-  "NameTw": "哥德小童"
+  "index": "#0575",
+  "name-en": "Gothorita",
+  "name-tw": "哥德小童"
  },
  {
-  "Index": "#0576",
-  "NameEn": "Gothitelle",
-  "NameTw": "哥德小姐"
+  "index": "#0576",
+  "name-en": "Gothitelle",
+  "name-tw": "哥德小姐"
  },
  {
-  "Index": "#0577",
-  "NameEn": "Solosis",
-  "NameTw": "單卵細胞球"
+  "index": "#0577",
+  "name-en": "Solosis",
+  "name-tw": "單卵細胞球"
  },
  {
-  "Index": "#0578",
-  "NameEn": "Duosion",
-  "NameTw": "雙卵細胞球"
+  "index": "#0578",
+  "name-en": "Duosion",
+  "name-tw": "雙卵細胞球"
  },
  {
-  "Index": "#0579",
-  "NameEn": "Reuniclus",
-  "NameTw": "人造細胞卵"
+  "index": "#0579",
+  "name-en": "Reuniclus",
+  "name-tw": "人造細胞卵"
  },
  {
-  "Index": "#0580",
-  "NameEn": "Ducklett",
-  "NameTw": "鴨寶寶"
+  "index": "#0580",
+  "name-en": "Ducklett",
+  "name-tw": "鴨寶寶"
  },
  {
-  "Index": "#0581",
-  "NameEn": "Swanna",
-  "NameTw": "舞天鵝"
+  "index": "#0581",
+  "name-en": "Swanna",
+  "name-tw": "舞天鵝"
  },
  {
-  "Index": "#0582",
-  "NameEn": "Vanillite",
-  "NameTw": "迷你冰"
+  "index": "#0582",
+  "name-en": "Vanillite",
+  "name-tw": "迷你冰"
  },
  {
-  "Index": "#0583",
-  "NameEn": "Vanillish",
-  "NameTw": "多多冰"
+  "index": "#0583",
+  "name-en": "Vanillish",
+  "name-tw": "多多冰"
  },
  {
-  "Index": "#0584",
-  "NameEn": "Vanilluxe",
-  "NameTw": "雙倍多多冰"
+  "index": "#0584",
+  "name-en": "Vanilluxe",
+  "name-tw": "雙倍多多冰"
  },
  {
-  "Index": "#0585",
-  "NameEn": "Deerling",
-  "NameTw": "四季鹿"
+  "index": "#0585",
+  "name-en": "Deerling",
+  "name-tw": "四季鹿"
  },
  {
-  "Index": "#0586",
-  "NameEn": "Sawsbuck",
-  "NameTw": "萌芽鹿"
+  "index": "#0586",
+  "name-en": "Sawsbuck",
+  "name-tw": "萌芽鹿"
  },
  {
-  "Index": "#0587",
-  "NameEn": "Emolga",
-  "NameTw": "電飛鼠"
+  "index": "#0587",
+  "name-en": "Emolga",
+  "name-tw": "電飛鼠"
  },
  {
-  "Index": "#0588",
-  "NameEn": "Karrablast",
-  "NameTw": "蓋蓋蟲"
+  "index": "#0588",
+  "name-en": "Karrablast",
+  "name-tw": "蓋蓋蟲"
  },
  {
-  "Index": "#0589",
-  "NameEn": "Escavalier",
-  "NameTw": "騎士蝸牛"
+  "index": "#0589",
+  "name-en": "Escavalier",
+  "name-tw": "騎士蝸牛"
  },
  {
-  "Index": "#0590",
-  "NameEn": "Foongus",
-  "NameTw": "哎呀球菇"
+  "index": "#0590",
+  "name-en": "Foongus",
+  "name-tw": "哎呀球菇"
  },
  {
-  "Index": "#0591",
-  "NameEn": "Amoonguss",
-  "NameTw": "敗露球菇"
+  "index": "#0591",
+  "name-en": "Amoonguss",
+  "name-tw": "敗露球菇"
  },
  {
-  "Index": "#0592",
-  "NameEn": "Frillish",
-  "NameTw": "輕飄飄"
+  "index": "#0592",
+  "name-en": "Frillish",
+  "name-tw": "輕飄飄"
  },
  {
-  "Index": "#0593",
-  "NameEn": "Jellicent",
-  "NameTw": "胖嘟嘟"
+  "index": "#0593",
+  "name-en": "Jellicent",
+  "name-tw": "胖嘟嘟"
  },
  {
-  "Index": "#0594",
-  "NameEn": "Alomomola",
-  "NameTw": "保母曼波"
+  "index": "#0594",
+  "name-en": "Alomomola",
+  "name-tw": "保母曼波"
  },
  {
-  "Index": "#0595",
-  "NameEn": "Joltik",
-  "NameTw": "電電蟲"
+  "index": "#0595",
+  "name-en": "Joltik",
+  "name-tw": "電電蟲"
  },
  {
-  "Index": "#0596",
-  "NameEn": "Galvantula",
-  "NameTw": "電蜘蛛"
+  "index": "#0596",
+  "name-en": "Galvantula",
+  "name-tw": "電蜘蛛"
  },
  {
-  "Index": "#0597",
-  "NameEn": "Ferroseed",
-  "NameTw": "種子鐵球"
+  "index": "#0597",
+  "name-en": "Ferroseed",
+  "name-tw": "種子鐵球"
  },
  {
-  "Index": "#0598",
-  "NameEn": "Ferrothorn",
-  "NameTw": "堅果啞鈴"
+  "index": "#0598",
+  "name-en": "Ferrothorn",
+  "name-tw": "堅果啞鈴"
  },
  {
-  "Index": "#0599",
-  "NameEn": "Klink",
-  "NameTw": "齒輪兒"
+  "index": "#0599",
+  "name-en": "Klink",
+  "name-tw": "齒輪兒"
  },
  {
-  "Index": "#0600",
-  "NameEn": "Klang",
-  "NameTw": "齒輪組"
+  "index": "#0600",
+  "name-en": "Klang",
+  "name-tw": "齒輪組"
  },
  {
-  "Index": "#0601",
-  "NameEn": "Klinklang",
-  "NameTw": "齒輪怪"
+  "index": "#0601",
+  "name-en": "Klinklang",
+  "name-tw": "齒輪怪"
  },
  {
-  "Index": "#0602",
-  "NameEn": "Tynamo",
-  "NameTw": "麻麻小魚"
+  "index": "#0602",
+  "name-en": "Tynamo",
+  "name-tw": "麻麻小魚"
  },
  {
-  "Index": "#0603",
-  "NameEn": "Eelektrik",
-  "NameTw": "麻麻鰻"
+  "index": "#0603",
+  "name-en": "Eelektrik",
+  "name-tw": "麻麻鰻"
  },
  {
-  "Index": "#0604",
-  "NameEn": "Eelektross",
-  "NameTw": "麻麻鰻魚王"
+  "index": "#0604",
+  "name-en": "Eelektross",
+  "name-tw": "麻麻鰻魚王"
  },
  {
-  "Index": "#0605",
-  "NameEn": "Elgyem",
-  "NameTw": "小灰怪"
+  "index": "#0605",
+  "name-en": "Elgyem",
+  "name-tw": "小灰怪"
  },
  {
-  "Index": "#0606",
-  "NameEn": "Beheeyem",
-  "NameTw": "大宇怪"
+  "index": "#0606",
+  "name-en": "Beheeyem",
+  "name-tw": "大宇怪"
  },
  {
-  "Index": "#0607",
-  "NameEn": "Litwick",
-  "NameTw": "燭光靈"
+  "index": "#0607",
+  "name-en": "Litwick",
+  "name-tw": "燭光靈"
  },
  {
-  "Index": "#0608",
-  "NameEn": "Lampent",
-  "NameTw": "燈火幽靈"
+  "index": "#0608",
+  "name-en": "Lampent",
+  "name-tw": "燈火幽靈"
  },
  {
-  "Index": "#0609",
-  "NameEn": "Chandelure",
-  "NameTw": "水晶燈火靈"
+  "index": "#0609",
+  "name-en": "Chandelure",
+  "name-tw": "水晶燈火靈"
  },
  {
-  "Index": "#0610",
-  "NameEn": "Axew",
-  "NameTw": "牙牙"
+  "index": "#0610",
+  "name-en": "Axew",
+  "name-tw": "牙牙"
  },
  {
-  "Index": "#0611",
-  "NameEn": "Fraxure",
-  "NameTw": "斧牙龍"
+  "index": "#0611",
+  "name-en": "Fraxure",
+  "name-tw": "斧牙龍"
  },
  {
-  "Index": "#0612",
-  "NameEn": "Haxorus",
-  "NameTw": "雙斧戰龍"
+  "index": "#0612",
+  "name-en": "Haxorus",
+  "name-tw": "雙斧戰龍"
  },
  {
-  "Index": "#0613",
-  "NameEn": "Cubchoo",
-  "NameTw": "噴嚏熊"
+  "index": "#0613",
+  "name-en": "Cubchoo",
+  "name-tw": "噴嚏熊"
  },
  {
-  "Index": "#0614",
-  "NameEn": "Beartic",
-  "NameTw": "凍原熊"
+  "index": "#0614",
+  "name-en": "Beartic",
+  "name-tw": "凍原熊"
  },
  {
-  "Index": "#0615",
-  "NameEn": "Cryogonal",
-  "NameTw": "幾何雪花"
+  "index": "#0615",
+  "name-en": "Cryogonal",
+  "name-tw": "幾何雪花"
  },
  {
-  "Index": "#0616",
-  "NameEn": "Shelmet",
-  "NameTw": "小嘴蝸"
+  "index": "#0616",
+  "name-en": "Shelmet",
+  "name-tw": "小嘴蝸"
  },
  {
-  "Index": "#0617",
-  "NameEn": "Accelgor",
-  "NameTw": "敏捷蟲"
+  "index": "#0617",
+  "name-en": "Accelgor",
+  "name-tw": "敏捷蟲"
  },
  {
-  "Index": "#0618",
-  "NameEn": "Stunfisk",
-  "NameTw": "泥巴魚"
+  "index": "#0618",
+  "name-en": "Stunfisk",
+  "name-tw": "泥巴魚"
  },
  {
-  "Index": "#0619",
-  "NameEn": "Mienfoo",
-  "NameTw": "功夫鼬"
+  "index": "#0619",
+  "name-en": "Mienfoo",
+  "name-tw": "功夫鼬"
  },
  {
-  "Index": "#0620",
-  "NameEn": "Mienshao",
-  "NameTw": "師父鼬"
+  "index": "#0620",
+  "name-en": "Mienshao",
+  "name-tw": "師父鼬"
  },
  {
-  "Index": "#0621",
-  "NameEn": "Druddigon",
-  "NameTw": "赤面龍"
+  "index": "#0621",
+  "name-en": "Druddigon",
+  "name-tw": "赤面龍"
  },
  {
-  "Index": "#0622",
-  "NameEn": "Golett",
-  "NameTw": "泥偶小人"
+  "index": "#0622",
+  "name-en": "Golett",
+  "name-tw": "泥偶小人"
  },
  {
-  "Index": "#0623",
-  "NameEn": "Golurk",
-  "NameTw": "泥偶巨人"
+  "index": "#0623",
+  "name-en": "Golurk",
+  "name-tw": "泥偶巨人"
  },
  {
-  "Index": "#0624",
-  "NameEn": "Pawniard",
-  "NameTw": "駒刀小兵"
+  "index": "#0624",
+  "name-en": "Pawniard",
+  "name-tw": "駒刀小兵"
  },
  {
-  "Index": "#0625",
-  "NameEn": "Bisharp",
-  "NameTw": "劈斬司令"
+  "index": "#0625",
+  "name-en": "Bisharp",
+  "name-tw": "劈斬司令"
  },
  {
-  "Index": "#0626",
-  "NameEn": "Bouffalant",
-  "NameTw": "爆炸頭水牛"
+  "index": "#0626",
+  "name-en": "Bouffalant",
+  "name-tw": "爆炸頭水牛"
  },
  {
-  "Index": "#0627",
-  "NameEn": "Rufflet",
-  "NameTw": "毛頭小鷹"
+  "index": "#0627",
+  "name-en": "Rufflet",
+  "name-tw": "毛頭小鷹"
  },
  {
-  "Index": "#0628",
-  "NameEn": "Braviary",
-  "NameTw": "勇士雄鷹"
+  "index": "#0628",
+  "name-en": "Braviary",
+  "name-tw": "勇士雄鷹"
  },
  {
-  "Index": "#0629",
-  "NameEn": "Vullaby",
-  "NameTw": "禿鷹丫頭"
+  "index": "#0629",
+  "name-en": "Vullaby",
+  "name-tw": "禿鷹丫頭"
  },
  {
-  "Index": "#0630",
-  "NameEn": "Mandibuzz",
-  "NameTw": "禿鷹娜"
+  "index": "#0630",
+  "name-en": "Mandibuzz",
+  "name-tw": "禿鷹娜"
  },
  {
-  "Index": "#0631",
-  "NameEn": "Heatmor",
-  "NameTw": "熔蟻獸"
+  "index": "#0631",
+  "name-en": "Heatmor",
+  "name-tw": "熔蟻獸"
  },
  {
-  "Index": "#0632",
-  "NameEn": "Durant",
-  "NameTw": "鐵蟻"
+  "index": "#0632",
+  "name-en": "Durant",
+  "name-tw": "鐵蟻"
  },
  {
-  "Index": "#0633",
-  "NameEn": "Deino",
-  "NameTw": "單首龍"
+  "index": "#0633",
+  "name-en": "Deino",
+  "name-tw": "單首龍"
  },
  {
-  "Index": "#0634",
-  "NameEn": "Zweilous",
-  "NameTw": "雙首暴龍"
+  "index": "#0634",
+  "name-en": "Zweilous",
+  "name-tw": "雙首暴龍"
  },
  {
-  "Index": "#0635",
-  "NameEn": "Hydreigon",
-  "NameTw": "三首惡龍"
+  "index": "#0635",
+  "name-en": "Hydreigon",
+  "name-tw": "三首惡龍"
  },
  {
-  "Index": "#0636",
-  "NameEn": "Larvesta",
-  "NameTw": "燃燒蟲"
+  "index": "#0636",
+  "name-en": "Larvesta",
+  "name-tw": "燃燒蟲"
  },
  {
-  "Index": "#0637",
-  "NameEn": "Volcarona",
-  "NameTw": "火神蛾"
+  "index": "#0637",
+  "name-en": "Volcarona",
+  "name-tw": "火神蛾"
  },
  {
-  "Index": "#0638",
-  "NameEn": "Cobalion",
-  "NameTw": "勾帕路翁"
+  "index": "#0638",
+  "name-en": "Cobalion",
+  "name-tw": "勾帕路翁"
  },
  {
-  "Index": "#0639",
-  "NameEn": "Terrakion",
-  "NameTw": "代拉基翁"
+  "index": "#0639",
+  "name-en": "Terrakion",
+  "name-tw": "代拉基翁"
  },
  {
-  "Index": "#0640",
-  "NameEn": "Virizion",
-  "NameTw": "畢力吉翁"
+  "index": "#0640",
+  "name-en": "Virizion",
+  "name-tw": "畢力吉翁"
  },
  {
-  "Index": "#0641",
-  "NameEn": "Tornadus",
-  "NameTw": "龍捲雲"
+  "index": "#0641",
+  "name-en": "Tornadus",
+  "name-tw": "龍捲雲"
  },
  {
-  "Index": "#0642",
-  "NameEn": "Thundurus",
-  "NameTw": "雷電雲"
+  "index": "#0642",
+  "name-en": "Thundurus",
+  "name-tw": "雷電雲"
  },
  {
-  "Index": "#0643",
-  "NameEn": "Reshiram",
-  "NameTw": "萊希拉姆"
+  "index": "#0643",
+  "name-en": "Reshiram",
+  "name-tw": "萊希拉姆"
  },
  {
-  "Index": "#0644",
-  "NameEn": "Zekrom",
-  "NameTw": "捷克羅姆"
+  "index": "#0644",
+  "name-en": "Zekrom",
+  "name-tw": "捷克羅姆"
  },
  {
-  "Index": "#0645",
-  "NameEn": "Landorus",
-  "NameTw": "土地雲"
+  "index": "#0645",
+  "name-en": "Landorus",
+  "name-tw": "土地雲"
  },
  {
-  "Index": "#0646",
-  "NameEn": "Kyurem",
-  "NameTw": "酋雷姆"
+  "index": "#0646",
+  "name-en": "Kyurem",
+  "name-tw": "酋雷姆"
  },
  {
-  "Index": "#0647",
-  "NameEn": "Keldeo",
-  "NameTw": "凱路迪歐"
+  "index": "#0647",
+  "name-en": "Keldeo",
+  "name-tw": "凱路迪歐"
  },
  {
-  "Index": "#0648",
-  "NameEn": "Meloetta",
-  "NameTw": "美洛耶塔"
+  "index": "#0648",
+  "name-en": "Meloetta",
+  "name-tw": "美洛耶塔"
  },
  {
-  "Index": "#0649",
-  "NameEn": "Genesect",
-  "NameTw": "蓋諾賽克特"
+  "index": "#0649",
+  "name-en": "Genesect",
+  "name-tw": "蓋諾賽克特"
  },
  {
-  "Index": "#0650",
-  "NameEn": "Chespin",
-  "NameTw": "哈力栗"
+  "index": "#0650",
+  "name-en": "Chespin",
+  "name-tw": "哈力栗"
  },
  {
-  "Index": "#0651",
-  "NameEn": "Quilladin",
-  "NameTw": "胖胖哈力"
+  "index": "#0651",
+  "name-en": "Quilladin",
+  "name-tw": "胖胖哈力"
  },
  {
-  "Index": "#0652",
-  "NameEn": "Chesnaught",
-  "NameTw": "布里卡隆"
+  "index": "#0652",
+  "name-en": "Chesnaught",
+  "name-tw": "布里卡隆"
  },
  {
-  "Index": "#0653",
-  "NameEn": "Fennekin",
-  "NameTw": "火狐狸"
+  "index": "#0653",
+  "name-en": "Fennekin",
+  "name-tw": "火狐狸"
  },
  {
-  "Index": "#0654",
-  "NameEn": "Braixen",
-  "NameTw": "長尾火狐"
+  "index": "#0654",
+  "name-en": "Braixen",
+  "name-tw": "長尾火狐"
  },
  {
-  "Index": "#0655",
-  "NameEn": "Delphox",
-  "NameTw": "妖火紅狐"
+  "index": "#0655",
+  "name-en": "Delphox",
+  "name-tw": "妖火紅狐"
  },
  {
-  "Index": "#0656",
-  "NameEn": "Froakie",
-  "NameTw": "呱呱泡蛙"
+  "index": "#0656",
+  "name-en": "Froakie",
+  "name-tw": "呱呱泡蛙"
  },
  {
-  "Index": "#0657",
-  "NameEn": "Frogadier",
-  "NameTw": "呱頭蛙"
+  "index": "#0657",
+  "name-en": "Frogadier",
+  "name-tw": "呱頭蛙"
  },
  {
-  "Index": "#0658",
-  "NameEn": "Greninja",
-  "NameTw": "甲賀忍蛙"
+  "index": "#0658",
+  "name-en": "Greninja",
+  "name-tw": "甲賀忍蛙"
  },
  {
-  "Index": "#0659",
-  "NameEn": "Bunnelby",
-  "NameTw": "掘掘兔"
+  "index": "#0659",
+  "name-en": "Bunnelby",
+  "name-tw": "掘掘兔"
  },
  {
-  "Index": "#0660",
-  "NameEn": "Diggersby",
-  "NameTw": "掘地兔"
+  "index": "#0660",
+  "name-en": "Diggersby",
+  "name-tw": "掘地兔"
  },
  {
-  "Index": "#0661",
-  "NameEn": "Fletchling",
-  "NameTw": "小箭雀"
+  "index": "#0661",
+  "name-en": "Fletchling",
+  "name-tw": "小箭雀"
  },
  {
-  "Index": "#0662",
-  "NameEn": "Fletchinder",
-  "NameTw": "火箭雀"
+  "index": "#0662",
+  "name-en": "Fletchinder",
+  "name-tw": "火箭雀"
  },
  {
-  "Index": "#0663",
-  "NameEn": "Talonflame",
-  "NameTw": "烈箭鷹"
+  "index": "#0663",
+  "name-en": "Talonflame",
+  "name-tw": "烈箭鷹"
  },
  {
-  "Index": "#0664",
-  "NameEn": "Scatterbug",
-  "NameTw": "粉蝶蟲"
+  "index": "#0664",
+  "name-en": "Scatterbug",
+  "name-tw": "粉蝶蟲"
  },
  {
-  "Index": "#0665",
-  "NameEn": "Spewpa",
-  "NameTw": "粉蝶蛹"
+  "index": "#0665",
+  "name-en": "Spewpa",
+  "name-tw": "粉蝶蛹"
  },
  {
-  "Index": "#0666",
-  "NameEn": "Vivillon",
-  "NameTw": "彩粉蝶"
+  "index": "#0666",
+  "name-en": "Vivillon",
+  "name-tw": "彩粉蝶"
  },
  {
-  "Index": "#0667",
-  "NameEn": "Litleo",
-  "NameTw": "小獅獅"
+  "index": "#0667",
+  "name-en": "Litleo",
+  "name-tw": "小獅獅"
  },
  {
-  "Index": "#0668",
-  "NameEn": "Pyroar",
-  "NameTw": "火炎獅"
+  "index": "#0668",
+  "name-en": "Pyroar",
+  "name-tw": "火炎獅"
  },
  {
-  "Index": "#0669",
-  "NameEn": "Flabébé",
-  "NameTw": "花蓓蓓"
+  "index": "#0669",
+  "name-en": "Flabébé",
+  "name-tw": "花蓓蓓"
  },
  {
-  "Index": "#0670",
-  "NameEn": "Floette",
-  "NameTw": "花葉蒂"
+  "index": "#0670",
+  "name-en": "Floette",
+  "name-tw": "花葉蒂"
  },
  {
-  "Index": "#0671",
-  "NameEn": "Florges",
-  "NameTw": "花潔夫人"
+  "index": "#0671",
+  "name-en": "Florges",
+  "name-tw": "花潔夫人"
  },
  {
-  "Index": "#0672",
-  "NameEn": "Skiddo",
-  "NameTw": "坐騎小羊"
+  "index": "#0672",
+  "name-en": "Skiddo",
+  "name-tw": "坐騎小羊"
  },
  {
-  "Index": "#0673",
-  "NameEn": "Gogoat",
-  "NameTw": "坐騎山羊"
+  "index": "#0673",
+  "name-en": "Gogoat",
+  "name-tw": "坐騎山羊"
  },
  {
-  "Index": "#0674",
-  "NameEn": "Pancham",
-  "NameTw": "頑皮熊貓"
+  "index": "#0674",
+  "name-en": "Pancham",
+  "name-tw": "頑皮熊貓"
  },
  {
-  "Index": "#0675",
-  "NameEn": "Pangoro",
-  "NameTw": "流氓熊貓"
+  "index": "#0675",
+  "name-en": "Pangoro",
+  "name-tw": "流氓熊貓"
  },
  {
-  "Index": "#0676",
-  "NameEn": "Furfrou",
-  "NameTw": "多麗米亞"
+  "index": "#0676",
+  "name-en": "Furfrou",
+  "name-tw": "多麗米亞"
  },
  {
-  "Index": "#0677",
-  "NameEn": "Espurr",
-  "NameTw": "妙喵"
+  "index": "#0677",
+  "name-en": "Espurr",
+  "name-tw": "妙喵"
  },
  {
-  "Index": "#0678",
-  "NameEn": "Meowstic",
-  "NameTw": "超能妙喵"
+  "index": "#0678",
+  "name-en": "Meowstic",
+  "name-tw": "超能妙喵"
  },
  {
-  "Index": "#0679",
-  "NameEn": "Honedge",
-  "NameTw": "獨劍鞘"
+  "index": "#0679",
+  "name-en": "Honedge",
+  "name-tw": "獨劍鞘"
  },
  {
-  "Index": "#0680",
-  "NameEn": "Doublade",
-  "NameTw": "雙劍鞘"
+  "index": "#0680",
+  "name-en": "Doublade",
+  "name-tw": "雙劍鞘"
  },
  {
-  "Index": "#0681",
-  "NameEn": "Aegislash",
-  "NameTw": "堅盾劍怪"
+  "index": "#0681",
+  "name-en": "Aegislash",
+  "name-tw": "堅盾劍怪"
  },
  {
-  "Index": "#0682",
-  "NameEn": "Spritzee",
-  "NameTw": "粉香香"
+  "index": "#0682",
+  "name-en": "Spritzee",
+  "name-tw": "粉香香"
  },
  {
-  "Index": "#0683",
-  "NameEn": "Aromatisse",
-  "NameTw": "芳香精"
+  "index": "#0683",
+  "name-en": "Aromatisse",
+  "name-tw": "芳香精"
  },
  {
-  "Index": "#0684",
-  "NameEn": "Swirlix",
-  "NameTw": "綿綿泡芙"
+  "index": "#0684",
+  "name-en": "Swirlix",
+  "name-tw": "綿綿泡芙"
  },
  {
-  "Index": "#0685",
-  "NameEn": "Slurpuff",
-  "NameTw": "胖甜妮"
+  "index": "#0685",
+  "name-en": "Slurpuff",
+  "name-tw": "胖甜妮"
  },
  {
-  "Index": "#0686",
-  "NameEn": "Inkay",
-  "NameTw": "好啦魷"
+  "index": "#0686",
+  "name-en": "Inkay",
+  "name-tw": "好啦魷"
  },
  {
-  "Index": "#0687",
-  "NameEn": "Malamar",
-  "NameTw": "烏賊王"
+  "index": "#0687",
+  "name-en": "Malamar",
+  "name-tw": "烏賊王"
  },
  {
-  "Index": "#0688",
-  "NameEn": "Binacle",
-  "NameTw": "龜腳腳"
+  "index": "#0688",
+  "name-en": "Binacle",
+  "name-tw": "龜腳腳"
  },
  {
-  "Index": "#0689",
-  "NameEn": "Barbaracle",
-  "NameTw": "龜足巨鎧"
+  "index": "#0689",
+  "name-en": "Barbaracle",
+  "name-tw": "龜足巨鎧"
  },
  {
-  "Index": "#0690",
-  "NameEn": "Skrelp",
-  "NameTw": "垃垃藻"
+  "index": "#0690",
+  "name-en": "Skrelp",
+  "name-tw": "垃垃藻"
  },
  {
-  "Index": "#0691",
-  "NameEn": "Dragalge",
-  "NameTw": "毒藻龍"
+  "index": "#0691",
+  "name-en": "Dragalge",
+  "name-tw": "毒藻龍"
  },
  {
-  "Index": "#0692",
-  "NameEn": "Clauncher",
-  "NameTw": "鐵臂槍蝦"
+  "index": "#0692",
+  "name-en": "Clauncher",
+  "name-tw": "鐵臂槍蝦"
  },
  {
-  "Index": "#0693",
-  "NameEn": "Clawitzer",
-  "NameTw": "鋼炮臂蝦"
+  "index": "#0693",
+  "name-en": "Clawitzer",
+  "name-tw": "鋼炮臂蝦"
  },
  {
-  "Index": "#0694",
-  "NameEn": "Helioptile",
-  "NameTw": "傘電蜥"
+  "index": "#0694",
+  "name-en": "Helioptile",
+  "name-tw": "傘電蜥"
  },
  {
-  "Index": "#0695",
-  "NameEn": "Heliolisk",
-  "NameTw": "光電傘蜥"
+  "index": "#0695",
+  "name-en": "Heliolisk",
+  "name-tw": "光電傘蜥"
  },
  {
-  "Index": "#0696",
-  "NameEn": "Tyrunt",
-  "NameTw": "寶寶暴龍"
+  "index": "#0696",
+  "name-en": "Tyrunt",
+  "name-tw": "寶寶暴龍"
  },
  {
-  "Index": "#0697",
-  "NameEn": "Tyrantrum",
-  "NameTw": "怪顎龍"
+  "index": "#0697",
+  "name-en": "Tyrantrum",
+  "name-tw": "怪顎龍"
  },
  {
-  "Index": "#0698",
-  "NameEn": "Amaura",
-  "NameTw": "冰雪龍"
+  "index": "#0698",
+  "name-en": "Amaura",
+  "name-tw": "冰雪龍"
  },
  {
-  "Index": "#0699",
-  "NameEn": "Aurorus",
-  "NameTw": "冰雪巨龍"
+  "index": "#0699",
+  "name-en": "Aurorus",
+  "name-tw": "冰雪巨龍"
  },
  {
-  "Index": "#0700",
-  "NameEn": "Sylveon",
-  "NameTw": "仙子伊布"
+  "index": "#0700",
+  "name-en": "Sylveon",
+  "name-tw": "仙子伊布"
  },
  {
-  "Index": "#0701",
-  "NameEn": "Hawlucha",
-  "NameTw": "摔角鷹人"
+  "index": "#0701",
+  "name-en": "Hawlucha",
+  "name-tw": "摔角鷹人"
  },
  {
-  "Index": "#0702",
-  "NameEn": "Dedenne",
-  "NameTw": "咚咚鼠"
+  "index": "#0702",
+  "name-en": "Dedenne",
+  "name-tw": "咚咚鼠"
  },
  {
-  "Index": "#0703",
-  "NameEn": "Carbink",
-  "NameTw": "小碎鑽"
+  "index": "#0703",
+  "name-en": "Carbink",
+  "name-tw": "小碎鑽"
  },
  {
-  "Index": "#0704",
-  "NameEn": "Goomy",
-  "NameTw": "黏黏寶"
+  "index": "#0704",
+  "name-en": "Goomy",
+  "name-tw": "黏黏寶"
  },
  {
-  "Index": "#0705",
-  "NameEn": "Sliggoo",
-  "NameTw": "黏美兒"
+  "index": "#0705",
+  "name-en": "Sliggoo",
+  "name-tw": "黏美兒"
  },
  {
-  "Index": "#0706",
-  "NameEn": "Goodra",
-  "NameTw": "黏美龍"
+  "index": "#0706",
+  "name-en": "Goodra",
+  "name-tw": "黏美龍"
  },
  {
-  "Index": "#0707",
-  "NameEn": "Klefki",
-  "NameTw": "鑰圈兒"
+  "index": "#0707",
+  "name-en": "Klefki",
+  "name-tw": "鑰圈兒"
  },
  {
-  "Index": "#0708",
-  "NameEn": "Phantump",
-  "NameTw": "小木靈"
+  "index": "#0708",
+  "name-en": "Phantump",
+  "name-tw": "小木靈"
  },
  {
-  "Index": "#0709",
-  "NameEn": "Trevenant",
-  "NameTw": "朽木妖"
+  "index": "#0709",
+  "name-en": "Trevenant",
+  "name-tw": "朽木妖"
  },
  {
-  "Index": "#0710",
-  "NameEn": "Pumpkaboo",
-  "NameTw": "南瓜精"
+  "index": "#0710",
+  "name-en": "Pumpkaboo",
+  "name-tw": "南瓜精"
  },
  {
-  "Index": "#0711",
-  "NameEn": "Gourgeist",
-  "NameTw": "南瓜怪人"
+  "index": "#0711",
+  "name-en": "Gourgeist",
+  "name-tw": "南瓜怪人"
  },
  {
-  "Index": "#0712",
-  "NameEn": "Bergmite",
-  "NameTw": "冰寶"
+  "index": "#0712",
+  "name-en": "Bergmite",
+  "name-tw": "冰寶"
  },
  {
-  "Index": "#0713",
-  "NameEn": "Avalugg",
-  "NameTw": "冰岩怪"
+  "index": "#0713",
+  "name-en": "Avalugg",
+  "name-tw": "冰岩怪"
  },
  {
-  "Index": "#0714",
-  "NameEn": "Noibat",
-  "NameTw": "嗡蝠"
+  "index": "#0714",
+  "name-en": "Noibat",
+  "name-tw": "嗡蝠"
  },
  {
-  "Index": "#0715",
-  "NameEn": "Noivern",
-  "NameTw": "音波龍"
+  "index": "#0715",
+  "name-en": "Noivern",
+  "name-tw": "音波龍"
  },
  {
-  "Index": "#0716",
-  "NameEn": "Xerneas",
-  "NameTw": "哲爾尼亞斯"
+  "index": "#0716",
+  "name-en": "Xerneas",
+  "name-tw": "哲爾尼亞斯"
  },
  {
-  "Index": "#0717",
-  "NameEn": "Yveltal",
-  "NameTw": "伊裴爾塔爾"
+  "index": "#0717",
+  "name-en": "Yveltal",
+  "name-tw": "伊裴爾塔爾"
  },
  {
-  "Index": "#0718",
-  "NameEn": "Zygarde",
-  "NameTw": "基格爾德"
+  "index": "#0718",
+  "name-en": "Zygarde",
+  "name-tw": "基格爾德"
  },
  {
-  "Index": "#0719",
-  "NameEn": "Diancie",
-  "NameTw": "蒂安希"
+  "index": "#0719",
+  "name-en": "Diancie",
+  "name-tw": "蒂安希"
  },
  {
-  "Index": "#0720",
-  "NameEn": "Hoopa",
-  "NameTw": "胡帕"
+  "index": "#0720",
+  "name-en": "Hoopa",
+  "name-tw": "胡帕"
  },
  {
-  "Index": "#0721",
-  "NameEn": "Volcanion",
-  "NameTw": "波爾凱尼恩"
+  "index": "#0721",
+  "name-en": "Volcanion",
+  "name-tw": "波爾凱尼恩"
  },
  {
-  "Index": "#0722",
-  "NameEn": "Rowlet",
-  "NameTw": "木木梟"
+  "index": "#0722",
+  "name-en": "Rowlet",
+  "name-tw": "木木梟"
  },
  {
-  "Index": "#0723",
-  "NameEn": "Dartrix",
-  "NameTw": "投羽梟"
+  "index": "#0723",
+  "name-en": "Dartrix",
+  "name-tw": "投羽梟"
  },
  {
-  "Index": "#0724",
-  "NameEn": "Decidueye",
-  "NameTw": "狙射樹梟"
+  "index": "#0724",
+  "name-en": "Decidueye",
+  "name-tw": "狙射樹梟"
  },
  {
-  "Index": "#0725",
-  "NameEn": "Litten",
-  "NameTw": "火斑喵"
+  "index": "#0725",
+  "name-en": "Litten",
+  "name-tw": "火斑喵"
  },
  {
-  "Index": "#0726",
-  "NameEn": "Torracat",
-  "NameTw": "炎熱喵"
+  "index": "#0726",
+  "name-en": "Torracat",
+  "name-tw": "炎熱喵"
  },
  {
-  "Index": "#0727",
-  "NameEn": "Incineroar",
-  "NameTw": "熾焰咆哮虎"
+  "index": "#0727",
+  "name-en": "Incineroar",
+  "name-tw": "熾焰咆哮虎"
  },
  {
-  "Index": "#0728",
-  "NameEn": "Popplio",
-  "NameTw": "球球海獅"
+  "index": "#0728",
+  "name-en": "Popplio",
+  "name-tw": "球球海獅"
  },
  {
-  "Index": "#0729",
-  "NameEn": "Brionne",
-  "NameTw": "花漾海獅"
+  "index": "#0729",
+  "name-en": "Brionne",
+  "name-tw": "花漾海獅"
  },
  {
-  "Index": "#0730",
-  "NameEn": "Primarina",
-  "NameTw": "西獅海壬"
+  "index": "#0730",
+  "name-en": "Primarina",
+  "name-tw": "西獅海壬"
  },
  {
-  "Index": "#0731",
-  "NameEn": "Pikipek",
-  "NameTw": "小篤兒"
+  "index": "#0731",
+  "name-en": "Pikipek",
+  "name-tw": "小篤兒"
  },
  {
-  "Index": "#0732",
-  "NameEn": "Trumbeak",
-  "NameTw": "喇叭啄鳥"
+  "index": "#0732",
+  "name-en": "Trumbeak",
+  "name-tw": "喇叭啄鳥"
  },
  {
-  "Index": "#0733",
-  "NameEn": "Toucannon",
-  "NameTw": "銃嘴大鳥"
+  "index": "#0733",
+  "name-en": "Toucannon",
+  "name-tw": "銃嘴大鳥"
  },
  {
-  "Index": "#0734",
-  "NameEn": "Yungoos",
-  "NameTw": "貓鼬少"
+  "index": "#0734",
+  "name-en": "Yungoos",
+  "name-tw": "貓鼬少"
  },
  {
-  "Index": "#0735",
-  "NameEn": "Gumshoos",
-  "NameTw": "貓鼬探長"
+  "index": "#0735",
+  "name-en": "Gumshoos",
+  "name-tw": "貓鼬探長"
  },
  {
-  "Index": "#0736",
-  "NameEn": "Grubbin",
-  "NameTw": "強顎雞母蟲"
+  "index": "#0736",
+  "name-en": "Grubbin",
+  "name-tw": "強顎雞母蟲"
  },
  {
-  "Index": "#0737",
-  "NameEn": "Charjabug",
-  "NameTw": "蟲電寶"
+  "index": "#0737",
+  "name-en": "Charjabug",
+  "name-tw": "蟲電寶"
  },
  {
-  "Index": "#0738",
-  "NameEn": "Vikavolt",
-  "NameTw": "鍬農炮蟲"
+  "index": "#0738",
+  "name-en": "Vikavolt",
+  "name-tw": "鍬農炮蟲"
  },
  {
-  "Index": "#0739",
-  "NameEn": "Crabrawler",
-  "NameTw": "好勝蟹"
+  "index": "#0739",
+  "name-en": "Crabrawler",
+  "name-tw": "好勝蟹"
  },
  {
-  "Index": "#0740",
-  "NameEn": "Crabominable",
-  "NameTw": "好勝毛蟹"
+  "index": "#0740",
+  "name-en": "Crabominable",
+  "name-tw": "好勝毛蟹"
  },
  {
-  "Index": "#0741",
-  "NameEn": "Oricorio",
-  "NameTw": "花舞鳥"
+  "index": "#0741",
+  "name-en": "Oricorio",
+  "name-tw": "花舞鳥"
  },
  {
-  "Index": "#0742",
-  "NameEn": "Cutiefly",
-  "NameTw": "萌虻"
+  "index": "#0742",
+  "name-en": "Cutiefly",
+  "name-tw": "萌虻"
  },
  {
-  "Index": "#0743",
-  "NameEn": "Ribombee",
-  "NameTw": "蝶結萌虻"
+  "index": "#0743",
+  "name-en": "Ribombee",
+  "name-tw": "蝶結萌虻"
  },
  {
-  "Index": "#0744",
-  "NameEn": "Rockruff",
-  "NameTw": "岩狗狗"
+  "index": "#0744",
+  "name-en": "Rockruff",
+  "name-tw": "岩狗狗"
  },
  {
-  "Index": "#0745",
-  "NameEn": "Lycanroc",
-  "NameTw": "鬃岩狼人"
+  "index": "#0745",
+  "name-en": "Lycanroc",
+  "name-tw": "鬃岩狼人"
  },
  {
-  "Index": "#0746",
-  "NameEn": "Wishiwashi",
-  "NameTw": "弱丁魚"
+  "index": "#0746",
+  "name-en": "Wishiwashi",
+  "name-tw": "弱丁魚"
  },
  {
-  "Index": "#0747",
-  "NameEn": "Mareanie",
-  "NameTw": "好壞星"
+  "index": "#0747",
+  "name-en": "Mareanie",
+  "name-tw": "好壞星"
  },
  {
-  "Index": "#0748",
-  "NameEn": "Toxapex",
-  "NameTw": "超壞星"
+  "index": "#0748",
+  "name-en": "Toxapex",
+  "name-tw": "超壞星"
  },
  {
-  "Index": "#0749",
-  "NameEn": "Mudbray",
-  "NameTw": "泥驢仔"
+  "index": "#0749",
+  "name-en": "Mudbray",
+  "name-tw": "泥驢仔"
  },
  {
-  "Index": "#0750",
-  "NameEn": "Mudsdale",
-  "NameTw": "重泥挽馬"
+  "index": "#0750",
+  "name-en": "Mudsdale",
+  "name-tw": "重泥挽馬"
  },
  {
-  "Index": "#0751",
-  "NameEn": "Dewpider",
-  "NameTw": "滴蛛"
+  "index": "#0751",
+  "name-en": "Dewpider",
+  "name-tw": "滴蛛"
  },
  {
-  "Index": "#0752",
-  "NameEn": "Araquanid",
-  "NameTw": "滴蛛霸"
+  "index": "#0752",
+  "name-en": "Araquanid",
+  "name-tw": "滴蛛霸"
  },
  {
-  "Index": "#0753",
-  "NameEn": "Fomantis",
-  "NameTw": "偽螳草"
+  "index": "#0753",
+  "name-en": "Fomantis",
+  "name-tw": "偽螳草"
  },
  {
-  "Index": "#0754",
-  "NameEn": "Lurantis",
-  "NameTw": "蘭螳花"
+  "index": "#0754",
+  "name-en": "Lurantis",
+  "name-tw": "蘭螳花"
  },
  {
-  "Index": "#0755",
-  "NameEn": "Morelull",
-  "NameTw": "睡睡菇"
+  "index": "#0755",
+  "name-en": "Morelull",
+  "name-tw": "睡睡菇"
  },
  {
-  "Index": "#0756",
-  "NameEn": "Shiinotic",
-  "NameTw": "燈罩夜菇"
+  "index": "#0756",
+  "name-en": "Shiinotic",
+  "name-tw": "燈罩夜菇"
  },
  {
-  "Index": "#0757",
-  "NameEn": "Salandit",
-  "NameTw": "夜盜火蜥"
+  "index": "#0757",
+  "name-en": "Salandit",
+  "name-tw": "夜盜火蜥"
  },
  {
-  "Index": "#0758",
-  "NameEn": "Salazzle",
-  "NameTw": "焰后蜥"
+  "index": "#0758",
+  "name-en": "Salazzle",
+  "name-tw": "焰后蜥"
  },
  {
-  "Index": "#0759",
-  "NameEn": "Stufful",
-  "NameTw": "童偶熊"
+  "index": "#0759",
+  "name-en": "Stufful",
+  "name-tw": "童偶熊"
  },
  {
-  "Index": "#0760",
-  "NameEn": "Bewear",
-  "NameTw": "穿著熊"
+  "index": "#0760",
+  "name-en": "Bewear",
+  "name-tw": "穿著熊"
  },
  {
-  "Index": "#0761",
-  "NameEn": "Bounsweet",
-  "NameTw": "甜竹竹"
+  "index": "#0761",
+  "name-en": "Bounsweet",
+  "name-tw": "甜竹竹"
  },
  {
-  "Index": "#0762",
-  "NameEn": "Steenee",
-  "NameTw": "甜舞妮"
+  "index": "#0762",
+  "name-en": "Steenee",
+  "name-tw": "甜舞妮"
  },
  {
-  "Index": "#0763",
-  "NameEn": "Tsareena",
-  "NameTw": "甜冷美后"
+  "index": "#0763",
+  "name-en": "Tsareena",
+  "name-tw": "甜冷美后"
  },
  {
-  "Index": "#0764",
-  "NameEn": "Comfey",
-  "NameTw": "花療環環"
+  "index": "#0764",
+  "name-en": "Comfey",
+  "name-tw": "花療環環"
  },
  {
-  "Index": "#0765",
-  "NameEn": "Oranguru",
-  "NameTw": "智揮猩"
+  "index": "#0765",
+  "name-en": "Oranguru",
+  "name-tw": "智揮猩"
  },
  {
-  "Index": "#0766",
-  "NameEn": "Passimian",
-  "NameTw": "投擲猴"
+  "index": "#0766",
+  "name-en": "Passimian",
+  "name-tw": "投擲猴"
  },
  {
-  "Index": "#0767",
-  "NameEn": "Wimpod",
-  "NameTw": "膽小蟲"
+  "index": "#0767",
+  "name-en": "Wimpod",
+  "name-tw": "膽小蟲"
  },
  {
-  "Index": "#0768",
-  "NameEn": "Golisopod",
-  "NameTw": "具甲武者"
+  "index": "#0768",
+  "name-en": "Golisopod",
+  "name-tw": "具甲武者"
  },
  {
-  "Index": "#0769",
-  "NameEn": "Sandygast",
-  "NameTw": "沙丘娃"
+  "index": "#0769",
+  "name-en": "Sandygast",
+  "name-tw": "沙丘娃"
  },
  {
-  "Index": "#0770",
-  "NameEn": "Palossand",
-  "NameTw": "噬沙堡爺"
+  "index": "#0770",
+  "name-en": "Palossand",
+  "name-tw": "噬沙堡爺"
  },
  {
-  "Index": "#0771",
-  "NameEn": "Pyukumuku",
-  "NameTw": "拳海參"
+  "index": "#0771",
+  "name-en": "Pyukumuku",
+  "name-tw": "拳海參"
  },
  {
-  "Index": "#0772",
-  "NameEn": "Type: Null",
-  "NameTw": "屬性：空"
+  "index": "#0772",
+  "name-en": "Type: Null",
+  "name-tw": "屬性：空"
  },
  {
-  "Index": "#0773",
-  "NameEn": "Silvally",
-  "NameTw": "銀伴戰獸"
+  "index": "#0773",
+  "name-en": "Silvally",
+  "name-tw": "銀伴戰獸"
  },
  {
-  "Index": "#0774",
-  "NameEn": "Minior",
-  "NameTw": "小隕星"
+  "index": "#0774",
+  "name-en": "Minior",
+  "name-tw": "小隕星"
  },
  {
-  "Index": "#0775",
-  "NameEn": "Komala",
-  "NameTw": "樹枕尾熊"
+  "index": "#0775",
+  "name-en": "Komala",
+  "name-tw": "樹枕尾熊"
  },
  {
-  "Index": "#0776",
-  "NameEn": "Turtonator",
-  "NameTw": "爆焰龜獸"
+  "index": "#0776",
+  "name-en": "Turtonator",
+  "name-tw": "爆焰龜獸"
  },
  {
-  "Index": "#0777",
-  "NameEn": "Togedemaru",
-  "NameTw": "托戈德瑪爾"
+  "index": "#0777",
+  "name-en": "Togedemaru",
+  "name-tw": "托戈德瑪爾"
  },
  {
-  "Index": "#0778",
-  "NameEn": "Mimikyu",
-  "NameTw": "謎擬Ｑ"
+  "index": "#0778",
+  "name-en": "Mimikyu",
+  "name-tw": "謎擬Ｑ"
  },
  {
-  "Index": "#0779",
-  "NameEn": "Bruxish",
-  "NameTw": "磨牙彩皮魚"
+  "index": "#0779",
+  "name-en": "Bruxish",
+  "name-tw": "磨牙彩皮魚"
  },
  {
-  "Index": "#0780",
-  "NameEn": "Drampa",
-  "NameTw": "老翁龍"
+  "index": "#0780",
+  "name-en": "Drampa",
+  "name-tw": "老翁龍"
  },
  {
-  "Index": "#0781",
-  "NameEn": "Dhelmise",
-  "NameTw": "破破舵輪"
+  "index": "#0781",
+  "name-en": "Dhelmise",
+  "name-tw": "破破舵輪"
  },
  {
-  "Index": "#0782",
-  "NameEn": "Jangmo-o",
-  "NameTw": "心鱗寶"
+  "index": "#0782",
+  "name-en": "Jangmo-o",
+  "name-tw": "心鱗寶"
  },
  {
-  "Index": "#0783",
-  "NameEn": "Hakamo-o",
-  "NameTw": "鱗甲龍"
+  "index": "#0783",
+  "name-en": "Hakamo-o",
+  "name-tw": "鱗甲龍"
  },
  {
-  "Index": "#0784",
-  "NameEn": "Kommo-o",
-  "NameTw": "杖尾鱗甲龍"
+  "index": "#0784",
+  "name-en": "Kommo-o",
+  "name-tw": "杖尾鱗甲龍"
  },
  {
-  "Index": "#0785",
-  "NameEn": "Tapu Koko",
-  "NameTw": "卡璞・鳴鳴"
+  "index": "#0785",
+  "name-en": "Tapu Koko",
+  "name-tw": "卡璞・鳴鳴"
  },
  {
-  "Index": "#0786",
-  "NameEn": "Tapu Lele",
-  "NameTw": "卡璞・蝶蝶"
+  "index": "#0786",
+  "name-en": "Tapu Lele",
+  "name-tw": "卡璞・蝶蝶"
  },
  {
-  "Index": "#0787",
-  "NameEn": "Tapu Bulu",
-  "NameTw": "卡璞・哞哞"
+  "index": "#0787",
+  "name-en": "Tapu Bulu",
+  "name-tw": "卡璞・哞哞"
  },
  {
-  "Index": "#0788",
-  "NameEn": "Tapu Fini",
-  "NameTw": "卡璞・鰭鰭"
+  "index": "#0788",
+  "name-en": "Tapu Fini",
+  "name-tw": "卡璞・鰭鰭"
  },
  {
-  "Index": "#0789",
-  "NameEn": "Cosmog",
-  "NameTw": "科斯莫古"
+  "index": "#0789",
+  "name-en": "Cosmog",
+  "name-tw": "科斯莫古"
  },
  {
-  "Index": "#0790",
-  "NameEn": "Cosmoem",
-  "NameTw": "科斯莫姆"
+  "index": "#0790",
+  "name-en": "Cosmoem",
+  "name-tw": "科斯莫姆"
  },
  {
-  "Index": "#0791",
-  "NameEn": "Solgaleo",
-  "NameTw": "索爾迦雷歐"
+  "index": "#0791",
+  "name-en": "Solgaleo",
+  "name-tw": "索爾迦雷歐"
  },
  {
-  "Index": "#0792",
-  "NameEn": "Lunala",
-  "NameTw": "露奈雅拉"
+  "index": "#0792",
+  "name-en": "Lunala",
+  "name-tw": "露奈雅拉"
  },
  {
-  "Index": "#0793",
-  "NameEn": "Nihilego",
-  "NameTw": "虛吾伊德"
+  "index": "#0793",
+  "name-en": "Nihilego",
+  "name-tw": "虛吾伊德"
  },
  {
-  "Index": "#0794",
-  "NameEn": "Buzzwole",
-  "NameTw": "爆肌蚊"
+  "index": "#0794",
+  "name-en": "Buzzwole",
+  "name-tw": "爆肌蚊"
  },
  {
-  "Index": "#0795",
-  "NameEn": "Pheromosa",
-  "NameTw": "費洛美螂"
+  "index": "#0795",
+  "name-en": "Pheromosa",
+  "name-tw": "費洛美螂"
  },
  {
-  "Index": "#0796",
-  "NameEn": "Xurkitree",
-  "NameTw": "電束木"
+  "index": "#0796",
+  "name-en": "Xurkitree",
+  "name-tw": "電束木"
  },
  {
-  "Index": "#0797",
-  "NameEn": "Celesteela",
-  "NameTw": "鐵火輝夜"
+  "index": "#0797",
+  "name-en": "Celesteela",
+  "name-tw": "鐵火輝夜"
  },
  {
-  "Index": "#0798",
-  "NameEn": "Kartana",
-  "NameTw": "紙御劍"
+  "index": "#0798",
+  "name-en": "Kartana",
+  "name-tw": "紙御劍"
  },
  {
-  "Index": "#0799",
-  "NameEn": "Guzzlord",
-  "NameTw": "惡食大王"
+  "index": "#0799",
+  "name-en": "Guzzlord",
+  "name-tw": "惡食大王"
  },
  {
-  "Index": "#0800",
-  "NameEn": "Necrozma",
-  "NameTw": "奈克洛茲瑪"
+  "index": "#0800",
+  "name-en": "Necrozma",
+  "name-tw": "奈克洛茲瑪"
  },
  {
-  "Index": "#0801",
-  "NameEn": "Magearna",
-  "NameTw": "瑪機雅娜"
+  "index": "#0801",
+  "name-en": "Magearna",
+  "name-tw": "瑪機雅娜"
  },
  {
-  "Index": "#0802",
-  "NameEn": "Marshadow",
-  "NameTw": "瑪夏多"
+  "index": "#0802",
+  "name-en": "Marshadow",
+  "name-tw": "瑪夏多"
  },
  {
-  "Index": "#0803",
-  "NameEn": "Poipole",
-  "NameTw": "毒貝比"
+  "index": "#0803",
+  "name-en": "Poipole",
+  "name-tw": "毒貝比"
  },
  {
-  "Index": "#0804",
-  "NameEn": "Naganadel",
-  "NameTw": "四顎針龍"
+  "index": "#0804",
+  "name-en": "Naganadel",
+  "name-tw": "四顎針龍"
  },
  {
-  "Index": "#0805",
-  "NameEn": "Stakataka",
-  "NameTw": "壘磊石"
+  "index": "#0805",
+  "name-en": "Stakataka",
+  "name-tw": "壘磊石"
  },
  {
-  "Index": "#0806",
-  "NameEn": "Blacephalon",
-  "NameTw": "砰頭小丑"
+  "index": "#0806",
+  "name-en": "Blacephalon",
+  "name-tw": "砰頭小丑"
  },
  {
-  "Index": "#0807",
-  "NameEn": "Zeraora",
-  "NameTw": "捷拉奧拉"
+  "index": "#0807",
+  "name-en": "Zeraora",
+  "name-tw": "捷拉奧拉"
  },
  {
-  "Index": "#0808",
-  "NameEn": "Meltan",
-  "NameTw": "美錄坦"
+  "index": "#0808",
+  "name-en": "Meltan",
+  "name-tw": "美錄坦"
  },
  {
-  "Index": "#0809",
-  "NameEn": "Melmetal",
-  "NameTw": "美錄梅塔"
+  "index": "#0809",
+  "name-en": "Melmetal",
+  "name-tw": "美錄梅塔"
  },
  {
-  "Index": "#0810",
-  "NameEn": "Grookey",
-  "NameTw": "敲音猴"
+  "index": "#0810",
+  "name-en": "Grookey",
+  "name-tw": "敲音猴"
  },
  {
-  "Index": "#0811",
-  "NameEn": "Thwackey",
-  "NameTw": "啪咚猴"
+  "index": "#0811",
+  "name-en": "Thwackey",
+  "name-tw": "啪咚猴"
  },
  {
-  "Index": "#0812",
-  "NameEn": "Rillaboom",
-  "NameTw": "轟擂金剛猩"
+  "index": "#0812",
+  "name-en": "Rillaboom",
+  "name-tw": "轟擂金剛猩"
  },
  {
-  "Index": "#0813",
-  "NameEn": "Scorbunny",
-  "NameTw": "炎兔兒"
+  "index": "#0813",
+  "name-en": "Scorbunny",
+  "name-tw": "炎兔兒"
  },
  {
-  "Index": "#0814",
-  "NameEn": "Raboot",
-  "NameTw": "騰蹴小將"
+  "index": "#0814",
+  "name-en": "Raboot",
+  "name-tw": "騰蹴小將"
  },
  {
-  "Index": "#0815",
-  "NameEn": "Cinderace",
-  "NameTw": "閃焰王牌"
+  "index": "#0815",
+  "name-en": "Cinderace",
+  "name-tw": "閃焰王牌"
  },
  {
-  "Index": "#0816",
-  "NameEn": "Sobble",
-  "NameTw": "淚眼蜥"
+  "index": "#0816",
+  "name-en": "Sobble",
+  "name-tw": "淚眼蜥"
  },
  {
-  "Index": "#0817",
-  "NameEn": "Drizzile",
-  "NameTw": "變澀蜥"
+  "index": "#0817",
+  "name-en": "Drizzile",
+  "name-tw": "變澀蜥"
  },
  {
-  "Index": "#0818",
-  "NameEn": "Inteleon",
-  "NameTw": "千面避役"
+  "index": "#0818",
+  "name-en": "Inteleon",
+  "name-tw": "千面避役"
  },
  {
-  "Index": "#0819",
-  "NameEn": "Skwovet",
-  "NameTw": "貪心栗鼠"
+  "index": "#0819",
+  "name-en": "Skwovet",
+  "name-tw": "貪心栗鼠"
  },
  {
-  "Index": "#0820",
-  "NameEn": "Greedent",
-  "NameTw": "藏飽栗鼠"
+  "index": "#0820",
+  "name-en": "Greedent",
+  "name-tw": "藏飽栗鼠"
  },
  {
-  "Index": "#0821",
-  "NameEn": "Rookidee",
-  "NameTw": "稚山雀"
+  "index": "#0821",
+  "name-en": "Rookidee",
+  "name-tw": "稚山雀"
  },
  {
-  "Index": "#0822",
-  "NameEn": "Corvisquire",
-  "NameTw": "藍鴉"
+  "index": "#0822",
+  "name-en": "Corvisquire",
+  "name-tw": "藍鴉"
  },
  {
-  "Index": "#0823",
-  "NameEn": "Corviknight",
-  "NameTw": "鋼鎧鴉"
+  "index": "#0823",
+  "name-en": "Corviknight",
+  "name-tw": "鋼鎧鴉"
  },
  {
-  "Index": "#0824",
-  "NameEn": "Blipbug",
-  "NameTw": "索偵蟲"
+  "index": "#0824",
+  "name-en": "Blipbug",
+  "name-tw": "索偵蟲"
  },
  {
-  "Index": "#0825",
-  "NameEn": "Dottler",
-  "NameTw": "天罩蟲"
+  "index": "#0825",
+  "name-en": "Dottler",
+  "name-tw": "天罩蟲"
  },
  {
-  "Index": "#0826",
-  "NameEn": "Orbeetle",
-  "NameTw": "以歐路普"
+  "index": "#0826",
+  "name-en": "Orbeetle",
+  "name-tw": "以歐路普"
  },
  {
-  "Index": "#0827",
-  "NameEn": "Nickit",
-  "NameTw": "偷兒狐"
+  "index": "#0827",
+  "name-en": "Nickit",
+  "name-tw": "偷兒狐"
  },
  {
-  "Index": "#0828",
-  "NameEn": "Thievul",
-  "NameTw": "狐大盜"
+  "index": "#0828",
+  "name-en": "Thievul",
+  "name-tw": "狐大盜"
  },
  {
-  "Index": "#0829",
-  "NameEn": "Gossifleur",
-  "NameTw": "幼棉棉"
+  "index": "#0829",
+  "name-en": "Gossifleur",
+  "name-tw": "幼棉棉"
  },
  {
-  "Index": "#0830",
-  "NameEn": "Eldegoss",
-  "NameTw": "白蓬蓬"
+  "index": "#0830",
+  "name-en": "Eldegoss",
+  "name-tw": "白蓬蓬"
  },
  {
-  "Index": "#0831",
-  "NameEn": "Wooloo",
-  "NameTw": "毛辮羊"
+  "index": "#0831",
+  "name-en": "Wooloo",
+  "name-tw": "毛辮羊"
  },
  {
-  "Index": "#0832",
-  "NameEn": "Dubwool",
-  "NameTw": "毛毛角羊"
+  "index": "#0832",
+  "name-en": "Dubwool",
+  "name-tw": "毛毛角羊"
  },
  {
-  "Index": "#0833",
-  "NameEn": "Chewtle",
-  "NameTw": "咬咬龜"
+  "index": "#0833",
+  "name-en": "Chewtle",
+  "name-tw": "咬咬龜"
  },
  {
-  "Index": "#0834",
-  "NameEn": "Drednaw",
-  "NameTw": "暴噬龜"
+  "index": "#0834",
+  "name-en": "Drednaw",
+  "name-tw": "暴噬龜"
  },
  {
-  "Index": "#0835",
-  "NameEn": "Yamper",
-  "NameTw": "來電汪"
+  "index": "#0835",
+  "name-en": "Yamper",
+  "name-tw": "來電汪"
  },
  {
-  "Index": "#0836",
-  "NameEn": "Boltund",
-  "NameTw": "逐電犬"
+  "index": "#0836",
+  "name-en": "Boltund",
+  "name-tw": "逐電犬"
  },
  {
-  "Index": "#0837",
-  "NameEn": "Rolycoly",
-  "NameTw": "小炭仔"
+  "index": "#0837",
+  "name-en": "Rolycoly",
+  "name-tw": "小炭仔"
  },
  {
-  "Index": "#0838",
-  "NameEn": "Carkol",
-  "NameTw": "大炭車"
+  "index": "#0838",
+  "name-en": "Carkol",
+  "name-tw": "大炭車"
  },
  {
-  "Index": "#0839",
-  "NameEn": "Coalossal",
-  "NameTw": "巨炭山"
+  "index": "#0839",
+  "name-en": "Coalossal",
+  "name-tw": "巨炭山"
  },
  {
-  "Index": "#0840",
-  "NameEn": "Applin",
-  "NameTw": "啃果蟲"
+  "index": "#0840",
+  "name-en": "Applin",
+  "name-tw": "啃果蟲"
  },
  {
-  "Index": "#0841",
-  "NameEn": "Flapple",
-  "NameTw": "蘋裹龍"
+  "index": "#0841",
+  "name-en": "Flapple",
+  "name-tw": "蘋裹龍"
  },
  {
-  "Index": "#0842",
-  "NameEn": "Appletun",
-  "NameTw": "豐蜜龍"
+  "index": "#0842",
+  "name-en": "Appletun",
+  "name-tw": "豐蜜龍"
  },
  {
-  "Index": "#0843",
-  "NameEn": "Silicobra",
-  "NameTw": "沙包蛇"
+  "index": "#0843",
+  "name-en": "Silicobra",
+  "name-tw": "沙包蛇"
  },
  {
-  "Index": "#0844",
-  "NameEn": "Sandaconda",
-  "NameTw": "沙螺蟒"
+  "index": "#0844",
+  "name-en": "Sandaconda",
+  "name-tw": "沙螺蟒"
  },
  {
-  "Index": "#0845",
-  "NameEn": "Cramorant",
-  "NameTw": "古月鳥"
+  "index": "#0845",
+  "name-en": "Cramorant",
+  "name-tw": "古月鳥"
  },
  {
-  "Index": "#0846",
-  "NameEn": "Arrokuda",
-  "NameTw": "刺梭魚"
+  "index": "#0846",
+  "name-en": "Arrokuda",
+  "name-tw": "刺梭魚"
  },
  {
-  "Index": "#0847",
-  "NameEn": "Barraskewda",
-  "NameTw": "戽斗尖梭"
+  "index": "#0847",
+  "name-en": "Barraskewda",
+  "name-tw": "戽斗尖梭"
  },
  {
-  "Index": "#0848",
-  "NameEn": "Toxel",
-  "NameTw": "毒電嬰"
+  "index": "#0848",
+  "name-en": "Toxel",
+  "name-tw": "毒電嬰"
  },
  {
-  "Index": "#0849",
-  "NameEn": "Toxtricity",
-  "NameTw": "顫弦蠑螈"
+  "index": "#0849",
+  "name-en": "Toxtricity",
+  "name-tw": "顫弦蠑螈"
  },
  {
-  "Index": "#0850",
-  "NameEn": "Sizzlipede",
-  "NameTw": "燒火蚣"
+  "index": "#0850",
+  "name-en": "Sizzlipede",
+  "name-tw": "燒火蚣"
  },
  {
-  "Index": "#0851",
-  "NameEn": "Centiskorch",
-  "NameTw": "焚焰蚣"
+  "index": "#0851",
+  "name-en": "Centiskorch",
+  "name-tw": "焚焰蚣"
  },
  {
-  "Index": "#0852",
-  "NameEn": "Clobbopus",
-  "NameTw": "拳拳蛸"
+  "index": "#0852",
+  "name-en": "Clobbopus",
+  "name-tw": "拳拳蛸"
  },
  {
-  "Index": "#0853",
-  "NameEn": "Grapploct",
-  "NameTw": "八爪武師"
+  "index": "#0853",
+  "name-en": "Grapploct",
+  "name-tw": "八爪武師"
  },
  {
-  "Index": "#0854",
-  "NameEn": "Sinistea",
-  "NameTw": "來悲茶"
+  "index": "#0854",
+  "name-en": "Sinistea",
+  "name-tw": "來悲茶"
  },
  {
-  "Index": "#0855",
-  "NameEn": "Polteageist",
-  "NameTw": "怖思壺"
+  "index": "#0855",
+  "name-en": "Polteageist",
+  "name-tw": "怖思壺"
  },
  {
-  "Index": "#0856",
-  "NameEn": "Hatenna",
-  "NameTw": "迷布莉姆"
+  "index": "#0856",
+  "name-en": "Hatenna",
+  "name-tw": "迷布莉姆"
  },
  {
-  "Index": "#0857",
-  "NameEn": "Hattrem",
-  "NameTw": "提布莉姆"
+  "index": "#0857",
+  "name-en": "Hattrem",
+  "name-tw": "提布莉姆"
  },
  {
-  "Index": "#0858",
-  "NameEn": "Hatterene",
-  "NameTw": "布莉姆溫"
+  "index": "#0858",
+  "name-en": "Hatterene",
+  "name-tw": "布莉姆溫"
  },
  {
-  "Index": "#0859",
-  "NameEn": "Impidimp",
-  "NameTw": "搗蛋小妖"
+  "index": "#0859",
+  "name-en": "Impidimp",
+  "name-tw": "搗蛋小妖"
  },
  {
-  "Index": "#0860",
-  "NameEn": "Morgrem",
-  "NameTw": "詐唬魔"
+  "index": "#0860",
+  "name-en": "Morgrem",
+  "name-tw": "詐唬魔"
  },
  {
-  "Index": "#0861",
-  "NameEn": "Grimmsnarl",
-  "NameTw": "長毛巨魔"
+  "index": "#0861",
+  "name-en": "Grimmsnarl",
+  "name-tw": "長毛巨魔"
  },
  {
-  "Index": "#0862",
-  "NameEn": "Obstagoon",
-  "NameTw": "堵攔熊"
+  "index": "#0862",
+  "name-en": "Obstagoon",
+  "name-tw": "堵攔熊"
  },
  {
-  "Index": "#0863",
-  "NameEn": "Perrserker",
-  "NameTw": "喵頭目"
+  "index": "#0863",
+  "name-en": "Perrserker",
+  "name-tw": "喵頭目"
  },
  {
-  "Index": "#0864",
-  "NameEn": "Cursola",
-  "NameTw": "魔靈珊瑚"
+  "index": "#0864",
+  "name-en": "Cursola",
+  "name-tw": "魔靈珊瑚"
  },
  {
-  "Index": "#0865",
-  "NameEn": "Sirfetch』d",
-  "NameTw": "蔥遊兵"
+  "index": "#0865",
+  "name-en": "Sirfetch』d",
+  "name-tw": "蔥遊兵"
  },
  {
-  "Index": "#0866",
-  "NameEn": "Mr. Rime",
-  "NameTw": "踏冰人偶"
+  "index": "#0866",
+  "name-en": "Mr. Rime",
+  "name-tw": "踏冰人偶"
  },
  {
-  "Index": "#0867",
-  "NameEn": "Runerigus",
-  "NameTw": "死神板"
+  "index": "#0867",
+  "name-en": "Runerigus",
+  "name-tw": "死神板"
  },
  {
-  "Index": "#0868",
-  "NameEn": "Milcery",
-  "NameTw": "小仙奶"
+  "index": "#0868",
+  "name-en": "Milcery",
+  "name-tw": "小仙奶"
  },
  {
-  "Index": "#0869",
-  "NameEn": "Alcremie",
-  "NameTw": "霜奶仙"
+  "index": "#0869",
+  "name-en": "Alcremie",
+  "name-tw": "霜奶仙"
  },
  {
-  "Index": "#0870",
-  "NameEn": "Falinks",
-  "NameTw": "列陣兵"
+  "index": "#0870",
+  "name-en": "Falinks",
+  "name-tw": "列陣兵"
  },
  {
-  "Index": "#0871",
-  "NameEn": "Pincurchin",
-  "NameTw": "啪嚓海膽"
+  "index": "#0871",
+  "name-en": "Pincurchin",
+  "name-tw": "啪嚓海膽"
  },
  {
-  "Index": "#0872",
-  "NameEn": "Snom",
-  "NameTw": "雪吞蟲"
+  "index": "#0872",
+  "name-en": "Snom",
+  "name-tw": "雪吞蟲"
  },
  {
-  "Index": "#0873",
-  "NameEn": "Frosmoth",
-  "NameTw": "雪絨蛾"
+  "index": "#0873",
+  "name-en": "Frosmoth",
+  "name-tw": "雪絨蛾"
  },
  {
-  "Index": "#0874",
-  "NameEn": "Stonjourner",
-  "NameTw": "巨石丁"
+  "index": "#0874",
+  "name-en": "Stonjourner",
+  "name-tw": "巨石丁"
  },
  {
-  "Index": "#0875",
-  "NameEn": "Eiscue",
-  "NameTw": "冰砌鵝"
+  "index": "#0875",
+  "name-en": "Eiscue",
+  "name-tw": "冰砌鵝"
  },
  {
-  "Index": "#0876",
-  "NameEn": "Indeedee",
-  "NameTw": "愛管侍"
+  "index": "#0876",
+  "name-en": "Indeedee",
+  "name-tw": "愛管侍"
  },
  {
-  "Index": "#0877",
-  "NameEn": "Morpeko",
-  "NameTw": "莫魯貝可"
+  "index": "#0877",
+  "name-en": "Morpeko",
+  "name-tw": "莫魯貝可"
  },
  {
-  "Index": "#0878",
-  "NameEn": "Cufant",
-  "NameTw": "銅象"
+  "index": "#0878",
+  "name-en": "Cufant",
+  "name-tw": "銅象"
  },
  {
-  "Index": "#0879",
-  "NameEn": "Copperajah",
-  "NameTw": "大王銅象"
+  "index": "#0879",
+  "name-en": "Copperajah",
+  "name-tw": "大王銅象"
  },
  {
-  "Index": "#0880",
-  "NameEn": "Dracozolt",
-  "NameTw": "雷鳥龍"
+  "index": "#0880",
+  "name-en": "Dracozolt",
+  "name-tw": "雷鳥龍"
  },
  {
-  "Index": "#0881",
-  "NameEn": "Arctozolt",
-  "NameTw": "雷鳥海獸"
+  "index": "#0881",
+  "name-en": "Arctozolt",
+  "name-tw": "雷鳥海獸"
  },
  {
-  "Index": "#0882",
-  "NameEn": "Dracovish",
-  "NameTw": "鰓魚龍"
+  "index": "#0882",
+  "name-en": "Dracovish",
+  "name-tw": "鰓魚龍"
  },
  {
-  "Index": "#0883",
-  "NameEn": "Arctovish",
-  "NameTw": "鰓魚海獸"
+  "index": "#0883",
+  "name-en": "Arctovish",
+  "name-tw": "鰓魚海獸"
  },
  {
-  "Index": "#0884",
-  "NameEn": "Duraludon",
-  "NameTw": "鋁鋼龍"
+  "index": "#0884",
+  "name-en": "Duraludon",
+  "name-tw": "鋁鋼龍"
  },
  {
-  "Index": "#0885",
-  "NameEn": "Dreepy",
-  "NameTw": "多龍梅西亞"
+  "index": "#0885",
+  "name-en": "Dreepy",
+  "name-tw": "多龍梅西亞"
  },
  {
-  "Index": "#0886",
-  "NameEn": "Drakloak",
-  "NameTw": "多龍奇"
+  "index": "#0886",
+  "name-en": "Drakloak",
+  "name-tw": "多龍奇"
  },
  {
-  "Index": "#0887",
-  "NameEn": "Dragapult",
-  "NameTw": "多龍巴魯托"
+  "index": "#0887",
+  "name-en": "Dragapult",
+  "name-tw": "多龍巴魯托"
  },
  {
-  "Index": "#0888",
-  "NameEn": "Zacian",
-  "NameTw": "蒼響"
+  "index": "#0888",
+  "name-en": "Zacian",
+  "name-tw": "蒼響"
  },
  {
-  "Index": "#0889",
-  "NameEn": "Zamazenta",
-  "NameTw": "藏瑪然特"
+  "index": "#0889",
+  "name-en": "Zamazenta",
+  "name-tw": "藏瑪然特"
  },
  {
-  "Index": "#0890",
-  "NameEn": "Eternatus",
-  "NameTw": "無極汰那"
+  "index": "#0890",
+  "name-en": "Eternatus",
+  "name-tw": "無極汰那"
  },
  {
-  "Index": "#0891",
-  "NameEn": "Kubfu",
-  "NameTw": "熊徒弟"
+  "index": "#0891",
+  "name-en": "Kubfu",
+  "name-tw": "熊徒弟"
  },
  {
-  "Index": "#0892",
-  "NameEn": "Urshifu",
-  "NameTw": "武道熊師"
+  "index": "#0892",
+  "name-en": "Urshifu",
+  "name-tw": "武道熊師"
  },
  {
-  "Index": "#0893",
-  "NameEn": "Zarude",
-  "NameTw": "薩戮德"
+  "index": "#0893",
+  "name-en": "Zarude",
+  "name-tw": "薩戮德"
  },
  {
-  "Index": "#0894",
-  "NameEn": "Regieleki",
-  "NameTw": "雷吉艾勒奇"
+  "index": "#0894",
+  "name-en": "Regieleki",
+  "name-tw": "雷吉艾勒奇"
  },
  {
-  "Index": "#0895",
-  "NameEn": "Regidrago",
-  "NameTw": "雷吉鐸拉戈"
+  "index": "#0895",
+  "name-en": "Regidrago",
+  "name-tw": "雷吉鐸拉戈"
  },
  {
-  "Index": "#0896",
-  "NameEn": "Glastrier",
-  "NameTw": "雪暴馬"
+  "index": "#0896",
+  "name-en": "Glastrier",
+  "name-tw": "雪暴馬"
  },
  {
-  "Index": "#0897",
-  "NameEn": "Spectrier",
-  "NameTw": "靈幽馬"
+  "index": "#0897",
+  "name-en": "Spectrier",
+  "name-tw": "靈幽馬"
  },
  {
-  "Index": "#0898",
-  "NameEn": "Calyrex",
-  "NameTw": "蕾冠王"
+  "index": "#0898",
+  "name-en": "Calyrex",
+  "name-tw": "蕾冠王"
  },
  {
-  "Index": "#0899",
-  "NameEn": "Wyrdeer",
-  "NameTw": "詭角鹿"
+  "index": "#0899",
+  "name-en": "Wyrdeer",
+  "name-tw": "詭角鹿"
  },
  {
-  "Index": "#0900",
-  "NameEn": "Kleavor",
-  "NameTw": "劈斧螳螂"
+  "index": "#0900",
+  "name-en": "Kleavor",
+  "name-tw": "劈斧螳螂"
  },
  {
-  "Index": "#0901",
-  "NameEn": "Ursaluna",
-  "NameTw": "月月熊"
+  "index": "#0901",
+  "name-en": "Ursaluna",
+  "name-tw": "月月熊"
  },
  {
-  "Index": "#0902",
-  "NameEn": "Basculegion",
-  "NameTw": "幽尾玄魚"
+  "index": "#0902",
+  "name-en": "Basculegion",
+  "name-tw": "幽尾玄魚"
  },
  {
-  "Index": "#0903",
-  "NameEn": "Sneasler",
-  "NameTw": "大狃拉"
+  "index": "#0903",
+  "name-en": "Sneasler",
+  "name-tw": "大狃拉"
  },
  {
-  "Index": "#0904",
-  "NameEn": "Overqwil",
-  "NameTw": "萬針魚"
+  "index": "#0904",
+  "name-en": "Overqwil",
+  "name-tw": "萬針魚"
  },
  {
-  "Index": "#0905",
-  "NameEn": "Enamorus",
-  "NameTw": "眷戀雲"
+  "index": "#0905",
+  "name-en": "Enamorus",
+  "name-tw": "眷戀雲"
  },
  {
-  "Index": "#0906",
-  "NameEn": "Sprigatito",
-  "NameTw": "新葉喵"
+  "index": "#0906",
+  "name-en": "Sprigatito",
+  "name-tw": "新葉喵"
  },
  {
-  "Index": "#0907",
-  "NameEn": "Floragato",
-  "NameTw": "蒂蕾喵"
+  "index": "#0907",
+  "name-en": "Floragato",
+  "name-tw": "蒂蕾喵"
  },
  {
-  "Index": "#0908",
-  "NameEn": "Meowscarada",
-  "NameTw": "魔幻假面喵"
+  "index": "#0908",
+  "name-en": "Meowscarada",
+  "name-tw": "魔幻假面喵"
  },
  {
-  "Index": "#0909",
-  "NameEn": "Fuecoco",
-  "NameTw": "呆火鱷"
+  "index": "#0909",
+  "name-en": "Fuecoco",
+  "name-tw": "呆火鱷"
  },
  {
-  "Index": "#0910",
-  "NameEn": "Crocalor",
-  "NameTw": "炙燙鱷"
+  "index": "#0910",
+  "name-en": "Crocalor",
+  "name-tw": "炙燙鱷"
  },
  {
-  "Index": "#0911",
-  "NameEn": "Skeledirge",
-  "NameTw": "骨紋巨聲鱷"
+  "index": "#0911",
+  "name-en": "Skeledirge",
+  "name-tw": "骨紋巨聲鱷"
  },
  {
-  "Index": "#0912",
-  "NameEn": "Quaxly",
-  "NameTw": "潤水鴨"
+  "index": "#0912",
+  "name-en": "Quaxly",
+  "name-tw": "潤水鴨"
  },
  {
-  "Index": "#0913",
-  "NameEn": "Quaxwell",
-  "NameTw": "湧躍鴨"
+  "index": "#0913",
+  "name-en": "Quaxwell",
+  "name-tw": "湧躍鴨"
  },
  {
-  "Index": "#0914",
-  "NameEn": "Quaquaval",
-  "NameTw": "狂歡浪舞鴨"
+  "index": "#0914",
+  "name-en": "Quaquaval",
+  "name-tw": "狂歡浪舞鴨"
  },
  {
-  "Index": "#0915",
-  "NameEn": "Lechonk",
-  "NameTw": "愛吃豚"
+  "index": "#0915",
+  "name-en": "Lechonk",
+  "name-tw": "愛吃豚"
  },
  {
-  "Index": "#0916",
-  "NameEn": "Oinkologne",
-  "NameTw": "飄香豚"
+  "index": "#0916",
+  "name-en": "Oinkologne",
+  "name-tw": "飄香豚"
  },
  {
-  "Index": "#0917",
-  "NameEn": "Tarountula",
-  "NameTw": "團珠蛛"
+  "index": "#0917",
+  "name-en": "Tarountula",
+  "name-tw": "團珠蛛"
  },
  {
-  "Index": "#0918",
-  "NameEn": "Spidops",
-  "NameTw": "操陷蛛"
+  "index": "#0918",
+  "name-en": "Spidops",
+  "name-tw": "操陷蛛"
  },
  {
-  "Index": "#0919",
-  "NameEn": "Nymble",
-  "NameTw": "豆蟋蟀"
+  "index": "#0919",
+  "name-en": "Nymble",
+  "name-tw": "豆蟋蟀"
  },
  {
-  "Index": "#0920",
-  "NameEn": "Lokix",
-  "NameTw": "烈腿蝗"
+  "index": "#0920",
+  "name-en": "Lokix",
+  "name-tw": "烈腿蝗"
  },
  {
-  "Index": "#0921",
-  "NameEn": "Pawmi",
-  "NameTw": "布撥"
+  "index": "#0921",
+  "name-en": "Pawmi",
+  "name-tw": "布撥"
  },
  {
-  "Index": "#0922",
-  "NameEn": "Pawmo",
-  "NameTw": "布土撥"
+  "index": "#0922",
+  "name-en": "Pawmo",
+  "name-tw": "布土撥"
  },
  {
-  "Index": "#0923",
-  "NameEn": "Pawmot",
-  "NameTw": "巴布土撥"
+  "index": "#0923",
+  "name-en": "Pawmot",
+  "name-tw": "巴布土撥"
  },
  {
-  "Index": "#0924",
-  "NameEn": "Tandemaus",
-  "NameTw": "一對鼠"
+  "index": "#0924",
+  "name-en": "Tandemaus",
+  "name-tw": "一對鼠"
  },
  {
-  "Index": "#0925",
-  "NameEn": "Maushold",
-  "NameTw": "一家鼠"
+  "index": "#0925",
+  "name-en": "Maushold",
+  "name-tw": "一家鼠"
  },
  {
-  "Index": "#0926",
-  "NameEn": "Fidough",
-  "NameTw": "狗仔包"
+  "index": "#0926",
+  "name-en": "Fidough",
+  "name-tw": "狗仔包"
  },
  {
-  "Index": "#0927",
-  "NameEn": "Dachsbun",
-  "NameTw": "麻花犬"
+  "index": "#0927",
+  "name-en": "Dachsbun",
+  "name-tw": "麻花犬"
  },
  {
-  "Index": "#0928",
-  "NameEn": "Smoliv",
-  "NameTw": "迷你芙"
+  "index": "#0928",
+  "name-en": "Smoliv",
+  "name-tw": "迷你芙"
  },
  {
-  "Index": "#0929",
-  "NameEn": "Dolliv",
-  "NameTw": "奧利紐"
+  "index": "#0929",
+  "name-en": "Dolliv",
+  "name-tw": "奧利紐"
  },
  {
-  "Index": "#0930",
-  "NameEn": "Arboliva",
-  "NameTw": "奧利瓦"
+  "index": "#0930",
+  "name-en": "Arboliva",
+  "name-tw": "奧利瓦"
  },
  {
-  "Index": "#0931",
-  "NameEn": "Squawkabilly",
-  "NameTw": "怒鸚哥"
+  "index": "#0931",
+  "name-en": "Squawkabilly",
+  "name-tw": "怒鸚哥"
  },
  {
-  "Index": "#0932",
-  "NameEn": "Nacli",
-  "NameTw": "鹽石寶"
+  "index": "#0932",
+  "name-en": "Nacli",
+  "name-tw": "鹽石寶"
  },
  {
-  "Index": "#0933",
-  "NameEn": "Naclstack",
-  "NameTw": "鹽石壘"
+  "index": "#0933",
+  "name-en": "Naclstack",
+  "name-tw": "鹽石壘"
  },
  {
-  "Index": "#0934",
-  "NameEn": "Garganacl",
-  "NameTw": "鹽石巨靈"
+  "index": "#0934",
+  "name-en": "Garganacl",
+  "name-tw": "鹽石巨靈"
  },
  {
-  "Index": "#0935",
-  "NameEn": "Charcadet",
-  "NameTw": "炭小侍"
+  "index": "#0935",
+  "name-en": "Charcadet",
+  "name-tw": "炭小侍"
  },
  {
-  "Index": "#0936",
-  "NameEn": "Armarouge",
-  "NameTw": "紅蓮鎧騎"
+  "index": "#0936",
+  "name-en": "Armarouge",
+  "name-tw": "紅蓮鎧騎"
  },
  {
-  "Index": "#0937",
-  "NameEn": "Ceruledge",
-  "NameTw": "蒼炎刃鬼"
+  "index": "#0937",
+  "name-en": "Ceruledge",
+  "name-tw": "蒼炎刃鬼"
  },
  {
-  "Index": "#0938",
-  "NameEn": "Tadbulb",
-  "NameTw": "光蚪仔"
+  "index": "#0938",
+  "name-en": "Tadbulb",
+  "name-tw": "光蚪仔"
  },
  {
-  "Index": "#0939",
-  "NameEn": "Bellibolt",
-  "NameTw": "電肚蛙"
+  "index": "#0939",
+  "name-en": "Bellibolt",
+  "name-tw": "電肚蛙"
  },
  {
-  "Index": "#0940",
-  "NameEn": "Wattrel",
-  "NameTw": "電海燕"
+  "index": "#0940",
+  "name-en": "Wattrel",
+  "name-tw": "電海燕"
  },
  {
-  "Index": "#0941",
-  "NameEn": "Kilowattrel",
-  "NameTw": "大電海燕"
+  "index": "#0941",
+  "name-en": "Kilowattrel",
+  "name-tw": "大電海燕"
  },
  {
-  "Index": "#0942",
-  "NameEn": "Maschiff",
-  "NameTw": "偶叫獒"
+  "index": "#0942",
+  "name-en": "Maschiff",
+  "name-tw": "偶叫獒"
  },
  {
-  "Index": "#0943",
-  "NameEn": "Mabosstiff",
-  "NameTw": "獒教父"
+  "index": "#0943",
+  "name-en": "Mabosstiff",
+  "name-tw": "獒教父"
  },
  {
-  "Index": "#0944",
-  "NameEn": "Shroodle",
-  "NameTw": "滋汁鼴"
+  "index": "#0944",
+  "name-en": "Shroodle",
+  "name-tw": "滋汁鼴"
  },
  {
-  "Index": "#0945",
-  "NameEn": "Grafaiai",
-  "NameTw": "塗標客"
+  "index": "#0945",
+  "name-en": "Grafaiai",
+  "name-tw": "塗標客"
  },
  {
-  "Index": "#0946",
-  "NameEn": "Bramblin",
-  "NameTw": "納噬草"
+  "index": "#0946",
+  "name-en": "Bramblin",
+  "name-tw": "納噬草"
  },
  {
-  "Index": "#0947",
-  "NameEn": "Brambleghast",
-  "NameTw": "怖納噬草"
+  "index": "#0947",
+  "name-en": "Brambleghast",
+  "name-tw": "怖納噬草"
  },
  {
-  "Index": "#0948",
-  "NameEn": "Toedscool",
-  "NameTw": "原野水母"
+  "index": "#0948",
+  "name-en": "Toedscool",
+  "name-tw": "原野水母"
  },
  {
-  "Index": "#0949",
-  "NameEn": "Toedscruel",
-  "NameTw": "陸地水母"
+  "index": "#0949",
+  "name-en": "Toedscruel",
+  "name-tw": "陸地水母"
  },
  {
-  "Index": "#0950",
-  "NameEn": "Klawf",
-  "NameTw": "毛崖蟹"
+  "index": "#0950",
+  "name-en": "Klawf",
+  "name-tw": "毛崖蟹"
  },
  {
-  "Index": "#0951",
-  "NameEn": "Capsakid",
-  "NameTw": "熱辣娃"
+  "index": "#0951",
+  "name-en": "Capsakid",
+  "name-tw": "熱辣娃"
  },
  {
-  "Index": "#0952",
-  "NameEn": "Scovillain",
-  "NameTw": "狠辣椒"
+  "index": "#0952",
+  "name-en": "Scovillain",
+  "name-tw": "狠辣椒"
  },
  {
-  "Index": "#0953",
-  "NameEn": "Rellor",
-  "NameTw": "蟲滾泥"
+  "index": "#0953",
+  "name-en": "Rellor",
+  "name-tw": "蟲滾泥"
  },
  {
-  "Index": "#0954",
-  "NameEn": "Rabsca",
-  "NameTw": "蟲甲聖"
+  "index": "#0954",
+  "name-en": "Rabsca",
+  "name-tw": "蟲甲聖"
  },
  {
-  "Index": "#0955",
-  "NameEn": "Flittle",
-  "NameTw": "飄飄雛"
+  "index": "#0955",
+  "name-en": "Flittle",
+  "name-tw": "飄飄雛"
  },
  {
-  "Index": "#0956",
-  "NameEn": "Espathra",
-  "NameTw": "超能艷鴕"
+  "index": "#0956",
+  "name-en": "Espathra",
+  "name-tw": "超能艷鴕"
  },
  {
-  "Index": "#0957",
-  "NameEn": "Tinkatink",
-  "NameTw": "小鍛匠"
+  "index": "#0957",
+  "name-en": "Tinkatink",
+  "name-tw": "小鍛匠"
  },
  {
-  "Index": "#0958",
-  "NameEn": "Tinkatuff",
-  "NameTw": "巧鍛匠"
+  "index": "#0958",
+  "name-en": "Tinkatuff",
+  "name-tw": "巧鍛匠"
  },
  {
-  "Index": "#0959",
-  "NameEn": "Tinkaton",
-  "NameTw": "巨鍛匠"
+  "index": "#0959",
+  "name-en": "Tinkaton",
+  "name-tw": "巨鍛匠"
  },
  {
-  "Index": "#0960",
-  "NameEn": "Wiglett",
-  "NameTw": "海地鼠"
+  "index": "#0960",
+  "name-en": "Wiglett",
+  "name-tw": "海地鼠"
  },
  {
-  "Index": "#0961",
-  "NameEn": "Wugtrio",
-  "NameTw": "三海地鼠"
+  "index": "#0961",
+  "name-en": "Wugtrio",
+  "name-tw": "三海地鼠"
  },
  {
-  "Index": "#0962",
-  "NameEn": "Bombirdier",
-  "NameTw": "下石鳥"
+  "index": "#0962",
+  "name-en": "Bombirdier",
+  "name-tw": "下石鳥"
  },
  {
-  "Index": "#0963",
-  "NameEn": "Finizen",
-  "NameTw": "波普海豚"
+  "index": "#0963",
+  "name-en": "Finizen",
+  "name-tw": "波普海豚"
  },
  {
-  "Index": "#0964",
-  "NameEn": "Palafin",
-  "NameTw": "海豚俠"
+  "index": "#0964",
+  "name-en": "Palafin",
+  "name-tw": "海豚俠"
  },
  {
-  "Index": "#0965",
-  "NameEn": "Varoom",
-  "NameTw": "噗隆隆"
+  "index": "#0965",
+  "name-en": "Varoom",
+  "name-tw": "噗隆隆"
  },
  {
-  "Index": "#0966",
-  "NameEn": "Revavroom",
-  "NameTw": "普隆隆姆"
+  "index": "#0966",
+  "name-en": "Revavroom",
+  "name-tw": "普隆隆姆"
  },
  {
-  "Index": "#0967",
-  "NameEn": "Cyclizar",
-  "NameTw": "摩托蜥"
+  "index": "#0967",
+  "name-en": "Cyclizar",
+  "name-tw": "摩托蜥"
  },
  {
-  "Index": "#0968",
-  "NameEn": "Orthworm",
-  "NameTw": "拖拖蚓"
+  "index": "#0968",
+  "name-en": "Orthworm",
+  "name-tw": "拖拖蚓"
  },
  {
-  "Index": "#0969",
-  "NameEn": "Glimmet",
-  "NameTw": "晶光芽"
+  "index": "#0969",
+  "name-en": "Glimmet",
+  "name-tw": "晶光芽"
  },
  {
-  "Index": "#0970",
-  "NameEn": "Glimmora",
-  "NameTw": "晶光花"
+  "index": "#0970",
+  "name-en": "Glimmora",
+  "name-tw": "晶光花"
  },
  {
-  "Index": "#0971",
-  "NameEn": "Greavard",
-  "NameTw": "墓仔狗"
+  "index": "#0971",
+  "name-en": "Greavard",
+  "name-tw": "墓仔狗"
  },
  {
-  "Index": "#0972",
-  "NameEn": "Houndstone",
-  "NameTw": "墓揚犬"
+  "index": "#0972",
+  "name-en": "Houndstone",
+  "name-tw": "墓揚犬"
  },
  {
-  "Index": "#0973",
-  "NameEn": "Flamigo",
-  "NameTw": "纏紅鶴"
+  "index": "#0973",
+  "name-en": "Flamigo",
+  "name-tw": "纏紅鶴"
  },
  {
-  "Index": "#0974",
-  "NameEn": "Cetoddle",
-  "NameTw": "走鯨"
+  "index": "#0974",
+  "name-en": "Cetoddle",
+  "name-tw": "走鯨"
  },
  {
-  "Index": "#0975",
-  "NameEn": "Cetitan",
-  "NameTw": "浩大鯨"
+  "index": "#0975",
+  "name-en": "Cetitan",
+  "name-tw": "浩大鯨"
  },
  {
-  "Index": "#0976",
-  "NameEn": "Veluza",
-  "NameTw": "輕身鱈"
+  "index": "#0976",
+  "name-en": "Veluza",
+  "name-tw": "輕身鱈"
  },
  {
-  "Index": "#0977",
-  "NameEn": "Dondozo",
-  "NameTw": "吃吼霸"
+  "index": "#0977",
+  "name-en": "Dondozo",
+  "name-tw": "吃吼霸"
  },
  {
-  "Index": "#0978",
-  "NameEn": "Tatsugiri",
-  "NameTw": "米立龍"
+  "index": "#0978",
+  "name-en": "Tatsugiri",
+  "name-tw": "米立龍"
  },
  {
-  "Index": "#0979",
-  "NameEn": "Annihilape",
-  "NameTw": "棄世猴"
+  "index": "#0979",
+  "name-en": "Annihilape",
+  "name-tw": "棄世猴"
  },
  {
-  "Index": "#0980",
-  "NameEn": "Clodsire",
-  "NameTw": "土王"
+  "index": "#0980",
+  "name-en": "Clodsire",
+  "name-tw": "土王"
  },
  {
-  "Index": "#0981",
-  "NameEn": "Farigiraf",
-  "NameTw": "奇麒麟"
+  "index": "#0981",
+  "name-en": "Farigiraf",
+  "name-tw": "奇麒麟"
  },
  {
-  "Index": "#0982",
-  "NameEn": "Dudunsparce",
-  "NameTw": "土龍節節"
+  "index": "#0982",
+  "name-en": "Dudunsparce",
+  "name-tw": "土龍節節"
  },
  {
-  "Index": "#0983",
-  "NameEn": "Kingambit",
-  "NameTw": "仆斬將軍"
+  "index": "#0983",
+  "name-en": "Kingambit",
+  "name-tw": "仆斬將軍"
  },
  {
-  "Index": "#0984",
-  "NameEn": "Great Tusk",
-  "NameTw": "雄偉牙"
+  "index": "#0984",
+  "name-en": "Great Tusk",
+  "name-tw": "雄偉牙"
  },
  {
-  "Index": "#0985",
-  "NameEn": "Scream Tail",
-  "NameTw": "吼叫尾"
+  "index": "#0985",
+  "name-en": "Scream Tail",
+  "name-tw": "吼叫尾"
  },
  {
-  "Index": "#0986",
-  "NameEn": "Brute Bonnet",
-  "NameTw": "猛惡菇"
+  "index": "#0986",
+  "name-en": "Brute Bonnet",
+  "name-tw": "猛惡菇"
  },
  {
-  "Index": "#0987",
-  "NameEn": "Flutter Mane",
-  "NameTw": "振翼髮"
+  "index": "#0987",
+  "name-en": "Flutter Mane",
+  "name-tw": "振翼髮"
  },
  {
-  "Index": "#0988",
-  "NameEn": "Slither Wing",
-  "NameTw": "爬地翅"
+  "index": "#0988",
+  "name-en": "Slither Wing",
+  "name-tw": "爬地翅"
  },
  {
-  "Index": "#0989",
-  "NameEn": "Sandy Shocks",
-  "NameTw": "沙鐵皮"
+  "index": "#0989",
+  "name-en": "Sandy Shocks",
+  "name-tw": "沙鐵皮"
  },
  {
-  "Index": "#0990",
-  "NameEn": "Iron Treads",
-  "NameTw": "鐵轍跡"
+  "index": "#0990",
+  "name-en": "Iron Treads",
+  "name-tw": "鐵轍跡"
  },
  {
-  "Index": "#0991",
-  "NameEn": "Iron Bundle",
-  "NameTw": "鐵包袱"
+  "index": "#0991",
+  "name-en": "Iron Bundle",
+  "name-tw": "鐵包袱"
  },
  {
-  "Index": "#0992",
-  "NameEn": "Iron Hands",
-  "NameTw": "鐵臂膀"
+  "index": "#0992",
+  "name-en": "Iron Hands",
+  "name-tw": "鐵臂膀"
  },
  {
-  "Index": "#0993",
-  "NameEn": "Iron Jugulis",
-  "NameTw": "鐵脖頸"
+  "index": "#0993",
+  "name-en": "Iron Jugulis",
+  "name-tw": "鐵脖頸"
  },
  {
-  "Index": "#0994",
-  "NameEn": "Iron Moth",
-  "NameTw": "鐵毒蛾"
+  "index": "#0994",
+  "name-en": "Iron Moth",
+  "name-tw": "鐵毒蛾"
  },
  {
-  "Index": "#0995",
-  "NameEn": "Iron Thorns",
-  "NameTw": "鐵荊棘"
+  "index": "#0995",
+  "name-en": "Iron Thorns",
+  "name-tw": "鐵荊棘"
  },
  {
-  "Index": "#0996",
-  "NameEn": "Frigibax",
-  "NameTw": "涼脊龍"
+  "index": "#0996",
+  "name-en": "Frigibax",
+  "name-tw": "涼脊龍"
  },
  {
-  "Index": "#0997",
-  "NameEn": "Arctibax",
-  "NameTw": "凍脊龍"
+  "index": "#0997",
+  "name-en": "Arctibax",
+  "name-tw": "凍脊龍"
  },
  {
-  "Index": "#0998",
-  "NameEn": "Baxcalibur",
-  "NameTw": "戟脊龍"
+  "index": "#0998",
+  "name-en": "Baxcalibur",
+  "name-tw": "戟脊龍"
  },
  {
-  "Index": "#0999",
-  "NameEn": "Gimmighoul",
-  "NameTw": "索財靈"
+  "index": "#0999",
+  "name-en": "Gimmighoul",
+  "name-tw": "索財靈"
  },
  {
-  "Index": "#1000",
-  "NameEn": "Gholdengo",
-  "NameTw": "賽富豪"
+  "index": "#1000",
+  "name-en": "Gholdengo",
+  "name-tw": "賽富豪"
  },
  {
-  "Index": "#1001",
-  "NameEn": "Wo-Chien",
-  "NameTw": "古簡蝸"
+  "index": "#1001",
+  "name-en": "Wo-Chien",
+  "name-tw": "古簡蝸"
  },
  {
-  "Index": "#1002",
-  "NameEn": "Chien-Pao",
-  "NameTw": "古劍豹"
+  "index": "#1002",
+  "name-en": "Chien-Pao",
+  "name-tw": "古劍豹"
  },
  {
-  "Index": "#1003",
-  "NameEn": "Ting-Lu",
-  "NameTw": "古鼎鹿"
+  "index": "#1003",
+  "name-en": "Ting-Lu",
+  "name-tw": "古鼎鹿"
  },
  {
-  "Index": "#1004",
-  "NameEn": "Chi-Yu",
-  "NameTw": "古玉魚"
+  "index": "#1004",
+  "name-en": "Chi-Yu",
+  "name-tw": "古玉魚"
  },
  {
-  "Index": "#1005",
-  "NameEn": "Roaring Moon",
-  "NameTw": "轟鳴月"
+  "index": "#1005",
+  "name-en": "Roaring Moon",
+  "name-tw": "轟鳴月"
  },
  {
-  "Index": "#1006",
-  "NameEn": "Iron Valiant",
-  "NameTw": "鐵武者"
+  "index": "#1006",
+  "name-en": "Iron Valiant",
+  "name-tw": "鐵武者"
  },
  {
-  "Index": "#1007",
-  "NameEn": "Koraidon",
-  "NameTw": "故勒頓"
+  "index": "#1007",
+  "name-en": "Koraidon",
+  "name-tw": "故勒頓"
  },
  {
-  "Index": "#1008",
-  "NameEn": "Miraidon",
-  "NameTw": "密勒頓"
+  "index": "#1008",
+  "name-en": "Miraidon",
+  "name-tw": "密勒頓"
  },
  {
-  "Index": "#1009",
-  "NameEn": "Walking Wake",
-  "NameTw": "波盪水"
+  "index": "#1009",
+  "name-en": "Walking Wake",
+  "name-tw": "波盪水"
  },
  {
-  "Index": "#1010",
-  "NameEn": "Iron Leaves",
-  "NameTw": "鐵斑葉"
+  "index": "#1010",
+  "name-en": "Iron Leaves",
+  "name-tw": "鐵斑葉"
  },
  {
-  "Index": "#????",
-  "NameEn": "Okidogi",
-  "NameTw": "夠讚狗"
+  "index": "#????",
+  "name-en": "Okidogi",
+  "name-tw": "夠讚狗"
  },
  {
-  "Index": "#????",
-  "NameEn": "Munkidori",
-  "NameTw": "願增猿"
+  "index": "#????",
+  "name-en": "Munkidori",
+  "name-tw": "願增猿"
  },
  {
-  "Index": "#????",
-  "NameEn": "Fezandipiti",
-  "NameTw": "吉雉雞"
+  "index": "#????",
+  "name-en": "Fezandipiti",
+  "name-tw": "吉雉雞"
  },
  {
-  "Index": "#????",
-  "NameEn": "Ogerpon",
-  "NameTw": "厄鬼椪"
+  "index": "#????",
+  "name-en": "Ogerpon",
+  "name-tw": "厄鬼椪"
  },
  {
-  "Index": "#????",
-  "NameEn": "Terapagos",
-  "NameTw": "太樂巴戈斯"
+  "index": "#????",
+  "name-en": "Terapagos",
+  "name-tw": "太樂巴戈斯"
  }
 ]
