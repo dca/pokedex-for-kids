@@ -22,9 +22,6 @@ func Start() {
 		// }
 	}
 
-
-	// err := SynthesizeText("en-US", "妙蛙種子", "assets/hihi.mp3")
-
 	if err != nil {
 		panic(err)
 	}
