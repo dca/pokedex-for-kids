@@ -1,0 +1,5077 @@
+[
+ {
+  "index": "#0001",
+  "name-en": "Bulbasaur",
+  "name-tw": "妙蛙種子"
+ },
+ {
+  "index": "#0002",
+  "name-en": "Ivysaur",
+  "name-tw": "妙蛙草"
+ },
+ {
+  "index": "#0003",
+  "name-en": "Venusaur",
+  "name-tw": "妙蛙花"
+ },
+ {
+  "index": "#0004",
+  "name-en": "Charmander",
+  "name-tw": "小火龍"
+ },
+ {
+  "index": "#0005",
+  "name-en": "Charmeleon",
+  "name-tw": "火恐龍"
+ },
+ {
+  "index": "#0006",
+  "name-en": "Charizard",
+  "name-tw": "噴火龍"
+ },
+ {
+  "index": "#0007",
+  "name-en": "Squirtle",
+  "name-tw": "傑尼龜"
+ },
+ {
+  "index": "#0008",
+  "name-en": "Wartortle",
+  "name-tw": "卡咪龜"
+ },
+ {
+  "index": "#0009",
+  "name-en": "Blastoise",
+  "name-tw": "水箭龜"
+ },
+ {
+  "index": "#0010",
+  "name-en": "Caterpie",
+  "name-tw": "綠毛蟲"
+ },
+ {
+  "index": "#0011",
+  "name-en": "Metapod",
+  "name-tw": "鐵甲蛹"
+ },
+ {
+  "index": "#0012",
+  "name-en": "Butterfree",
+  "name-tw": "巴大蝶"
+ },
+ {
+  "index": "#0013",
+  "name-en": "Weedle",
+  "name-tw": "獨角蟲"
+ },
+ {
+  "index": "#0014",
+  "name-en": "Kakuna",
+  "name-tw": "鐵殼蛹"
+ },
+ {
+  "index": "#0015",
+  "name-en": "Beedrill",
+  "name-tw": "大針蜂"
+ },
+ {
+  "index": "#0016",
+  "name-en": "Pidgey",
+  "name-tw": "波波"
+ },
+ {
+  "index": "#0017",
+  "name-en": "Pidgeotto",
+  "name-tw": "比比鳥"
+ },
+ {
+  "index": "#0018",
+  "name-en": "Pidgeot",
+  "name-tw": "大比鳥"
+ },
+ {
+  "index": "#0019",
+  "name-en": "Rattata",
+  "name-tw": "小拉達"
+ },
+ {
+  "index": "#0020",
+  "name-en": "Raticate",
+  "name-tw": "拉達"
+ },
+ {
+  "index": "#0021",
+  "name-en": "Spearow",
+  "name-tw": "烈雀"
+ },
+ {
+  "index": "#0022",
+  "name-en": "Fearow",
+  "name-tw": "大嘴雀"
+ },
+ {
+  "index": "#0023",
+  "name-en": "Ekans",
+  "name-tw": "阿柏蛇"
+ },
+ {
+  "index": "#0024",
+  "name-en": "Arbok",
+  "name-tw": "阿柏怪"
+ },
+ {
+  "index": "#0025",
+  "name-en": "Pikachu",
+  "name-tw": "皮卡丘"
+ },
+ {
+  "index": "#0026",
+  "name-en": "Raichu",
+  "name-tw": "雷丘"
+ },
+ {
+  "index": "#0027",
+  "name-en": "Sandshrew",
+  "name-tw": "穿山鼠"
+ },
+ {
+  "index": "#0028",
+  "name-en": "Sandslash",
+  "name-tw": "穿山王"
+ },
+ {
+  "index": "#0029",
+  "name-en": "Nidoran♀",
+  "name-tw": "尼多蘭"
+ },
+ {
+  "index": "#0030",
+  "name-en": "Nidorina",
+  "name-tw": "尼多娜"
+ },
+ {
+  "index": "#0031",
+  "name-en": "Nidoqueen",
+  "name-tw": "尼多后"
+ },
+ {
+  "index": "#0032",
+  "name-en": "Nidoran♂",
+  "name-tw": "尼多朗"
+ },
+ {
+  "index": "#0033",
+  "name-en": "Nidorino",
+  "name-tw": "尼多力諾"
+ },
+ {
+  "index": "#0034",
+  "name-en": "Nidoking",
+  "name-tw": "尼多王"
+ },
+ {
+  "index": "#0035",
+  "name-en": "Clefairy",
+  "name-tw": "皮皮"
+ },
+ {
+  "index": "#0036",
+  "name-en": "Clefable",
+  "name-tw": "皮可西"
+ },
+ {
+  "index": "#0037",
+  "name-en": "Vulpix",
+  "name-tw": "六尾"
+ },
+ {
+  "index": "#0038",
+  "name-en": "Ninetales",
+  "name-tw": "九尾"
+ },
+ {
+  "index": "#0039",
+  "name-en": "Jigglypuff",
+  "name-tw": "胖丁"
+ },
+ {
+  "index": "#0040",
+  "name-en": "Wigglytuff",
+  "name-tw": "胖可丁"
+ },
+ {
+  "index": "#0041",
+  "name-en": "Zubat",
+  "name-tw": "超音蝠"
+ },
+ {
+  "index": "#0042",
+  "name-en": "Golbat",
+  "name-tw": "大嘴蝠"
+ },
+ {
+  "index": "#0043",
+  "name-en": "Oddish",
+  "name-tw": "走路草"
+ },
+ {
+  "index": "#0044",
+  "name-en": "Gloom",
+  "name-tw": "臭臭花"
+ },
+ {
+  "index": "#0045",
+  "name-en": "Vileplume",
+  "name-tw": "霸王花"
+ },
+ {
+  "index": "#0046",
+  "name-en": "Paras",
+  "name-tw": "派拉斯"
+ },
+ {
+  "index": "#0047",
+  "name-en": "Parasect",
+  "name-tw": "派拉斯特"
+ },
+ {
+  "index": "#0048",
+  "name-en": "Venonat",
+  "name-tw": "毛球"
+ },
+ {
+  "index": "#0049",
+  "name-en": "Venomoth",
+  "name-tw": "摩魯蛾"
+ },
+ {
+  "index": "#0050",
+  "name-en": "Diglett",
+  "name-tw": "地鼠"
+ },
+ {
+  "index": "#0051",
+  "name-en": "Dugtrio",
+  "name-tw": "三地鼠"
+ },
+ {
+  "index": "#0052",
+  "name-en": "Meowth",
+  "name-tw": "喵喵"
+ },
+ {
+  "index": "#0053",
+  "name-en": "Persian",
+  "name-tw": "貓老大"
+ },
+ {
+  "index": "#0054",
+  "name-en": "Psyduck",
+  "name-tw": "可達鴨"
+ },
+ {
+  "index": "#0055",
+  "name-en": "Golduck",
+  "name-tw": "哥達鴨"
+ },
+ {
+  "index": "#0056",
+  "name-en": "Mankey",
+  "name-tw": "猴怪"
+ },
+ {
+  "index": "#0057",
+  "name-en": "Primeape",
+  "name-tw": "火爆猴"
+ },
+ {
+  "index": "#0058",
+  "name-en": "Growlithe",
+  "name-tw": "卡蒂狗"
+ },
+ {
+  "index": "#0059",
+  "name-en": "Arcanine",
+  "name-tw": "風速狗"
+ },
+ {
+  "index": "#0060",
+  "name-en": "Poliwag",
+  "name-tw": "蚊香蝌蚪"
+ },
+ {
+  "index": "#0061",
+  "name-en": "Poliwhirl",
+  "name-tw": "蚊香君"
+ },
+ {
+  "index": "#0062",
+  "name-en": "Poliwrath",
+  "name-tw": "蚊香泳士"
+ },
+ {
+  "index": "#0063",
+  "name-en": "Abra",
+  "name-tw": "凱西"
+ },
+ {
+  "index": "#0064",
+  "name-en": "Kadabra",
+  "name-tw": "勇基拉"
+ },
+ {
+  "index": "#0065",
+  "name-en": "Alakazam",
+  "name-tw": "胡地"
+ },
+ {
+  "index": "#0066",
+  "name-en": "Machop",
+  "name-tw": "腕力"
+ },
+ {
+  "index": "#0067",
+  "name-en": "Machoke",
+  "name-tw": "豪力"
+ },
+ {
+  "index": "#0068",
+  "name-en": "Machamp",
+  "name-tw": "怪力"
+ },
+ {
+  "index": "#0069",
+  "name-en": "Bellsprout",
+  "name-tw": "喇叭芽"
+ },
+ {
+  "index": "#0070",
+  "name-en": "Weepinbell",
+  "name-tw": "口呆花"
+ },
+ {
+  "index": "#0071",
+  "name-en": "Victreebel",
+  "name-tw": "大食花"
+ },
+ {
+  "index": "#0072",
+  "name-en": "Tentacool",
+  "name-tw": "瑪瑙水母"
+ },
+ {
+  "index": "#0073",
+  "name-en": "Tentacruel",
+  "name-tw": "毒刺水母"
+ },
+ {
+  "index": "#0074",
+  "name-en": "Geodude",
+  "name-tw": "小拳石"
+ },
+ {
+  "index": "#0075",
+  "name-en": "Graveler",
+  "name-tw": "隆隆石"
+ },
+ {
+  "index": "#0076",
+  "name-en": "Golem",
+  "name-tw": "隆隆岩"
+ },
+ {
+  "index": "#0077",
+  "name-en": "Ponyta",
+  "name-tw": "小火馬"
+ },
+ {
+  "index": "#0078",
+  "name-en": "Rapidash",
+  "name-tw": "烈焰馬"
+ },
+ {
+  "index": "#0079",
+  "name-en": "Slowpoke",
+  "name-tw": "呆呆獸"
+ },
+ {
+  "index": "#0080",
+  "name-en": "Slowbro",
+  "name-tw": "呆殼獸"
+ },
+ {
+  "index": "#0081",
+  "name-en": "Magnemite",
+  "name-tw": "小磁怪"
+ },
+ {
+  "index": "#0082",
+  "name-en": "Magneton",
+  "name-tw": "三合一磁怪"
+ },
+ {
+  "index": "#0083",
+  "name-en": "Farfetch'd",
+  "name-tw": "大蔥鴨"
+ },
+ {
+  "index": "#0084",
+  "name-en": "Doduo",
+  "name-tw": "嘟嘟"
+ },
+ {
+  "index": "#0085",
+  "name-en": "Dodrio",
+  "name-tw": "嘟嘟利"
+ },
+ {
+  "index": "#0086",
+  "name-en": "Seel",
+  "name-tw": "小海獅"
+ },
+ {
+  "index": "#0087",
+  "name-en": "Dewgong",
+  "name-tw": "白海獅"
+ },
+ {
+  "index": "#0088",
+  "name-en": "Grimer",
+  "name-tw": "臭泥"
+ },
+ {
+  "index": "#0089",
+  "name-en": "Muk",
+  "name-tw": "臭臭泥"
+ },
+ {
+  "index": "#0090",
+  "name-en": "Shellder",
+  "name-tw": "大舌貝"
+ },
+ {
+  "index": "#0091",
+  "name-en": "Cloyster",
+  "name-tw": "刺甲貝"
+ },
+ {
+  "index": "#0092",
+  "name-en": "Gastly",
+  "name-tw": "鬼斯"
+ },
+ {
+  "index": "#0093",
+  "name-en": "Haunter",
+  "name-tw": "鬼斯通"
+ },
+ {
+  "index": "#0094",
+  "name-en": "Gengar",
+  "name-tw": "耿鬼"
+ },
+ {
+  "index": "#0095",
+  "name-en": "Onix",
+  "name-tw": "大岩蛇"
+ },
+ {
+  "index": "#0096",
+  "name-en": "Drowzee",
+  "name-tw": "催眠貘"
+ },
+ {
+  "index": "#0097",
+  "name-en": "Hypno",
+  "name-tw": "引夢貘人"
+ },
+ {
+  "index": "#0098",
+  "name-en": "Krabby",
+  "name-tw": "大鉗蟹"
+ },
+ {
+  "index": "#0099",
+  "name-en": "Kingler",
+  "name-tw": "巨鉗蟹"
+ },
+ {
+  "index": "#0100",
+  "name-en": "Voltorb",
+  "name-tw": "霹靂電球"
+ },
+ {
+  "index": "#0101",
+  "name-en": "Electrode",
+  "name-tw": "頑皮雷彈"
+ },
+ {
+  "index": "#0102",
+  "name-en": "Exeggcute",
+  "name-tw": "蛋蛋"
+ },
+ {
+  "index": "#0103",
+  "name-en": "Exeggutor",
+  "name-tw": "椰蛋樹"
+ },
+ {
+  "index": "#0104",
+  "name-en": "Cubone",
+  "name-tw": "卡拉卡拉"
+ },
+ {
+  "index": "#0105",
+  "name-en": "Marowak",
+  "name-tw": "嘎啦嘎啦"
+ },
+ {
+  "index": "#0106",
+  "name-en": "Hitmonlee",
+  "name-tw": "飛腿郎"
+ },
+ {
+  "index": "#0107",
+  "name-en": "Hitmonchan",
+  "name-tw": "快拳郎"
+ },
+ {
+  "index": "#0108",
+  "name-en": "Lickitung",
+  "name-tw": "大舌頭"
+ },
+ {
+  "index": "#0109",
+  "name-en": "Koffing",
+  "name-tw": "瓦斯彈"
+ },
+ {
+  "index": "#0110",
+  "name-en": "Weezing",
+  "name-tw": "雙彈瓦斯"
+ },
+ {
+  "index": "#0111",
+  "name-en": "Rhyhorn",
+  "name-tw": "獨角犀牛"
+ },
+ {
+  "index": "#0112",
+  "name-en": "Rhydon",
+  "name-tw": "鑽角犀獸"
+ },
+ {
+  "index": "#0113",
+  "name-en": "Chansey",
+  "name-tw": "吉利蛋"
+ },
+ {
+  "index": "#0114",
+  "name-en": "Tangela",
+  "name-tw": "蔓藤怪"
+ },
+ {
+  "index": "#0115",
+  "name-en": "Kangaskhan",
+  "name-tw": "袋獸"
+ },
+ {
+  "index": "#0116",
+  "name-en": "Horsea",
+  "name-tw": "墨海馬"
+ },
+ {
+  "index": "#0117",
+  "name-en": "Seadra",
+  "name-tw": "海刺龍"
+ },
+ {
+  "index": "#0118",
+  "name-en": "Goldeen",
+  "name-tw": "角金魚"
+ },
+ {
+  "index": "#0119",
+  "name-en": "Seaking",
+  "name-tw": "金魚王"
+ },
+ {
+  "index": "#0120",
+  "name-en": "Staryu",
+  "name-tw": "海星星"
+ },
+ {
+  "index": "#0121",
+  "name-en": "Starmie",
+  "name-tw": "寶石海星"
+ },
+ {
+  "index": "#0122",
+  "name-en": "Mr. Mime",
+  "name-tw": "魔牆人偶"
+ },
+ {
+  "index": "#0123",
+  "name-en": "Scyther",
+  "name-tw": "飛天螳螂"
+ },
+ {
+  "index": "#0124",
+  "name-en": "Jynx",
+  "name-tw": "迷唇姐"
+ },
+ {
+  "index": "#0125",
+  "name-en": "Electabuzz",
+  "name-tw": "電擊獸"
+ },
+ {
+  "index": "#0126",
+  "name-en": "Magmar",
+  "name-tw": "鴨嘴火獸"
+ },
+ {
+  "index": "#0127",
+  "name-en": "Pinsir",
+  "name-tw": "凱羅斯"
+ },
+ {
+  "index": "#0128",
+  "name-en": "Tauros",
+  "name-tw": "肯泰羅"
+ },
+ {
+  "index": "#0129",
+  "name-en": "Magikarp",
+  "name-tw": "鯉魚王"
+ },
+ {
+  "index": "#0130",
+  "name-en": "Gyarados",
+  "name-tw": "暴鯉龍"
+ },
+ {
+  "index": "#0131",
+  "name-en": "Lapras",
+  "name-tw": "拉普拉斯"
+ },
+ {
+  "index": "#0132",
+  "name-en": "Ditto",
+  "name-tw": "百變怪"
+ },
+ {
+  "index": "#0133",
+  "name-en": "Eevee",
+  "name-tw": "伊布"
+ },
+ {
+  "index": "#0134",
+  "name-en": "Vaporeon",
+  "name-tw": "水伊布"
+ },
+ {
+  "index": "#0135",
+  "name-en": "Jolteon",
+  "name-tw": "雷伊布"
+ },
+ {
+  "index": "#0136",
+  "name-en": "Flareon",
+  "name-tw": "火伊布"
+ },
+ {
+  "index": "#0137",
+  "name-en": "Porygon",
+  "name-tw": "多邊獸"
+ },
+ {
+  "index": "#0138",
+  "name-en": "Omanyte",
+  "name-tw": "菊石獸"
+ },
+ {
+  "index": "#0139",
+  "name-en": "Omastar",
+  "name-tw": "多刺菊石獸"
+ },
+ {
+  "index": "#0140",
+  "name-en": "Kabuto",
+  "name-tw": "化石盔"
+ },
+ {
+  "index": "#0141",
+  "name-en": "Kabutops",
+  "name-tw": "鐮刀盔"
+ },
+ {
+  "index": "#0142",
+  "name-en": "Aerodactyl",
+  "name-tw": "化石翼龍"
+ },
+ {
+  "index": "#0143",
+  "name-en": "Snorlax",
+  "name-tw": "卡比獸"
+ },
+ {
+  "index": "#0144",
+  "name-en": "Articuno",
+  "name-tw": "急凍鳥"
+ },
+ {
+  "index": "#0145",
+  "name-en": "Zapdos",
+  "name-tw": "閃電鳥"
+ },
+ {
+  "index": "#0146",
+  "name-en": "Moltres",
+  "name-tw": "火焰鳥"
+ },
+ {
+  "index": "#0147",
+  "name-en": "Dratini",
+  "name-tw": "迷你龍"
+ },
+ {
+  "index": "#0148",
+  "name-en": "Dragonair",
+  "name-tw": "哈克龍"
+ },
+ {
+  "index": "#0149",
+  "name-en": "Dragonite",
+  "name-tw": "快龍"
+ },
+ {
+  "index": "#0150",
+  "name-en": "Mewtwo",
+  "name-tw": "超夢"
+ },
+ {
+  "index": "#0151",
+  "name-en": "Mew",
+  "name-tw": "夢幻"
+ },
+ {
+  "index": "#0152",
+  "name-en": "Chikorita",
+  "name-tw": "菊草葉"
+ },
+ {
+  "index": "#0153",
+  "name-en": "Bayleef",
+  "name-tw": "月桂葉"
+ },
+ {
+  "index": "#0154",
+  "name-en": "Meganium",
+  "name-tw": "大竺葵"
+ },
+ {
+  "index": "#0155",
+  "name-en": "Cyndaquil",
+  "name-tw": "火球鼠"
+ },
+ {
+  "index": "#0156",
+  "name-en": "Quilava",
+  "name-tw": "火岩鼠"
+ },
+ {
+  "index": "#0157",
+  "name-en": "Typhlosion",
+  "name-tw": "火爆獸"
+ },
+ {
+  "index": "#0158",
+  "name-en": "Totodile",
+  "name-tw": "小鋸鱷"
+ },
+ {
+  "index": "#0159",
+  "name-en": "Croconaw",
+  "name-tw": "藍鱷"
+ },
+ {
+  "index": "#0160",
+  "name-en": "Feraligatr",
+  "name-tw": "大力鱷"
+ },
+ {
+  "index": "#0161",
+  "name-en": "Sentret",
+  "name-tw": "尾立"
+ },
+ {
+  "index": "#0162",
+  "name-en": "Furret",
+  "name-tw": "大尾立"
+ },
+ {
+  "index": "#0163",
+  "name-en": "Hoothoot",
+  "name-tw": "咕咕"
+ },
+ {
+  "index": "#0164",
+  "name-en": "Noctowl",
+  "name-tw": "貓頭夜鷹"
+ },
+ {
+  "index": "#0165",
+  "name-en": "Ledyba",
+  "name-tw": "芭瓢蟲"
+ },
+ {
+  "index": "#0166",
+  "name-en": "Ledian",
+  "name-tw": "安瓢蟲"
+ },
+ {
+  "index": "#0167",
+  "name-en": "Spinarak",
+  "name-tw": "圓絲蛛"
+ },
+ {
+  "index": "#0168",
+  "name-en": "Ariados",
+  "name-tw": "阿利多斯"
+ },
+ {
+  "index": "#0169",
+  "name-en": "Crobat",
+  "name-tw": "叉字蝠"
+ },
+ {
+  "index": "#0170",
+  "name-en": "Chinchou",
+  "name-tw": "燈籠魚"
+ },
+ {
+  "index": "#0171",
+  "name-en": "Lanturn",
+  "name-tw": "電燈怪"
+ },
+ {
+  "index": "#0172",
+  "name-en": "Pichu",
+  "name-tw": "皮丘"
+ },
+ {
+  "index": "#0173",
+  "name-en": "Cleffa",
+  "name-tw": "皮寶寶"
+ },
+ {
+  "index": "#0174",
+  "name-en": "Igglybuff",
+  "name-tw": "寶寶丁"
+ },
+ {
+  "index": "#0175",
+  "name-en": "Togepi",
+  "name-tw": "波克比"
+ },
+ {
+  "index": "#0176",
+  "name-en": "Togetic",
+  "name-tw": "波克基古"
+ },
+ {
+  "index": "#0177",
+  "name-en": "Natu",
+  "name-tw": "天然雀"
+ },
+ {
+  "index": "#0178",
+  "name-en": "Xatu",
+  "name-tw": "天然鳥"
+ },
+ {
+  "index": "#0179",
+  "name-en": "Mareep",
+  "name-tw": "咩利羊"
+ },
+ {
+  "index": "#0180",
+  "name-en": "Flaaffy",
+  "name-tw": "茸茸羊"
+ },
+ {
+  "index": "#0181",
+  "name-en": "Ampharos",
+  "name-tw": "電龍"
+ },
+ {
+  "index": "#0182",
+  "name-en": "Bellossom",
+  "name-tw": "美麗花"
+ },
+ {
+  "index": "#0183",
+  "name-en": "Marill",
+  "name-tw": "瑪力露"
+ },
+ {
+  "index": "#0184",
+  "name-en": "Azumarill",
+  "name-tw": "瑪力露麗"
+ },
+ {
+  "index": "#0185",
+  "name-en": "Sudowoodo",
+  "name-tw": "樹才怪"
+ },
+ {
+  "index": "#0186",
+  "name-en": "Politoed",
+  "name-tw": "蚊香蛙皇"
+ },
+ {
+  "index": "#0187",
+  "name-en": "Hoppip",
+  "name-tw": "毽子草"
+ },
+ {
+  "index": "#0188",
+  "name-en": "Skiploom",
+  "name-tw": "毽子花"
+ },
+ {
+  "index": "#0189",
+  "name-en": "Jumpluff",
+  "name-tw": "毽子棉"
+ },
+ {
+  "index": "#0190",
+  "name-en": "Aipom",
+  "name-tw": "長尾怪手"
+ },
+ {
+  "index": "#0191",
+  "name-en": "Sunkern",
+  "name-tw": "向日種子"
+ },
+ {
+  "index": "#0192",
+  "name-en": "Sunflora",
+  "name-tw": "向日花怪"
+ },
+ {
+  "index": "#0193",
+  "name-en": "Yanma",
+  "name-tw": "蜻蜻蜓"
+ },
+ {
+  "index": "#0194",
+  "name-en": "Wooper",
+  "name-tw": "烏波"
+ },
+ {
+  "index": "#0195",
+  "name-en": "Quagsire",
+  "name-tw": "沼王"
+ },
+ {
+  "index": "#0196",
+  "name-en": "Espeon",
+  "name-tw": "太陽伊布"
+ },
+ {
+  "index": "#0197",
+  "name-en": "Umbreon",
+  "name-tw": "月亮伊布"
+ },
+ {
+  "index": "#0198",
+  "name-en": "Murkrow",
+  "name-tw": "黑暗鴉"
+ },
+ {
+  "index": "#0199",
+  "name-en": "Slowking",
+  "name-tw": "呆呆王"
+ },
+ {
+  "index": "#0200",
+  "name-en": "Misdreavus",
+  "name-tw": "夢妖"
+ },
+ {
+  "index": "#0201",
+  "name-en": "Unown",
+  "name-tw": "未知圖騰"
+ },
+ {
+  "index": "#0202",
+  "name-en": "Wobbuffet",
+  "name-tw": "果然翁"
+ },
+ {
+  "index": "#0203",
+  "name-en": "Girafarig",
+  "name-tw": "麒麟奇"
+ },
+ {
+  "index": "#0204",
+  "name-en": "Pineco",
+  "name-tw": "榛果球"
+ },
+ {
+  "index": "#0205",
+  "name-en": "Forretress",
+  "name-tw": "佛烈托斯"
+ },
+ {
+  "index": "#0206",
+  "name-en": "Dunsparce",
+  "name-tw": "土龍弟弟"
+ },
+ {
+  "index": "#0207",
+  "name-en": "Gligar",
+  "name-tw": "天蠍"
+ },
+ {
+  "index": "#0208",
+  "name-en": "Steelix",
+  "name-tw": "大鋼蛇"
+ },
+ {
+  "index": "#0209",
+  "name-en": "Snubbull",
+  "name-tw": "布魯"
+ },
+ {
+  "index": "#0210",
+  "name-en": "Granbull",
+  "name-tw": "布魯皇"
+ },
+ {
+  "index": "#0211",
+  "name-en": "Qwilfish",
+  "name-tw": "千針魚"
+ },
+ {
+  "index": "#0212",
+  "name-en": "Scizor",
+  "name-tw": "巨鉗螳螂"
+ },
+ {
+  "index": "#0213",
+  "name-en": "Shuckle",
+  "name-tw": "壺壺"
+ },
+ {
+  "index": "#0214",
+  "name-en": "Heracross",
+  "name-tw": "赫拉克羅斯"
+ },
+ {
+  "index": "#0215",
+  "name-en": "Sneasel",
+  "name-tw": "狃拉"
+ },
+ {
+  "index": "#0216",
+  "name-en": "Teddiursa",
+  "name-tw": "熊寶寶"
+ },
+ {
+  "index": "#0217",
+  "name-en": "Ursaring",
+  "name-tw": "圈圈熊"
+ },
+ {
+  "index": "#0218",
+  "name-en": "Slugma",
+  "name-tw": "熔岩蟲"
+ },
+ {
+  "index": "#0219",
+  "name-en": "Magcargo",
+  "name-tw": "熔岩蝸牛"
+ },
+ {
+  "index": "#0220",
+  "name-en": "Swinub",
+  "name-tw": "小山豬"
+ },
+ {
+  "index": "#0221",
+  "name-en": "Piloswine",
+  "name-tw": "長毛豬"
+ },
+ {
+  "index": "#0222",
+  "name-en": "Corsola",
+  "name-tw": "太陽珊瑚"
+ },
+ {
+  "index": "#0223",
+  "name-en": "Remoraid",
+  "name-tw": "鐵炮魚"
+ },
+ {
+  "index": "#0224",
+  "name-en": "Octillery",
+  "name-tw": "章魚桶"
+ },
+ {
+  "index": "#0225",
+  "name-en": "Delibird",
+  "name-tw": "信使鳥"
+ },
+ {
+  "index": "#0226",
+  "name-en": "Mantine",
+  "name-tw": "巨翅飛魚"
+ },
+ {
+  "index": "#0227",
+  "name-en": "Skarmory",
+  "name-tw": "盔甲鳥"
+ },
+ {
+  "index": "#0228",
+  "name-en": "Houndour",
+  "name-tw": "戴魯比"
+ },
+ {
+  "index": "#0229",
+  "name-en": "Houndoom",
+  "name-tw": "黑魯加"
+ },
+ {
+  "index": "#0230",
+  "name-en": "Kingdra",
+  "name-tw": "刺龍王"
+ },
+ {
+  "index": "#0231",
+  "name-en": "Phanpy",
+  "name-tw": "小小象"
+ },
+ {
+  "index": "#0232",
+  "name-en": "Donphan",
+  "name-tw": "頓甲"
+ },
+ {
+  "index": "#0233",
+  "name-en": "Porygon2",
+  "name-tw": "多邊獸Ⅱ"
+ },
+ {
+  "index": "#0234",
+  "name-en": "Stantler",
+  "name-tw": "驚角鹿"
+ },
+ {
+  "index": "#0235",
+  "name-en": "Smeargle",
+  "name-tw": "圖圖犬"
+ },
+ {
+  "index": "#0236",
+  "name-en": "Tyrogue",
+  "name-tw": "無畏小子"
+ },
+ {
+  "index": "#0237",
+  "name-en": "Hitmontop",
+  "name-tw": "戰舞郎"
+ },
+ {
+  "index": "#0238",
+  "name-en": "Smoochum",
+  "name-tw": "迷唇娃"
+ },
+ {
+  "index": "#0239",
+  "name-en": "Elekid",
+  "name-tw": "電擊怪"
+ },
+ {
+  "index": "#0240",
+  "name-en": "Magby",
+  "name-tw": "鴨嘴寶寶"
+ },
+ {
+  "index": "#0241",
+  "name-en": "Miltank",
+  "name-tw": "大奶罐"
+ },
+ {
+  "index": "#0242",
+  "name-en": "Blissey",
+  "name-tw": "幸福蛋"
+ },
+ {
+  "index": "#0243",
+  "name-en": "Raikou",
+  "name-tw": "雷公"
+ },
+ {
+  "index": "#0244",
+  "name-en": "Entei",
+  "name-tw": "炎帝"
+ },
+ {
+  "index": "#0245",
+  "name-en": "Suicune",
+  "name-tw": "水君"
+ },
+ {
+  "index": "#0246",
+  "name-en": "Larvitar",
+  "name-tw": "幼基拉斯"
+ },
+ {
+  "index": "#0247",
+  "name-en": "Pupitar",
+  "name-tw": "沙基拉斯"
+ },
+ {
+  "index": "#0248",
+  "name-en": "Tyranitar",
+  "name-tw": "班基拉斯"
+ },
+ {
+  "index": "#0249",
+  "name-en": "Lugia",
+  "name-tw": "洛奇亞"
+ },
+ {
+  "index": "#0250",
+  "name-en": "Ho-Oh",
+  "name-tw": "鳳王"
+ },
+ {
+  "index": "#0251",
+  "name-en": "Celebi",
+  "name-tw": "時拉比"
+ },
+ {
+  "index": "#0252",
+  "name-en": "Treecko",
+  "name-tw": "木守宮"
+ },
+ {
+  "index": "#0253",
+  "name-en": "Grovyle",
+  "name-tw": "森林蜥蜴"
+ },
+ {
+  "index": "#0254",
+  "name-en": "Sceptile",
+  "name-tw": "蜥蜴王"
+ },
+ {
+  "index": "#0255",
+  "name-en": "Torchic",
+  "name-tw": "火稚雞"
+ },
+ {
+  "index": "#0256",
+  "name-en": "Combusken",
+  "name-tw": "力壯雞"
+ },
+ {
+  "index": "#0257",
+  "name-en": "Blaziken",
+  "name-tw": "火焰雞"
+ },
+ {
+  "index": "#0258",
+  "name-en": "Mudkip",
+  "name-tw": "水躍魚"
+ },
+ {
+  "index": "#0259",
+  "name-en": "Marshtomp",
+  "name-tw": "沼躍魚"
+ },
+ {
+  "index": "#0260",
+  "name-en": "Swampert",
+  "name-tw": "巨沼怪"
+ },
+ {
+  "index": "#0261",
+  "name-en": "Poochyena",
+  "name-tw": "土狼犬"
+ },
+ {
+  "index": "#0262",
+  "name-en": "Mightyena",
+  "name-tw": "大狼犬"
+ },
+ {
+  "index": "#0263",
+  "name-en": "Zigzagoon",
+  "name-tw": "蛇紋熊"
+ },
+ {
+  "index": "#0264",
+  "name-en": "Linoone",
+  "name-tw": "直衝熊"
+ },
+ {
+  "index": "#0265",
+  "name-en": "Wurmple",
+  "name-tw": "刺尾蟲"
+ },
+ {
+  "index": "#0266",
+  "name-en": "Silcoon",
+  "name-tw": "甲殼繭"
+ },
+ {
+  "index": "#0267",
+  "name-en": "Beautifly",
+  "name-tw": "狩獵鳳蝶"
+ },
+ {
+  "index": "#0268",
+  "name-en": "Cascoon",
+  "name-tw": "盾甲繭"
+ },
+ {
+  "index": "#0269",
+  "name-en": "Dustox",
+  "name-tw": "毒粉蛾"
+ },
+ {
+  "index": "#0270",
+  "name-en": "Lotad",
+  "name-tw": "蓮葉童子"
+ },
+ {
+  "index": "#0271",
+  "name-en": "Lombre",
+  "name-tw": "蓮帽小童"
+ },
+ {
+  "index": "#0272",
+  "name-en": "Ludicolo",
+  "name-tw": "樂天河童"
+ },
+ {
+  "index": "#0273",
+  "name-en": "Seedot",
+  "name-tw": "橡實果"
+ },
+ {
+  "index": "#0274",
+  "name-en": "Nuzleaf",
+  "name-tw": "長鼻葉"
+ },
+ {
+  "index": "#0275",
+  "name-en": "Shiftry",
+  "name-tw": "狡猾天狗"
+ },
+ {
+  "index": "#0276",
+  "name-en": "Taillow",
+  "name-tw": "傲骨燕"
+ },
+ {
+  "index": "#0277",
+  "name-en": "Swellow",
+  "name-tw": "大王燕"
+ },
+ {
+  "index": "#0278",
+  "name-en": "Wingull",
+  "name-tw": "長翅鷗"
+ },
+ {
+  "index": "#0279",
+  "name-en": "Pelipper",
+  "name-tw": "大嘴鷗"
+ },
+ {
+  "index": "#0280",
+  "name-en": "Ralts",
+  "name-tw": "拉魯拉絲"
+ },
+ {
+  "index": "#0281",
+  "name-en": "Kirlia",
+  "name-tw": "奇魯莉安"
+ },
+ {
+  "index": "#0282",
+  "name-en": "Gardevoir",
+  "name-tw": "沙奈朵"
+ },
+ {
+  "index": "#0283",
+  "name-en": "Surskit",
+  "name-tw": "溜溜糖球"
+ },
+ {
+  "index": "#0284",
+  "name-en": "Masquerain",
+  "name-tw": "雨翅蛾"
+ },
+ {
+  "index": "#0285",
+  "name-en": "Shroomish",
+  "name-tw": "蘑蘑菇"
+ },
+ {
+  "index": "#0286",
+  "name-en": "Breloom",
+  "name-tw": "斗笠菇"
+ },
+ {
+  "index": "#0287",
+  "name-en": "Slakoth",
+  "name-tw": "懶人獺"
+ },
+ {
+  "index": "#0288",
+  "name-en": "Vigoroth",
+  "name-tw": "過動猿"
+ },
+ {
+  "index": "#0289",
+  "name-en": "Slaking",
+  "name-tw": "請假王"
+ },
+ {
+  "index": "#0290",
+  "name-en": "Nincada",
+  "name-tw": "土居忍士"
+ },
+ {
+  "index": "#0291",
+  "name-en": "Ninjask",
+  "name-tw": "鐵面忍者"
+ },
+ {
+  "index": "#0292",
+  "name-en": "Shedinja",
+  "name-tw": "脫殼忍者"
+ },
+ {
+  "index": "#0293",
+  "name-en": "Whismur",
+  "name-tw": "咕妞妞"
+ },
+ {
+  "index": "#0294",
+  "name-en": "Loudred",
+  "name-tw": "吼爆彈"
+ },
+ {
+  "index": "#0295",
+  "name-en": "Exploud",
+  "name-tw": "爆音怪"
+ },
+ {
+  "index": "#0296",
+  "name-en": "Makuhita",
+  "name-tw": "幕下力士"
+ },
+ {
+  "index": "#0297",
+  "name-en": "Hariyama",
+  "name-tw": "鐵掌力士"
+ },
+ {
+  "index": "#0298",
+  "name-en": "Azurill",
+  "name-tw": "露力麗"
+ },
+ {
+  "index": "#0299",
+  "name-en": "Nosepass",
+  "name-tw": "朝北鼻"
+ },
+ {
+  "index": "#0300",
+  "name-en": "Skitty",
+  "name-tw": "向尾喵"
+ },
+ {
+  "index": "#0301",
+  "name-en": "Delcatty",
+  "name-tw": "優雅貓"
+ },
+ {
+  "index": "#0302",
+  "name-en": "Sableye",
+  "name-tw": "勾魂眼"
+ },
+ {
+  "index": "#0303",
+  "name-en": "Mawile",
+  "name-tw": "大嘴娃"
+ },
+ {
+  "index": "#0304",
+  "name-en": "Aron",
+  "name-tw": "可可多拉"
+ },
+ {
+  "index": "#0305",
+  "name-en": "Lairon",
+  "name-tw": "可多拉"
+ },
+ {
+  "index": "#0306",
+  "name-en": "Aggron",
+  "name-tw": "波士可多拉"
+ },
+ {
+  "index": "#0307",
+  "name-en": "Meditite",
+  "name-tw": "瑪沙那"
+ },
+ {
+  "index": "#0308",
+  "name-en": "Medicham",
+  "name-tw": "恰雷姆"
+ },
+ {
+  "index": "#0309",
+  "name-en": "Electrike",
+  "name-tw": "落雷獸"
+ },
+ {
+  "index": "#0310",
+  "name-en": "Manectric",
+  "name-tw": "雷電獸"
+ },
+ {
+  "index": "#0311",
+  "name-en": "Plusle",
+  "name-tw": "正電拍拍"
+ },
+ {
+  "index": "#0312",
+  "name-en": "Minun",
+  "name-tw": "負電拍拍"
+ },
+ {
+  "index": "#0313",
+  "name-en": "Volbeat",
+  "name-tw": "電螢蟲"
+ },
+ {
+  "index": "#0314",
+  "name-en": "Illumise",
+  "name-tw": "甜甜螢"
+ },
+ {
+  "index": "#0315",
+  "name-en": "Roselia",
+  "name-tw": "毒薔薇"
+ },
+ {
+  "index": "#0316",
+  "name-en": "Gulpin",
+  "name-tw": "溶食獸"
+ },
+ {
+  "index": "#0317",
+  "name-en": "Swalot",
+  "name-tw": "吞食獸"
+ },
+ {
+  "index": "#0318",
+  "name-en": "Carvanha",
+  "name-tw": "利牙魚"
+ },
+ {
+  "index": "#0319",
+  "name-en": "Sharpedo",
+  "name-tw": "巨牙鯊"
+ },
+ {
+  "index": "#0320",
+  "name-en": "Wailmer",
+  "name-tw": "吼吼鯨"
+ },
+ {
+  "index": "#0321",
+  "name-en": "Wailord",
+  "name-tw": "吼鯨王"
+ },
+ {
+  "index": "#0322",
+  "name-en": "Numel",
+  "name-tw": "呆火駝"
+ },
+ {
+  "index": "#0323",
+  "name-en": "Camerupt",
+  "name-tw": "噴火駝"
+ },
+ {
+  "index": "#0324",
+  "name-en": "Torkoal",
+  "name-tw": "煤炭龜"
+ },
+ {
+  "index": "#0325",
+  "name-en": "Spoink",
+  "name-tw": "跳跳豬"
+ },
+ {
+  "index": "#0326",
+  "name-en": "Grumpig",
+  "name-tw": "噗噗豬"
+ },
+ {
+  "index": "#0327",
+  "name-en": "Spinda",
+  "name-tw": "晃晃斑"
+ },
+ {
+  "index": "#0328",
+  "name-en": "Trapinch",
+  "name-tw": "大顎蟻"
+ },
+ {
+  "index": "#0329",
+  "name-en": "Vibrava",
+  "name-tw": "超音波幼蟲"
+ },
+ {
+  "index": "#0330",
+  "name-en": "Flygon",
+  "name-tw": "沙漠蜻蜓"
+ },
+ {
+  "index": "#0331",
+  "name-en": "Cacnea",
+  "name-tw": "刺球仙人掌"
+ },
+ {
+  "index": "#0332",
+  "name-en": "Cacturne",
+  "name-tw": "夢歌仙人掌"
+ },
+ {
+  "index": "#0333",
+  "name-en": "Swablu",
+  "name-tw": "青綿鳥"
+ },
+ {
+  "index": "#0334",
+  "name-en": "Altaria",
+  "name-tw": "七夕青鳥"
+ },
+ {
+  "index": "#0335",
+  "name-en": "Zangoose",
+  "name-tw": "貓鼬斬"
+ },
+ {
+  "index": "#0336",
+  "name-en": "Seviper",
+  "name-tw": "飯匙蛇"
+ },
+ {
+  "index": "#0337",
+  "name-en": "Lunatone",
+  "name-tw": "月石"
+ },
+ {
+  "index": "#0338",
+  "name-en": "Solrock",
+  "name-tw": "太陽岩"
+ },
+ {
+  "index": "#0339",
+  "name-en": "Barboach",
+  "name-tw": "泥泥鰍"
+ },
+ {
+  "index": "#0340",
+  "name-en": "Whiscash",
+  "name-tw": "鯰魚王"
+ },
+ {
+  "index": "#0341",
+  "name-en": "Corphish",
+  "name-tw": "龍蝦小兵"
+ },
+ {
+  "index": "#0342",
+  "name-en": "Crawdaunt",
+  "name-tw": "鐵螯龍蝦"
+ },
+ {
+  "index": "#0343",
+  "name-en": "Baltoy",
+  "name-tw": "天秤偶"
+ },
+ {
+  "index": "#0344",
+  "name-en": "Claydol",
+  "name-tw": "念力土偶"
+ },
+ {
+  "index": "#0345",
+  "name-en": "Lileep",
+  "name-tw": "觸手百合"
+ },
+ {
+  "index": "#0346",
+  "name-en": "Cradily",
+  "name-tw": "搖籃百合"
+ },
+ {
+  "index": "#0347",
+  "name-en": "Anorith",
+  "name-tw": "太古羽蟲"
+ },
+ {
+  "index": "#0348",
+  "name-en": "Armaldo",
+  "name-tw": "太古盔甲"
+ },
+ {
+  "index": "#0349",
+  "name-en": "Feebas",
+  "name-tw": "醜醜魚"
+ },
+ {
+  "index": "#0350",
+  "name-en": "Milotic",
+  "name-tw": "美納斯"
+ },
+ {
+  "index": "#0351",
+  "name-en": "Castform",
+  "name-tw": "飄浮泡泡"
+ },
+ {
+  "index": "#0352",
+  "name-en": "Kecleon",
+  "name-tw": "變隱龍"
+ },
+ {
+  "index": "#0353",
+  "name-en": "Shuppet",
+  "name-tw": "怨影娃娃"
+ },
+ {
+  "index": "#0354",
+  "name-en": "Banette",
+  "name-tw": "詛咒娃娃"
+ },
+ {
+  "index": "#0355",
+  "name-en": "Duskull",
+  "name-tw": "夜巡靈"
+ },
+ {
+  "index": "#0356",
+  "name-en": "Dusclops",
+  "name-tw": "彷徨夜靈"
+ },
+ {
+  "index": "#0357",
+  "name-en": "Tropius",
+  "name-tw": "熱帶龍"
+ },
+ {
+  "index": "#0358",
+  "name-en": "Chimecho",
+  "name-tw": "風鈴鈴"
+ },
+ {
+  "index": "#0359",
+  "name-en": "Absol",
+  "name-tw": "阿勃梭魯"
+ },
+ {
+  "index": "#0360",
+  "name-en": "Wynaut",
+  "name-tw": "小果然"
+ },
+ {
+  "index": "#0361",
+  "name-en": "Snorunt",
+  "name-tw": "雪童子"
+ },
+ {
+  "index": "#0362",
+  "name-en": "Glalie",
+  "name-tw": "冰鬼護"
+ },
+ {
+  "index": "#0363",
+  "name-en": "Spheal",
+  "name-tw": "海豹球"
+ },
+ {
+  "index": "#0364",
+  "name-en": "Sealeo",
+  "name-tw": "海魔獅"
+ },
+ {
+  "index": "#0365",
+  "name-en": "Walrein",
+  "name-tw": "帝牙海獅"
+ },
+ {
+  "index": "#0366",
+  "name-en": "Clamperl",
+  "name-tw": "珍珠貝"
+ },
+ {
+  "index": "#0367",
+  "name-en": "Huntail",
+  "name-tw": "獵斑魚"
+ },
+ {
+  "index": "#0368",
+  "name-en": "Gorebyss",
+  "name-tw": "櫻花魚"
+ },
+ {
+  "index": "#0369",
+  "name-en": "Relicanth",
+  "name-tw": "古空棘魚"
+ },
+ {
+  "index": "#0370",
+  "name-en": "Luvdisc",
+  "name-tw": "愛心魚"
+ },
+ {
+  "index": "#0371",
+  "name-en": "Bagon",
+  "name-tw": "寶貝龍"
+ },
+ {
+  "index": "#0372",
+  "name-en": "Shelgon",
+  "name-tw": "甲殼龍"
+ },
+ {
+  "index": "#0373",
+  "name-en": "Salamence",
+  "name-tw": "暴飛龍"
+ },
+ {
+  "index": "#0374",
+  "name-en": "Beldum",
+  "name-tw": "鐵啞鈴"
+ },
+ {
+  "index": "#0375",
+  "name-en": "Metang",
+  "name-tw": "金屬怪"
+ },
+ {
+  "index": "#0376",
+  "name-en": "Metagross",
+  "name-tw": "巨金怪"
+ },
+ {
+  "index": "#0377",
+  "name-en": "Regirock",
+  "name-tw": "雷吉洛克"
+ },
+ {
+  "index": "#0378",
+  "name-en": "Regice",
+  "name-tw": "雷吉艾斯"
+ },
+ {
+  "index": "#0379",
+  "name-en": "Registeel",
+  "name-tw": "雷吉斯奇魯"
+ },
+ {
+  "index": "#0380",
+  "name-en": "Latias",
+  "name-tw": "拉帝亞斯"
+ },
+ {
+  "index": "#0381",
+  "name-en": "Latios",
+  "name-tw": "拉帝歐斯"
+ },
+ {
+  "index": "#0382",
+  "name-en": "Kyogre",
+  "name-tw": "蓋歐卡"
+ },
+ {
+  "index": "#0383",
+  "name-en": "Groudon",
+  "name-tw": "固拉多"
+ },
+ {
+  "index": "#0384",
+  "name-en": "Rayquaza",
+  "name-tw": "烈空坐"
+ },
+ {
+  "index": "#0385",
+  "name-en": "Jirachi",
+  "name-tw": "基拉祈"
+ },
+ {
+  "index": "#0386",
+  "name-en": "Deoxys",
+  "name-tw": "代歐奇希斯"
+ },
+ {
+  "index": "#0387",
+  "name-en": "Turtwig",
+  "name-tw": "草苗龜"
+ },
+ {
+  "index": "#0388",
+  "name-en": "Grotle",
+  "name-tw": "樹林龜"
+ },
+ {
+  "index": "#0389",
+  "name-en": "Torterra",
+  "name-tw": "土台龜"
+ },
+ {
+  "index": "#0390",
+  "name-en": "Chimchar",
+  "name-tw": "小火焰猴"
+ },
+ {
+  "index": "#0391",
+  "name-en": "Monferno",
+  "name-tw": "猛火猴"
+ },
+ {
+  "index": "#0392",
+  "name-en": "Infernape",
+  "name-tw": "烈焰猴"
+ },
+ {
+  "index": "#0393",
+  "name-en": "Piplup",
+  "name-tw": "波加曼"
+ },
+ {
+  "index": "#0394",
+  "name-en": "Prinplup",
+  "name-tw": "波皇子"
+ },
+ {
+  "index": "#0395",
+  "name-en": "Empoleon",
+  "name-tw": "帝王拿波"
+ },
+ {
+  "index": "#0396",
+  "name-en": "Starly",
+  "name-tw": "姆克兒"
+ },
+ {
+  "index": "#0397",
+  "name-en": "Staravia",
+  "name-tw": "姆克鳥"
+ },
+ {
+  "index": "#0398",
+  "name-en": "Staraptor",
+  "name-tw": "姆克鷹"
+ },
+ {
+  "index": "#0399",
+  "name-en": "Bidoof",
+  "name-tw": "大牙狸"
+ },
+ {
+  "index": "#0400",
+  "name-en": "Bibarel",
+  "name-tw": "大尾狸"
+ },
+ {
+  "index": "#0401",
+  "name-en": "Kricketot",
+  "name-tw": "圓法師"
+ },
+ {
+  "index": "#0402",
+  "name-en": "Kricketune",
+  "name-tw": "音箱蟀"
+ },
+ {
+  "index": "#0403",
+  "name-en": "Shinx",
+  "name-tw": "小貓怪"
+ },
+ {
+  "index": "#0404",
+  "name-en": "Luxio",
+  "name-tw": "勒克貓"
+ },
+ {
+  "index": "#0405",
+  "name-en": "Luxray",
+  "name-tw": "倫琴貓"
+ },
+ {
+  "index": "#0406",
+  "name-en": "Budew",
+  "name-tw": "含羞苞"
+ },
+ {
+  "index": "#0407",
+  "name-en": "Roserade",
+  "name-tw": "羅絲雷朵"
+ },
+ {
+  "index": "#0408",
+  "name-en": "Cranidos",
+  "name-tw": "頭蓋龍"
+ },
+ {
+  "index": "#0409",
+  "name-en": "Rampardos",
+  "name-tw": "戰槌龍"
+ },
+ {
+  "index": "#0410",
+  "name-en": "Shieldon",
+  "name-tw": "盾甲龍"
+ },
+ {
+  "index": "#0411",
+  "name-en": "Bastiodon",
+  "name-tw": "護城龍"
+ },
+ {
+  "index": "#0412",
+  "name-en": "Burmy",
+  "name-tw": "結草兒"
+ },
+ {
+  "index": "#0413",
+  "name-en": "Wormadam",
+  "name-tw": "結草貴婦"
+ },
+ {
+  "index": "#0414",
+  "name-en": "Mothim",
+  "name-tw": "紳士蛾"
+ },
+ {
+  "index": "#0415",
+  "name-en": "Combee",
+  "name-tw": "三蜜蜂"
+ },
+ {
+  "index": "#0416",
+  "name-en": "Vespiquen",
+  "name-tw": "蜂女王"
+ },
+ {
+  "index": "#0417",
+  "name-en": "Pachirisu",
+  "name-tw": "帕奇利茲"
+ },
+ {
+  "index": "#0418",
+  "name-en": "Buizel",
+  "name-tw": "泳圈鼬"
+ },
+ {
+  "index": "#0419",
+  "name-en": "Floatzel",
+  "name-tw": "浮潛鼬"
+ },
+ {
+  "index": "#0420",
+  "name-en": "Cherubi",
+  "name-tw": "櫻花寶"
+ },
+ {
+  "index": "#0421",
+  "name-en": "Cherrim",
+  "name-tw": "櫻花兒"
+ },
+ {
+  "index": "#0422",
+  "name-en": "Shellos",
+  "name-tw": "無殼海兔"
+ },
+ {
+  "index": "#0423",
+  "name-en": "Gastrodon",
+  "name-tw": "海兔獸"
+ },
+ {
+  "index": "#0424",
+  "name-en": "Ambipom",
+  "name-tw": "雙尾怪手"
+ },
+ {
+  "index": "#0425",
+  "name-en": "Drifloon",
+  "name-tw": "飄飄球"
+ },
+ {
+  "index": "#0426",
+  "name-en": "Drifblim",
+  "name-tw": "隨風球"
+ },
+ {
+  "index": "#0427",
+  "name-en": "Buneary",
+  "name-tw": "捲捲耳"
+ },
+ {
+  "index": "#0428",
+  "name-en": "Lopunny",
+  "name-tw": "長耳兔"
+ },
+ {
+  "index": "#0429",
+  "name-en": "Mismagius",
+  "name-tw": "夢妖魔"
+ },
+ {
+  "index": "#0430",
+  "name-en": "Honchkrow",
+  "name-tw": "烏鴉頭頭"
+ },
+ {
+  "index": "#0431",
+  "name-en": "Glameow",
+  "name-tw": "魅力喵"
+ },
+ {
+  "index": "#0432",
+  "name-en": "Purugly",
+  "name-tw": "東施喵"
+ },
+ {
+  "index": "#0433",
+  "name-en": "Chingling",
+  "name-tw": "鈴鐺響"
+ },
+ {
+  "index": "#0434",
+  "name-en": "Stunky",
+  "name-tw": "臭鼬噗"
+ },
+ {
+  "index": "#0435",
+  "name-en": "Skuntank",
+  "name-tw": "坦克臭鼬"
+ },
+ {
+  "index": "#0436",
+  "name-en": "Bronzor",
+  "name-tw": "銅鏡怪"
+ },
+ {
+  "index": "#0437",
+  "name-en": "Bronzong",
+  "name-tw": "青銅鐘"
+ },
+ {
+  "index": "#0438",
+  "name-en": "Bonsly",
+  "name-tw": "盆才怪"
+ },
+ {
+  "index": "#0439",
+  "name-en": "Mime Jr.",
+  "name-tw": "魔尼尼"
+ },
+ {
+  "index": "#0440",
+  "name-en": "Happiny",
+  "name-tw": "小福蛋"
+ },
+ {
+  "index": "#0441",
+  "name-en": "Chatot",
+  "name-tw": "聒噪鳥"
+ },
+ {
+  "index": "#0442",
+  "name-en": "Spiritomb",
+  "name-tw": "花岩怪"
+ },
+ {
+  "index": "#0443",
+  "name-en": "Gible",
+  "name-tw": "圓陸鯊"
+ },
+ {
+  "index": "#0444",
+  "name-en": "Gabite",
+  "name-tw": "尖牙陸鯊"
+ },
+ {
+  "index": "#0445",
+  "name-en": "Garchomp",
+  "name-tw": "烈咬陸鯊"
+ },
+ {
+  "index": "#0446",
+  "name-en": "Munchlax",
+  "name-tw": "小卡比獸"
+ },
+ {
+  "index": "#0447",
+  "name-en": "Riolu",
+  "name-tw": "利歐路"
+ },
+ {
+  "index": "#0448",
+  "name-en": "Lucario",
+  "name-tw": "路卡利歐"
+ },
+ {
+  "index": "#0449",
+  "name-en": "Hippopotas",
+  "name-tw": "沙河馬"
+ },
+ {
+  "index": "#0450",
+  "name-en": "Hippowdon",
+  "name-tw": "河馬獸"
+ },
+ {
+  "index": "#0451",
+  "name-en": "Skorupi",
+  "name-tw": "鉗尾蠍"
+ },
+ {
+  "index": "#0452",
+  "name-en": "Drapion",
+  "name-tw": "龍王蠍"
+ },
+ {
+  "index": "#0453",
+  "name-en": "Croagunk",
+  "name-tw": "不良蛙"
+ },
+ {
+  "index": "#0454",
+  "name-en": "Toxicroak",
+  "name-tw": "毒骷蛙"
+ },
+ {
+  "index": "#0455",
+  "name-en": "Carnivine",
+  "name-tw": "尖牙籠"
+ },
+ {
+  "index": "#0456",
+  "name-en": "Finneon",
+  "name-tw": "螢光魚"
+ },
+ {
+  "index": "#0457",
+  "name-en": "Lumineon",
+  "name-tw": "霓虹魚"
+ },
+ {
+  "index": "#0458",
+  "name-en": "Mantyke",
+  "name-tw": "小球飛魚"
+ },
+ {
+  "index": "#0459",
+  "name-en": "Snover",
+  "name-tw": "雪笠怪"
+ },
+ {
+  "index": "#0460",
+  "name-en": "Abomasnow",
+  "name-tw": "暴雪王"
+ },
+ {
+  "index": "#0461",
+  "name-en": "Weavile",
+  "name-tw": "瑪狃拉"
+ },
+ {
+  "index": "#0462",
+  "name-en": "Magnezone",
+  "name-tw": "自爆磁怪"
+ },
+ {
+  "index": "#0463",
+  "name-en": "Lickilicky",
+  "name-tw": "大舌舔"
+ },
+ {
+  "index": "#0464",
+  "name-en": "Rhyperior",
+  "name-tw": "超甲狂犀"
+ },
+ {
+  "index": "#0465",
+  "name-en": "Tangrowth",
+  "name-tw": "巨蔓藤"
+ },
+ {
+  "index": "#0466",
+  "name-en": "Electivire",
+  "name-tw": "電擊魔獸"
+ },
+ {
+  "index": "#0467",
+  "name-en": "Magmortar",
+  "name-tw": "鴨嘴炎獸"
+ },
+ {
+  "index": "#0468",
+  "name-en": "Togekiss",
+  "name-tw": "波克基斯"
+ },
+ {
+  "index": "#0469",
+  "name-en": "Yanmega",
+  "name-tw": "遠古巨蜓"
+ },
+ {
+  "index": "#0470",
+  "name-en": "Leafeon",
+  "name-tw": "葉伊布"
+ },
+ {
+  "index": "#0471",
+  "name-en": "Glaceon",
+  "name-tw": "冰伊布"
+ },
+ {
+  "index": "#0472",
+  "name-en": "Gliscor",
+  "name-tw": "天蠍王"
+ },
+ {
+  "index": "#0473",
+  "name-en": "Mamoswine",
+  "name-tw": "象牙豬"
+ },
+ {
+  "index": "#0474",
+  "name-en": "Porygon-Z",
+  "name-tw": "多邊獸Ｚ"
+ },
+ {
+  "index": "#0475",
+  "name-en": "Gallade",
+  "name-tw": "艾路雷朵"
+ },
+ {
+  "index": "#0476",
+  "name-en": "Probopass",
+  "name-tw": "大朝北鼻"
+ },
+ {
+  "index": "#0477",
+  "name-en": "Dusknoir",
+  "name-tw": "黑夜魔靈"
+ },
+ {
+  "index": "#0478",
+  "name-en": "Froslass",
+  "name-tw": "雪妖女"
+ },
+ {
+  "index": "#0479",
+  "name-en": "Rotom",
+  "name-tw": "洛托姆"
+ },
+ {
+  "index": "#0480",
+  "name-en": "Uxie",
+  "name-tw": "由克希"
+ },
+ {
+  "index": "#0481",
+  "name-en": "Mesprit",
+  "name-tw": "艾姆利多"
+ },
+ {
+  "index": "#0482",
+  "name-en": "Azelf",
+  "name-tw": "亞克諾姆"
+ },
+ {
+  "index": "#0483",
+  "name-en": "Dialga",
+  "name-tw": "帝牙盧卡"
+ },
+ {
+  "index": "#0484",
+  "name-en": "Palkia",
+  "name-tw": "帕路奇亞"
+ },
+ {
+  "index": "#0485",
+  "name-en": "Heatran",
+  "name-tw": "席多藍恩"
+ },
+ {
+  "index": "#0486",
+  "name-en": "Regigigas",
+  "name-tw": "雷吉奇卡斯"
+ },
+ {
+  "index": "#0487",
+  "name-en": "Giratina",
+  "name-tw": "騎拉帝納"
+ },
+ {
+  "index": "#0488",
+  "name-en": "Cresselia",
+  "name-tw": "克雷色利亞"
+ },
+ {
+  "index": "#0489",
+  "name-en": "Phione",
+  "name-tw": "霏歐納"
+ },
+ {
+  "index": "#0490",
+  "name-en": "Manaphy",
+  "name-tw": "瑪納霏"
+ },
+ {
+  "index": "#0491",
+  "name-en": "Darkrai",
+  "name-tw": "達克萊伊"
+ },
+ {
+  "index": "#0492",
+  "name-en": "Shaymin",
+  "name-tw": "謝米"
+ },
+ {
+  "index": "#0493",
+  "name-en": "Arceus",
+  "name-tw": "阿爾宙斯"
+ },
+ {
+  "index": "#0494",
+  "name-en": "Victini",
+  "name-tw": "比克提尼"
+ },
+ {
+  "index": "#0495",
+  "name-en": "Snivy",
+  "name-tw": "藤藤蛇"
+ },
+ {
+  "index": "#0496",
+  "name-en": "Servine",
+  "name-tw": "青藤蛇"
+ },
+ {
+  "index": "#0497",
+  "name-en": "Serperior",
+  "name-tw": "君主蛇"
+ },
+ {
+  "index": "#0498",
+  "name-en": "Tepig",
+  "name-tw": "暖暖豬"
+ },
+ {
+  "index": "#0499",
+  "name-en": "Pignite",
+  "name-tw": "炒炒豬"
+ },
+ {
+  "index": "#0500",
+  "name-en": "Emboar",
+  "name-tw": "炎武王"
+ },
+ {
+  "index": "#0501",
+  "name-en": "Oshawott",
+  "name-tw": "水水獺"
+ },
+ {
+  "index": "#0502",
+  "name-en": "Dewott",
+  "name-tw": "雙刃丸"
+ },
+ {
+  "index": "#0503",
+  "name-en": "Samurott",
+  "name-tw": "大劍鬼"
+ },
+ {
+  "index": "#0504",
+  "name-en": "Patrat",
+  "name-tw": "探探鼠"
+ },
+ {
+  "index": "#0505",
+  "name-en": "Watchog",
+  "name-tw": "步哨鼠"
+ },
+ {
+  "index": "#0506",
+  "name-en": "Lillipup",
+  "name-tw": "小約克"
+ },
+ {
+  "index": "#0507",
+  "name-en": "Herdier",
+  "name-tw": "哈約克"
+ },
+ {
+  "index": "#0508",
+  "name-en": "Stoutland",
+  "name-tw": "長毛狗"
+ },
+ {
+  "index": "#0509",
+  "name-en": "Purrloin",
+  "name-tw": "扒手貓"
+ },
+ {
+  "index": "#0510",
+  "name-en": "Liepard",
+  "name-tw": "酷豹"
+ },
+ {
+  "index": "#0511",
+  "name-en": "Pansage",
+  "name-tw": "花椰猴"
+ },
+ {
+  "index": "#0512",
+  "name-en": "Simisage",
+  "name-tw": "花椰猿"
+ },
+ {
+  "index": "#0513",
+  "name-en": "Pansear",
+  "name-tw": "爆香猴"
+ },
+ {
+  "index": "#0514",
+  "name-en": "Simisear",
+  "name-tw": "爆香猿"
+ },
+ {
+  "index": "#0515",
+  "name-en": "Panpour",
+  "name-tw": "冷水猴"
+ },
+ {
+  "index": "#0516",
+  "name-en": "Simipour",
+  "name-tw": "冷水猿"
+ },
+ {
+  "index": "#0517",
+  "name-en": "Munna",
+  "name-tw": "食夢夢"
+ },
+ {
+  "index": "#0518",
+  "name-en": "Musharna",
+  "name-tw": "夢夢蝕"
+ },
+ {
+  "index": "#0519",
+  "name-en": "Pidove",
+  "name-tw": "豆豆鴿"
+ },
+ {
+  "index": "#0520",
+  "name-en": "Tranquill",
+  "name-tw": "咕咕鴿"
+ },
+ {
+  "index": "#0521",
+  "name-en": "Unfezant",
+  "name-tw": "高傲雉雞"
+ },
+ {
+  "index": "#0522",
+  "name-en": "Blitzle",
+  "name-tw": "斑斑馬"
+ },
+ {
+  "index": "#0523",
+  "name-en": "Zebstrika",
+  "name-tw": "雷電斑馬"
+ },
+ {
+  "index": "#0524",
+  "name-en": "Roggenrola",
+  "name-tw": "石丸子"
+ },
+ {
+  "index": "#0525",
+  "name-en": "Boldore",
+  "name-tw": "地幔岩"
+ },
+ {
+  "index": "#0526",
+  "name-en": "Gigalith",
+  "name-tw": "龐岩怪"
+ },
+ {
+  "index": "#0527",
+  "name-en": "Woobat",
+  "name-tw": "滾滾蝙蝠"
+ },
+ {
+  "index": "#0528",
+  "name-en": "Swoobat",
+  "name-tw": "心蝙蝠"
+ },
+ {
+  "index": "#0529",
+  "name-en": "Drilbur",
+  "name-tw": "螺釘地鼠"
+ },
+ {
+  "index": "#0530",
+  "name-en": "Excadrill",
+  "name-tw": "龍頭地鼠"
+ },
+ {
+  "index": "#0531",
+  "name-en": "Audino",
+  "name-tw": "差不多娃娃"
+ },
+ {
+  "index": "#0532",
+  "name-en": "Timburr",
+  "name-tw": "搬運小匠"
+ },
+ {
+  "index": "#0533",
+  "name-en": "Gurdurr",
+  "name-tw": "鐵骨土人"
+ },
+ {
+  "index": "#0534",
+  "name-en": "Conkeldurr",
+  "name-tw": "修建老匠"
+ },
+ {
+  "index": "#0535",
+  "name-en": "Tympole",
+  "name-tw": "圓蝌蚪"
+ },
+ {
+  "index": "#0536",
+  "name-en": "Palpitoad",
+  "name-tw": "藍蟾蜍"
+ },
+ {
+  "index": "#0537",
+  "name-en": "Seismitoad",
+  "name-tw": "蟾蜍王"
+ },
+ {
+  "index": "#0538",
+  "name-en": "Throh",
+  "name-tw": "投摔鬼"
+ },
+ {
+  "index": "#0539",
+  "name-en": "Sawk",
+  "name-tw": "打擊鬼"
+ },
+ {
+  "index": "#0540",
+  "name-en": "Sewaddle",
+  "name-tw": "蟲寶包"
+ },
+ {
+  "index": "#0541",
+  "name-en": "Swadloon",
+  "name-tw": "寶包繭"
+ },
+ {
+  "index": "#0542",
+  "name-en": "Leavanny",
+  "name-tw": "保母蟲"
+ },
+ {
+  "index": "#0543",
+  "name-en": "Venipede",
+  "name-tw": "百足蜈蚣"
+ },
+ {
+  "index": "#0544",
+  "name-en": "Whirlipede",
+  "name-tw": "車輪毬"
+ },
+ {
+  "index": "#0545",
+  "name-en": "Scolipede",
+  "name-tw": "蜈蚣王"
+ },
+ {
+  "index": "#0546",
+  "name-en": "Cottonee",
+  "name-tw": "木棉球"
+ },
+ {
+  "index": "#0547",
+  "name-en": "Whimsicott",
+  "name-tw": "風妖精"
+ },
+ {
+  "index": "#0548",
+  "name-en": "Petilil",
+  "name-tw": "百合根娃娃"
+ },
+ {
+  "index": "#0549",
+  "name-en": "Lilligant",
+  "name-tw": "裙兒小姐"
+ },
+ {
+  "index": "#0550",
+  "name-en": "Basculin",
+  "name-tw": "野蠻鱸魚"
+ },
+ {
+  "index": "#0551",
+  "name-en": "Sandile",
+  "name-tw": "黑眼鱷"
+ },
+ {
+  "index": "#0552",
+  "name-en": "Krokorok",
+  "name-tw": "混混鱷"
+ },
+ {
+  "index": "#0553",
+  "name-en": "Krookodile",
+  "name-tw": "流氓鱷"
+ },
+ {
+  "index": "#0554",
+  "name-en": "Darumaka",
+  "name-tw": "火紅不倒翁"
+ },
+ {
+  "index": "#0555",
+  "name-en": "Darmanitan",
+  "name-tw": "達摩狒狒"
+ },
+ {
+  "index": "#0556",
+  "name-en": "Maractus",
+  "name-tw": "沙鈴仙人掌"
+ },
+ {
+  "index": "#0557",
+  "name-en": "Dwebble",
+  "name-tw": "石居蟹"
+ },
+ {
+  "index": "#0558",
+  "name-en": "Crustle",
+  "name-tw": "岩殿居蟹"
+ },
+ {
+  "index": "#0559",
+  "name-en": "Scraggy",
+  "name-tw": "滑滑小子"
+ },
+ {
+  "index": "#0560",
+  "name-en": "Scrafty",
+  "name-tw": "頭巾混混"
+ },
+ {
+  "index": "#0561",
+  "name-en": "Sigilyph",
+  "name-tw": "象徵鳥"
+ },
+ {
+  "index": "#0562",
+  "name-en": "Yamask",
+  "name-tw": "哭哭面具"
+ },
+ {
+  "index": "#0563",
+  "name-en": "Cofagrigus",
+  "name-tw": "死神棺"
+ },
+ {
+  "index": "#0564",
+  "name-en": "Tirtouga",
+  "name-tw": "原蓋海龜"
+ },
+ {
+  "index": "#0565",
+  "name-en": "Carracosta",
+  "name-tw": "肋骨海龜"
+ },
+ {
+  "index": "#0566",
+  "name-en": "Archen",
+  "name-tw": "始祖小鳥"
+ },
+ {
+  "index": "#0567",
+  "name-en": "Archeops",
+  "name-tw": "始祖大鳥"
+ },
+ {
+  "index": "#0568",
+  "name-en": "Trubbish",
+  "name-tw": "破破袋"
+ },
+ {
+  "index": "#0569",
+  "name-en": "Garbodor",
+  "name-tw": "灰塵山"
+ },
+ {
+  "index": "#0570",
+  "name-en": "Zorua",
+  "name-tw": "索羅亞"
+ },
+ {
+  "index": "#0571",
+  "name-en": "Zoroark",
+  "name-tw": "索羅亞克"
+ },
+ {
+  "index": "#0572",
+  "name-en": "Minccino",
+  "name-tw": "泡沫栗鼠"
+ },
+ {
+  "index": "#0573",
+  "name-en": "Cinccino",
+  "name-tw": "奇諾栗鼠"
+ },
+ {
+  "index": "#0574",
+  "name-en": "Gothita",
+  "name-tw": "哥德寶寶"
+ },
+ {
+  "index": "#0575",
+  "name-en": "Gothorita",
+  "name-tw": "哥德小童"
+ },
+ {
+  "index": "#0576",
+  "name-en": "Gothitelle",
+  "name-tw": "哥德小姐"
+ },
+ {
+  "index": "#0577",
+  "name-en": "Solosis",
+  "name-tw": "單卵細胞球"
+ },
+ {
+  "index": "#0578",
+  "name-en": "Duosion",
+  "name-tw": "雙卵細胞球"
+ },
+ {
+  "index": "#0579",
+  "name-en": "Reuniclus",
+  "name-tw": "人造細胞卵"
+ },
+ {
+  "index": "#0580",
+  "name-en": "Ducklett",
+  "name-tw": "鴨寶寶"
+ },
+ {
+  "index": "#0581",
+  "name-en": "Swanna",
+  "name-tw": "舞天鵝"
+ },
+ {
+  "index": "#0582",
+  "name-en": "Vanillite",
+  "name-tw": "迷你冰"
+ },
+ {
+  "index": "#0583",
+  "name-en": "Vanillish",
+  "name-tw": "多多冰"
+ },
+ {
+  "index": "#0584",
+  "name-en": "Vanilluxe",
+  "name-tw": "雙倍多多冰"
+ },
+ {
+  "index": "#0585",
+  "name-en": "Deerling",
+  "name-tw": "四季鹿"
+ },
+ {
+  "index": "#0586",
+  "name-en": "Sawsbuck",
+  "name-tw": "萌芽鹿"
+ },
+ {
+  "index": "#0587",
+  "name-en": "Emolga",
+  "name-tw": "電飛鼠"
+ },
+ {
+  "index": "#0588",
+  "name-en": "Karrablast",
+  "name-tw": "蓋蓋蟲"
+ },
+ {
+  "index": "#0589",
+  "name-en": "Escavalier",
+  "name-tw": "騎士蝸牛"
+ },
+ {
+  "index": "#0590",
+  "name-en": "Foongus",
+  "name-tw": "哎呀球菇"
+ },
+ {
+  "index": "#0591",
+  "name-en": "Amoonguss",
+  "name-tw": "敗露球菇"
+ },
+ {
+  "index": "#0592",
+  "name-en": "Frillish",
+  "name-tw": "輕飄飄"
+ },
+ {
+  "index": "#0593",
+  "name-en": "Jellicent",
+  "name-tw": "胖嘟嘟"
+ },
+ {
+  "index": "#0594",
+  "name-en": "Alomomola",
+  "name-tw": "保母曼波"
+ },
+ {
+  "index": "#0595",
+  "name-en": "Joltik",
+  "name-tw": "電電蟲"
+ },
+ {
+  "index": "#0596",
+  "name-en": "Galvantula",
+  "name-tw": "電蜘蛛"
+ },
+ {
+  "index": "#0597",
+  "name-en": "Ferroseed",
+  "name-tw": "種子鐵球"
+ },
+ {
+  "index": "#0598",
+  "name-en": "Ferrothorn",
+  "name-tw": "堅果啞鈴"
+ },
+ {
+  "index": "#0599",
+  "name-en": "Klink",
+  "name-tw": "齒輪兒"
+ },
+ {
+  "index": "#0600",
+  "name-en": "Klang",
+  "name-tw": "齒輪組"
+ },
+ {
+  "index": "#0601",
+  "name-en": "Klinklang",
+  "name-tw": "齒輪怪"
+ },
+ {
+  "index": "#0602",
+  "name-en": "Tynamo",
+  "name-tw": "麻麻小魚"
+ },
+ {
+  "index": "#0603",
+  "name-en": "Eelektrik",
+  "name-tw": "麻麻鰻"
+ },
+ {
+  "index": "#0604",
+  "name-en": "Eelektross",
+  "name-tw": "麻麻鰻魚王"
+ },
+ {
+  "index": "#0605",
+  "name-en": "Elgyem",
+  "name-tw": "小灰怪"
+ },
+ {
+  "index": "#0606",
+  "name-en": "Beheeyem",
+  "name-tw": "大宇怪"
+ },
+ {
+  "index": "#0607",
+  "name-en": "Litwick",
+  "name-tw": "燭光靈"
+ },
+ {
+  "index": "#0608",
+  "name-en": "Lampent",
+  "name-tw": "燈火幽靈"
+ },
+ {
+  "index": "#0609",
+  "name-en": "Chandelure",
+  "name-tw": "水晶燈火靈"
+ },
+ {
+  "index": "#0610",
+  "name-en": "Axew",
+  "name-tw": "牙牙"
+ },
+ {
+  "index": "#0611",
+  "name-en": "Fraxure",
+  "name-tw": "斧牙龍"
+ },
+ {
+  "index": "#0612",
+  "name-en": "Haxorus",
+  "name-tw": "雙斧戰龍"
+ },
+ {
+  "index": "#0613",
+  "name-en": "Cubchoo",
+  "name-tw": "噴嚏熊"
+ },
+ {
+  "index": "#0614",
+  "name-en": "Beartic",
+  "name-tw": "凍原熊"
+ },
+ {
+  "index": "#0615",
+  "name-en": "Cryogonal",
+  "name-tw": "幾何雪花"
+ },
+ {
+  "index": "#0616",
+  "name-en": "Shelmet",
+  "name-tw": "小嘴蝸"
+ },
+ {
+  "index": "#0617",
+  "name-en": "Accelgor",
+  "name-tw": "敏捷蟲"
+ },
+ {
+  "index": "#0618",
+  "name-en": "Stunfisk",
+  "name-tw": "泥巴魚"
+ },
+ {
+  "index": "#0619",
+  "name-en": "Mienfoo",
+  "name-tw": "功夫鼬"
+ },
+ {
+  "index": "#0620",
+  "name-en": "Mienshao",
+  "name-tw": "師父鼬"
+ },
+ {
+  "index": "#0621",
+  "name-en": "Druddigon",
+  "name-tw": "赤面龍"
+ },
+ {
+  "index": "#0622",
+  "name-en": "Golett",
+  "name-tw": "泥偶小人"
+ },
+ {
+  "index": "#0623",
+  "name-en": "Golurk",
+  "name-tw": "泥偶巨人"
+ },
+ {
+  "index": "#0624",
+  "name-en": "Pawniard",
+  "name-tw": "駒刀小兵"
+ },
+ {
+  "index": "#0625",
+  "name-en": "Bisharp",
+  "name-tw": "劈斬司令"
+ },
+ {
+  "index": "#0626",
+  "name-en": "Bouffalant",
+  "name-tw": "爆炸頭水牛"
+ },
+ {
+  "index": "#0627",
+  "name-en": "Rufflet",
+  "name-tw": "毛頭小鷹"
+ },
+ {
+  "index": "#0628",
+  "name-en": "Braviary",
+  "name-tw": "勇士雄鷹"
+ },
+ {
+  "index": "#0629",
+  "name-en": "Vullaby",
+  "name-tw": "禿鷹丫頭"
+ },
+ {
+  "index": "#0630",
+  "name-en": "Mandibuzz",
+  "name-tw": "禿鷹娜"
+ },
+ {
+  "index": "#0631",
+  "name-en": "Heatmor",
+  "name-tw": "熔蟻獸"
+ },
+ {
+  "index": "#0632",
+  "name-en": "Durant",
+  "name-tw": "鐵蟻"
+ },
+ {
+  "index": "#0633",
+  "name-en": "Deino",
+  "name-tw": "單首龍"
+ },
+ {
+  "index": "#0634",
+  "name-en": "Zweilous",
+  "name-tw": "雙首暴龍"
+ },
+ {
+  "index": "#0635",
+  "name-en": "Hydreigon",
+  "name-tw": "三首惡龍"
+ },
+ {
+  "index": "#0636",
+  "name-en": "Larvesta",
+  "name-tw": "燃燒蟲"
+ },
+ {
+  "index": "#0637",
+  "name-en": "Volcarona",
+  "name-tw": "火神蛾"
+ },
+ {
+  "index": "#0638",
+  "name-en": "Cobalion",
+  "name-tw": "勾帕路翁"
+ },
+ {
+  "index": "#0639",
+  "name-en": "Terrakion",
+  "name-tw": "代拉基翁"
+ },
+ {
+  "index": "#0640",
+  "name-en": "Virizion",
+  "name-tw": "畢力吉翁"
+ },
+ {
+  "index": "#0641",
+  "name-en": "Tornadus",
+  "name-tw": "龍捲雲"
+ },
+ {
+  "index": "#0642",
+  "name-en": "Thundurus",
+  "name-tw": "雷電雲"
+ },
+ {
+  "index": "#0643",
+  "name-en": "Reshiram",
+  "name-tw": "萊希拉姆"
+ },
+ {
+  "index": "#0644",
+  "name-en": "Zekrom",
+  "name-tw": "捷克羅姆"
+ },
+ {
+  "index": "#0645",
+  "name-en": "Landorus",
+  "name-tw": "土地雲"
+ },
+ {
+  "index": "#0646",
+  "name-en": "Kyurem",
+  "name-tw": "酋雷姆"
+ },
+ {
+  "index": "#0647",
+  "name-en": "Keldeo",
+  "name-tw": "凱路迪歐"
+ },
+ {
+  "index": "#0648",
+  "name-en": "Meloetta",
+  "name-tw": "美洛耶塔"
+ },
+ {
+  "index": "#0649",
+  "name-en": "Genesect",
+  "name-tw": "蓋諾賽克特"
+ },
+ {
+  "index": "#0650",
+  "name-en": "Chespin",
+  "name-tw": "哈力栗"
+ },
+ {
+  "index": "#0651",
+  "name-en": "Quilladin",
+  "name-tw": "胖胖哈力"
+ },
+ {
+  "index": "#0652",
+  "name-en": "Chesnaught",
+  "name-tw": "布里卡隆"
+ },
+ {
+  "index": "#0653",
+  "name-en": "Fennekin",
+  "name-tw": "火狐狸"
+ },
+ {
+  "index": "#0654",
+  "name-en": "Braixen",
+  "name-tw": "長尾火狐"
+ },
+ {
+  "index": "#0655",
+  "name-en": "Delphox",
+  "name-tw": "妖火紅狐"
+ },
+ {
+  "index": "#0656",
+  "name-en": "Froakie",
+  "name-tw": "呱呱泡蛙"
+ },
+ {
+  "index": "#0657",
+  "name-en": "Frogadier",
+  "name-tw": "呱頭蛙"
+ },
+ {
+  "index": "#0658",
+  "name-en": "Greninja",
+  "name-tw": "甲賀忍蛙"
+ },
+ {
+  "index": "#0659",
+  "name-en": "Bunnelby",
+  "name-tw": "掘掘兔"
+ },
+ {
+  "index": "#0660",
+  "name-en": "Diggersby",
+  "name-tw": "掘地兔"
+ },
+ {
+  "index": "#0661",
+  "name-en": "Fletchling",
+  "name-tw": "小箭雀"
+ },
+ {
+  "index": "#0662",
+  "name-en": "Fletchinder",
+  "name-tw": "火箭雀"
+ },
+ {
+  "index": "#0663",
+  "name-en": "Talonflame",
+  "name-tw": "烈箭鷹"
+ },
+ {
+  "index": "#0664",
+  "name-en": "Scatterbug",
+  "name-tw": "粉蝶蟲"
+ },
+ {
+  "index": "#0665",
+  "name-en": "Spewpa",
+  "name-tw": "粉蝶蛹"
+ },
+ {
+  "index": "#0666",
+  "name-en": "Vivillon",
+  "name-tw": "彩粉蝶"
+ },
+ {
+  "index": "#0667",
+  "name-en": "Litleo",
+  "name-tw": "小獅獅"
+ },
+ {
+  "index": "#0668",
+  "name-en": "Pyroar",
+  "name-tw": "火炎獅"
+ },
+ {
+  "index": "#0669",
+  "name-en": "Flabébé",
+  "name-tw": "花蓓蓓"
+ },
+ {
+  "index": "#0670",
+  "name-en": "Floette",
+  "name-tw": "花葉蒂"
+ },
+ {
+  "index": "#0671",
+  "name-en": "Florges",
+  "name-tw": "花潔夫人"
+ },
+ {
+  "index": "#0672",
+  "name-en": "Skiddo",
+  "name-tw": "坐騎小羊"
+ },
+ {
+  "index": "#0673",
+  "name-en": "Gogoat",
+  "name-tw": "坐騎山羊"
+ },
+ {
+  "index": "#0674",
+  "name-en": "Pancham",
+  "name-tw": "頑皮熊貓"
+ },
+ {
+  "index": "#0675",
+  "name-en": "Pangoro",
+  "name-tw": "流氓熊貓"
+ },
+ {
+  "index": "#0676",
+  "name-en": "Furfrou",
+  "name-tw": "多麗米亞"
+ },
+ {
+  "index": "#0677",
+  "name-en": "Espurr",
+  "name-tw": "妙喵"
+ },
+ {
+  "index": "#0678",
+  "name-en": "Meowstic",
+  "name-tw": "超能妙喵"
+ },
+ {
+  "index": "#0679",
+  "name-en": "Honedge",
+  "name-tw": "獨劍鞘"
+ },
+ {
+  "index": "#0680",
+  "name-en": "Doublade",
+  "name-tw": "雙劍鞘"
+ },
+ {
+  "index": "#0681",
+  "name-en": "Aegislash",
+  "name-tw": "堅盾劍怪"
+ },
+ {
+  "index": "#0682",
+  "name-en": "Spritzee",
+  "name-tw": "粉香香"
+ },
+ {
+  "index": "#0683",
+  "name-en": "Aromatisse",
+  "name-tw": "芳香精"
+ },
+ {
+  "index": "#0684",
+  "name-en": "Swirlix",
+  "name-tw": "綿綿泡芙"
+ },
+ {
+  "index": "#0685",
+  "name-en": "Slurpuff",
+  "name-tw": "胖甜妮"
+ },
+ {
+  "index": "#0686",
+  "name-en": "Inkay",
+  "name-tw": "好啦魷"
+ },
+ {
+  "index": "#0687",
+  "name-en": "Malamar",
+  "name-tw": "烏賊王"
+ },
+ {
+  "index": "#0688",
+  "name-en": "Binacle",
+  "name-tw": "龜腳腳"
+ },
+ {
+  "index": "#0689",
+  "name-en": "Barbaracle",
+  "name-tw": "龜足巨鎧"
+ },
+ {
+  "index": "#0690",
+  "name-en": "Skrelp",
+  "name-tw": "垃垃藻"
+ },
+ {
+  "index": "#0691",
+  "name-en": "Dragalge",
+  "name-tw": "毒藻龍"
+ },
+ {
+  "index": "#0692",
+  "name-en": "Clauncher",
+  "name-tw": "鐵臂槍蝦"
+ },
+ {
+  "index": "#0693",
+  "name-en": "Clawitzer",
+  "name-tw": "鋼炮臂蝦"
+ },
+ {
+  "index": "#0694",
+  "name-en": "Helioptile",
+  "name-tw": "傘電蜥"
+ },
+ {
+  "index": "#0695",
+  "name-en": "Heliolisk",
+  "name-tw": "光電傘蜥"
+ },
+ {
+  "index": "#0696",
+  "name-en": "Tyrunt",
+  "name-tw": "寶寶暴龍"
+ },
+ {
+  "index": "#0697",
+  "name-en": "Tyrantrum",
+  "name-tw": "怪顎龍"
+ },
+ {
+  "index": "#0698",
+  "name-en": "Amaura",
+  "name-tw": "冰雪龍"
+ },
+ {
+  "index": "#0699",
+  "name-en": "Aurorus",
+  "name-tw": "冰雪巨龍"
+ },
+ {
+  "index": "#0700",
+  "name-en": "Sylveon",
+  "name-tw": "仙子伊布"
+ },
+ {
+  "index": "#0701",
+  "name-en": "Hawlucha",
+  "name-tw": "摔角鷹人"
+ },
+ {
+  "index": "#0702",
+  "name-en": "Dedenne",
+  "name-tw": "咚咚鼠"
+ },
+ {
+  "index": "#0703",
+  "name-en": "Carbink",
+  "name-tw": "小碎鑽"
+ },
+ {
+  "index": "#0704",
+  "name-en": "Goomy",
+  "name-tw": "黏黏寶"
+ },
+ {
+  "index": "#0705",
+  "name-en": "Sliggoo",
+  "name-tw": "黏美兒"
+ },
+ {
+  "index": "#0706",
+  "name-en": "Goodra",
+  "name-tw": "黏美龍"
+ },
+ {
+  "index": "#0707",
+  "name-en": "Klefki",
+  "name-tw": "鑰圈兒"
+ },
+ {
+  "index": "#0708",
+  "name-en": "Phantump",
+  "name-tw": "小木靈"
+ },
+ {
+  "index": "#0709",
+  "name-en": "Trevenant",
+  "name-tw": "朽木妖"
+ },
+ {
+  "index": "#0710",
+  "name-en": "Pumpkaboo",
+  "name-tw": "南瓜精"
+ },
+ {
+  "index": "#0711",
+  "name-en": "Gourgeist",
+  "name-tw": "南瓜怪人"
+ },
+ {
+  "index": "#0712",
+  "name-en": "Bergmite",
+  "name-tw": "冰寶"
+ },
+ {
+  "index": "#0713",
+  "name-en": "Avalugg",
+  "name-tw": "冰岩怪"
+ },
+ {
+  "index": "#0714",
+  "name-en": "Noibat",
+  "name-tw": "嗡蝠"
+ },
+ {
+  "index": "#0715",
+  "name-en": "Noivern",
+  "name-tw": "音波龍"
+ },
+ {
+  "index": "#0716",
+  "name-en": "Xerneas",
+  "name-tw": "哲爾尼亞斯"
+ },
+ {
+  "index": "#0717",
+  "name-en": "Yveltal",
+  "name-tw": "伊裴爾塔爾"
+ },
+ {
+  "index": "#0718",
+  "name-en": "Zygarde",
+  "name-tw": "基格爾德"
+ },
+ {
+  "index": "#0719",
+  "name-en": "Diancie",
+  "name-tw": "蒂安希"
+ },
+ {
+  "index": "#0720",
+  "name-en": "Hoopa",
+  "name-tw": "胡帕"
+ },
+ {
+  "index": "#0721",
+  "name-en": "Volcanion",
+  "name-tw": "波爾凱尼恩"
+ },
+ {
+  "index": "#0722",
+  "name-en": "Rowlet",
+  "name-tw": "木木梟"
+ },
+ {
+  "index": "#0723",
+  "name-en": "Dartrix",
+  "name-tw": "投羽梟"
+ },
+ {
+  "index": "#0724",
+  "name-en": "Decidueye",
+  "name-tw": "狙射樹梟"
+ },
+ {
+  "index": "#0725",
+  "name-en": "Litten",
+  "name-tw": "火斑喵"
+ },
+ {
+  "index": "#0726",
+  "name-en": "Torracat",
+  "name-tw": "炎熱喵"
+ },
+ {
+  "index": "#0727",
+  "name-en": "Incineroar",
+  "name-tw": "熾焰咆哮虎"
+ },
+ {
+  "index": "#0728",
+  "name-en": "Popplio",
+  "name-tw": "球球海獅"
+ },
+ {
+  "index": "#0729",
+  "name-en": "Brionne",
+  "name-tw": "花漾海獅"
+ },
+ {
+  "index": "#0730",
+  "name-en": "Primarina",
+  "name-tw": "西獅海壬"
+ },
+ {
+  "index": "#0731",
+  "name-en": "Pikipek",
+  "name-tw": "小篤兒"
+ },
+ {
+  "index": "#0732",
+  "name-en": "Trumbeak",
+  "name-tw": "喇叭啄鳥"
+ },
+ {
+  "index": "#0733",
+  "name-en": "Toucannon",
+  "name-tw": "銃嘴大鳥"
+ },
+ {
+  "index": "#0734",
+  "name-en": "Yungoos",
+  "name-tw": "貓鼬少"
+ },
+ {
+  "index": "#0735",
+  "name-en": "Gumshoos",
+  "name-tw": "貓鼬探長"
+ },
+ {
+  "index": "#0736",
+  "name-en": "Grubbin",
+  "name-tw": "強顎雞母蟲"
+ },
+ {
+  "index": "#0737",
+  "name-en": "Charjabug",
+  "name-tw": "蟲電寶"
+ },
+ {
+  "index": "#0738",
+  "name-en": "Vikavolt",
+  "name-tw": "鍬農炮蟲"
+ },
+ {
+  "index": "#0739",
+  "name-en": "Crabrawler",
+  "name-tw": "好勝蟹"
+ },
+ {
+  "index": "#0740",
+  "name-en": "Crabominable",
+  "name-tw": "好勝毛蟹"
+ },
+ {
+  "index": "#0741",
+  "name-en": "Oricorio",
+  "name-tw": "花舞鳥"
+ },
+ {
+  "index": "#0742",
+  "name-en": "Cutiefly",
+  "name-tw": "萌虻"
+ },
+ {
+  "index": "#0743",
+  "name-en": "Ribombee",
+  "name-tw": "蝶結萌虻"
+ },
+ {
+  "index": "#0744",
+  "name-en": "Rockruff",
+  "name-tw": "岩狗狗"
+ },
+ {
+  "index": "#0745",
+  "name-en": "Lycanroc",
+  "name-tw": "鬃岩狼人"
+ },
+ {
+  "index": "#0746",
+  "name-en": "Wishiwashi",
+  "name-tw": "弱丁魚"
+ },
+ {
+  "index": "#0747",
+  "name-en": "Mareanie",
+  "name-tw": "好壞星"
+ },
+ {
+  "index": "#0748",
+  "name-en": "Toxapex",
+  "name-tw": "超壞星"
+ },
+ {
+  "index": "#0749",
+  "name-en": "Mudbray",
+  "name-tw": "泥驢仔"
+ },
+ {
+  "index": "#0750",
+  "name-en": "Mudsdale",
+  "name-tw": "重泥挽馬"
+ },
+ {
+  "index": "#0751",
+  "name-en": "Dewpider",
+  "name-tw": "滴蛛"
+ },
+ {
+  "index": "#0752",
+  "name-en": "Araquanid",
+  "name-tw": "滴蛛霸"
+ },
+ {
+  "index": "#0753",
+  "name-en": "Fomantis",
+  "name-tw": "偽螳草"
+ },
+ {
+  "index": "#0754",
+  "name-en": "Lurantis",
+  "name-tw": "蘭螳花"
+ },
+ {
+  "index": "#0755",
+  "name-en": "Morelull",
+  "name-tw": "睡睡菇"
+ },
+ {
+  "index": "#0756",
+  "name-en": "Shiinotic",
+  "name-tw": "燈罩夜菇"
+ },
+ {
+  "index": "#0757",
+  "name-en": "Salandit",
+  "name-tw": "夜盜火蜥"
+ },
+ {
+  "index": "#0758",
+  "name-en": "Salazzle",
+  "name-tw": "焰后蜥"
+ },
+ {
+  "index": "#0759",
+  "name-en": "Stufful",
+  "name-tw": "童偶熊"
+ },
+ {
+  "index": "#0760",
+  "name-en": "Bewear",
+  "name-tw": "穿著熊"
+ },
+ {
+  "index": "#0761",
+  "name-en": "Bounsweet",
+  "name-tw": "甜竹竹"
+ },
+ {
+  "index": "#0762",
+  "name-en": "Steenee",
+  "name-tw": "甜舞妮"
+ },
+ {
+  "index": "#0763",
+  "name-en": "Tsareena",
+  "name-tw": "甜冷美后"
+ },
+ {
+  "index": "#0764",
+  "name-en": "Comfey",
+  "name-tw": "花療環環"
+ },
+ {
+  "index": "#0765",
+  "name-en": "Oranguru",
+  "name-tw": "智揮猩"
+ },
+ {
+  "index": "#0766",
+  "name-en": "Passimian",
+  "name-tw": "投擲猴"
+ },
+ {
+  "index": "#0767",
+  "name-en": "Wimpod",
+  "name-tw": "膽小蟲"
+ },
+ {
+  "index": "#0768",
+  "name-en": "Golisopod",
+  "name-tw": "具甲武者"
+ },
+ {
+  "index": "#0769",
+  "name-en": "Sandygast",
+  "name-tw": "沙丘娃"
+ },
+ {
+  "index": "#0770",
+  "name-en": "Palossand",
+  "name-tw": "噬沙堡爺"
+ },
+ {
+  "index": "#0771",
+  "name-en": "Pyukumuku",
+  "name-tw": "拳海參"
+ },
+ {
+  "index": "#0772",
+  "name-en": "Type: Null",
+  "name-tw": "屬性：空"
+ },
+ {
+  "index": "#0773",
+  "name-en": "Silvally",
+  "name-tw": "銀伴戰獸"
+ },
+ {
+  "index": "#0774",
+  "name-en": "Minior",
+  "name-tw": "小隕星"
+ },
+ {
+  "index": "#0775",
+  "name-en": "Komala",
+  "name-tw": "樹枕尾熊"
+ },
+ {
+  "index": "#0776",
+  "name-en": "Turtonator",
+  "name-tw": "爆焰龜獸"
+ },
+ {
+  "index": "#0777",
+  "name-en": "Togedemaru",
+  "name-tw": "托戈德瑪爾"
+ },
+ {
+  "index": "#0778",
+  "name-en": "Mimikyu",
+  "name-tw": "謎擬Ｑ"
+ },
+ {
+  "index": "#0779",
+  "name-en": "Bruxish",
+  "name-tw": "磨牙彩皮魚"
+ },
+ {
+  "index": "#0780",
+  "name-en": "Drampa",
+  "name-tw": "老翁龍"
+ },
+ {
+  "index": "#0781",
+  "name-en": "Dhelmise",
+  "name-tw": "破破舵輪"
+ },
+ {
+  "index": "#0782",
+  "name-en": "Jangmo-o",
+  "name-tw": "心鱗寶"
+ },
+ {
+  "index": "#0783",
+  "name-en": "Hakamo-o",
+  "name-tw": "鱗甲龍"
+ },
+ {
+  "index": "#0784",
+  "name-en": "Kommo-o",
+  "name-tw": "杖尾鱗甲龍"
+ },
+ {
+  "index": "#0785",
+  "name-en": "Tapu Koko",
+  "name-tw": "卡璞・鳴鳴"
+ },
+ {
+  "index": "#0786",
+  "name-en": "Tapu Lele",
+  "name-tw": "卡璞・蝶蝶"
+ },
+ {
+  "index": "#0787",
+  "name-en": "Tapu Bulu",
+  "name-tw": "卡璞・哞哞"
+ },
+ {
+  "index": "#0788",
+  "name-en": "Tapu Fini",
+  "name-tw": "卡璞・鰭鰭"
+ },
+ {
+  "index": "#0789",
+  "name-en": "Cosmog",
+  "name-tw": "科斯莫古"
+ },
+ {
+  "index": "#0790",
+  "name-en": "Cosmoem",
+  "name-tw": "科斯莫姆"
+ },
+ {
+  "index": "#0791",
+  "name-en": "Solgaleo",
+  "name-tw": "索爾迦雷歐"
+ },
+ {
+  "index": "#0792",
+  "name-en": "Lunala",
+  "name-tw": "露奈雅拉"
+ },
+ {
+  "index": "#0793",
+  "name-en": "Nihilego",
+  "name-tw": "虛吾伊德"
+ },
+ {
+  "index": "#0794",
+  "name-en": "Buzzwole",
+  "name-tw": "爆肌蚊"
+ },
+ {
+  "index": "#0795",
+  "name-en": "Pheromosa",
+  "name-tw": "費洛美螂"
+ },
+ {
+  "index": "#0796",
+  "name-en": "Xurkitree",
+  "name-tw": "電束木"
+ },
+ {
+  "index": "#0797",
+  "name-en": "Celesteela",
+  "name-tw": "鐵火輝夜"
+ },
+ {
+  "index": "#0798",
+  "name-en": "Kartana",
+  "name-tw": "紙御劍"
+ },
+ {
+  "index": "#0799",
+  "name-en": "Guzzlord",
+  "name-tw": "惡食大王"
+ },
+ {
+  "index": "#0800",
+  "name-en": "Necrozma",
+  "name-tw": "奈克洛茲瑪"
+ },
+ {
+  "index": "#0801",
+  "name-en": "Magearna",
+  "name-tw": "瑪機雅娜"
+ },
+ {
+  "index": "#0802",
+  "name-en": "Marshadow",
+  "name-tw": "瑪夏多"
+ },
+ {
+  "index": "#0803",
+  "name-en": "Poipole",
+  "name-tw": "毒貝比"
+ },
+ {
+  "index": "#0804",
+  "name-en": "Naganadel",
+  "name-tw": "四顎針龍"
+ },
+ {
+  "index": "#0805",
+  "name-en": "Stakataka",
+  "name-tw": "壘磊石"
+ },
+ {
+  "index": "#0806",
+  "name-en": "Blacephalon",
+  "name-tw": "砰頭小丑"
+ },
+ {
+  "index": "#0807",
+  "name-en": "Zeraora",
+  "name-tw": "捷拉奧拉"
+ },
+ {
+  "index": "#0808",
+  "name-en": "Meltan",
+  "name-tw": "美錄坦"
+ },
+ {
+  "index": "#0809",
+  "name-en": "Melmetal",
+  "name-tw": "美錄梅塔"
+ },
+ {
+  "index": "#0810",
+  "name-en": "Grookey",
+  "name-tw": "敲音猴"
+ },
+ {
+  "index": "#0811",
+  "name-en": "Thwackey",
+  "name-tw": "啪咚猴"
+ },
+ {
+  "index": "#0812",
+  "name-en": "Rillaboom",
+  "name-tw": "轟擂金剛猩"
+ },
+ {
+  "index": "#0813",
+  "name-en": "Scorbunny",
+  "name-tw": "炎兔兒"
+ },
+ {
+  "index": "#0814",
+  "name-en": "Raboot",
+  "name-tw": "騰蹴小將"
+ },
+ {
+  "index": "#0815",
+  "name-en": "Cinderace",
+  "name-tw": "閃焰王牌"
+ },
+ {
+  "index": "#0816",
+  "name-en": "Sobble",
+  "name-tw": "淚眼蜥"
+ },
+ {
+  "index": "#0817",
+  "name-en": "Drizzile",
+  "name-tw": "變澀蜥"
+ },
+ {
+  "index": "#0818",
+  "name-en": "Inteleon",
+  "name-tw": "千面避役"
+ },
+ {
+  "index": "#0819",
+  "name-en": "Skwovet",
+  "name-tw": "貪心栗鼠"
+ },
+ {
+  "index": "#0820",
+  "name-en": "Greedent",
+  "name-tw": "藏飽栗鼠"
+ },
+ {
+  "index": "#0821",
+  "name-en": "Rookidee",
+  "name-tw": "稚山雀"
+ },
+ {
+  "index": "#0822",
+  "name-en": "Corvisquire",
+  "name-tw": "藍鴉"
+ },
+ {
+  "index": "#0823",
+  "name-en": "Corviknight",
+  "name-tw": "鋼鎧鴉"
+ },
+ {
+  "index": "#0824",
+  "name-en": "Blipbug",
+  "name-tw": "索偵蟲"
+ },
+ {
+  "index": "#0825",
+  "name-en": "Dottler",
+  "name-tw": "天罩蟲"
+ },
+ {
+  "index": "#0826",
+  "name-en": "Orbeetle",
+  "name-tw": "以歐路普"
+ },
+ {
+  "index": "#0827",
+  "name-en": "Nickit",
+  "name-tw": "偷兒狐"
+ },
+ {
+  "index": "#0828",
+  "name-en": "Thievul",
+  "name-tw": "狐大盜"
+ },
+ {
+  "index": "#0829",
+  "name-en": "Gossifleur",
+  "name-tw": "幼棉棉"
+ },
+ {
+  "index": "#0830",
+  "name-en": "Eldegoss",
+  "name-tw": "白蓬蓬"
+ },
+ {
+  "index": "#0831",
+  "name-en": "Wooloo",
+  "name-tw": "毛辮羊"
+ },
+ {
+  "index": "#0832",
+  "name-en": "Dubwool",
+  "name-tw": "毛毛角羊"
+ },
+ {
+  "index": "#0833",
+  "name-en": "Chewtle",
+  "name-tw": "咬咬龜"
+ },
+ {
+  "index": "#0834",
+  "name-en": "Drednaw",
+  "name-tw": "暴噬龜"
+ },
+ {
+  "index": "#0835",
+  "name-en": "Yamper",
+  "name-tw": "來電汪"
+ },
+ {
+  "index": "#0836",
+  "name-en": "Boltund",
+  "name-tw": "逐電犬"
+ },
+ {
+  "index": "#0837",
+  "name-en": "Rolycoly",
+  "name-tw": "小炭仔"
+ },
+ {
+  "index": "#0838",
+  "name-en": "Carkol",
+  "name-tw": "大炭車"
+ },
+ {
+  "index": "#0839",
+  "name-en": "Coalossal",
+  "name-tw": "巨炭山"
+ },
+ {
+  "index": "#0840",
+  "name-en": "Applin",
+  "name-tw": "啃果蟲"
+ },
+ {
+  "index": "#0841",
+  "name-en": "Flapple",
+  "name-tw": "蘋裹龍"
+ },
+ {
+  "index": "#0842",
+  "name-en": "Appletun",
+  "name-tw": "豐蜜龍"
+ },
+ {
+  "index": "#0843",
+  "name-en": "Silicobra",
+  "name-tw": "沙包蛇"
+ },
+ {
+  "index": "#0844",
+  "name-en": "Sandaconda",
+  "name-tw": "沙螺蟒"
+ },
+ {
+  "index": "#0845",
+  "name-en": "Cramorant",
+  "name-tw": "古月鳥"
+ },
+ {
+  "index": "#0846",
+  "name-en": "Arrokuda",
+  "name-tw": "刺梭魚"
+ },
+ {
+  "index": "#0847",
+  "name-en": "Barraskewda",
+  "name-tw": "戽斗尖梭"
+ },
+ {
+  "index": "#0848",
+  "name-en": "Toxel",
+  "name-tw": "毒電嬰"
+ },
+ {
+  "index": "#0849",
+  "name-en": "Toxtricity",
+  "name-tw": "顫弦蠑螈"
+ },
+ {
+  "index": "#0850",
+  "name-en": "Sizzlipede",
+  "name-tw": "燒火蚣"
+ },
+ {
+  "index": "#0851",
+  "name-en": "Centiskorch",
+  "name-tw": "焚焰蚣"
+ },
+ {
+  "index": "#0852",
+  "name-en": "Clobbopus",
+  "name-tw": "拳拳蛸"
+ },
+ {
+  "index": "#0853",
+  "name-en": "Grapploct",
+  "name-tw": "八爪武師"
+ },
+ {
+  "index": "#0854",
+  "name-en": "Sinistea",
+  "name-tw": "來悲茶"
+ },
+ {
+  "index": "#0855",
+  "name-en": "Polteageist",
+  "name-tw": "怖思壺"
+ },
+ {
+  "index": "#0856",
+  "name-en": "Hatenna",
+  "name-tw": "迷布莉姆"
+ },
+ {
+  "index": "#0857",
+  "name-en": "Hattrem",
+  "name-tw": "提布莉姆"
+ },
+ {
+  "index": "#0858",
+  "name-en": "Hatterene",
+  "name-tw": "布莉姆溫"
+ },
+ {
+  "index": "#0859",
+  "name-en": "Impidimp",
+  "name-tw": "搗蛋小妖"
+ },
+ {
+  "index": "#0860",
+  "name-en": "Morgrem",
+  "name-tw": "詐唬魔"
+ },
+ {
+  "index": "#0861",
+  "name-en": "Grimmsnarl",
+  "name-tw": "長毛巨魔"
+ },
+ {
+  "index": "#0862",
+  "name-en": "Obstagoon",
+  "name-tw": "堵攔熊"
+ },
+ {
+  "index": "#0863",
+  "name-en": "Perrserker",
+  "name-tw": "喵頭目"
+ },
+ {
+  "index": "#0864",
+  "name-en": "Cursola",
+  "name-tw": "魔靈珊瑚"
+ },
+ {
+  "index": "#0865",
+  "name-en": "Sirfetch』d",
+  "name-tw": "蔥遊兵"
+ },
+ {
+  "index": "#0866",
+  "name-en": "Mr. Rime",
+  "name-tw": "踏冰人偶"
+ },
+ {
+  "index": "#0867",
+  "name-en": "Runerigus",
+  "name-tw": "死神板"
+ },
+ {
+  "index": "#0868",
+  "name-en": "Milcery",
+  "name-tw": "小仙奶"
+ },
+ {
+  "index": "#0869",
+  "name-en": "Alcremie",
+  "name-tw": "霜奶仙"
+ },
+ {
+  "index": "#0870",
+  "name-en": "Falinks",
+  "name-tw": "列陣兵"
+ },
+ {
+  "index": "#0871",
+  "name-en": "Pincurchin",
+  "name-tw": "啪嚓海膽"
+ },
+ {
+  "index": "#0872",
+  "name-en": "Snom",
+  "name-tw": "雪吞蟲"
+ },
+ {
+  "index": "#0873",
+  "name-en": "Frosmoth",
+  "name-tw": "雪絨蛾"
+ },
+ {
+  "index": "#0874",
+  "name-en": "Stonjourner",
+  "name-tw": "巨石丁"
+ },
+ {
+  "index": "#0875",
+  "name-en": "Eiscue",
+  "name-tw": "冰砌鵝"
+ },
+ {
+  "index": "#0876",
+  "name-en": "Indeedee",
+  "name-tw": "愛管侍"
+ },
+ {
+  "index": "#0877",
+  "name-en": "Morpeko",
+  "name-tw": "莫魯貝可"
+ },
+ {
+  "index": "#0878",
+  "name-en": "Cufant",
+  "name-tw": "銅象"
+ },
+ {
+  "index": "#0879",
+  "name-en": "Copperajah",
+  "name-tw": "大王銅象"
+ },
+ {
+  "index": "#0880",
+  "name-en": "Dracozolt",
+  "name-tw": "雷鳥龍"
+ },
+ {
+  "index": "#0881",
+  "name-en": "Arctozolt",
+  "name-tw": "雷鳥海獸"
+ },
+ {
+  "index": "#0882",
+  "name-en": "Dracovish",
+  "name-tw": "鰓魚龍"
+ },
+ {
+  "index": "#0883",
+  "name-en": "Arctovish",
+  "name-tw": "鰓魚海獸"
+ },
+ {
+  "index": "#0884",
+  "name-en": "Duraludon",
+  "name-tw": "鋁鋼龍"
+ },
+ {
+  "index": "#0885",
+  "name-en": "Dreepy",
+  "name-tw": "多龍梅西亞"
+ },
+ {
+  "index": "#0886",
+  "name-en": "Drakloak",
+  "name-tw": "多龍奇"
+ },
+ {
+  "index": "#0887",
+  "name-en": "Dragapult",
+  "name-tw": "多龍巴魯托"
+ },
+ {
+  "index": "#0888",
+  "name-en": "Zacian",
+  "name-tw": "蒼響"
+ },
+ {
+  "index": "#0889",
+  "name-en": "Zamazenta",
+  "name-tw": "藏瑪然特"
+ },
+ {
+  "index": "#0890",
+  "name-en": "Eternatus",
+  "name-tw": "無極汰那"
+ },
+ {
+  "index": "#0891",
+  "name-en": "Kubfu",
+  "name-tw": "熊徒弟"
+ },
+ {
+  "index": "#0892",
+  "name-en": "Urshifu",
+  "name-tw": "武道熊師"
+ },
+ {
+  "index": "#0893",
+  "name-en": "Zarude",
+  "name-tw": "薩戮德"
+ },
+ {
+  "index": "#0894",
+  "name-en": "Regieleki",
+  "name-tw": "雷吉艾勒奇"
+ },
+ {
+  "index": "#0895",
+  "name-en": "Regidrago",
+  "name-tw": "雷吉鐸拉戈"
+ },
+ {
+  "index": "#0896",
+  "name-en": "Glastrier",
+  "name-tw": "雪暴馬"
+ },
+ {
+  "index": "#0897",
+  "name-en": "Spectrier",
+  "name-tw": "靈幽馬"
+ },
+ {
+  "index": "#0898",
+  "name-en": "Calyrex",
+  "name-tw": "蕾冠王"
+ },
+ {
+  "index": "#0899",
+  "name-en": "Wyrdeer",
+  "name-tw": "詭角鹿"
+ },
+ {
+  "index": "#0900",
+  "name-en": "Kleavor",
+  "name-tw": "劈斧螳螂"
+ },
+ {
+  "index": "#0901",
+  "name-en": "Ursaluna",
+  "name-tw": "月月熊"
+ },
+ {
+  "index": "#0902",
+  "name-en": "Basculegion",
+  "name-tw": "幽尾玄魚"
+ },
+ {
+  "index": "#0903",
+  "name-en": "Sneasler",
+  "name-tw": "大狃拉"
+ },
+ {
+  "index": "#0904",
+  "name-en": "Overqwil",
+  "name-tw": "萬針魚"
+ },
+ {
+  "index": "#0905",
+  "name-en": "Enamorus",
+  "name-tw": "眷戀雲"
+ },
+ {
+  "index": "#0906",
+  "name-en": "Sprigatito",
+  "name-tw": "新葉喵"
+ },
+ {
+  "index": "#0907",
+  "name-en": "Floragato",
+  "name-tw": "蒂蕾喵"
+ },
+ {
+  "index": "#0908",
+  "name-en": "Meowscarada",
+  "name-tw": "魔幻假面喵"
+ },
+ {
+  "index": "#0909",
+  "name-en": "Fuecoco",
+  "name-tw": "呆火鱷"
+ },
+ {
+  "index": "#0910",
+  "name-en": "Crocalor",
+  "name-tw": "炙燙鱷"
+ },
+ {
+  "index": "#0911",
+  "name-en": "Skeledirge",
+  "name-tw": "骨紋巨聲鱷"
+ },
+ {
+  "index": "#0912",
+  "name-en": "Quaxly",
+  "name-tw": "潤水鴨"
+ },
+ {
+  "index": "#0913",
+  "name-en": "Quaxwell",
+  "name-tw": "湧躍鴨"
+ },
+ {
+  "index": "#0914",
+  "name-en": "Quaquaval",
+  "name-tw": "狂歡浪舞鴨"
+ },
+ {
+  "index": "#0915",
+  "name-en": "Lechonk",
+  "name-tw": "愛吃豚"
+ },
+ {
+  "index": "#0916",
+  "name-en": "Oinkologne",
+  "name-tw": "飄香豚"
+ },
+ {
+  "index": "#0917",
+  "name-en": "Tarountula",
+  "name-tw": "團珠蛛"
+ },
+ {
+  "index": "#0918",
+  "name-en": "Spidops",
+  "name-tw": "操陷蛛"
+ },
+ {
+  "index": "#0919",
+  "name-en": "Nymble",
+  "name-tw": "豆蟋蟀"
+ },
+ {
+  "index": "#0920",
+  "name-en": "Lokix",
+  "name-tw": "烈腿蝗"
+ },
+ {
+  "index": "#0921",
+  "name-en": "Pawmi",
+  "name-tw": "布撥"
+ },
+ {
+  "index": "#0922",
+  "name-en": "Pawmo",
+  "name-tw": "布土撥"
+ },
+ {
+  "index": "#0923",
+  "name-en": "Pawmot",
+  "name-tw": "巴布土撥"
+ },
+ {
+  "index": "#0924",
+  "name-en": "Tandemaus",
+  "name-tw": "一對鼠"
+ },
+ {
+  "index": "#0925",
+  "name-en": "Maushold",
+  "name-tw": "一家鼠"
+ },
+ {
+  "index": "#0926",
+  "name-en": "Fidough",
+  "name-tw": "狗仔包"
+ },
+ {
+  "index": "#0927",
+  "name-en": "Dachsbun",
+  "name-tw": "麻花犬"
+ },
+ {
+  "index": "#0928",
+  "name-en": "Smoliv",
+  "name-tw": "迷你芙"
+ },
+ {
+  "index": "#0929",
+  "name-en": "Dolliv",
+  "name-tw": "奧利紐"
+ },
+ {
+  "index": "#0930",
+  "name-en": "Arboliva",
+  "name-tw": "奧利瓦"
+ },
+ {
+  "index": "#0931",
+  "name-en": "Squawkabilly",
+  "name-tw": "怒鸚哥"
+ },
+ {
+  "index": "#0932",
+  "name-en": "Nacli",
+  "name-tw": "鹽石寶"
+ },
+ {
+  "index": "#0933",
+  "name-en": "Naclstack",
+  "name-tw": "鹽石壘"
+ },
+ {
+  "index": "#0934",
+  "name-en": "Garganacl",
+  "name-tw": "鹽石巨靈"
+ },
+ {
+  "index": "#0935",
+  "name-en": "Charcadet",
+  "name-tw": "炭小侍"
+ },
+ {
+  "index": "#0936",
+  "name-en": "Armarouge",
+  "name-tw": "紅蓮鎧騎"
+ },
+ {
+  "index": "#0937",
+  "name-en": "Ceruledge",
+  "name-tw": "蒼炎刃鬼"
+ },
+ {
+  "index": "#0938",
+  "name-en": "Tadbulb",
+  "name-tw": "光蚪仔"
+ },
+ {
+  "index": "#0939",
+  "name-en": "Bellibolt",
+  "name-tw": "電肚蛙"
+ },
+ {
+  "index": "#0940",
+  "name-en": "Wattrel",
+  "name-tw": "電海燕"
+ },
+ {
+  "index": "#0941",
+  "name-en": "Kilowattrel",
+  "name-tw": "大電海燕"
+ },
+ {
+  "index": "#0942",
+  "name-en": "Maschiff",
+  "name-tw": "偶叫獒"
+ },
+ {
+  "index": "#0943",
+  "name-en": "Mabosstiff",
+  "name-tw": "獒教父"
+ },
+ {
+  "index": "#0944",
+  "name-en": "Shroodle",
+  "name-tw": "滋汁鼴"
+ },
+ {
+  "index": "#0945",
+  "name-en": "Grafaiai",
+  "name-tw": "塗標客"
+ },
+ {
+  "index": "#0946",
+  "name-en": "Bramblin",
+  "name-tw": "納噬草"
+ },
+ {
+  "index": "#0947",
+  "name-en": "Brambleghast",
+  "name-tw": "怖納噬草"
+ },
+ {
+  "index": "#0948",
+  "name-en": "Toedscool",
+  "name-tw": "原野水母"
+ },
+ {
+  "index": "#0949",
+  "name-en": "Toedscruel",
+  "name-tw": "陸地水母"
+ },
+ {
+  "index": "#0950",
+  "name-en": "Klawf",
+  "name-tw": "毛崖蟹"
+ },
+ {
+  "index": "#0951",
+  "name-en": "Capsakid",
+  "name-tw": "熱辣娃"
+ },
+ {
+  "index": "#0952",
+  "name-en": "Scovillain",
+  "name-tw": "狠辣椒"
+ },
+ {
+  "index": "#0953",
+  "name-en": "Rellor",
+  "name-tw": "蟲滾泥"
+ },
+ {
+  "index": "#0954",
+  "name-en": "Rabsca",
+  "name-tw": "蟲甲聖"
+ },
+ {
+  "index": "#0955",
+  "name-en": "Flittle",
+  "name-tw": "飄飄雛"
+ },
+ {
+  "index": "#0956",
+  "name-en": "Espathra",
+  "name-tw": "超能艷鴕"
+ },
+ {
+  "index": "#0957",
+  "name-en": "Tinkatink",
+  "name-tw": "小鍛匠"
+ },
+ {
+  "index": "#0958",
+  "name-en": "Tinkatuff",
+  "name-tw": "巧鍛匠"
+ },
+ {
+  "index": "#0959",
+  "name-en": "Tinkaton",
+  "name-tw": "巨鍛匠"
+ },
+ {
+  "index": "#0960",
+  "name-en": "Wiglett",
+  "name-tw": "海地鼠"
+ },
+ {
+  "index": "#0961",
+  "name-en": "Wugtrio",
+  "name-tw": "三海地鼠"
+ },
+ {
+  "index": "#0962",
+  "name-en": "Bombirdier",
+  "name-tw": "下石鳥"
+ },
+ {
+  "index": "#0963",
+  "name-en": "Finizen",
+  "name-tw": "波普海豚"
+ },
+ {
+  "index": "#0964",
+  "name-en": "Palafin",
+  "name-tw": "海豚俠"
+ },
+ {
+  "index": "#0965",
+  "name-en": "Varoom",
+  "name-tw": "噗隆隆"
+ },
+ {
+  "index": "#0966",
+  "name-en": "Revavroom",
+  "name-tw": "普隆隆姆"
+ },
+ {
+  "index": "#0967",
+  "name-en": "Cyclizar",
+  "name-tw": "摩托蜥"
+ },
+ {
+  "index": "#0968",
+  "name-en": "Orthworm",
+  "name-tw": "拖拖蚓"
+ },
+ {
+  "index": "#0969",
+  "name-en": "Glimmet",
+  "name-tw": "晶光芽"
+ },
+ {
+  "index": "#0970",
+  "name-en": "Glimmora",
+  "name-tw": "晶光花"
+ },
+ {
+  "index": "#0971",
+  "name-en": "Greavard",
+  "name-tw": "墓仔狗"
+ },
+ {
+  "index": "#0972",
+  "name-en": "Houndstone",
+  "name-tw": "墓揚犬"
+ },
+ {
+  "index": "#0973",
+  "name-en": "Flamigo",
+  "name-tw": "纏紅鶴"
+ },
+ {
+  "index": "#0974",
+  "name-en": "Cetoddle",
+  "name-tw": "走鯨"
+ },
+ {
+  "index": "#0975",
+  "name-en": "Cetitan",
+  "name-tw": "浩大鯨"
+ },
+ {
+  "index": "#0976",
+  "name-en": "Veluza",
+  "name-tw": "輕身鱈"
+ },
+ {
+  "index": "#0977",
+  "name-en": "Dondozo",
+  "name-tw": "吃吼霸"
+ },
+ {
+  "index": "#0978",
+  "name-en": "Tatsugiri",
+  "name-tw": "米立龍"
+ },
+ {
+  "index": "#0979",
+  "name-en": "Annihilape",
+  "name-tw": "棄世猴"
+ },
+ {
+  "index": "#0980",
+  "name-en": "Clodsire",
+  "name-tw": "土王"
+ },
+ {
+  "index": "#0981",
+  "name-en": "Farigiraf",
+  "name-tw": "奇麒麟"
+ },
+ {
+  "index": "#0982",
+  "name-en": "Dudunsparce",
+  "name-tw": "土龍節節"
+ },
+ {
+  "index": "#0983",
+  "name-en": "Kingambit",
+  "name-tw": "仆斬將軍"
+ },
+ {
+  "index": "#0984",
+  "name-en": "Great Tusk",
+  "name-tw": "雄偉牙"
+ },
+ {
+  "index": "#0985",
+  "name-en": "Scream Tail",
+  "name-tw": "吼叫尾"
+ },
+ {
+  "index": "#0986",
+  "name-en": "Brute Bonnet",
+  "name-tw": "猛惡菇"
+ },
+ {
+  "index": "#0987",
+  "name-en": "Flutter Mane",
+  "name-tw": "振翼髮"
+ },
+ {
+  "index": "#0988",
+  "name-en": "Slither Wing",
+  "name-tw": "爬地翅"
+ },
+ {
+  "index": "#0989",
+  "name-en": "Sandy Shocks",
+  "name-tw": "沙鐵皮"
+ },
+ {
+  "index": "#0990",
+  "name-en": "Iron Treads",
+  "name-tw": "鐵轍跡"
+ },
+ {
+  "index": "#0991",
+  "name-en": "Iron Bundle",
+  "name-tw": "鐵包袱"
+ },
+ {
+  "index": "#0992",
+  "name-en": "Iron Hands",
+  "name-tw": "鐵臂膀"
+ },
+ {
+  "index": "#0993",
+  "name-en": "Iron Jugulis",
+  "name-tw": "鐵脖頸"
+ },
+ {
+  "index": "#0994",
+  "name-en": "Iron Moth",
+  "name-tw": "鐵毒蛾"
+ },
+ {
+  "index": "#0995",
+  "name-en": "Iron Thorns",
+  "name-tw": "鐵荊棘"
+ },
+ {
+  "index": "#0996",
+  "name-en": "Frigibax",
+  "name-tw": "涼脊龍"
+ },
+ {
+  "index": "#0997",
+  "name-en": "Arctibax",
+  "name-tw": "凍脊龍"
+ },
+ {
+  "index": "#0998",
+  "name-en": "Baxcalibur",
+  "name-tw": "戟脊龍"
+ },
+ {
+  "index": "#0999",
+  "name-en": "Gimmighoul",
+  "name-tw": "索財靈"
+ },
+ {
+  "index": "#1000",
+  "name-en": "Gholdengo",
+  "name-tw": "賽富豪"
+ },
+ {
+  "index": "#1001",
+  "name-en": "Wo-Chien",
+  "name-tw": "古簡蝸"
+ },
+ {
+  "index": "#1002",
+  "name-en": "Chien-Pao",
+  "name-tw": "古劍豹"
+ },
+ {
+  "index": "#1003",
+  "name-en": "Ting-Lu",
+  "name-tw": "古鼎鹿"
+ },
+ {
+  "index": "#1004",
+  "name-en": "Chi-Yu",
+  "name-tw": "古玉魚"
+ },
+ {
+  "index": "#1005",
+  "name-en": "Roaring Moon",
+  "name-tw": "轟鳴月"
+ },
+ {
+  "index": "#1006",
+  "name-en": "Iron Valiant",
+  "name-tw": "鐵武者"
+ },
+ {
+  "index": "#1007",
+  "name-en": "Koraidon",
+  "name-tw": "故勒頓"
+ },
+ {
+  "index": "#1008",
+  "name-en": "Miraidon",
+  "name-tw": "密勒頓"
+ },
+ {
+  "index": "#1009",
+  "name-en": "Walking Wake",
+  "name-tw": "波盪水"
+ },
+ {
+  "index": "#1010",
+  "name-en": "Iron Leaves",
+  "name-tw": "鐵斑葉"
+ },
+ {
+  "index": "#????",
+  "name-en": "Okidogi",
+  "name-tw": "夠讚狗"
+ },
+ {
+  "index": "#????",
+  "name-en": "Munkidori",
+  "name-tw": "願增猿"
+ },
+ {
+  "index": "#????",
+  "name-en": "Fezandipiti",
+  "name-tw": "吉雉雞"
+ },
+ {
+  "index": "#????",
+  "name-en": "Ogerpon",
+  "name-tw": "厄鬼椪"
+ },
+ {
+  "index": "#????",
+  "name-en": "Terapagos",
+  "name-tw": "太樂巴戈斯"
+ }
+]
