@@ -1,6 +1,6 @@
 'use client';
 import React, { useRef } from 'react';
-import pokedex from '../../../../crawlers/assets/base-pokedex.json';
+import pokedex from '@/app/data/base-pokedex.json';
 
 const styles: { [key: string]: React.CSSProperties } = {
   container: {
