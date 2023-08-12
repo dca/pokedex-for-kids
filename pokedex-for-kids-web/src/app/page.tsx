@@ -1,5 +1,14 @@
-import { redirect } from 'next/navigation';
+"use client"
+import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
 
 export default function Home() {
-  redirect('/pokedex-kids')
+
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace('/pokedex-kids');
+  }, []);
+
+  return <p>Redirecting...</p>;
 }
