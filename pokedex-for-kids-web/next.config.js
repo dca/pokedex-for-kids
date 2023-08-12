@@ -2,6 +2,7 @@
 const nextConfig = {
     output: 'export',
     basePath: '/pokedex-for-kids',
+    images: { unoptimized: true }
 }
 
 module.exports = nextConfig
