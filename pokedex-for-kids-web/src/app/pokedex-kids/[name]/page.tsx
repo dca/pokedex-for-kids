@@ -1,8 +1,17 @@
 
 import React from 'react';
+import pokedex from '@/app/data/base-pokedex.json';
 
-export default function Page() {
+type Params = {
+  name: string
+}
+
+export default function Page({ params }: { params: { name: string } }) {
   return (
-    <div />
+    <div>Pokedex!</div>
   );
+}
+
+export function generateStaticParams() {
+  return pokedex.map(p => ({ name: p['name-en'] }))
 }
