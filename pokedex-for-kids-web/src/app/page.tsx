@@ -4,11 +4,11 @@ import { useEffect } from 'react';
 
 export default function Home() {
 
-  const router = useRouter();
+  const { replace } = useRouter();
 
   useEffect(() => {
-    router.replace('/pokedex-kids');
-  }, []);
+    replace('/pokedex-kids');
+  }, [replace]);
 
   return <p>Redirecting...</p>;
 }
