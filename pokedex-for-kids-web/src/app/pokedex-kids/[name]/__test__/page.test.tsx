@@ -11,3 +11,4 @@ describe('Page Component', () => {
     expect(screen.getByText('Pokedex!')).toBeInTheDocument();
   });
 });
+
