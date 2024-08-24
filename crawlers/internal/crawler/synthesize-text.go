@@ -2,7 +2,9 @@ package crawler
 
 import (
 	"context"
+	"fmt"
 	"io/ioutil"
+	"os"
 
 	texttospeech "cloud.google.com/go/texttospeech/apiv1"
 	"cloud.google.com/go/texttospeech/apiv1/texttospeechpb"
@@ -10,6 +12,13 @@ import (
 
 // SynthesizeText synthesizes plain text and saves the output to outputFile.
 func SynthesizeText(langCode, text, outputFile string) error {
+
+	// 檢查文件是否已存在
+	if _, err := os.Stat(outputFile); err == nil {
+		fmt.Printf("File already exists: %v\n", outputFile)
+		return nil // 文件已存在，直接返回
+	}
+
 	ctx := context.Background()
 
 	client, err := texttospeech.NewClient(ctx)
