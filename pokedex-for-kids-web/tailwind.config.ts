@@ -13,6 +13,16 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'bounce-slow': 'bounce 2s infinite',
+      },
+      keyframes: {
+        shimmer: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.5' },
+        },
+      },
     },
   },
   plugins: [],

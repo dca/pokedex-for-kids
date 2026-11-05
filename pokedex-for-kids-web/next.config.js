@@ -2,7 +2,22 @@
 const nextConfig = {
     output: 'export',
     basePath: '/pokedex-for-kids',
-    images: { unoptimized: true }
+    reactStrictMode: true,
+    images: {
+        unoptimized: true,
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'raw.githubusercontent.com',
+            },
+        ],
+    },
+    typescript: {
+        ignoreBuildErrors: false,
+    },
+    eslint: {
+        ignoreDuringBuilds: false,
+    },
 }
 
 module.exports = nextConfig

@@ -1,0 +1,2418 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Bulbasaur",
+      "zh": "妙蛙種子"
+    },
+    "dexNumber": "001",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Ivysaur",
+      "zh": "妙蛙草"
+    },
+    "dexNumber": "002",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Venusaur",
+      "zh": "妙蛙花"
+    },
+    "dexNumber": "003",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Charmander",
+      "zh": "小火龍"
+    },
+    "dexNumber": "004",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Charmeleon",
+      "zh": "火恐龍"
+    },
+    "dexNumber": "005",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "en": "Charizard",
+      "zh": "噴火龍"
+    },
+    "dexNumber": "006",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "en": "Squirtle",
+      "zh": "傑尼龜"
+    },
+    "dexNumber": "007",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "Wartortle",
+      "zh": "卡咪龜"
+    },
+    "dexNumber": "008",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "en": "Blastoise",
+      "zh": "水箭龜"
+    },
+    "dexNumber": "009",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "en": "Caterpie",
+      "zh": "綠毛蟲"
+    },
+    "dexNumber": "010",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "en": "Metapod",
+      "zh": "鐵甲蛹"
+    },
+    "dexNumber": "011",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "en": "Butterfree",
+      "zh": "巴大蝶"
+    },
+    "dexNumber": "012",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Weedle",
+      "zh": "獨角蟲"
+    },
+    "dexNumber": "013",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "en": "Kakuna",
+      "zh": "鐵殼蛹"
+    },
+    "dexNumber": "014",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "en": "Beedrill",
+      "zh": "大針蜂"
+    },
+    "dexNumber": "015",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "en": "Pidgey",
+      "zh": "波波"
+    },
+    "dexNumber": "016",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "en": "Pidgeotto",
+      "zh": "比比鳥"
+    },
+    "dexNumber": "017",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "en": "Pidgeot",
+      "zh": "大比鳥"
+    },
+    "dexNumber": "018",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 19,
+    "name": {
+      "en": "Rattata",
+      "zh": "小拉達"
+    },
+    "dexNumber": "019",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 20,
+    "name": {
+      "en": "Raticate",
+      "zh": "拉達"
+    },
+    "dexNumber": "020",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 21,
+    "name": {
+      "en": "Spearow",
+      "zh": "烈雀"
+    },
+    "dexNumber": "021",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 22,
+    "name": {
+      "en": "Fearow",
+      "zh": "大嘴雀"
+    },
+    "dexNumber": "022",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 23,
+    "name": {
+      "en": "Ekans",
+      "zh": "阿柏蛇"
+    },
+    "dexNumber": "023",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 24,
+    "name": {
+      "en": "Arbok",
+      "zh": "阿柏怪"
+    },
+    "dexNumber": "024",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 25,
+    "name": {
+      "en": "Pikachu",
+      "zh": "皮卡丘"
+    },
+    "dexNumber": "025",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 26,
+    "name": {
+      "en": "Raichu",
+      "zh": "雷丘"
+    },
+    "dexNumber": "026",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 27,
+    "name": {
+      "en": "Sandshrew",
+      "zh": "穿山鼠"
+    },
+    "dexNumber": "027",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 28,
+    "name": {
+      "en": "Sandslash",
+      "zh": "穿山王"
+    },
+    "dexNumber": "028",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 29,
+    "name": {
+      "en": "Nidoran-f",
+      "zh": "尼多蘭"
+    },
+    "dexNumber": "029",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": true
+    }
+  },
+  {
+    "id": 30,
+    "name": {
+      "en": "Nidorina",
+      "zh": "尼多娜"
+    },
+    "dexNumber": "030",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 31,
+    "name": {
+      "en": "Nidoqueen",
+      "zh": "尼多后"
+    },
+    "dexNumber": "031",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 32,
+    "name": {
+      "en": "Nidoran-m",
+      "zh": "尼多朗"
+    },
+    "dexNumber": "032",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": true
+    }
+  },
+  {
+    "id": 33,
+    "name": {
+      "en": "Nidorino",
+      "zh": "尼多力諾"
+    },
+    "dexNumber": "033",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 34,
+    "name": {
+      "en": "Nidoking",
+      "zh": "尼多王"
+    },
+    "dexNumber": "034",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 35,
+    "name": {
+      "en": "Clefairy",
+      "zh": "皮皮"
+    },
+    "dexNumber": "035",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 36,
+    "name": {
+      "en": "Clefable",
+      "zh": "皮可西"
+    },
+    "dexNumber": "036",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 37,
+    "name": {
+      "en": "Vulpix",
+      "zh": "六尾"
+    },
+    "dexNumber": "037",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 38,
+    "name": {
+      "en": "Ninetales",
+      "zh": "九尾"
+    },
+    "dexNumber": "038",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 39,
+    "name": {
+      "en": "Jigglypuff",
+      "zh": "胖丁"
+    },
+    "dexNumber": "039",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 40,
+    "name": {
+      "en": "Wigglytuff",
+      "zh": "胖可丁"
+    },
+    "dexNumber": "040",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 41,
+    "name": {
+      "en": "Zubat",
+      "zh": "超音蝠"
+    },
+    "dexNumber": "041",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 42,
+    "name": {
+      "en": "Golbat",
+      "zh": "大嘴蝠"
+    },
+    "dexNumber": "042",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 43,
+    "name": {
+      "en": "Oddish",
+      "zh": "走路草"
+    },
+    "dexNumber": "043",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 44,
+    "name": {
+      "en": "Gloom",
+      "zh": "臭臭花"
+    },
+    "dexNumber": "044",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 45,
+    "name": {
+      "en": "Vileplume",
+      "zh": "霸王花"
+    },
+    "dexNumber": "045",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 46,
+    "name": {
+      "en": "Paras",
+      "zh": "派拉斯"
+    },
+    "dexNumber": "046",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 47,
+    "name": {
+      "en": "Parasect",
+      "zh": "派拉斯特"
+    },
+    "dexNumber": "047",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 48,
+    "name": {
+      "en": "Venonat",
+      "zh": "毛球"
+    },
+    "dexNumber": "048",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 49,
+    "name": {
+      "en": "Venomoth",
+      "zh": "摩魯蛾"
+    },
+    "dexNumber": "049",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 50,
+    "name": {
+      "en": "Diglett",
+      "zh": "地鼠"
+    },
+    "dexNumber": "050",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 51,
+    "name": {
+      "en": "Dugtrio",
+      "zh": "三地鼠"
+    },
+    "dexNumber": "051",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 52,
+    "name": {
+      "en": "Meowth",
+      "zh": "喵喵"
+    },
+    "dexNumber": "052",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 53,
+    "name": {
+      "en": "Persian",
+      "zh": "貓老大"
+    },
+    "dexNumber": "053",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 54,
+    "name": {
+      "en": "Psyduck",
+      "zh": "可達鴨"
+    },
+    "dexNumber": "054",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 55,
+    "name": {
+      "en": "Golduck",
+      "zh": "哥達鴨"
+    },
+    "dexNumber": "055",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 56,
+    "name": {
+      "en": "Mankey",
+      "zh": "猴怪"
+    },
+    "dexNumber": "056",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 57,
+    "name": {
+      "en": "Primeape",
+      "zh": "火爆猴"
+    },
+    "dexNumber": "057",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 58,
+    "name": {
+      "en": "Growlithe",
+      "zh": "卡蒂狗"
+    },
+    "dexNumber": "058",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 59,
+    "name": {
+      "en": "Arcanine",
+      "zh": "風速狗"
+    },
+    "dexNumber": "059",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 60,
+    "name": {
+      "en": "Poliwag",
+      "zh": "蚊香蝌蚪"
+    },
+    "dexNumber": "060",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 61,
+    "name": {
+      "en": "Poliwhirl",
+      "zh": "蚊香君"
+    },
+    "dexNumber": "061",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 62,
+    "name": {
+      "en": "Poliwrath",
+      "zh": "蚊香泳士"
+    },
+    "dexNumber": "062",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 63,
+    "name": {
+      "en": "Abra",
+      "zh": "凱西"
+    },
+    "dexNumber": "063",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 64,
+    "name": {
+      "en": "Kadabra",
+      "zh": "勇基拉"
+    },
+    "dexNumber": "064",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 65,
+    "name": {
+      "en": "Alakazam",
+      "zh": "胡地"
+    },
+    "dexNumber": "065",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 66,
+    "name": {
+      "en": "Machop",
+      "zh": "腕力"
+    },
+    "dexNumber": "066",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 67,
+    "name": {
+      "en": "Machoke",
+      "zh": "豪力"
+    },
+    "dexNumber": "067",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 68,
+    "name": {
+      "en": "Machamp",
+      "zh": "怪力"
+    },
+    "dexNumber": "068",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 69,
+    "name": {
+      "en": "Bellsprout",
+      "zh": "喇叭芽"
+    },
+    "dexNumber": "069",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 70,
+    "name": {
+      "en": "Weepinbell",
+      "zh": "口呆花"
+    },
+    "dexNumber": "070",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 71,
+    "name": {
+      "en": "Victreebel",
+      "zh": "大食花"
+    },
+    "dexNumber": "071",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 72,
+    "name": {
+      "en": "Tentacool",
+      "zh": "瑪瑙水母"
+    },
+    "dexNumber": "072",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 73,
+    "name": {
+      "en": "Tentacruel",
+      "zh": "毒刺水母"
+    },
+    "dexNumber": "073",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 74,
+    "name": {
+      "en": "Geodude",
+      "zh": "小拳石"
+    },
+    "dexNumber": "074",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 75,
+    "name": {
+      "en": "Graveler",
+      "zh": "隆隆石"
+    },
+    "dexNumber": "075",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 76,
+    "name": {
+      "en": "Golem",
+      "zh": "隆隆岩"
+    },
+    "dexNumber": "076",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 77,
+    "name": {
+      "en": "Ponyta",
+      "zh": "小火馬"
+    },
+    "dexNumber": "077",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 78,
+    "name": {
+      "en": "Rapidash",
+      "zh": "烈焰馬"
+    },
+    "dexNumber": "078",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 79,
+    "name": {
+      "en": "Slowpoke",
+      "zh": "呆呆獸"
+    },
+    "dexNumber": "079",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 80,
+    "name": {
+      "en": "Slowbro",
+      "zh": "呆殼獸"
+    },
+    "dexNumber": "080",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 81,
+    "name": {
+      "en": "Magnemite",
+      "zh": "小磁怪"
+    },
+    "dexNumber": "081",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 82,
+    "name": {
+      "en": "Magneton",
+      "zh": "三合一磁怪"
+    },
+    "dexNumber": "082",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 83,
+    "name": {
+      "en": "Farfetchd",
+      "zh": "大蔥鴨"
+    },
+    "dexNumber": "083",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 84,
+    "name": {
+      "en": "Doduo",
+      "zh": "嘟嘟"
+    },
+    "dexNumber": "084",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 85,
+    "name": {
+      "en": "Dodrio",
+      "zh": "嘟嘟利"
+    },
+    "dexNumber": "085",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 86,
+    "name": {
+      "en": "Seel",
+      "zh": "小海獅"
+    },
+    "dexNumber": "086",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 87,
+    "name": {
+      "en": "Dewgong",
+      "zh": "白海獅"
+    },
+    "dexNumber": "087",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 88,
+    "name": {
+      "en": "Grimer",
+      "zh": "臭泥"
+    },
+    "dexNumber": "088",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 89,
+    "name": {
+      "en": "Muk",
+      "zh": "臭臭泥"
+    },
+    "dexNumber": "089",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 90,
+    "name": {
+      "en": "Shellder",
+      "zh": "大舌貝"
+    },
+    "dexNumber": "090",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 91,
+    "name": {
+      "en": "Cloyster",
+      "zh": "刺甲貝"
+    },
+    "dexNumber": "091",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 92,
+    "name": {
+      "en": "Gastly",
+      "zh": "鬼斯"
+    },
+    "dexNumber": "092",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 93,
+    "name": {
+      "en": "Haunter",
+      "zh": "鬼斯通"
+    },
+    "dexNumber": "093",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 94,
+    "name": {
+      "en": "Gengar",
+      "zh": "耿鬼"
+    },
+    "dexNumber": "094",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 95,
+    "name": {
+      "en": "Onix",
+      "zh": "大岩蛇"
+    },
+    "dexNumber": "095",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 96,
+    "name": {
+      "en": "Drowzee",
+      "zh": "催眠貘"
+    },
+    "dexNumber": "096",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 97,
+    "name": {
+      "en": "Hypno",
+      "zh": "引夢貘人"
+    },
+    "dexNumber": "097",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 98,
+    "name": {
+      "en": "Krabby",
+      "zh": "大鉗蟹"
+    },
+    "dexNumber": "098",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 99,
+    "name": {
+      "en": "Kingler",
+      "zh": "巨鉗蟹"
+    },
+    "dexNumber": "099",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 100,
+    "name": {
+      "en": "Voltorb",
+      "zh": "霹靂電球"
+    },
+    "dexNumber": "100",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 101,
+    "name": {
+      "en": "Electrode",
+      "zh": "頑皮雷彈"
+    },
+    "dexNumber": "101",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 102,
+    "name": {
+      "en": "Exeggcute",
+      "zh": "蛋蛋"
+    },
+    "dexNumber": "102",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 103,
+    "name": {
+      "en": "Exeggutor",
+      "zh": "椰蛋樹"
+    },
+    "dexNumber": "103",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 104,
+    "name": {
+      "en": "Cubone",
+      "zh": "卡拉卡拉"
+    },
+    "dexNumber": "104",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 105,
+    "name": {
+      "en": "Marowak",
+      "zh": "嘎拉嘎拉"
+    },
+    "dexNumber": "105",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 106,
+    "name": {
+      "en": "Hitmonlee",
+      "zh": "飛腿郎"
+    },
+    "dexNumber": "106",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 107,
+    "name": {
+      "en": "Hitmonchan",
+      "zh": "快拳郎"
+    },
+    "dexNumber": "107",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 108,
+    "name": {
+      "en": "Lickitung",
+      "zh": "大舌頭"
+    },
+    "dexNumber": "108",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 109,
+    "name": {
+      "en": "Koffing",
+      "zh": "瓦斯彈"
+    },
+    "dexNumber": "109",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 110,
+    "name": {
+      "en": "Weezing",
+      "zh": "雙彈瓦斯"
+    },
+    "dexNumber": "110",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 111,
+    "name": {
+      "en": "Rhyhorn",
+      "zh": "獨角犀牛"
+    },
+    "dexNumber": "111",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 112,
+    "name": {
+      "en": "Rhydon",
+      "zh": "鑽角犀獸"
+    },
+    "dexNumber": "112",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 113,
+    "name": {
+      "en": "Chansey",
+      "zh": "吉利蛋"
+    },
+    "dexNumber": "113",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 114,
+    "name": {
+      "en": "Tangela",
+      "zh": "蔓藤怪"
+    },
+    "dexNumber": "114",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 115,
+    "name": {
+      "en": "Kangaskhan",
+      "zh": "袋獸"
+    },
+    "dexNumber": "115",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 116,
+    "name": {
+      "en": "Horsea",
+      "zh": "墨海馬"
+    },
+    "dexNumber": "116",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 117,
+    "name": {
+      "en": "Seadra",
+      "zh": "海刺龍"
+    },
+    "dexNumber": "117",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 118,
+    "name": {
+      "en": "Goldeen",
+      "zh": "角金魚"
+    },
+    "dexNumber": "118",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 119,
+    "name": {
+      "en": "Seaking",
+      "zh": "金魚王"
+    },
+    "dexNumber": "119",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 120,
+    "name": {
+      "en": "Staryu",
+      "zh": "海星星"
+    },
+    "dexNumber": "120",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 121,
+    "name": {
+      "en": "Starmie",
+      "zh": "寶石海星"
+    },
+    "dexNumber": "121",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 122,
+    "name": {
+      "en": "Mr-mime",
+      "zh": "魔牆人偶"
+    },
+    "dexNumber": "122",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": true
+    }
+  },
+  {
+    "id": 123,
+    "name": {
+      "en": "Scyther",
+      "zh": "飛天螳螂"
+    },
+    "dexNumber": "123",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 124,
+    "name": {
+      "en": "Jynx",
+      "zh": "迷唇姐"
+    },
+    "dexNumber": "124",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 125,
+    "name": {
+      "en": "Electabuzz",
+      "zh": "電擊獸"
+    },
+    "dexNumber": "125",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 126,
+    "name": {
+      "en": "Magmar",
+      "zh": "鴨嘴火獸"
+    },
+    "dexNumber": "126",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 127,
+    "name": {
+      "en": "Pinsir",
+      "zh": "凱羅斯"
+    },
+    "dexNumber": "127",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 128,
+    "name": {
+      "en": "Tauros",
+      "zh": "肯泰羅"
+    },
+    "dexNumber": "128",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 129,
+    "name": {
+      "en": "Magikarp",
+      "zh": "鯉魚王"
+    },
+    "dexNumber": "129",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 130,
+    "name": {
+      "en": "Gyarados",
+      "zh": "暴鯉龍"
+    },
+    "dexNumber": "130",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 131,
+    "name": {
+      "en": "Lapras",
+      "zh": "拉普拉斯"
+    },
+    "dexNumber": "131",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 132,
+    "name": {
+      "en": "Ditto",
+      "zh": "百變怪"
+    },
+    "dexNumber": "132",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 133,
+    "name": {
+      "en": "Eevee",
+      "zh": "伊布"
+    },
+    "dexNumber": "133",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 134,
+    "name": {
+      "en": "Vaporeon",
+      "zh": "水伊布"
+    },
+    "dexNumber": "134",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 135,
+    "name": {
+      "en": "Jolteon",
+      "zh": "雷伊布"
+    },
+    "dexNumber": "135",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 136,
+    "name": {
+      "en": "Flareon",
+      "zh": "火伊布"
+    },
+    "dexNumber": "136",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 137,
+    "name": {
+      "en": "Porygon",
+      "zh": "多邊獸"
+    },
+    "dexNumber": "137",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 138,
+    "name": {
+      "en": "Omanyte",
+      "zh": "菊石獸"
+    },
+    "dexNumber": "138",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 139,
+    "name": {
+      "en": "Omastar",
+      "zh": "多刺菊石獸"
+    },
+    "dexNumber": "139",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 140,
+    "name": {
+      "en": "Kabuto",
+      "zh": "化石盔"
+    },
+    "dexNumber": "140",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 141,
+    "name": {
+      "en": "Kabutops",
+      "zh": "鐮刀盔"
+    },
+    "dexNumber": "141",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 142,
+    "name": {
+      "en": "Aerodactyl",
+      "zh": "化石翼龍"
+    },
+    "dexNumber": "142",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 143,
+    "name": {
+      "en": "Snorlax",
+      "zh": "卡比獸"
+    },
+    "dexNumber": "143",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 144,
+    "name": {
+      "en": "Articuno",
+      "zh": "急凍鳥"
+    },
+    "dexNumber": "144",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 145,
+    "name": {
+      "en": "Zapdos",
+      "zh": "閃電鳥"
+    },
+    "dexNumber": "145",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 146,
+    "name": {
+      "en": "Moltres",
+      "zh": "火焰鳥"
+    },
+    "dexNumber": "146",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 147,
+    "name": {
+      "en": "Dratini",
+      "zh": "迷你龍"
+    },
+    "dexNumber": "147",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 148,
+    "name": {
+      "en": "Dragonair",
+      "zh": "哈克龍"
+    },
+    "dexNumber": "148",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 149,
+    "name": {
+      "en": "Dragonite",
+      "zh": "快龍"
+    },
+    "dexNumber": "149",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 150,
+    "name": {
+      "en": "Mewtwo",
+      "zh": "超夢"
+    },
+    "dexNumber": "150",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  },
+  {
+    "id": 151,
+    "name": {
+      "en": "Mew",
+      "zh": "夢幻"
+    },
+    "dexNumber": "151",
+    "sprites": {
+      "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+      "icon": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
+    },
+    "metadata": {
+      "generation": 1,
+      "isSpecialForm": false
+    }
+  }
+]
