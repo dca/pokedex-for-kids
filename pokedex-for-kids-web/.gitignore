@@ -40,3 +40,7 @@ next-env.d.ts
 # 建置用的原始素材（不提交）
 /data/raw-artwork/
 /data/raw-font/
+
+# Playwright
+/test-results/
+/playwright-report/
