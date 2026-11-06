@@ -1,0 +1,519 @@
+openapi: 3.0.3
+info:
+  title: 注音島 game-api
+  version: 0.1.0
+  description: |
+    注音島的後端 API。前端與 API 在同一個網域，`/api/*` 由 Caddy 轉給 game-api。
+    驗證方式是 HttpOnly session cookie `zi_session`（Path=/api）。
+    所有寫入請求必須是 `Content-Type: application/json`（CSRF 防護，見 research R6）。
+    這份檔案是單一來源：Go 用 oapi-codegen 產生 server 介面，前端用 openapi-typescript 產生型別。
+servers:
+  - url: /api/v1
+
+security:
+  - session: []
+
+paths:
+  /healthz:
+    get:
+      operationId: healthz
+      security: []
+      responses:
+        '200':
+          description: 服務與資料庫正常
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [ok]
+                properties:
+                  ok: { type: boolean }
+
+  /auth/register:
+    post:
+      operationId: register
+      security: []
+      summary: 註冊家長帳號（FR-050、FR-051、FR-060）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/Credentials' }
+      responses:
+        '201':
+          description: 註冊成功，回傳救援碼並設定 session cookie
+          headers:
+            Set-Cookie: { schema: { type: string } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/RegisterResult' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '409':
+          description: 帳號名稱已被使用
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /auth/login:
+    post:
+      operationId: login
+      security: []
+      summary: 登入（FR-050、FR-053）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/Credentials' }
+      responses:
+        '200':
+          description: 登入成功，設定 session cookie
+          headers:
+            Set-Cookie: { schema: { type: string } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Me' }
+        '401':
+          description: 帳號或密碼不正確（不區分是哪一個錯）
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '429':
+          description: 連續失敗 5 次，暫時鎖定
+          headers:
+            Retry-After:
+              description: 幾秒後可以再試
+              schema: { type: integer }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /auth/logout:
+    post:
+      operationId: logout
+      summary: 登出目前裝置
+      responses:
+        '204': { description: 已登出，清除 cookie }
+
+  /auth/reset-password:
+    post:
+      operationId: resetPassword
+      security: []
+      summary: 用救援碼重設密碼（FR-051）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [username, rescueCode, newPassword]
+              properties:
+                username: { $ref: '#/components/schemas/Username' }
+                rescueCode:
+                  type: string
+                  description: 大小寫與連字號都不影響比對
+                  example: 7K3M-Q9TB-2WXR-H4ZD
+                newPassword: { $ref: '#/components/schemas/Password' }
+      responses:
+        '200':
+          description: 重設成功；舊救援碼失效，回傳新的救援碼；所有舊 session 失效，並為目前裝置建立新 session
+          headers:
+            Set-Cookie: { schema: { type: string } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/RegisterResult' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '401':
+          description: 帳號或救援碼不正確
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '429':
+          description: 連續失敗 5 次，暫時鎖定（與登入共用計數）
+          headers:
+            Retry-After: { schema: { type: integer } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /me:
+    get:
+      operationId: getMe
+      summary: 取得目前帳號與所有小朋友檔案
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Me' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+    delete:
+      operationId: deleteMe
+      summary: 刪除整個帳號（FR-059）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [password]
+              properties:
+                password: { type: string }
+      responses:
+        '204': { description: 帳號、小朋友檔案與所有事件都已刪除 }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /children/{childId}:
+    parameters:
+      - name: childId
+        in: path
+        required: true
+        schema: { type: string, format: uuid }
+    put:
+      operationId: upsertChild
+      summary: 建立或更新小朋友檔案（ID 由用戶端產生，last-write-wins）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/ChildInput' }
+      responses:
+        '200':
+          description: 回傳伺服器上最新的檔案（若送來的 updatedAt 比較舊，回傳的是伺服器版本）
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Child' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '403':
+          description: 這個 ID 屬於其他帳號
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '422':
+          description: 已達小朋友檔案上限（8 個）
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+    delete:
+      operationId: deleteChild
+      summary: 刪除小朋友檔案與其所有進度（FR-059）
+      responses:
+        '204': { description: 已刪除 }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404':
+          description: 找不到
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /sync:
+    post:
+      operationId: sync
+      summary: 上傳未同步的事件並下載其他裝置的事件（FR-056、FR-057）
+      description: |
+        - 事件以 `id` 去重，重送安全。
+        - 回傳 `cursor` 之後、由**其他裝置**寫入的事件；同一裝置自己送的事件不會再回傳。
+        - `hasMore` 為 true 時，用新的 cursor 再呼叫一次（不必再帶 events）。
+        - `childId` 必須屬於目前帳號，且該檔案必須已經透過 PUT /children/{id} 建立。
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/SyncRequest' }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/SyncResponse' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+components:
+  securitySchemes:
+    session:
+      type: apiKey
+      in: cookie
+      name: zi_session
+
+  responses:
+    Unauthorized:
+      description: 未登入或 session 過期
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+    ValidationError:
+      description: 欄位格式錯誤
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+
+  schemas:
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: string
+          enum:
+            - validation_failed
+            - username_taken
+            - invalid_credentials
+            - locked
+            - unauthorized
+            - forbidden
+            - not_found
+            - child_limit_reached
+            - internal
+        message:
+          type: string
+          description: 給家長看的正體中文訊息
+        fields:
+          type: object
+          additionalProperties: { type: string }
+          description: 欄位名稱對應的錯誤訊息
+
+    Username:
+      type: string
+      minLength: 3
+      maxLength: 20
+      pattern: '^[A-Za-z0-9_]+$'
+
+    Password:
+      type: string
+      minLength: 8
+      maxLength: 128
+
+    Credentials:
+      type: object
+      required: [username, password]
+      properties:
+        username: { $ref: '#/components/schemas/Username' }
+        password: { $ref: '#/components/schemas/Password' }
+
+    RegisterResult:
+      type: object
+      required: [me, rescueCode]
+      properties:
+        me: { $ref: '#/components/schemas/Me' }
+        rescueCode:
+          type: string
+          description: 只會顯示這一次，伺服器只保存雜湊
+          example: 7K3M-Q9TB-2WXR-H4ZD
+
+    Me:
+      type: object
+      required: [accountId, username, children]
+      properties:
+        accountId: { type: string, format: uuid }
+        username: { type: string }
+        children:
+          type: array
+          items: { $ref: '#/components/schemas/Child' }
+
+    Stage:
+      type: string
+      enum: [learn, spell, read]
+
+    ZoneId:
+      type: string
+      enum: [meadow, beach, forest, hill]
+
+    ChildInput:
+      type: object
+      required: [nickname, avatar, stage, allZonesUnlocked, playMinutes, updatedAt]
+      properties:
+        nickname: { type: string, minLength: 1, maxLength: 10 }
+        avatar: { type: string, pattern: '^avatar-[0-9]{2}$' }
+        stage: { $ref: '#/components/schemas/Stage' }
+        allZonesUnlocked: { type: boolean }
+        playMinutes: { type: integer, minimum: 10, maximum: 30 }
+        updatedAt: { type: string, format: date-time }
+
+    Child:
+      allOf:
+        - $ref: '#/components/schemas/ChildInput'
+        - type: object
+          required: [id, createdAt]
+          properties:
+            id: { type: string, format: uuid }
+            createdAt: { type: string, format: date-time }
+
+    ItemId:
+      type: string
+      pattern: '^(sym:[ㄅ-ㄩ]|tone:[1-5]|syl:[ㄅ-ㄩˊˇˋ˙]{1,5}|char:.)$'
+
+    EventBase:
+      type: object
+      required: [id, childId, type, occurredAt, deviceId]
+      properties:
+        id: { type: string, format: uuid, description: UUIDv7，用戶端產生 }
+        childId: { type: string, format: uuid }
+        type: { type: string }
+        occurredAt: { type: string, format: date-time }
+        deviceId: { type: string, format: uuid }
+
+    PartnerChosenEvent:
+      allOf:
+        - $ref: '#/components/schemas/EventBase'
+        - type: object
+          required: [type, payload]
+          properties:
+            type: { type: string, enum: [partner_chosen] }
+            payload:
+              type: object
+              required: [pokemonId]
+              properties:
+                pokemonId: { type: integer, enum: [1, 4, 7] }
+
+    EncounterStartedEvent:
+      allOf:
+        - $ref: '#/components/schemas/EventBase'
+        - type: object
+          required: [type, payload]
+          properties:
+            type: { type: string, enum: [encounter_started] }
+            payload:
+              type: object
+              required: [encounterId, pokemonId, zone, gym]
+              properties:
+                encounterId: { type: string, format: uuid }
+                pokemonId: { type: integer, minimum: 1, maximum: 151 }
+                zone: { $ref: '#/components/schemas/ZoneId' }
+                gym: { type: boolean }
+
+    AnswerEvent:
+      allOf:
+        - $ref: '#/components/schemas/EventBase'
+        - type: object
+          required: [type, payload]
+          properties:
+            type: { type: string, enum: [answer] }
+            payload:
+              type: object
+              required: [encounterId, questionType, itemIds, options, wrongCount, durationMs]
+              properties:
+                encounterId: { type: string, format: uuid }
+                questionType:
+                  type: string
+                  enum:
+                    - listen_symbol
+                    - first_sound
+                    - listen_tone
+                    - fill_symbol
+                    - fill_tone
+                    - build_syllable
+                    - listen_name
+                    - zhuyin_to_char
+                    - fill_char
+                itemIds:
+                  type: array
+                  minItems: 1
+                  maxItems: 12
+                  items: { $ref: '#/components/schemas/ItemId' }
+                options:
+                  type: array
+                  maxItems: 12
+                  items: { type: string, maxLength: 20 }
+                wrongCount: { type: integer, minimum: 0, maximum: 2 }
+                durationMs: { type: integer, minimum: 0, maximum: 600000 }
+
+    EncounterCompletedEvent:
+      allOf:
+        - $ref: '#/components/schemas/EventBase'
+        - type: object
+          required: [type, payload]
+          properties:
+            type: { type: string, enum: [encounter_completed] }
+            payload:
+              type: object
+              required: [encounterId, pokemonId, stars]
+              properties:
+                encounterId: { type: string, format: uuid }
+                pokemonId: { type: integer, minimum: 1, maximum: 151 }
+                stars: { type: integer, minimum: 1, maximum: 3 }
+
+    GymCompletedEvent:
+      allOf:
+        - $ref: '#/components/schemas/EventBase'
+        - type: object
+          required: [type, payload]
+          properties:
+            type: { type: string, enum: [gym_completed] }
+            payload:
+              type: object
+              required: [zone, correctCount, passed]
+              properties:
+                zone: { $ref: '#/components/schemas/ZoneId' }
+                correctCount: { type: integer, minimum: 0, maximum: 10 }
+                passed: { type: boolean }
+
+    RestReminderShownEvent:
+      allOf:
+        - $ref: '#/components/schemas/EventBase'
+        - type: object
+          required: [type, payload]
+          properties:
+            type: { type: string, enum: [rest_reminder_shown] }
+            payload:
+              type: object
+              required: [playedMinutes]
+              properties:
+                playedMinutes: { type: integer, minimum: 0 }
+
+    GameEvent:
+      oneOf:
+        - $ref: '#/components/schemas/PartnerChosenEvent'
+        - $ref: '#/components/schemas/EncounterStartedEvent'
+        - $ref: '#/components/schemas/AnswerEvent'
+        - $ref: '#/components/schemas/EncounterCompletedEvent'
+        - $ref: '#/components/schemas/GymCompletedEvent'
+        - $ref: '#/components/schemas/RestReminderShownEvent'
+      discriminator:
+        propertyName: type
+        mapping:
+          partner_chosen: '#/components/schemas/PartnerChosenEvent'
+          encounter_started: '#/components/schemas/EncounterStartedEvent'
+          answer: '#/components/schemas/AnswerEvent'
+          encounter_completed: '#/components/schemas/EncounterCompletedEvent'
+          gym_completed: '#/components/schemas/GymCompletedEvent'
+          rest_reminder_shown: '#/components/schemas/RestReminderShownEvent'
+
+    SyncRequest:
+      type: object
+      required: [deviceId, cursor, events]
+      properties:
+        deviceId: { type: string, format: uuid }
+        cursor:
+          type: integer
+          format: int64
+          minimum: 0
+          description: 上次同步回傳的 cursor；第一次為 0
+        events:
+          type: array
+          maxItems: 500
+          items: { $ref: '#/components/schemas/GameEvent' }
+
+    SyncResponse:
+      type: object
+      required: [acceptedIds, events, cursor, hasMore, children]
+      properties:
+        acceptedIds:
+          type: array
+          description: 已寫入或先前已存在的事件 ID（用戶端據此標記 synced）
+          items: { type: string, format: uuid }
+        events:
+          type: array
+          maxItems: 1000
+          items: { $ref: '#/components/schemas/GameEvent' }
+        cursor: { type: integer, format: int64 }
+        hasMore: { type: boolean }
+        children:
+          type: array
+          description: 帳號下所有小朋友檔案的最新版本（含刪除標記），讓設定也能同步
+          items:
+            allOf:
+              - $ref: '#/components/schemas/Child'
+              - type: object
+                properties:
+                  deleted: { type: boolean }
