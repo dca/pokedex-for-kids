@@ -1,231 +1,191 @@
-# 合約：遊戲邏輯模組（`pokedex-for-kids-web/src/game/`）
+# 合約：遊戲邏輯模組
 
-**Feature**: [spec.md](../spec.md) ・ **Plan**: [plan.md](../plan.md)
+**Feature**: [spec.md](../spec.md) ・ **Plan**: [plan.md](../plan.md) ・ 2026-11-06（雲端化修訂）
 
-遊戲邏輯是純 TypeScript，不依賴 React、three.js、瀏覽器 API 或時鐘。時間與隨機數都由參數傳入，所以每個函式都能用固定輸入做單元測試。以下介面是 3D 場景、2D 介面、同步模組與測試之間的合約，修改前要先改測試。
+規則分成兩個地方：
 
-## 共用型別（`src/game/types.ts`）
+- **伺服器（Go，`game-api/internal/game/`）**：所有會影響進度的規則，包括出題、干擾項、熟練度、挑選寶可夢、星星、經驗值、進化、區域開放、道館。
+- **前端（TypeScript，`pokedex-for-kids-web/src/game/`）**：只有畫面需要的邏輯，包括注音解析與上色、作答流程的狀態機。
 
-```ts
-export type ZoneId = 'meadow' | 'beach' | 'forest' | 'hill';
-export type Stage = 'learn' | 'spell' | 'read';
-export type Tone = 1 | 2 | 3 | 4 | 5;               // 5 = 輕聲
-export type SymbolCategory = 'initial' | 'medial' | 'final' | 'tone';
-export type ItemId = `sym:${string}` | `tone:${Tone}` | `syl:${string}` | `char:${string}`;
+兩邊都是純函式，不碰資料庫、網路、時鐘。時間與亂數由參數傳入，所以可以用固定輸入做單元測試。修改介面前要先改測試。
 
-export type QuestionType =
-  | 'listen_symbol' | 'first_sound' | 'listen_tone'          // 學注音
-  | 'fill_symbol' | 'fill_tone' | 'build_syllable'          // 拼注音
-  | 'listen_name' | 'zhuyin_to_char' | 'fill_char';         // 認字
+---
 
-/** 隨機數來源，測試時傳入固定序列 */
-export type Rng = () => number;                             // [0, 1)
+## A. 伺服器：`game-api/internal/game/`
+
+### `content`：靜態內容
+
+```go
+package content
+
+type ZoneID string   // "meadow" | "beach" | "forest" | "hill"
+type Stage string    // "learn" | "spell" | "read"
+type ItemID string   // "sym:ㄆ" | "tone:3" | "syl:ㄎㄚˇ" | "char:卡"
+
+type Syllable struct { Char string; IsHan bool; Zhuyin string; Initial, Medial, Final string; Tone int }
+type Pokemon  struct { ID int; Name, En string; Syllables []Syllable; Zone ZoneID; Rare bool; EvolvesTo int }
+type Zone     struct { ID ZoneID; Name string; Stage Stage; Order int; Items []ItemID; QuestionTypes []string }
+
+type Content struct {
+    Pokemon     map[int]Pokemon
+    Zones       []Zone                 // 依 Order 排序
+    Confusables Confusables
+}
+
+func Load() (*Content, error)          // 從 embed 的 data/*.json 載入並驗證
+func TestContent() *Content            // 測試用：10 隻有代表性的寶可夢
 ```
 
-`GameEvent` 型別由 `contracts/openapi.yaml` 經 openapi-typescript 產生，不手寫。
+### `zhuyin`：注音解析
 
-## 注音解析（`src/game/zhuyin.ts`）
-
-```ts
-export interface ParsedSyllable {
-  initial: string | null;
-  medial: string | null;
-  final: string | null;
-  tone: Tone;
-}
-export function parseSyllable(zhuyin: string): ParsedSyllable;    // 不合法時 throw
-export function formatSyllable(p: ParsedSyllable): string;        // parse 的反函數
-export function categoryOf(symbol: string): SymbolCategory;       // FR-015 上色用
-export function syllableSize(p: ParsedSyllable): 1 | 2 | 3;       // 一拼／二拼／三拼（不含聲調）
+```go
+func Parse(s string) (Syllable, error)          // 不合法時回傳 error
+func Format(s Syllable) string                   // Parse 的反函數
+func Category(symbol string) string              // "initial" | "medial" | "final" | "tone"
+func Size(s Syllable) int                        // 1、2、3（一拼／二拼／三拼，不含聲調）
 ```
 
 **測試重點**：
 - 37 個符號的分類正確。
-- 輕聲 `˙ㄉㄜ` 解析為 tone 5。
-- 一聲沒有標記。
-- 只有韻母的音節，例如 `ㄚ`、`ㄦˊ`。
-- 只有聲母的音節，例如 `ㄓ`、`ㄙ`。
-- 每一個合法音節都滿足 `formatSyllable(parseSyllable(x)) === x`。
+- 輕聲 `˙ㄉㄜ` 解析為 tone 5，一聲沒有標記。
+- 只有韻母的音節（`ㄚ`、`ㄦˊ`），以及只有聲母的音節（`ㄓ`、`ㄙ`）。
+- 對第一世代所有音節，`Format(Parse(x)) == x`。
 
-## 出題（`src/game/questions.ts`）
+### `questions`：出題與干擾項
 
-```ts
-export interface Option {
-  id: string;            // 符號、聲調數字、字或名稱
-  label: string;         // 顯示文字
-  audioKey: string;      // AudioManifest 的鍵
-  category?: SymbolCategory;
+```go
+type Question struct {                 // 對應 openapi 的 Question
+    Type    string
+    ItemIDs []ItemID
+    Prompt  []PromptPart
+    Display Display
+    Options []Option
+    Answer  []string
 }
 
-export interface Question {
-  type: QuestionType;
-  itemIds: ItemId[];             // 這題練到的項目（寫進 answer 事件）
-  prompt: PromptPart[];          // 要依序播放與顯示的片段
-  display: DisplayModel;         // 題目畫面：名稱、挖空位置、直排注音等
-  options: Option[];             // 已洗牌
-  answer: string | string[];     // build_syllable 是有順序的陣列
+type BuildInput struct {
+    Type        string
+    Pokemon     content.Pokemon
+    Target      ItemID
+    OptionCount int            // 2、3、4
+    Rand        *rand.Rand
 }
 
-export type PromptPart =
-  | { kind: 'audio'; audioKey: string }
-  | { kind: 'text'; text: string };
+func Build(c *content.Content, in BuildInput) (Question, error)
+func IsAlsoCorrect(c *content.Content, q Question, optionID string) bool
+func Distractors(c *content.Content, target ItemID, kind string, n int, exclude func(string) bool, r *rand.Rand) []string
+```
 
-export function buildQuestion(input: {
-  type: QuestionType;
-  pokemon: Pokemon;
-  target: ItemId;               // 要練的項目
-  optionCount: 2 | 3 | 4;
-  content: StaticContent;
-  rng: Rng;
-}): Question;
+**測試重點**（每種題型一個 table-driven 測試）：
+- **不洩漏答案（FR-016）**：
+  - `first_sound` 的 `Display` 不含該字的注音。
+  - `fill_*` 挖空的位置用「＿」，不含答案。
+  - `listen_*` 的 layout 為 `none`。
+- **干擾項（FR-037、US3 驗收 5）**：
+  - 所有干擾項的 `IsAlsoCorrect` 都是 false。
+  - `zhuyin_to_char` 與 `fill_char` 不會出現同音字。
+  - 干擾項優先取自混淆表，例如 ㄅ 的干擾項含 ㄆ；不足時補隨機項。
+- **非漢字**：`IsHan == false` 的字元不被挖空。
+- **選項**：數量等於 `OptionCount` 並且包含答案；`build_syllable` 的 `Answer` 有順序，選項是該音節的符號加上干擾符號。
+- **拼注音的順序（FR-012）**：依 `zhuyin.Size` 先二拼、再三拼、最後整個名稱。
+- **聽聲調**：選項包含輕聲。
+- **可重現**：同一個 seed 產生同一題。
 
-/** 判斷某選項是否也能讓題目成立（R4），干擾項必須全部回傳 false */
-export function isAlsoCorrect(q: Question, optionId: string, content: StaticContent): boolean;
+### `mastery`：熟練度與排程
+
+```go
+type Entry struct { Level int; DueEncounter *int; DueAt *time.Time; LastSeenAt time.Time }
+
+func Apply(e Entry, wrongCount int, encounterIndex int, now time.Time) Entry   // research R2 的表格
+func OptionCount(level int) int                                                // L0-1→2、L2-3→3、L4-5→4
+func IsFamiliar(level int) bool                                                // level ≥ 3
+func PickTargets(m map[ItemID]Entry, candidates []ItemID, encounterIndex int, now time.Time, n int, r *rand.Rand) []ItemID
 ```
 
 **測試重點**：
-- **不洩漏答案（FR-016）**：`first_sound` 的 `display` 不含該字的注音；`fill_*` 挖空的位置不含答案。
-- **干擾項不能也是答案（FR-037）**：所有干擾項的 `isAlsoCorrect` 都是 false。
-  - 同音字不會出現在 `zhuyin_to_char` 的干擾項裡。
-- **不挖空非漢字**：`isHan === false` 的字元不會被挖空。
-- **選項數量**：`options.length === optionCount`，而且選項裡包含正確答案。
-- **可重現**：同樣的 `rng` 序列產生同樣的題目。
+- R2 表格的每一列，包括等級上下限 0 和 5。
+- 連續答對時，複習間隔嚴格遞增（US3 驗收 2）。
+- **性質測試**（`testing/quick` 或手寫產生器）：任意狀態下，答錯的項目在之後 5 次遭遇內一定會被 `PickTargets` 選到（US3 驗收 1）。
 
-## 作答流程（`src/game/challenge.ts`）
+### `encounter`：挑選寶可夢
 
-狀態機，3D 與 2D 介面只讀它的狀態、送事件給它。
+```go
+func PickPokemon(c *content.Content, zone content.ZoneID, target ItemID,
+    caught map[int]int, correctStreak int, r *rand.Rand) content.Pokemon
+func RareWeight(correctStreak int) float64                 // 0.1 + 0.1×streak，上限 0.6
+func QuestionsPerEncounter(stage content.Stage, r *rand.Rand) int   // 1～3
+func PlanWild(c *content.Content, s ChildSnapshot, zone content.ZoneID, now time.Time, r *rand.Rand) (pokemonID int, qs []questions.Question, err error)
+func PlanGym(c *content.Content, s ChildSnapshot, zone content.ZoneID, r *rand.Rand) (pokemonID int, qs []questions.Question, err error)  // 10 題
+```
+
+`ChildSnapshot` 包含 mastery、caught、correctStreak、encounterCount、startStage。
+
+**測試重點**：
+- 回傳的寶可夢屬於該區，名稱能練到 `target`；沒有候選時才退回隨機。
+- 未收服的被抽中的機率較高（固定 seed 統計）。
+- `RareWeight` 的邊界值。
+- `PlanGym` 剛好 10 題，涵蓋本區不同的項目。
+
+### `progress`：結算
+
+```go
+func Stars(totalWrong int) int                                   // 0→3、1→2、≥2→1
+func PartnerForm(c *content.Content, baseID, xp int) (currentID int, nextEvolutionXP *int, title *string)  // 50 / 150
+func UnlockedZones(c *content.Content, start content.Stage, mastery map[ItemID]Entry) []content.ZoneID
+func ZoneProgress(c *content.Content, mastery map[ItemID]Entry) []ZoneProgress
+func GymPassed(correctCount int) bool                            // ≥ 8
+func StreakAfter(streak, wrongCount int) int                     // 0 錯就 +1，否則歸零
+```
+
+**測試重點**：
+- `Stars` 的三段邊界。
+- 進化：xp 49 → 50 時第一次進化，150 時第二次進化，最終進化後回傳稱號。
+- 區域開放：79% 熟悉時不開放，80% 時開放；起始階段 `spell` 一開始就有三區，`read` 有四區。
+- `GymPassed`：7 題不通過，8 題通過。
+
+---
+
+## B. 前端：`pokedex-for-kids-web/src/game/`
+
+前端不包含任何會影響進度的規則，題目、答案、結算結果都來自伺服器。
+
+### `zhuyin.ts`：顯示用
 
 ```ts
+export function categoryOf(symbol: string): 'initial' | 'medial' | 'final' | 'tone';   // FR-015 上色
+export function splitZhuyin(zhuyin: string): string[];   // 「ㄑ＿ㄡ」→ ['ㄑ','＿','ㄡ']，聲調與輕聲點各自成為一個元素
+```
+
+**測試重點**：37 個符號的分類、輕聲點的位置、挖空符號「＿」。
+
+### `challenge.ts`：作答狀態機
+
+```ts
+import type { Question } from '@/api/types';   // 由 openapi-typescript 產生
+
 export type ChallengeState =
-  | { phase: 'asking'; question: Question; wrongCount: 0 | 1; disabled: string[] }
-  | { phase: 'reveal'; question: Question; wrongCount: 2; correctId: string }   // 第二次錯：標示正解，等小朋友點
-  | { phase: 'correct'; question: Question; wrongCount: 0 | 1 | 2 }
+  | { phase: 'asking'; index: number; wrongCount: 0 | 1; disabled: string[]; picked: string[] }
+  | { phase: 'reveal'; index: number; wrongCount: 2; correctId: string; picked: string[] }
+  | { phase: 'correct'; index: number; wrongCount: 0 | 1 | 2 }
   | { phase: 'done' };
 
 export type ChallengeInput = { kind: 'select'; optionId: string } | { kind: 'next' };
 
+export type ChallengeEffect =
+  | { kind: 'replay_prompt' }
+  | { kind: 'play_correct' }
+  | { kind: 'submit_answer'; index: number; wrongCount: 0 | 1 | 2 }
+  | { kind: 'finished' };
+
 export function startChallenge(questions: Question[]): ChallengeState;
-export function stepChallenge(s: ChallengeState, input: ChallengeInput): {
-  state: ChallengeState;
-  effects: ChallengeEffect[];   // 'replay_prompt' | 'play_correct' | 'emit_answer' ...
-};
-export function starsFor(totalWrong: number): 1 | 2 | 3;           // 0→3、1→2、≥2→1
+export function stepChallenge(questions: Question[], s: ChallengeState, input: ChallengeInput):
+  { state: ChallengeState; effects: ChallengeEffect[] };
 ```
 
-**測試重點**（對應 US1 的驗收條件 4～6、Edge Case「快速連續點擊」）：
+**測試重點**（US1 驗收 4～6、Edge Case「快速連續點擊」）：
 - 第一次錯：選項加入 `disabled`，並產生 `replay_prompt`。
-- 第二次錯：進入 `reveal`。這個階段點其他選項沒有作用，點正解才前進。
-- 點 `disabled` 的選項，或在 `correct` 階段點選項，都不改變狀態。
-- 每題剛好產生 1 個 `emit_answer` 效果，帶有正確的 `wrongCount`。
-- `starsFor` 是三段邊界值。
-
-## 熟練度與排程（`src/game/mastery.ts`）
-
-```ts
-export interface MasteryEntry {
-  level: 0 | 1 | 2 | 3 | 4 | 5;
-  dueAtEncounter: number | null;   // 以遭遇序號排程
-  dueAt: string | null;            // ISO 時間，以天排程
-  lastSeenAt: string;
-}
-export type MasteryState = ReadonlyMap<ItemId, MasteryEntry>;
-
-export function applyAnswer(
-  m: MasteryState,
-  a: { itemIds: ItemId[]; wrongCount: 0 | 1 | 2; occurredAt: string; encounterIndex: number },
-): MasteryState;
-
-export function optionCountFor(level: number): 2 | 3 | 4;        // L0-1→2、L2-3→3、L4-5→4
-export function isFamiliar(e: MasteryEntry | undefined): boolean; // level ≥ 3
-
-/** 依 research R2 的優先順序排出要練的項目 */
-export function pickTargets(input: {
-  mastery: MasteryState;
-  candidates: ItemId[];             // 本區的練習項目
-  encounterIndex: number;
-  now: string;
-  count: number;
-}): ItemId[];
-```
-
-**測試重點**：
-- **R2 表格的每一列**都要有測試，包括等級上下限 0 和 5。
-- **US3 驗收 1**：答錯的項目在之後 5 次遭遇內一定會被 `pickTargets` 選到。
-  - 這條用性質測試：任意熟練度狀態下都成立。
-- **US3 驗收 2**：連續答對時，複習間隔嚴格遞增。
-
-## 遭遇挑選（`src/game/encounter.ts`）
-
-```ts
-export function pickPokemon(input: {
-  zone: ZoneId;
-  target: ItemId;
-  caught: ReadonlyMap<number, { bestStars: 1 | 2 | 3 }>;
-  correctStreak: number;
-  content: StaticContent;
-  rng: Rng;
-}): Pokemon;
-
-export function rareWeight(correctStreak: number): number;       // 0.1 + 0.1×streak，上限 0.6
-export function questionsPerEncounter(stage: Stage, rng: Rng): 1 | 2 | 3;
-```
-
-**測試重點**：
-- 回傳的寶可夢一定屬於該區，而且能出練到 `target` 的題目；沒有候選時才退回隨機。
-- 未收服的被抽中的機率比較高，用固定 rng 做統計測試。
-- `rareWeight` 的邊界值。
-
-## 狀態衍生（`src/game/derive.ts`）
-
-```ts
-export interface ChildState {
-  mastery: MasteryState;
-  caught: ReadonlyMap<number, { bestStars: 1 | 2 | 3; firstCaughtAt: string }>;
-  partner: { baseId: 1 | 4 | 7; currentId: number; xp: number } | null;
-  badges: ReadonlyMap<ZoneId, string>;
-  unlockedZones: ReadonlySet<ZoneId>;
-  correctStreak: number;
-  encounterCount: number;
-}
-
-export function deriveChildState(
-  events: readonly GameEvent[],
-  settings: { allZonesUnlocked: boolean },
-  content: StaticContent,
-): ChildState;
-
-export function reduceEvent(s: ChildState, e: GameEvent, content: StaticContent): ChildState;
-
-/** 合併兩台裝置的事件：以 id 去重後依 occurredAt、id 排序 */
-export function mergeEvents(a: readonly GameEvent[], b: readonly GameEvent[]): GameEvent[];
-```
-
-**測試重點**（對應 Edge Case「兩台裝置同時離線」與 SC-007）：
-- `deriveChildState(mergeEvents(a, b))` 滿足：
-  - 收服紀錄 = 兩邊的聯集，星星取最高。
-  - 作答數量 = 兩邊的總和（扣除重複的 id）。
-- 事件順序打亂後，結果相同。
-- 對同一組事件，逐筆 `reduceEvent` 的結果等於 `deriveChildState`。
-- **夥伴**：
-  - 有兩筆 `partner_chosen` 時取最早的一筆。
-  - 經驗值 49 → 50 時第一次進化，150 時第二次進化。
-- **區域開放**：
-  - 本區項目 79% 熟悉時下一區不開放，80% 時開放。
-  - `allZonesUnlocked` 會覆蓋這個條件。
-
-## 遊戲時間提醒（`src/game/playtime.ts`）
-
-```ts
-export function nextReminderAt(input: {
-  sessionStartedAt: number; playMinutes: number; remindersShown: number;
-}): number;   // 第一次在 playMinutes 分鐘，之後每 5 分鐘（FR-072）
-export function shouldRemindNow(input: { now: number; nextAt: number; inEncounter: boolean }): boolean;
-```
-
-**測試重點**：遭遇進行中不提醒，等遭遇結束後才提醒。
-
-## 家長門檻（`src/game/parentGate.ts`）
-
-```ts
-export function makeGateQuestion(rng: Rng): { a: number; b: number; answer: number };  // 兩位數 × 一位數，答案 ≥ 50
-```
+- 第二次錯：進入 `reveal`，之後只有點正解才會前進。
+- 點 `disabled` 的選項，或在 `correct` 階段點選，都不改變狀態。
+- `build_syllable` 依序點選，錯一個就算答錯一次並清空。
+- 每題剛好產生 1 個 `submit_answer`，`wrongCount` 正確。
+- 最後一題之後產生 `finished`。
