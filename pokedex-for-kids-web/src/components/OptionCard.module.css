@@ -1,0 +1,24 @@
+.card {
+  position: relative; width: 132px; min-height: 156px; padding: 0; overflow: hidden;
+  border-radius: var(--radius-card); box-shadow: var(--lift);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  transition: transform 0.15s, opacity 0.3s, filter 0.3s;
+}
+.tab {
+  position: absolute; top: 0; left: 0; right: 0; height: 30px;
+  color: #fff; font-size: 16px; display: grid; place-items: center; letter-spacing: 0.1em;
+}
+.face { font-size: 72px; line-height: 1; margin-top: 24px; }
+.name { width: auto; min-width: 180px; padding: 0 18px; }
+.name .face { font-size: 40px; }
+.disabled { opacity: 0.35; filter: grayscale(1); animation: shake 0.4s; }
+.reveal { animation: glow 1s infinite; }
+.correct { background: #effff3; animation: pop 0.5s; }
+.picked { opacity: 0.3; }
+
+@media (max-width: 640px) {
+  .card { width: 96px; min-height: 120px; }
+  .face { font-size: 54px; }
+  .name { min-width: 130px; }
+  .name .face { font-size: 28px; }
+}

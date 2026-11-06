@@ -36,3 +36,7 @@ next-env.d.ts
 
 # Sentry Auth Token
 .sentryclirc
+
+# 建置用的原始素材（不提交）
+/data/raw-artwork/
+/data/raw-font/

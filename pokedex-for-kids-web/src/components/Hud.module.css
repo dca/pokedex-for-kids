@@ -1,0 +1,28 @@
+.hud {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 10;
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;
+  padding: max(16px, env(safe-area-inset-top)) 20px 0; pointer-events: none;
+}
+.hud > * { pointer-events: auto; }
+.profile {
+  display: flex; align-items: center; gap: 10px; padding: 6px 18px 6px 6px;
+  background: var(--paper); border: 4px solid var(--ink); border-radius: var(--radius-chip); box-shadow: var(--lift-sm); font-size: 22px;
+}
+.meta { font-size: 18px; }
+.zone {
+  align-self: center; padding: 8px 18px; font-size: 20px;
+  background: rgba(255, 255, 255, 0.92); border: 3px solid var(--ink); border-radius: var(--radius-chip);
+}
+.actions { display: flex; gap: 12px; }
+.hint {
+  position: fixed; left: 50%; top: 120px; transform: translateX(-50%); z-index: 10; margin: 0;
+  background: var(--paper); border: 4px solid var(--ink); border-radius: var(--radius-chip);
+  box-shadow: var(--lift-sm); padding: 10px 22px; font-size: 20px; white-space: nowrap; pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  .profile { font-size: 16px; padding-right: 12px; }
+  .meta { display: none; }
+  .zone { display: none; }
+  .hint { top: 110px; font-size: 16px; }
+}

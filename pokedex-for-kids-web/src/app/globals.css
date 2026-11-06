@@ -1,1 +1,90 @@
 @import "tailwindcss";
+
+/* 字型：jf open 粉圓（OFL），建置時子集化（npm run font） */
+@font-face {
+  font-family: "Huninn";
+  src: url("/fonts/jfopenhuninn-subset.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --ink: #2b3a67;
+  --sky-top: #8fd3ff;
+  --sky-bottom: #e4f6ff;
+  --paper: #ffffff;
+  --grass: #7bd389;
+  --sand: #ffe3a3;
+  --star: #ffc93c;
+  --initial: #3d7bf7; /* 聲母 */
+  --medial: #1f9a57; /* 介音（加深以符合 AA 對比） */
+  --final: #d9631a; /* 韻母 */
+  --tone: #d63b42; /* 聲調 */
+  --radius-chip: 999px;
+  --radius-card: 22px;
+  --radius-sheet: 32px;
+  --lift: 0 6px 0 var(--ink);
+  --lift-sm: 0 4px 0 var(--ink);
+  --tap: 80px; /* 小朋友會點的按鈕最小尺寸（FR-081） */
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; }
+body {
+  font-family: "Huninn", "PingFang TC", "Noto Sans TC", sans-serif;
+  color: var(--ink);
+  background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 70%);
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+button {
+  font: inherit; color: inherit; cursor: pointer;
+  border: 4px solid var(--ink); background: var(--paper);
+}
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 4px solid var(--star); outline-offset: 4px; }
+button:active:not(:disabled) { transform: translateY(4px); box-shadow: none !important; }
+button:disabled { cursor: default; }
+
+.t-initial { color: var(--initial); }
+.t-medial { color: var(--medial); }
+.t-final { color: var(--final); }
+.t-tone { color: var(--tone); }
+.c-initial { background: var(--initial); }
+.c-medial { background: var(--medial); }
+.c-final { background: var(--final); }
+.c-tone { background: var(--tone); }
+.c-han { background: var(--ink); }
+
+.round-btn {
+  width: var(--tap); height: var(--tap); border-radius: 50%;
+  font-size: 34px; box-shadow: var(--lift-sm); display: grid; place-items: center;
+}
+.btn {
+  min-height: var(--tap); min-width: var(--tap); padding: 0 28px; border-radius: 20px;
+  font-size: 24px; box-shadow: var(--lift-sm);
+}
+.btn.primary { background: var(--star); }
+.btn-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.panel {
+  background: var(--paper); border: 4px solid var(--ink); border-radius: var(--radius-sheet);
+  box-shadow: 0 10px 0 var(--ink);
+}
+.overlay {
+  position: fixed; inset: 0; display: grid; place-items: center; z-index: 30;
+  background: rgba(43, 58, 103, 0.45); padding: 16px;
+}
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@keyframes shake { 0%, 100% { transform: translateX(0) } 25% { transform: translateX(-10px) } 75% { transform: translateX(10px) } }
+@keyframes pop { 0% { transform: scale(1) } 40% { transform: scale(1.15) rotate(-3deg) } 100% { transform: scale(1) } }
+@keyframes glow { 0%, 100% { box-shadow: 0 0 0 6px var(--star), var(--lift) } 50% { box-shadow: 0 0 0 12px var(--star), var(--lift) } }
+@keyframes rise { from { transform: translateY(110%) } to { transform: translateY(0) } }
+@keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+@keyframes wobble {
+  0%, 100% { transform: rotate(0) } 10% { transform: rotate(-18deg) } 20% { transform: rotate(14deg) } 30% { transform: rotate(0) }
+  45% { transform: rotate(-14deg) } 55% { transform: rotate(10deg) } 65% { transform: rotate(0) }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

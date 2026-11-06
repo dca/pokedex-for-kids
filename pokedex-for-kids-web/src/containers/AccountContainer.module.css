@@ -1,0 +1,14 @@
+.page { position: fixed; inset: 0; overflow-y: auto; padding: max(20px, env(safe-area-inset-top)) 16px 40px; user-select: text; }
+.card { width: min(680px, 100%); margin: 0 auto; padding: 24px; }
+.top { margin-bottom: 16px; }
+.top :global(.btn) { min-height: 56px; font-size: 18px; }
+.home { display: flex; flex-direction: column; gap: 14px; }
+.home h1 { margin: 0; font-size: 30px; font-weight: normal; }
+.home h2 { margin: 12px 0 0; font-size: 24px; font-weight: normal; }
+.note { margin: 0; font-size: 20px; }
+.kids { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+.kid { display: flex; align-items: center; gap: 12px; }
+.kid :global(.btn) { min-height: 56px; font-size: 18px; padding: 0 16px; }
+.name { font-size: 24px; flex: 1; }
+.link { border: 0; background: none; text-decoration: underline; font-size: 18px; min-height: 48px; }
+.bottom { justify-content: flex-start; margin-top: 18px; }
