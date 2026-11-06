@@ -29,7 +29,7 @@ cd pokedex-for-kids-web
 npm run api-types      # 從 game-api/openapi.yaml 產生 src/api/types.ts
 
 # 3. 啟動前端（/api 會轉到 localhost:18080）
-npm run dev            # → http://localhost:3000
+npm run dev            # → http://localhost:3200（3000 常被其他服務占用）
 ```
 
 音檔需要 Google Cloud TTS 憑證才能重新產生，平常不需要，產生好的音檔會提交到 repo：
@@ -63,7 +63,7 @@ npm run build:e2e && npm run e2e   # 三種裝置：desktop、ipad、iphone
 
 以下情境對應 spec 的 Independent Test，Playwright 會自動執行，也可以手動照著做：
 
-1. **US1 訪客收服**：打開 http://localhost:3000，按「開始」（自動成為訪客），選一隻夥伴；走進晃動的草叢，答題、收服；打開收集冊確認多了一隻。
+1. **US1 訪客收服**：打開 http://localhost:3200，按「開始」（自動成為訪客），選一隻夥伴；走進晃動的草叢，答題、收服；打開收集冊確認多了一隻。
 2. **US2 區域**：在帳號頁建立起始階段為「認字」的小朋友檔案（四區都開放）；分別走到四個區域遭遇寶可夢，確認題型不同；完成一次道館挑戰拿到徽章。
 3. **US3 自動調整**：在新手草原刻意答錯 ㄆ 兩次，接下來 5 次遭遇中至少一次練到 ㄆ。
 4. **US4 收集冊與夥伴**：收服幾隻後打開收集冊，點已收服的寶可夢重聽中英文發音。
