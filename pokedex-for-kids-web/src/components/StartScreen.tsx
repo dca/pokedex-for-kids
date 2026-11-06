@@ -50,6 +50,10 @@ export function StartScreen({ childList, loading, error, onStart, onPickChild, o
         <a href="https://creativecommons.org/licenses/by/4.0/deed.zh_TW" target="_blank" rel="noreferrer">
           CC BY 4.0
         </a>
+        ）；字音：中華民國教育部《國語辭典簡編本》（2014_20260929，
+        <a href="http://creativecommons.org/licenses/by-nd/3.0/tw/legalcode" target="_blank" rel="noreferrer">
+          CC BY-ND 3.0 TW
+        </a>
         ）。寶可夢為 Nintendo / Creatures / GAME FREAK 所有，本作品為非營利粉絲作品。
       </p>
       {onAccount && (

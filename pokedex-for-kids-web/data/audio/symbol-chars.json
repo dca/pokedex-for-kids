@@ -1,5 +1,5 @@
 {
-  "_comment": "注音符號單獨發音時送給 TTS 的代表字（只在沒有真人錄音時使用）。37 個符號目前都使用教育部《國語注音符號手冊》的真人錄音，放在 data/audio/overrides/sym/（CC BY 4.0，見 CREDITS.md）。",
+  "_comment": "注音符號單獨發音時送給 TTS 的代表字（只在沒有真人錄音時使用）。37 個符號目前都使用教育部《國語注音符號手冊》的真人錄音，放在 data/audio/overrides/sym/（CC BY 4.0）；聲調示範與名稱音節使用教育部《國語辭典簡編本》單字朗讀（CC BY-ND 3.0 TW），見 CREDITS.md。",
   "chars": {
     "ㄅ": "波",
     "ㄆ": "坡",
