@@ -5,43 +5,43 @@
 
 | 檔案 | 唸的字 | 備註 |
 |---|---|---|
-| public/audio/sym/3105.mp3 | 波 |  |
-| public/audio/sym/3106.mp3 | 坡 |  |
-| public/audio/sym/3107.mp3 | 摸 |  |
-| public/audio/sym/3108.mp3 | 佛 |  |
-| public/audio/sym/3109.mp3 | 德 |  |
-| public/audio/sym/310a.mp3 | 特 |  |
-| public/audio/sym/310b.mp3 | 訥 |  |
-| public/audio/sym/310c.mp3 | 勒 |  |
-| public/audio/sym/310d.mp3 | 哥 |  |
-| public/audio/sym/310e.mp3 | 科 |  |
-| public/audio/sym/310f.mp3 | 喝 |  |
-| public/audio/sym/3110.mp3 | 雞 |  |
-| public/audio/sym/3111.mp3 | 七 |  |
-| public/audio/sym/3112.mp3 | 西 |  |
-| public/audio/sym/3113.mp3 | 知 | ㄓ：建議真人錄音 |
-| public/audio/sym/3114.mp3 | 吃 | ㄔ：建議真人錄音 |
-| public/audio/sym/3115.mp3 | 師 | ㄕ：建議真人錄音 |
-| public/audio/sym/3116.mp3 | 日 | ㄖ：建議真人錄音 |
-| public/audio/sym/3117.mp3 | 資 | ㄗ：建議真人錄音 |
-| public/audio/sym/3118.mp3 | 疵 | ㄘ：建議真人錄音 |
-| public/audio/sym/3119.mp3 | 思 | ㄙ：建議真人錄音 |
-| public/audio/sym/3127.mp3 | 衣 |  |
-| public/audio/sym/3128.mp3 | 屋 |  |
-| public/audio/sym/3129.mp3 | 迂 |  |
-| public/audio/sym/311a.mp3 | 啊 |  |
-| public/audio/sym/311b.mp3 | 喔 |  |
-| public/audio/sym/311c.mp3 | 鵝 | ㄜ：建議真人錄音 |
-| public/audio/sym/311d.mp3 | 耶 | ㄝ：建議真人錄音 |
-| public/audio/sym/311e.mp3 | 哀 |  |
-| public/audio/sym/311f.mp3 | 誒 | ㄟ：建議真人錄音 |
-| public/audio/sym/3120.mp3 | 凹 |  |
-| public/audio/sym/3121.mp3 | 歐 |  |
-| public/audio/sym/3122.mp3 | 安 |  |
-| public/audio/sym/3123.mp3 | 恩 |  |
-| public/audio/sym/3124.mp3 | 骯 |  |
-| public/audio/sym/3125.mp3 | 鞥 | ㄥ：建議真人錄音 |
-| public/audio/sym/3126.mp3 | 兒 |  |
+| public/audio/sym/3105.mp3 | 波 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3106.mp3 | 坡 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3107.mp3 | 摸 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3108.mp3 | 佛 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3109.mp3 | 德 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/310a.mp3 | 特 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/310b.mp3 | 訥 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/310c.mp3 | 勒 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/310d.mp3 | 哥 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/310e.mp3 | 科 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/310f.mp3 | 喝 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3110.mp3 | 雞 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3111.mp3 | 七 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3112.mp3 | 西 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3113.mp3 | 知 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3114.mp3 | 吃 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3115.mp3 | 師 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3116.mp3 | 日 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3117.mp3 | 資 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3118.mp3 | 疵 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3119.mp3 | 思 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3127.mp3 | 衣 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3128.mp3 | 屋 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3129.mp3 | 迂 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/311a.mp3 | 啊 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/311b.mp3 | 喔 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/311c.mp3 | 鵝 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/311d.mp3 | 耶 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/311e.mp3 | 哀 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/311f.mp3 | 誒 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3120.mp3 | 凹 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3121.mp3 | 歐 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3122.mp3 | 安 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3123.mp3 | 恩 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3124.mp3 | 骯 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3125.mp3 | 鞥 | 真人錄音（data/audio/overrides） |
+| public/audio/sym/3126.mp3 | 兒 | 真人錄音（data/audio/overrides） |
 | public/audio/tone/1.mp3 | 媽 |  |
 | public/audio/tone/2.mp3 | 麻 |  |
 | public/audio/tone/3.mp3 | 馬 |  |

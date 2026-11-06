@@ -88,6 +88,7 @@ for (const job of jobs) {
   const override = path.join(overrideRoot, job.rel)
   if (fs.existsSync(override)) {
     fs.copyFileSync(override, target)
+    job.note = '真人錄音（data/audio/overrides）'
     continue
   }
   if (fs.existsSync(target) && !force) {

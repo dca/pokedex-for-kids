@@ -17,6 +17,8 @@
 }
 .error { margin: 0; font-size: 20px; background: #fff; border: 3px solid var(--tone); border-radius: 16px; padding: 8px 16px; }
 .account { font-size: 18px; min-height: 56px; }
+.credit { position: absolute; bottom: max(12px, env(safe-area-inset-bottom)); left: 16px; right: 16px; margin: 0; font-size: 13px; line-height: 1.5; }
+.credit a { color: inherit; }
 
 @media (max-width: 640px) {
   .title { font-size: 52px; }

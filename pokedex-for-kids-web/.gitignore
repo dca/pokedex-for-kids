@@ -44,3 +44,6 @@ next-env.d.ts
 # Playwright
 /test-results/
 /playwright-report/
+
+# 本機試聽頁（不部署）
+/public/audio-review.html

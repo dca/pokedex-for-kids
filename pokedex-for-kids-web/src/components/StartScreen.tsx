@@ -45,6 +45,13 @@ export function StartScreen({ childList, loading, error, onStart, onPickChild, o
           {error}
         </p>
       )}
+      <p className={styles.credit}>
+        注音符號發音：2017 © 教育部，國語注音符號手冊-開放部件（
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.zh_TW" target="_blank" rel="noreferrer">
+          CC BY 4.0
+        </a>
+        ）。寶可夢為 Nintendo / Creatures / GAME FREAK 所有，本作品為非營利粉絲作品。
+      </p>
       {onAccount && (
         <button type="button" className={`btn ${styles.account}`} onClick={onAccount}>
           家長登入／註冊
