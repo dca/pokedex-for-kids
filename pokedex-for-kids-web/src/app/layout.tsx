@@ -1,22 +1,22 @@
 import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import type { Metadata, Viewport } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Pokedex for Kids',
-  description: 'Pokedex for Kids to learn about Pokemon',
+  title: '注音島',
+  description: '跟寶可夢一起學注音',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: '#9AD8FF',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="zh-Hant-TW">
+      <body>{children}</body>
     </html>
   )
 }
