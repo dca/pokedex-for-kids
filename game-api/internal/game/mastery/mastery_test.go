@@ -82,6 +82,23 @@ func TestOptionCount(t *testing.T) {
 	}
 }
 
+// 熟悉項目的到期複習不能讓新項目永遠排不進來
+func TestNewItemsNotStarvedByReviews(t *testing.T) {
+	r := rand.New(rand.NewPCG(3, 4))
+	past := t0.Add(-time.Hour)
+	m := map[string]Entry{}
+	var items []string
+	for i := 0; i < 10; i++ {
+		id := fmt.Sprintf("old-%d", i)
+		m[id] = Entry{Level: 5, DueAt: &past}
+		items = append(items, id)
+	}
+	items = append(items, "new")
+	if got := PickTargets(m, items, 0, t0, 1, r); got[0] != "new" {
+		t.Fatalf("新項目應排在已熟悉的複習之前：%v", got)
+	}
+}
+
 func TestPickTargetsOrder(t *testing.T) {
 	r := rand.New(rand.NewPCG(1, 2))
 	past := t0.Add(-time.Hour)

@@ -95,6 +95,7 @@ paths:
                       default: false
                       description: 目前是訪客 session 時，是否把訪客的小朋友檔案移到這個帳號；之後訪客帳號會被刪除
       responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
         '200':
           description: 登入成功，設定 session cookie
           headers:
@@ -176,6 +177,7 @@ paths:
           application/json:
             schema: { $ref: '#/components/schemas/PasswordConfirm' }
       responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
         '204': { description: 帳號、小朋友檔案與所有進度都已刪除 }
         '401': { $ref: '#/components/responses/Unauthorized' }
         '403': { $ref: '#/components/responses/Forbidden' }
@@ -238,6 +240,7 @@ paths:
           application/json:
             schema: { $ref: '#/components/schemas/PasswordConfirm' }
       responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
         '204': { description: 已刪除 }
         '401': { $ref: '#/components/responses/Unauthorized' }
         '403': { $ref: '#/components/responses/Forbidden' }
@@ -250,6 +253,7 @@ paths:
       operationId: getChildState
       summary: 取得收集冊、夥伴、徽章、已開放區域等進度
       responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
         '200':
           description: OK
           content:
@@ -274,6 +278,7 @@ paths:
               properties:
                 pokemonId: { type: integer, enum: [1, 4, 7] }
       responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
         '200':
           description: OK
           content:
@@ -310,6 +315,7 @@ paths:
                 zone: { $ref: '#/components/schemas/ZoneId' }
                 kind: { type: string, enum: [wild, gym] }
       responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
         '201':
           description: 已建立
           content:
@@ -366,6 +372,7 @@ paths:
       operationId: completeEncounter
       summary: 結算遭遇：星星、收服、經驗值、進化、區域開放、徽章；重送回傳同樣結果
       responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
         '200':
           description: OK
           content:

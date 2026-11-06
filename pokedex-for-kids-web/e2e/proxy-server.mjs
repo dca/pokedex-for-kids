@@ -4,7 +4,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const port = Number(process.argv[2] ?? 3100)
-const api = new URL(process.env.E2E_API ?? 'http://localhost:8080')
+const api = new URL(process.env.E2E_API ?? 'http://localhost:18080')
 const root = path.resolve(new URL('.', import.meta.url).pathname, '..', 'out')
 
 const types = {

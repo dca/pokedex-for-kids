@@ -20,6 +20,8 @@ type Snapshot struct {
 	CorrectStreak  int
 	EncounterIndex int
 	Now            time.Time
+	// ForcePokemon 只在測試掛勾開啟時使用：指定這次遭遇的寶可夢
+	ForcePokemon int
 }
 
 type Plan struct {
@@ -139,9 +141,11 @@ func PlanWild(c *content.Content, s Snapshot, zoneID content.ZoneID, r *rand.Ran
 		return Plan{}, ErrNoQuestion
 	}
 	p := PickPokemon(c, zoneID, ranked[0], s.Caught, s.CorrectStreak, r)
+	if forced, ok := c.Pokemon[s.ForcePokemon]; ok {
+		p = forced
+	}
 
 	var qs []questions.Question
-	used := map[content.ItemID]bool{}
 	for _, target := range ranked {
 		if len(qs) == n {
 			break
@@ -150,7 +154,6 @@ func PlanWild(c *content.Content, s Snapshot, zoneID content.ZoneID, r *rand.Ran
 		if err != nil {
 			continue
 		}
-		used[target] = true
 		qs = append(qs, q)
 	}
 	if len(qs) == 0 {

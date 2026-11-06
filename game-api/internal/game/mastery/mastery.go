@@ -74,9 +74,10 @@ func IsDue(e Entry, encounterIndex int, now time.Time) bool {
 
 // PickTargets 依優先順序挑出 n 個要練的項目：
 //  1. 到期的短期複習（剛答錯或剛學），依到期的遭遇序號、等級排序
-//  2. 到期的長期複習，依等級、到期時間排序
+//  2. 到期、但還不熟悉（level < 3）的長期複習，依等級、到期時間排序
 //  3. 還沒學過的項目，依 candidates 的順序
-//  4. 尚未到期的項目，依最快到期排序
+//  4. 到期、已經熟悉的長期複習（排在新項目之後，避免複習占滿每次遭遇、新項目永遠學不到）
+//  5. 尚未到期的項目，依最快到期排序
 func PickTargets[K comparable](m map[K]Entry, candidates []K, encounterIndex int, now time.Time, n int, r *rand.Rand) []K {
 	type ranked struct {
 		id    K
@@ -98,10 +99,12 @@ func PickTargets[K comparable](m map[K]Entry, candidates []K, encounterIndex int
 			x.group, x.a = 2, int64(i)
 		case IsDue(e, encounterIndex, now) && e.DueEncounter != nil:
 			x.group, x.a, x.b = 0, int64(*e.DueEncounter), int64(e.Level)
-		case IsDue(e, encounterIndex, now):
+		case IsDue(e, encounterIndex, now) && !IsFamiliar(e.Level):
 			x.group, x.a, x.b = 1, int64(e.Level), dueUnix(e)
+		case IsDue(e, encounterIndex, now):
+			x.group, x.a, x.b = 3, int64(e.Level), dueUnix(e)
 		default:
-			x.group = 3
+			x.group = 4
 			if e.DueEncounter != nil {
 				// 以「幾次遭遇後」換算成接近的時間尺度：短期項目一律排在長期項目前
 				x.a, x.b = 0, int64(*e.DueEncounter)

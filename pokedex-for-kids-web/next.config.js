@@ -10,7 +10,7 @@ const nextConfig = {
   // 靜態輸出不支援 rewrites，只在開發模式把 /api 轉給本機的 game-api
   ...(isDev && {
     async rewrites() {
-      return [{ source: '/api/:path*', destination: 'http://localhost:8080/api/:path*' }]
+      return [{ source: '/api/:path*', destination: 'http://localhost:18080/api/:path*' }]
     },
   }),
 }
