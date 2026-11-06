@@ -25,6 +25,7 @@
   --lift: 0 6px 0 var(--ink);
   --lift-sm: 0 4px 0 var(--ink);
   --tap: 80px; /* 小朋友會點的按鈕最小尺寸（FR-081） */
+  --ui: 1; /* 介面縮放比例，由 UiScale 依視窗大小設定 */
 }
 
 * { box-sizing: border-box; }
@@ -56,6 +57,7 @@ button:disabled { cursor: default; }
 .c-han { background: var(--ink); }
 
 .round-btn {
+  flex: none;
   width: var(--tap); height: var(--tap); border-radius: 50%;
   font-size: 34px; box-shadow: var(--lift-sm); display: grid; place-items: center;
 }
@@ -72,6 +74,13 @@ button:disabled { cursor: default; }
 .overlay {
   position: fixed; inset: 0; display: grid; place-items: center; z-index: 30;
   background: rgba(43, 58, 103, 0.45); padding: 16px;
+}
+/* 對話框依視窗大小縮放；用 max-width / max-height 換算回縮放前的尺寸，避免超出畫面 */
+.overlay > * {
+  zoom: var(--ui);
+  max-width: calc((100vw - 32px) / var(--ui));
+  max-height: calc((100dvh - 32px) / var(--ui));
+  overflow-x: hidden; overflow-y: auto;
 }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 

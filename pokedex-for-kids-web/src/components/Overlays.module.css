@@ -1,3 +1,4 @@
+.connecting, .banner { zoom: var(--ui); }
 .connecting {
   position: fixed; left: 50%; top: max(110px, env(safe-area-inset-top)); transform: translateX(-50%); z-index: 60;
   display: flex; align-items: center; gap: 12px; padding: 12px 24px; font-size: 22px;

@@ -4,6 +4,7 @@
   background-image: radial-gradient(#c3e6fa 2px, transparent 2px); background-size: 26px 26px;
 }
 .complete { background-color: #fff4cc; background-image: radial-gradient(#ffe38a 2px, transparent 2px); }
+.head, .progress, .grid { zoom: var(--ui); }
 .head { max-width: 980px; margin: 0 auto 20px; display: flex; align-items: center; gap: 16px; }
 .head h2 { margin: 0; font-size: 34px; font-weight: normal; }
 .count { font-size: 20px; }

@@ -1,5 +1,5 @@
 .page { position: fixed; inset: 0; overflow-y: auto; padding: max(20px, env(safe-area-inset-top)) 16px 40px; user-select: text; }
-.card { width: min(680px, 100%); margin: 0 auto; padding: 24px; }
+.card { width: min(680px, 100%); margin: 0 auto; padding: 24px; zoom: var(--ui); }
 .top { margin-bottom: 16px; }
 .top :global(.btn) { min-height: 56px; font-size: 18px; }
 .home { display: flex; flex-direction: column; gap: 14px; }

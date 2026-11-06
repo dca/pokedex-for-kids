@@ -69,3 +69,19 @@ export function pickActivePatch(zone: ZoneId, previous: PatchRef | null, rand: (
 
 export const PATCH_RADIUS = 1.6
 export const GYM_RADIUS = 2.2
+
+/** 遭遇時鏡頭相對於寶可夢的位置（從左前方看過去），以及依寬高比拉遠的最大倍數 */
+export const ENCOUNTER_OFFSET: [number, number, number] = [-4, 6, 6.5]
+export const ENCOUNTER_MAX_SCALE = 2.2
+
+/** 野生寶可夢站的位置：草叢前方一點 */
+export const wildSpot = (p: { x: number; z: number }) => ({ x: p.x + 0.3, z: p.z + 2.3 })
+
+/** 道館館主寶可夢站的位置：道館前方（往廣場方向） */
+export function gymSpot(zone: ZoneId) {
+  const [x, z] = zoneLayout(zone).gym
+  return { x: x * 0.85, z: z * 0.85 }
+}
+
+/** 所有會拉近鏡頭的位置（野生與道館） */
+export const encounterSpots = () => [...allPatches().map(wildSpot), ...ZONES.map((z) => gymSpot(z.id))]

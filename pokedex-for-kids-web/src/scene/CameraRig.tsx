@@ -3,9 +3,18 @@ import { useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { runtime } from './runtime'
+import { ENCOUNTER_MAX_SCALE, ENCOUNTER_OFFSET } from './layout'
 
 const EXPLORE = new THREE.Vector3(0, 21, 24)
-const ENCOUNTER = new THREE.Vector3(-4, 6, 6.5)
+const ENCOUNTER = new THREE.Vector3(...ENCOUNTER_OFFSET)
+/** 以平板橫向（約 1.45）為基準：視窗越窄鏡頭越遠，讓小島不被左右裁掉；越寬則稍微拉近 */
+const REF_ASPECT = 1.45
+
+export function distanceScale(aspect: number, encounter: boolean): number {
+  const raw = Math.pow(REF_ASPECT / aspect, encounter ? 0.7 : 0.4)
+  // 遭遇時不比基準更近，否則寬螢幕上寶可夢會被前景擋住
+  return Math.min(encounter ? ENCOUNTER_MAX_SCALE : 1.6, Math.max(encounter ? 1 : 0.85, raw))
+}
 
 export function CameraRig({ reducedMotion }: { reducedMotion: boolean }) {
   const { camera, size } = useThree()
@@ -18,8 +27,9 @@ export function CameraRig({ reducedMotion }: { reducedMotion: boolean }) {
     const k = reducedMotion ? 1 : Math.min(1, delta * 3)
     const focus = runtime.focus ?? { x: runtime.player.x, z: runtime.player.z }
     const encounter = runtime.focus !== null
-    const portrait = size.height > size.width
-    const off = (encounter ? ENCOUNTER : EXPLORE).clone().multiplyScalar(portrait ? (encounter ? 2 : 1.4) : 1)
+    const aspect = size.width / Math.max(1, size.height)
+    const portrait = aspect < 1
+    const off = (encounter ? ENCOUNTER : EXPLORE).clone().multiplyScalar(distanceScale(aspect, encounter))
     tmp.current.set(focus.x, 0, focus.z).add(off)
     cam.position.lerp(tmp.current, k)
     tmp.current.set(focus.x, encounter ? 1.2 : 0, focus.z)

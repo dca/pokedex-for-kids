@@ -6,7 +6,7 @@ import { api, audio } from '@/services'
 import { useGame, type Notice } from '@/stores/game'
 import { useSession } from '@/stores/session'
 import { ZONE_NAMES } from '@/content/types'
-import { pickActivePatch, type PatchRef } from '@/scene/layout'
+import { pickActivePatch, wildSpot, type PatchRef } from '@/scene/layout'
 import { runtime } from '@/scene/runtime'
 
 const INTRO_MS = 1600
@@ -58,7 +58,7 @@ export function useEncounterFlow() {
       prefetch.current = null
       try {
         const encounter = await (pre ?? api.request<Encounter>('POST', `/children/${childId}/encounters`, { zone: patch.zone, kind: 'wild' }))
-        begin(encounter, { x: patch.x + 0.3, z: patch.z + 2.3 })
+        begin(encounter, wildSpot(patch))
       } catch {
         useGame.getState().setMode({ kind: 'explore' })
       }

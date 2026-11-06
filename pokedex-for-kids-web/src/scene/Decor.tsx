@@ -1,7 +1,7 @@
 // 裝飾：棒棒糖樹、麻糬石、小花，依區域放置；用 InstancedMesh 減少繪製次數。數量隨畫質調整。
 import { useLayoutEffect, useMemo, useRef } from 'react'
 import * as THREE from 'three'
-import { ISLAND_RADIUS, PLAZA_RADIUS, START, allPatches, ZONES, zoneAt } from './layout'
+import { ENCOUNTER_MAX_SCALE, ENCOUNTER_OFFSET, ISLAND_RADIUS, PLAZA_RADIUS, START, allPatches, encounterSpots, ZONES, zoneAt } from './layout'
 
 function seeded(seed: number) {
   let s = seed
@@ -18,10 +18,23 @@ interface Spot {
   rot: number
 }
 
+// 遭遇鏡頭的水平方向與最遠距離（窄螢幕會拉遠到 ENCOUNTER_MAX_SCALE 倍）
+const CAM_DIST = Math.hypot(ENCOUNTER_OFFSET[0], ENCOUNTER_OFFSET[2])
+const CAM_DIR = { x: ENCOUNTER_OFFSET[0] / CAM_DIST, z: ENCOUNTER_OFFSET[2] / CAM_DIST }
+const SIGHT_LEN = CAM_DIST * ENCOUNTER_MAX_SCALE + 1
+
+/** 點 (x, z) 是否在「寶可夢 (wx, wz) → 遭遇鏡頭」的視線附近 */
+export function nearSightLine(x: number, z: number, wx: number, wz: number): boolean {
+  const t = (x - wx) * CAM_DIR.x + (z - wz) * CAM_DIR.z
+  if (t < -1 || t > SIGHT_LEN) return false
+  return Math.hypot(x - (wx + CAM_DIR.x * t), z - (wz + CAM_DIR.z * t)) < 2.4
+}
+
 /** 在島上隨機找位置，避開廣場、草叢、道館 */
 function scatter(count: number, seed: number, filter: (x: number, z: number) => boolean, minR = PLAZA_RADIUS + 1): Spot[] {
   const rand = seeded(seed)
   const blocked = [...allPatches().map((p) => [p.x, p.z]), ...ZONES.map((z) => z.gym)]
+  const focusSpots = encounterSpots()
   const out: Spot[] = []
   for (let tries = 0; out.length < count && tries < count * 30; tries++) {
     const a = rand() * Math.PI * 2
@@ -31,6 +44,8 @@ function scatter(count: number, seed: number, filter: (x: number, z: number) => 
     if (!filter(x, z) || blocked.some(([bx, bz]) => Math.hypot(bx - x, bz - z) < 2.6)) continue
     // 出生點與它和鏡頭之間保持空曠，玩家才不會被樹擋住
     if (Math.abs(x - START[0]) < 4 && z > START[1] - 3) continue
+    // 遭遇與道館挑戰時鏡頭從寶可夢左前方看過去，這條視線上也不放裝飾
+    if (focusSpots.some((w) => nearSightLine(x, z, w.x, w.z))) continue
     out.push({ x, z, s: 0.8 + rand() * 0.5, rot: rand() * Math.PI })
   }
   return out

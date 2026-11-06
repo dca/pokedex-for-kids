@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import type { ZoneId } from '@/api/types'
 import { GameCanvas } from '@/scene/GameCanvas'
-import { pickActivePatch, zoneLayout, zoneSpawn } from '@/scene/layout'
+import { gymSpot, pickActivePatch, zoneSpawn } from '@/scene/layout'
 import { runtime, teleport } from '@/scene/runtime'
 import { Hud } from '@/components/Hud'
 import { Joystick } from '@/components/Joystick'
@@ -112,10 +112,7 @@ export default function GameContainer() {
       <ModeLayer
         flow={flow}
         reducedMotion={reducedMotion}
-        gymAt={(z) => {
-          const [x, gz] = zoneLayout(z).gym
-          return { x: x * 0.85, z: gz * 0.85 }
-        }}
+        gymAt={gymSpot}
       />
       <ConnectionOverlay visible={pending} />
     </>

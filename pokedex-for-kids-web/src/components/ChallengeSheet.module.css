@@ -1,6 +1,6 @@
 .sheet {
-  position: fixed; left: 50%; bottom: 0; width: min(860px, 100vw); transform: translateX(-50%);
-  max-height: 72vh; overflow-y: auto;
+  position: fixed; left: 50%; bottom: 0; transform: translateX(-50%);
+  zoom: var(--ui); width: min(860px, 100vw / var(--ui)); max-height: calc(72dvh / var(--ui)); overflow-y: auto;
   background: var(--paper); border: 4px solid var(--ink); border-bottom: 0;
   border-radius: var(--radius-sheet) var(--radius-sheet) 0 0;
   padding: 24px 28px max(28px, env(safe-area-inset-bottom)); z-index: 20;
@@ -20,7 +20,7 @@
 .feedback { min-height: 30px; text-align: center; font-size: 22px; margin: 16px 0 0; }
 
 @media (max-width: 640px) {
-  .sheet { padding: 16px 14px max(18px, env(safe-area-inset-bottom)); max-height: 62vh; }
+  .sheet { padding: 16px 14px max(18px, env(safe-area-inset-bottom)); max-height: calc(62vh / var(--ui)); }
   .prompt { gap: 10px; margin-bottom: 12px; }
   .text { font-size: 20px; }
   .chip { display: none; }

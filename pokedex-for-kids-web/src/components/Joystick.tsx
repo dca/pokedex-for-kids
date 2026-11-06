@@ -37,10 +37,14 @@ export function Joystick({ enabled }: { enabled: boolean }) {
   }, [enabled])
 
   const move = (e: React.PointerEvent) => {
-    const r = ref.current!.getBoundingClientRect()
-    let x = e.clientX - r.left - r.width / 2
-    let y = e.clientY - r.top - r.height / 2
-    const max = r.width / 2 - 20
+    const el = ref.current!
+    const r = el.getBoundingClientRect()
+    // 搖桿有 CSS zoom：量到的是縮放後的螢幕距離，圓鈕的位移則會再被縮放一次，所以換算回縮放前
+    const cssWidth = parseFloat(getComputedStyle(el).width) || r.width
+    const zoom = r.width / cssWidth
+    let x = (e.clientX - r.left - r.width / 2) / zoom
+    let y = (e.clientY - r.top - r.height / 2) / zoom
+    const max = cssWidth / 2 - 20
     const len = Math.hypot(x, y)
     if (len > max) {
       x = (x / len) * max
