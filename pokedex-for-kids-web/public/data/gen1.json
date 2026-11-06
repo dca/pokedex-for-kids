@@ -1,0 +1,5571 @@
+[
+ {
+  "id": 1,
+  "name": "妙蛙種子",
+  "en": "Bulbasaur",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": 2,
+  "syllables": [
+   {
+    "char": "妙",
+    "isHan": true,
+    "zhuyin": "ㄇㄧㄠˋ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 4
+   },
+   {
+    "char": "蛙",
+    "isHan": true,
+    "zhuyin": "ㄨㄚ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "種",
+    "isHan": true,
+    "zhuyin": "ㄓㄨㄥˇ",
+    "initial": "ㄓ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 3
+   },
+   {
+    "char": "子",
+    "isHan": true,
+    "zhuyin": "ㄗˇ",
+    "initial": "ㄗ",
+    "medial": null,
+    "final": null,
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "妙蛙草",
+  "en": "Ivysaur",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": 3,
+  "syllables": [
+   {
+    "char": "妙",
+    "isHan": true,
+    "zhuyin": "ㄇㄧㄠˋ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 4
+   },
+   {
+    "char": "蛙",
+    "isHan": true,
+    "zhuyin": "ㄨㄚ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "草",
+    "isHan": true,
+    "zhuyin": "ㄘㄠˇ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "妙蛙花",
+  "en": "Venusaur",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "妙",
+    "isHan": true,
+    "zhuyin": "ㄇㄧㄠˋ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 4
+   },
+   {
+    "char": "蛙",
+    "isHan": true,
+    "zhuyin": "ㄨㄚ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "花",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄚ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "小火龍",
+  "en": "Charmander",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": 5,
+  "syllables": [
+   {
+    "char": "小",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄠˇ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "火恐龍",
+  "en": "Charmeleon",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": 6,
+  "syllables": [
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "恐",
+    "isHan": true,
+    "zhuyin": "ㄎㄨㄥˇ",
+    "initial": "ㄎ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 3
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "噴火龍",
+  "en": "Charizard",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "噴",
+    "isHan": true,
+    "zhuyin": "ㄆㄣ",
+    "initial": "ㄆ",
+    "medial": null,
+    "final": "ㄣ",
+    "tone": 1
+   },
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "傑尼龜",
+  "en": "Squirtle",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": 8,
+  "syllables": [
+   {
+    "char": "傑",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄝˊ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 2
+   },
+   {
+    "char": "尼",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "龜",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄟ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "name": "卡咪龜",
+  "en": "Wartortle",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": 9,
+  "syllables": [
+   {
+    "char": "卡",
+    "isHan": true,
+    "zhuyin": "ㄎㄚˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "咪",
+    "isHan": true,
+    "zhuyin": "ㄇㄧ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "龜",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄟ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "水箭龜",
+  "en": "Blastoise",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "水",
+    "isHan": true,
+    "zhuyin": "ㄕㄨㄟˇ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "箭",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄢˋ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "龜",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄟ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "name": "綠毛蟲",
+  "en": "Caterpie",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "綠",
+    "isHan": true,
+    "zhuyin": "ㄌㄩˋ",
+    "initial": "ㄌ",
+    "medial": "ㄩ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "毛",
+    "isHan": true,
+    "zhuyin": "ㄇㄠˊ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 2
+   },
+   {
+    "char": "蟲",
+    "isHan": true,
+    "zhuyin": "ㄔㄨㄥˊ",
+    "initial": "ㄔ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "name": "鐵甲蛹",
+  "en": "Metapod",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鐵",
+    "isHan": true,
+    "zhuyin": "ㄊㄧㄝˇ",
+    "initial": "ㄊ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 3
+   },
+   {
+    "char": "甲",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄚˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "蛹",
+    "isHan": true,
+    "zhuyin": "ㄩㄥˇ",
+    "initial": null,
+    "medial": "ㄩ",
+    "final": "ㄥ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "name": "巴大蝶",
+  "en": "Butterfree",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "巴",
+    "isHan": true,
+    "zhuyin": "ㄅㄚ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "蝶",
+    "isHan": true,
+    "zhuyin": "ㄉㄧㄝˊ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "name": "獨角蟲",
+  "en": "Weedle",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "獨",
+    "isHan": true,
+    "zhuyin": "ㄉㄨˊ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "角",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄠˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "蟲",
+    "isHan": true,
+    "zhuyin": "ㄔㄨㄥˊ",
+    "initial": "ㄔ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "name": "鐵殼蛹",
+  "en": "Kakuna",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鐵",
+    "isHan": true,
+    "zhuyin": "ㄊㄧㄝˇ",
+    "initial": "ㄊ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 3
+   },
+   {
+    "char": "殼",
+    "isHan": true,
+    "zhuyin": "ㄎㄜˊ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   },
+   {
+    "char": "蛹",
+    "isHan": true,
+    "zhuyin": "ㄩㄥˇ",
+    "initial": null,
+    "medial": "ㄩ",
+    "final": "ㄥ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "name": "大針蜂",
+  "en": "Beedrill",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "針",
+    "isHan": true,
+    "zhuyin": "ㄓㄣ",
+    "initial": "ㄓ",
+    "medial": null,
+    "final": "ㄣ",
+    "tone": 1
+   },
+   {
+    "char": "蜂",
+    "isHan": true,
+    "zhuyin": "ㄈㄥ",
+    "initial": "ㄈ",
+    "medial": null,
+    "final": "ㄥ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "name": "波波",
+  "en": "Pidgey",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "波",
+    "isHan": true,
+    "zhuyin": "ㄅㄛ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "波",
+    "isHan": true,
+    "zhuyin": "ㄅㄛ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "name": "比比鳥",
+  "en": "Pidgeotto",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "比",
+    "isHan": true,
+    "zhuyin": "ㄅㄧˇ",
+    "initial": "ㄅ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "比",
+    "isHan": true,
+    "zhuyin": "ㄅㄧˇ",
+    "initial": "ㄅ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "鳥",
+    "isHan": true,
+    "zhuyin": "ㄋㄧㄠˇ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "name": "大比鳥",
+  "en": "Pidgeot",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "比",
+    "isHan": true,
+    "zhuyin": "ㄅㄧˇ",
+    "initial": "ㄅ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "鳥",
+    "isHan": true,
+    "zhuyin": "ㄋㄧㄠˇ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "name": "小拉達",
+  "en": "Rattata",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "小",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄠˇ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "達",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˊ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "name": "拉達",
+  "en": "Raticate",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "達",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˊ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "name": "烈雀",
+  "en": "Spearow",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "烈",
+    "isHan": true,
+    "zhuyin": "ㄌㄧㄝˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 4
+   },
+   {
+    "char": "雀",
+    "isHan": true,
+    "zhuyin": "ㄑㄩㄝˋ",
+    "initial": "ㄑ",
+    "medial": "ㄩ",
+    "final": "ㄝ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "name": "大嘴雀",
+  "en": "Fearow",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "嘴",
+    "isHan": true,
+    "zhuyin": "ㄗㄨㄟˇ",
+    "initial": "ㄗ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "雀",
+    "isHan": true,
+    "zhuyin": "ㄑㄩㄝˋ",
+    "initial": "ㄑ",
+    "medial": "ㄩ",
+    "final": "ㄝ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "name": "阿柏蛇",
+  "en": "Ekans",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "阿",
+    "isHan": true,
+    "zhuyin": "ㄚ",
+    "initial": null,
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "柏",
+    "isHan": true,
+    "zhuyin": "ㄅㄛˊ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 2
+   },
+   {
+    "char": "蛇",
+    "isHan": true,
+    "zhuyin": "ㄕㄜˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "name": "阿柏怪",
+  "en": "Arbok",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "阿",
+    "isHan": true,
+    "zhuyin": "ㄚ",
+    "initial": null,
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "柏",
+    "isHan": true,
+    "zhuyin": "ㄅㄛˊ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 2
+   },
+   {
+    "char": "怪",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄞˋ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "name": "皮卡丘",
+  "en": "Pikachu",
+  "zone": "forest",
+  "rare": true,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "皮",
+    "isHan": true,
+    "zhuyin": "ㄆㄧˊ",
+    "initial": "ㄆ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "卡",
+    "isHan": true,
+    "zhuyin": "ㄎㄚˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "丘",
+    "isHan": true,
+    "zhuyin": "ㄑㄧㄡ",
+    "initial": "ㄑ",
+    "medial": "ㄧ",
+    "final": "ㄡ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "name": "雷丘",
+  "en": "Raichu",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "雷",
+    "isHan": true,
+    "zhuyin": "ㄌㄟˊ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄟ",
+    "tone": 2
+   },
+   {
+    "char": "丘",
+    "isHan": true,
+    "zhuyin": "ㄑㄧㄡ",
+    "initial": "ㄑ",
+    "medial": "ㄧ",
+    "final": "ㄡ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "name": "穿山鼠",
+  "en": "Sandshrew",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "穿",
+    "isHan": true,
+    "zhuyin": "ㄔㄨㄢ",
+    "initial": "ㄔ",
+    "medial": "ㄨ",
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "山",
+    "isHan": true,
+    "zhuyin": "ㄕㄢ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "鼠",
+    "isHan": true,
+    "zhuyin": "ㄕㄨˇ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "name": "穿山王",
+  "en": "Sandslash",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "穿",
+    "isHan": true,
+    "zhuyin": "ㄔㄨㄢ",
+    "initial": "ㄔ",
+    "medial": "ㄨ",
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "山",
+    "isHan": true,
+    "zhuyin": "ㄕㄢ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "王",
+    "isHan": true,
+    "zhuyin": "ㄨㄤˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄤ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "name": "尼多蘭",
+  "en": "Nidoran♀",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "尼",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "蘭",
+    "isHan": true,
+    "zhuyin": "ㄌㄢˊ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "name": "尼多娜",
+  "en": "Nidorina",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "尼",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "娜",
+    "isHan": true,
+    "zhuyin": "ㄋㄚˋ",
+    "initial": "ㄋ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "name": "尼多后",
+  "en": "Nidoqueen",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "尼",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "后",
+    "isHan": true,
+    "zhuyin": "ㄏㄡˋ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "name": "尼多朗",
+  "en": "Nidoran♂",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "尼",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "朗",
+    "isHan": true,
+    "zhuyin": "ㄌㄤˇ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄤ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "name": "尼多力諾",
+  "en": "Nidorino",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "尼",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "力",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "諾",
+    "isHan": true,
+    "zhuyin": "ㄋㄨㄛˋ",
+    "initial": "ㄋ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "name": "尼多王",
+  "en": "Nidoking",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "尼",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "王",
+    "isHan": true,
+    "zhuyin": "ㄨㄤˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄤ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "name": "皮皮",
+  "en": "Clefairy",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "皮",
+    "isHan": true,
+    "zhuyin": "ㄆㄧˊ",
+    "initial": "ㄆ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "皮",
+    "isHan": true,
+    "zhuyin": "ㄆㄧˊ",
+    "initial": "ㄆ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "name": "皮可西",
+  "en": "Clefable",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "皮",
+    "isHan": true,
+    "zhuyin": "ㄆㄧˊ",
+    "initial": "ㄆ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "可",
+    "isHan": true,
+    "zhuyin": "ㄎㄜˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 3
+   },
+   {
+    "char": "西",
+    "isHan": true,
+    "zhuyin": "ㄒㄧ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "name": "六尾",
+  "en": "Vulpix",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "六",
+    "isHan": true,
+    "zhuyin": "ㄌㄧㄡˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": "ㄡ",
+    "tone": 4
+   },
+   {
+    "char": "尾",
+    "isHan": true,
+    "zhuyin": "ㄨㄟˇ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "name": "九尾",
+  "en": "Ninetales",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "九",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄡˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄡ",
+    "tone": 3
+   },
+   {
+    "char": "尾",
+    "isHan": true,
+    "zhuyin": "ㄨㄟˇ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "name": "胖丁",
+  "en": "Jigglypuff",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "胖",
+    "isHan": true,
+    "zhuyin": "ㄆㄤˋ",
+    "initial": "ㄆ",
+    "medial": null,
+    "final": "ㄤ",
+    "tone": 4
+   },
+   {
+    "char": "丁",
+    "isHan": true,
+    "zhuyin": "ㄉㄧㄥ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": "ㄥ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "name": "胖可丁",
+  "en": "Wigglytuff",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "胖",
+    "isHan": true,
+    "zhuyin": "ㄆㄤˋ",
+    "initial": "ㄆ",
+    "medial": null,
+    "final": "ㄤ",
+    "tone": 4
+   },
+   {
+    "char": "可",
+    "isHan": true,
+    "zhuyin": "ㄎㄜˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 3
+   },
+   {
+    "char": "丁",
+    "isHan": true,
+    "zhuyin": "ㄉㄧㄥ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": "ㄥ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "name": "超音蝠",
+  "en": "Zubat",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "超",
+    "isHan": true,
+    "zhuyin": "ㄔㄠ",
+    "initial": "ㄔ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 1
+   },
+   {
+    "char": "音",
+    "isHan": true,
+    "zhuyin": "ㄧㄣ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄣ",
+    "tone": 1
+   },
+   {
+    "char": "蝠",
+    "isHan": true,
+    "zhuyin": "ㄈㄨˊ",
+    "initial": "ㄈ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "name": "大嘴蝠",
+  "en": "Golbat",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "嘴",
+    "isHan": true,
+    "zhuyin": "ㄗㄨㄟˇ",
+    "initial": "ㄗ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "蝠",
+    "isHan": true,
+    "zhuyin": "ㄈㄨˊ",
+    "initial": "ㄈ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "name": "走路草",
+  "en": "Oddish",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "走",
+    "isHan": true,
+    "zhuyin": "ㄗㄡˇ",
+    "initial": "ㄗ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 3
+   },
+   {
+    "char": "路",
+    "isHan": true,
+    "zhuyin": "ㄌㄨˋ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "草",
+    "isHan": true,
+    "zhuyin": "ㄘㄠˇ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "name": "臭臭花",
+  "en": "Gloom",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "臭",
+    "isHan": true,
+    "zhuyin": "ㄔㄡˋ",
+    "initial": "ㄔ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   },
+   {
+    "char": "臭",
+    "isHan": true,
+    "zhuyin": "ㄔㄡˋ",
+    "initial": "ㄔ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   },
+   {
+    "char": "花",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄚ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "name": "霸王花",
+  "en": "Vileplume",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "霸",
+    "isHan": true,
+    "zhuyin": "ㄅㄚˋ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "王",
+    "isHan": true,
+    "zhuyin": "ㄨㄤˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄤ",
+    "tone": 2
+   },
+   {
+    "char": "花",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄚ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "name": "派拉斯",
+  "en": "Paras",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "派",
+    "isHan": true,
+    "zhuyin": "ㄆㄞˋ",
+    "initial": "ㄆ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 4
+   },
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "name": "派拉斯特",
+  "en": "Parasect",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "派",
+    "isHan": true,
+    "zhuyin": "ㄆㄞˋ",
+    "initial": "ㄆ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 4
+   },
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "特",
+    "isHan": true,
+    "zhuyin": "ㄊㄜˋ",
+    "initial": "ㄊ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "name": "毛球",
+  "en": "Venonat",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "毛",
+    "isHan": true,
+    "zhuyin": "ㄇㄠˊ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 2
+   },
+   {
+    "char": "球",
+    "isHan": true,
+    "zhuyin": "ㄑㄧㄡˊ",
+    "initial": "ㄑ",
+    "medial": "ㄧ",
+    "final": "ㄡ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "name": "摩魯蛾",
+  "en": "Venomoth",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "摩",
+    "isHan": true,
+    "zhuyin": "ㄇㄛˊ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 2
+   },
+   {
+    "char": "魯",
+    "isHan": true,
+    "zhuyin": "ㄌㄨˇ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "蛾",
+    "isHan": true,
+    "zhuyin": "ㄜˊ",
+    "initial": null,
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "name": "地鼠",
+  "en": "Diglett",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "地",
+    "isHan": true,
+    "zhuyin": "ㄉㄧˋ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "鼠",
+    "isHan": true,
+    "zhuyin": "ㄕㄨˇ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "name": "三地鼠",
+  "en": "Dugtrio",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "三",
+    "isHan": true,
+    "zhuyin": "ㄙㄢ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "地",
+    "isHan": true,
+    "zhuyin": "ㄉㄧˋ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "鼠",
+    "isHan": true,
+    "zhuyin": "ㄕㄨˇ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "name": "喵喵",
+  "en": "Meowth",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "喵",
+    "isHan": true,
+    "zhuyin": "ㄇㄧㄠ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 1
+   },
+   {
+    "char": "喵",
+    "isHan": true,
+    "zhuyin": "ㄇㄧㄠ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "name": "貓老大",
+  "en": "Persian",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "貓",
+    "isHan": true,
+    "zhuyin": "ㄇㄠ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 1
+   },
+   {
+    "char": "老",
+    "isHan": true,
+    "zhuyin": "ㄌㄠˇ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "name": "可達鴨",
+  "en": "Psyduck",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "可",
+    "isHan": true,
+    "zhuyin": "ㄎㄜˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 3
+   },
+   {
+    "char": "達",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˊ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 2
+   },
+   {
+    "char": "鴨",
+    "isHan": true,
+    "zhuyin": "ㄧㄚ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "name": "哥達鴨",
+  "en": "Golduck",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "哥",
+    "isHan": true,
+    "zhuyin": "ㄍㄜ",
+    "initial": "ㄍ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 1
+   },
+   {
+    "char": "達",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˊ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 2
+   },
+   {
+    "char": "鴨",
+    "isHan": true,
+    "zhuyin": "ㄧㄚ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "name": "猴怪",
+  "en": "Mankey",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "猴",
+    "isHan": true,
+    "zhuyin": "ㄏㄡˊ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 2
+   },
+   {
+    "char": "怪",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄞˋ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "name": "火爆猴",
+  "en": "Primeape",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "爆",
+    "isHan": true,
+    "zhuyin": "ㄅㄠˋ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 4
+   },
+   {
+    "char": "猴",
+    "isHan": true,
+    "zhuyin": "ㄏㄡˊ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "name": "卡蒂狗",
+  "en": "Growlithe",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "卡",
+    "isHan": true,
+    "zhuyin": "ㄎㄚˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "蒂",
+    "isHan": true,
+    "zhuyin": "ㄉㄧˋ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "狗",
+    "isHan": true,
+    "zhuyin": "ㄍㄡˇ",
+    "initial": "ㄍ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "name": "風速狗",
+  "en": "Arcanine",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "風",
+    "isHan": true,
+    "zhuyin": "ㄈㄥ",
+    "initial": "ㄈ",
+    "medial": null,
+    "final": "ㄥ",
+    "tone": 1
+   },
+   {
+    "char": "速",
+    "isHan": true,
+    "zhuyin": "ㄙㄨˋ",
+    "initial": "ㄙ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "狗",
+    "isHan": true,
+    "zhuyin": "ㄍㄡˇ",
+    "initial": "ㄍ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "name": "蚊香蝌蚪",
+  "en": "Poliwag",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "蚊",
+    "isHan": true,
+    "zhuyin": "ㄨㄣˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄣ",
+    "tone": 2
+   },
+   {
+    "char": "香",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄤ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄤ",
+    "tone": 1
+   },
+   {
+    "char": "蝌",
+    "isHan": true,
+    "zhuyin": "ㄎㄜ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 1
+   },
+   {
+    "char": "蚪",
+    "isHan": true,
+    "zhuyin": "ㄉㄡˇ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 61,
+  "name": "蚊香君",
+  "en": "Poliwhirl",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "蚊",
+    "isHan": true,
+    "zhuyin": "ㄨㄣˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄣ",
+    "tone": 2
+   },
+   {
+    "char": "香",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄤ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄤ",
+    "tone": 1
+   },
+   {
+    "char": "君",
+    "isHan": true,
+    "zhuyin": "ㄐㄩㄣ",
+    "initial": "ㄐ",
+    "medial": "ㄩ",
+    "final": "ㄣ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 62,
+  "name": "蚊香泳士",
+  "en": "Poliwrath",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "蚊",
+    "isHan": true,
+    "zhuyin": "ㄨㄣˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄣ",
+    "tone": 2
+   },
+   {
+    "char": "香",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄤ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄤ",
+    "tone": 1
+   },
+   {
+    "char": "泳",
+    "isHan": true,
+    "zhuyin": "ㄩㄥˇ",
+    "initial": null,
+    "medial": "ㄩ",
+    "final": "ㄥ",
+    "tone": 3
+   },
+   {
+    "char": "士",
+    "isHan": true,
+    "zhuyin": "ㄕˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 63,
+  "name": "凱西",
+  "en": "Abra",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "凱",
+    "isHan": true,
+    "zhuyin": "ㄎㄞˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "西",
+    "isHan": true,
+    "zhuyin": "ㄒㄧ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 64,
+  "name": "勇基拉",
+  "en": "Kadabra",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "勇",
+    "isHan": true,
+    "zhuyin": "ㄩㄥˇ",
+    "initial": null,
+    "medial": "ㄩ",
+    "final": "ㄥ",
+    "tone": 3
+   },
+   {
+    "char": "基",
+    "isHan": true,
+    "zhuyin": "ㄐㄧ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 65,
+  "name": "胡地",
+  "en": "Alakazam",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "胡",
+    "isHan": true,
+    "zhuyin": "ㄏㄨˊ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "地",
+    "isHan": true,
+    "zhuyin": "ㄉㄧˋ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 66,
+  "name": "腕力",
+  "en": "Machop",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "腕",
+    "isHan": true,
+    "zhuyin": "ㄨㄢˋ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "力",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 67,
+  "name": "豪力",
+  "en": "Machoke",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "豪",
+    "isHan": true,
+    "zhuyin": "ㄏㄠˊ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 2
+   },
+   {
+    "char": "力",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 68,
+  "name": "怪力",
+  "en": "Machamp",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "怪",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄞˋ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   },
+   {
+    "char": "力",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 69,
+  "name": "喇叭芽",
+  "en": "Bellsprout",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "喇",
+    "isHan": true,
+    "zhuyin": "ㄌㄚˇ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "叭",
+    "isHan": true,
+    "zhuyin": "˙ㄅㄚ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 5
+   },
+   {
+    "char": "芽",
+    "isHan": true,
+    "zhuyin": "ㄧㄚˊ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄚ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 70,
+  "name": "口呆花",
+  "en": "Weepinbell",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "口",
+    "isHan": true,
+    "zhuyin": "ㄎㄡˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 3
+   },
+   {
+    "char": "呆",
+    "isHan": true,
+    "zhuyin": "ㄉㄞ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 1
+   },
+   {
+    "char": "花",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄚ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 71,
+  "name": "大食花",
+  "en": "Victreebel",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "食",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "花",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄚ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 72,
+  "name": "瑪瑙水母",
+  "en": "Tentacool",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "瑪",
+    "isHan": true,
+    "zhuyin": "ㄇㄚˇ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "瑙",
+    "isHan": true,
+    "zhuyin": "ㄋㄠˇ",
+    "initial": "ㄋ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "水",
+    "isHan": true,
+    "zhuyin": "ㄕㄨㄟˇ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "母",
+    "isHan": true,
+    "zhuyin": "ㄇㄨˇ",
+    "initial": "ㄇ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 73,
+  "name": "毒刺水母",
+  "en": "Tentacruel",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "毒",
+    "isHan": true,
+    "zhuyin": "ㄉㄨˊ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "刺",
+    "isHan": true,
+    "zhuyin": "ㄘˋ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "水",
+    "isHan": true,
+    "zhuyin": "ㄕㄨㄟˇ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "母",
+    "isHan": true,
+    "zhuyin": "ㄇㄨˇ",
+    "initial": "ㄇ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 74,
+  "name": "小拳石",
+  "en": "Geodude",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "小",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄠˇ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "拳",
+    "isHan": true,
+    "zhuyin": "ㄑㄩㄢˊ",
+    "initial": "ㄑ",
+    "medial": "ㄩ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "石",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 75,
+  "name": "隆隆石",
+  "en": "Graveler",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "隆",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   },
+   {
+    "char": "隆",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   },
+   {
+    "char": "石",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 76,
+  "name": "隆隆岩",
+  "en": "Golem",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "隆",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   },
+   {
+    "char": "隆",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   },
+   {
+    "char": "岩",
+    "isHan": true,
+    "zhuyin": "ㄧㄢˊ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 77,
+  "name": "小火馬",
+  "en": "Ponyta",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "小",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄠˇ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "馬",
+    "isHan": true,
+    "zhuyin": "ㄇㄚˇ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 78,
+  "name": "烈焰馬",
+  "en": "Rapidash",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "烈",
+    "isHan": true,
+    "zhuyin": "ㄌㄧㄝˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 4
+   },
+   {
+    "char": "焰",
+    "isHan": true,
+    "zhuyin": "ㄧㄢˋ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "馬",
+    "isHan": true,
+    "zhuyin": "ㄇㄚˇ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 79,
+  "name": "呆呆獸",
+  "en": "Slowpoke",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "呆",
+    "isHan": true,
+    "zhuyin": "ㄉㄞ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 1
+   },
+   {
+    "char": "呆",
+    "isHan": true,
+    "zhuyin": "ㄉㄞ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 1
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 80,
+  "name": "呆殼獸",
+  "en": "Slowbro",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "呆",
+    "isHan": true,
+    "zhuyin": "ㄉㄞ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 1
+   },
+   {
+    "char": "殼",
+    "isHan": true,
+    "zhuyin": "ㄎㄜˊ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 81,
+  "name": "小磁怪",
+  "en": "Magnemite",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "小",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄠˇ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "磁",
+    "isHan": true,
+    "zhuyin": "ㄘˊ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "怪",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄞˋ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 82,
+  "name": "三合一磁怪",
+  "en": "Magneton",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "三",
+    "isHan": true,
+    "zhuyin": "ㄙㄢ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "合",
+    "isHan": true,
+    "zhuyin": "ㄏㄜˊ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   },
+   {
+    "char": "一",
+    "isHan": true,
+    "zhuyin": "ㄧ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "磁",
+    "isHan": true,
+    "zhuyin": "ㄘˊ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "怪",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄞˋ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 83,
+  "name": "大蔥鴨",
+  "en": "Farfetch'd",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "蔥",
+    "isHan": true,
+    "zhuyin": "ㄘㄨㄥ",
+    "initial": "ㄘ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 1
+   },
+   {
+    "char": "鴨",
+    "isHan": true,
+    "zhuyin": "ㄧㄚ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 84,
+  "name": "嘟嘟",
+  "en": "Doduo",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "嘟",
+    "isHan": true,
+    "zhuyin": "ㄉㄨ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "嘟",
+    "isHan": true,
+    "zhuyin": "ㄉㄨ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 85,
+  "name": "嘟嘟利",
+  "en": "Dodrio",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "嘟",
+    "isHan": true,
+    "zhuyin": "ㄉㄨ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "嘟",
+    "isHan": true,
+    "zhuyin": "ㄉㄨ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "利",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 86,
+  "name": "小海獅",
+  "en": "Seel",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "小",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄠˇ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "海",
+    "isHan": true,
+    "zhuyin": "ㄏㄞˇ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "獅",
+    "isHan": true,
+    "zhuyin": "ㄕ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 87,
+  "name": "白海獅",
+  "en": "Dewgong",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "白",
+    "isHan": true,
+    "zhuyin": "ㄅㄞˊ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 2
+   },
+   {
+    "char": "海",
+    "isHan": true,
+    "zhuyin": "ㄏㄞˇ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "獅",
+    "isHan": true,
+    "zhuyin": "ㄕ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 88,
+  "name": "臭泥",
+  "en": "Grimer",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "臭",
+    "isHan": true,
+    "zhuyin": "ㄔㄡˋ",
+    "initial": "ㄔ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   },
+   {
+    "char": "泥",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 89,
+  "name": "臭臭泥",
+  "en": "Muk",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "臭",
+    "isHan": true,
+    "zhuyin": "ㄔㄡˋ",
+    "initial": "ㄔ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   },
+   {
+    "char": "臭",
+    "isHan": true,
+    "zhuyin": "ㄔㄡˋ",
+    "initial": "ㄔ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   },
+   {
+    "char": "泥",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 90,
+  "name": "大舌貝",
+  "en": "Shellder",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "舌",
+    "isHan": true,
+    "zhuyin": "ㄕㄜˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   },
+   {
+    "char": "貝",
+    "isHan": true,
+    "zhuyin": "ㄅㄟˋ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄟ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 91,
+  "name": "刺甲貝",
+  "en": "Cloyster",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "刺",
+    "isHan": true,
+    "zhuyin": "ㄘˋ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "甲",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄚˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "貝",
+    "isHan": true,
+    "zhuyin": "ㄅㄟˋ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄟ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 92,
+  "name": "鬼斯",
+  "en": "Gastly",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鬼",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄟˇ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 93,
+  "name": "鬼斯通",
+  "en": "Haunter",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鬼",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄟˇ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "通",
+    "isHan": true,
+    "zhuyin": "ㄊㄨㄥ",
+    "initial": "ㄊ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 94,
+  "name": "耿鬼",
+  "en": "Gengar",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "耿",
+    "isHan": true,
+    "zhuyin": "ㄍㄥˇ",
+    "initial": "ㄍ",
+    "medial": null,
+    "final": "ㄥ",
+    "tone": 3
+   },
+   {
+    "char": "鬼",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄟˇ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 95,
+  "name": "大岩蛇",
+  "en": "Onix",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "岩",
+    "isHan": true,
+    "zhuyin": "ㄧㄢˊ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "蛇",
+    "isHan": true,
+    "zhuyin": "ㄕㄜˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 96,
+  "name": "催眠貘",
+  "en": "Drowzee",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "催",
+    "isHan": true,
+    "zhuyin": "ㄘㄨㄟ",
+    "initial": "ㄘ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 1
+   },
+   {
+    "char": "眠",
+    "isHan": true,
+    "zhuyin": "ㄇㄧㄢˊ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "貘",
+    "isHan": true,
+    "zhuyin": "ㄇㄛˋ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 97,
+  "name": "引夢貘人",
+  "en": "Hypno",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "引",
+    "isHan": true,
+    "zhuyin": "ㄧㄣˇ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄣ",
+    "tone": 3
+   },
+   {
+    "char": "夢",
+    "isHan": true,
+    "zhuyin": "ㄇㄥˋ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄥ",
+    "tone": 4
+   },
+   {
+    "char": "貘",
+    "isHan": true,
+    "zhuyin": "ㄇㄛˋ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 4
+   },
+   {
+    "char": "人",
+    "isHan": true,
+    "zhuyin": "ㄖㄣˊ",
+    "initial": "ㄖ",
+    "medial": null,
+    "final": "ㄣ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 98,
+  "name": "大鉗蟹",
+  "en": "Krabby",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "鉗",
+    "isHan": true,
+    "zhuyin": "ㄑㄧㄢˊ",
+    "initial": "ㄑ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "蟹",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄝˋ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 99,
+  "name": "巨鉗蟹",
+  "en": "Kingler",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "巨",
+    "isHan": true,
+    "zhuyin": "ㄐㄩˋ",
+    "initial": "ㄐ",
+    "medial": "ㄩ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "鉗",
+    "isHan": true,
+    "zhuyin": "ㄑㄧㄢˊ",
+    "initial": "ㄑ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "蟹",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄝˋ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 100,
+  "name": "霹靂電球",
+  "en": "Voltorb",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "霹",
+    "isHan": true,
+    "zhuyin": "ㄆㄧ",
+    "initial": "ㄆ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "靂",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "電",
+    "isHan": true,
+    "zhuyin": "ㄉㄧㄢˋ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "球",
+    "isHan": true,
+    "zhuyin": "ㄑㄧㄡˊ",
+    "initial": "ㄑ",
+    "medial": "ㄧ",
+    "final": "ㄡ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 101,
+  "name": "頑皮雷彈",
+  "en": "Electrode",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "頑",
+    "isHan": true,
+    "zhuyin": "ㄨㄢˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "皮",
+    "isHan": true,
+    "zhuyin": "ㄆㄧˊ",
+    "initial": "ㄆ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "雷",
+    "isHan": true,
+    "zhuyin": "ㄌㄟˊ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄟ",
+    "tone": 2
+   },
+   {
+    "char": "彈",
+    "isHan": true,
+    "zhuyin": "ㄉㄢˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 102,
+  "name": "蛋蛋",
+  "en": "Exeggcute",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "蛋",
+    "isHan": true,
+    "zhuyin": "ㄉㄢˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "蛋",
+    "isHan": true,
+    "zhuyin": "ㄉㄢˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 103,
+  "name": "椰蛋樹",
+  "en": "Exeggutor",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "椰",
+    "isHan": true,
+    "zhuyin": "ㄧㄝ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 1
+   },
+   {
+    "char": "蛋",
+    "isHan": true,
+    "zhuyin": "ㄉㄢˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "樹",
+    "isHan": true,
+    "zhuyin": "ㄕㄨˋ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 104,
+  "name": "卡拉卡拉",
+  "en": "Cubone",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "卡",
+    "isHan": true,
+    "zhuyin": "ㄎㄚˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "卡",
+    "isHan": true,
+    "zhuyin": "ㄎㄚˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 105,
+  "name": "嘎啦嘎啦",
+  "en": "Marowak",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "嘎",
+    "isHan": true,
+    "zhuyin": "ㄍㄚ",
+    "initial": "ㄍ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "啦",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "嘎",
+    "isHan": true,
+    "zhuyin": "ㄍㄚ",
+    "initial": "ㄍ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "啦",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 106,
+  "name": "飛腿郎",
+  "en": "Hitmonlee",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "飛",
+    "isHan": true,
+    "zhuyin": "ㄈㄟ",
+    "initial": "ㄈ",
+    "medial": null,
+    "final": "ㄟ",
+    "tone": 1
+   },
+   {
+    "char": "腿",
+    "isHan": true,
+    "zhuyin": "ㄊㄨㄟˇ",
+    "initial": "ㄊ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "郎",
+    "isHan": true,
+    "zhuyin": "ㄌㄤˊ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄤ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 107,
+  "name": "快拳郎",
+  "en": "Hitmonchan",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "快",
+    "isHan": true,
+    "zhuyin": "ㄎㄨㄞˋ",
+    "initial": "ㄎ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   },
+   {
+    "char": "拳",
+    "isHan": true,
+    "zhuyin": "ㄑㄩㄢˊ",
+    "initial": "ㄑ",
+    "medial": "ㄩ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "郎",
+    "isHan": true,
+    "zhuyin": "ㄌㄤˊ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄤ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 108,
+  "name": "大舌頭",
+  "en": "Lickitung",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "大",
+    "isHan": true,
+    "zhuyin": "ㄉㄚˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "舌",
+    "isHan": true,
+    "zhuyin": "ㄕㄜˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 2
+   },
+   {
+    "char": "頭",
+    "isHan": true,
+    "zhuyin": "ㄊㄡˊ",
+    "initial": "ㄊ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 109,
+  "name": "瓦斯彈",
+  "en": "Koffing",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "瓦",
+    "isHan": true,
+    "zhuyin": "ㄨㄚˇ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "彈",
+    "isHan": true,
+    "zhuyin": "ㄉㄢˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 110,
+  "name": "雙彈瓦斯",
+  "en": "Weezing",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "雙",
+    "isHan": true,
+    "zhuyin": "ㄕㄨㄤ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": "ㄤ",
+    "tone": 1
+   },
+   {
+    "char": "彈",
+    "isHan": true,
+    "zhuyin": "ㄉㄢˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "瓦",
+    "isHan": true,
+    "zhuyin": "ㄨㄚˇ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 111,
+  "name": "獨角犀牛",
+  "en": "Rhyhorn",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "獨",
+    "isHan": true,
+    "zhuyin": "ㄉㄨˊ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "角",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄠˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "犀",
+    "isHan": true,
+    "zhuyin": "ㄒㄧ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "牛",
+    "isHan": true,
+    "zhuyin": "ㄋㄧㄡˊ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": "ㄡ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 112,
+  "name": "鑽角犀獸",
+  "en": "Rhydon",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鑽",
+    "isHan": true,
+    "zhuyin": "ㄗㄨㄢˋ",
+    "initial": "ㄗ",
+    "medial": "ㄨ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "角",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄠˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "犀",
+    "isHan": true,
+    "zhuyin": "ㄒㄧ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 113,
+  "name": "吉利蛋",
+  "en": "Chansey",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "吉",
+    "isHan": true,
+    "zhuyin": "ㄐㄧˊ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "利",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˋ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "蛋",
+    "isHan": true,
+    "zhuyin": "ㄉㄢˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 114,
+  "name": "蔓藤怪",
+  "en": "Tangela",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "蔓",
+    "isHan": true,
+    "zhuyin": "ㄇㄢˋ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "藤",
+    "isHan": true,
+    "zhuyin": "ㄊㄥˊ",
+    "initial": "ㄊ",
+    "medial": null,
+    "final": "ㄥ",
+    "tone": 2
+   },
+   {
+    "char": "怪",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄞˋ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 115,
+  "name": "袋獸",
+  "en": "Kangaskhan",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "袋",
+    "isHan": true,
+    "zhuyin": "ㄉㄞˋ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 4
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 116,
+  "name": "墨海馬",
+  "en": "Horsea",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "墨",
+    "isHan": true,
+    "zhuyin": "ㄇㄛˋ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 4
+   },
+   {
+    "char": "海",
+    "isHan": true,
+    "zhuyin": "ㄏㄞˇ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "馬",
+    "isHan": true,
+    "zhuyin": "ㄇㄚˇ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 117,
+  "name": "海刺龍",
+  "en": "Seadra",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "海",
+    "isHan": true,
+    "zhuyin": "ㄏㄞˇ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "刺",
+    "isHan": true,
+    "zhuyin": "ㄘˋ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 118,
+  "name": "角金魚",
+  "en": "Goldeen",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "角",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄠˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "金",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄣ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄣ",
+    "tone": 1
+   },
+   {
+    "char": "魚",
+    "isHan": true,
+    "zhuyin": "ㄩˊ",
+    "initial": null,
+    "medial": "ㄩ",
+    "final": null,
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 119,
+  "name": "金魚王",
+  "en": "Seaking",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "金",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄣ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄣ",
+    "tone": 1
+   },
+   {
+    "char": "魚",
+    "isHan": true,
+    "zhuyin": "ㄩˊ",
+    "initial": null,
+    "medial": "ㄩ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "王",
+    "isHan": true,
+    "zhuyin": "ㄨㄤˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄤ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 120,
+  "name": "海星星",
+  "en": "Staryu",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "海",
+    "isHan": true,
+    "zhuyin": "ㄏㄞˇ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "星",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄥ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄥ",
+    "tone": 1
+   },
+   {
+    "char": "星",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄥ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄥ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 121,
+  "name": "寶石海星",
+  "en": "Starmie",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "寶",
+    "isHan": true,
+    "zhuyin": "ㄅㄠˇ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 3
+   },
+   {
+    "char": "石",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "海",
+    "isHan": true,
+    "zhuyin": "ㄏㄞˇ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "星",
+    "isHan": true,
+    "zhuyin": "ㄒㄧㄥ",
+    "initial": "ㄒ",
+    "medial": "ㄧ",
+    "final": "ㄥ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 122,
+  "name": "魔牆人偶",
+  "en": "Mr. Mime",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "魔",
+    "isHan": true,
+    "zhuyin": "ㄇㄛˊ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄛ",
+    "tone": 2
+   },
+   {
+    "char": "牆",
+    "isHan": true,
+    "zhuyin": "ㄑㄧㄤˊ",
+    "initial": "ㄑ",
+    "medial": "ㄧ",
+    "final": "ㄤ",
+    "tone": 2
+   },
+   {
+    "char": "人",
+    "isHan": true,
+    "zhuyin": "ㄖㄣˊ",
+    "initial": "ㄖ",
+    "medial": null,
+    "final": "ㄣ",
+    "tone": 2
+   },
+   {
+    "char": "偶",
+    "isHan": true,
+    "zhuyin": "ㄡˇ",
+    "initial": null,
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 123,
+  "name": "飛天螳螂",
+  "en": "Scyther",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "飛",
+    "isHan": true,
+    "zhuyin": "ㄈㄟ",
+    "initial": "ㄈ",
+    "medial": null,
+    "final": "ㄟ",
+    "tone": 1
+   },
+   {
+    "char": "天",
+    "isHan": true,
+    "zhuyin": "ㄊㄧㄢ",
+    "initial": "ㄊ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "螳",
+    "isHan": true,
+    "zhuyin": "ㄊㄤˊ",
+    "initial": "ㄊ",
+    "medial": null,
+    "final": "ㄤ",
+    "tone": 2
+   },
+   {
+    "char": "螂",
+    "isHan": true,
+    "zhuyin": "ㄌㄤˊ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄤ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 124,
+  "name": "迷唇姐",
+  "en": "Jynx",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "迷",
+    "isHan": true,
+    "zhuyin": "ㄇㄧˊ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "唇",
+    "isHan": true,
+    "zhuyin": "ㄔㄨㄣˊ",
+    "initial": "ㄔ",
+    "medial": "ㄨ",
+    "final": "ㄣ",
+    "tone": 2
+   },
+   {
+    "char": "姐",
+    "isHan": true,
+    "zhuyin": "ㄐㄧㄝˇ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": "ㄝ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 125,
+  "name": "電擊獸",
+  "en": "Electabuzz",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "電",
+    "isHan": true,
+    "zhuyin": "ㄉㄧㄢˋ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "擊",
+    "isHan": true,
+    "zhuyin": "ㄐㄧˊ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 126,
+  "name": "鴨嘴火獸",
+  "en": "Magmar",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鴨",
+    "isHan": true,
+    "zhuyin": "ㄧㄚ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "嘴",
+    "isHan": true,
+    "zhuyin": "ㄗㄨㄟˇ",
+    "initial": "ㄗ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 127,
+  "name": "凱羅斯",
+  "en": "Pinsir",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "凱",
+    "isHan": true,
+    "zhuyin": "ㄎㄞˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "羅",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄛˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 2
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 128,
+  "name": "肯泰羅",
+  "en": "Tauros",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "肯",
+    "isHan": true,
+    "zhuyin": "ㄎㄣˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄣ",
+    "tone": 3
+   },
+   {
+    "char": "泰",
+    "isHan": true,
+    "zhuyin": "ㄊㄞˋ",
+    "initial": "ㄊ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 4
+   },
+   {
+    "char": "羅",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄛˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 129,
+  "name": "鯉魚王",
+  "en": "Magikarp",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鯉",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˇ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "魚",
+    "isHan": true,
+    "zhuyin": "ㄩˊ",
+    "initial": null,
+    "medial": "ㄩ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "王",
+    "isHan": true,
+    "zhuyin": "ㄨㄤˊ",
+    "initial": null,
+    "medial": "ㄨ",
+    "final": "ㄤ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 130,
+  "name": "暴鯉龍",
+  "en": "Gyarados",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "暴",
+    "isHan": true,
+    "zhuyin": "ㄅㄠˋ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 4
+   },
+   {
+    "char": "鯉",
+    "isHan": true,
+    "zhuyin": "ㄌㄧˇ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 131,
+  "name": "拉普拉斯",
+  "en": "Lapras",
+  "zone": "beach",
+  "rare": true,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "普",
+    "isHan": true,
+    "zhuyin": "ㄆㄨˇ",
+    "initial": "ㄆ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "拉",
+    "isHan": true,
+    "zhuyin": "ㄌㄚ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "斯",
+    "isHan": true,
+    "zhuyin": "ㄙ",
+    "initial": "ㄙ",
+    "medial": null,
+    "final": null,
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 132,
+  "name": "百變怪",
+  "en": "Ditto",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "百",
+    "isHan": true,
+    "zhuyin": "ㄅㄞˇ",
+    "initial": "ㄅ",
+    "medial": null,
+    "final": "ㄞ",
+    "tone": 3
+   },
+   {
+    "char": "變",
+    "isHan": true,
+    "zhuyin": "ㄅㄧㄢˋ",
+    "initial": "ㄅ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "怪",
+    "isHan": true,
+    "zhuyin": "ㄍㄨㄞˋ",
+    "initial": "ㄍ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 133,
+  "name": "伊布",
+  "en": "Eevee",
+  "zone": "meadow",
+  "rare": true,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "伊",
+    "isHan": true,
+    "zhuyin": "ㄧ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "布",
+    "isHan": true,
+    "zhuyin": "ㄅㄨˋ",
+    "initial": "ㄅ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 134,
+  "name": "水伊布",
+  "en": "Vaporeon",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "水",
+    "isHan": true,
+    "zhuyin": "ㄕㄨㄟˇ",
+    "initial": "ㄕ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 3
+   },
+   {
+    "char": "伊",
+    "isHan": true,
+    "zhuyin": "ㄧ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "布",
+    "isHan": true,
+    "zhuyin": "ㄅㄨˋ",
+    "initial": "ㄅ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 135,
+  "name": "雷伊布",
+  "en": "Jolteon",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "雷",
+    "isHan": true,
+    "zhuyin": "ㄌㄟˊ",
+    "initial": "ㄌ",
+    "medial": null,
+    "final": "ㄟ",
+    "tone": 2
+   },
+   {
+    "char": "伊",
+    "isHan": true,
+    "zhuyin": "ㄧ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "布",
+    "isHan": true,
+    "zhuyin": "ㄅㄨˋ",
+    "initial": "ㄅ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 136,
+  "name": "火伊布",
+  "en": "Flareon",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "伊",
+    "isHan": true,
+    "zhuyin": "ㄧ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 1
+   },
+   {
+    "char": "布",
+    "isHan": true,
+    "zhuyin": "ㄅㄨˋ",
+    "initial": "ㄅ",
+    "medial": "ㄨ",
+    "final": null,
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 137,
+  "name": "多邊獸",
+  "en": "Porygon",
+  "zone": "meadow",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "邊",
+    "isHan": true,
+    "zhuyin": "ㄅㄧㄢ",
+    "initial": "ㄅ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 1
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 138,
+  "name": "菊石獸",
+  "en": "Omanyte",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "菊",
+    "isHan": true,
+    "zhuyin": "ㄐㄩˊ",
+    "initial": "ㄐ",
+    "medial": "ㄩ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "石",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 139,
+  "name": "多刺菊石獸",
+  "en": "Omastar",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "多",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄛ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 1
+   },
+   {
+    "char": "刺",
+    "isHan": true,
+    "zhuyin": "ㄘˋ",
+    "initial": "ㄘ",
+    "medial": null,
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "菊",
+    "isHan": true,
+    "zhuyin": "ㄐㄩˊ",
+    "initial": "ㄐ",
+    "medial": "ㄩ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "石",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 140,
+  "name": "化石盔",
+  "en": "Kabuto",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "化",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄚˋ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "石",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "盔",
+    "isHan": true,
+    "zhuyin": "ㄎㄨㄟ",
+    "initial": "ㄎ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 141,
+  "name": "鐮刀盔",
+  "en": "Kabutops",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "鐮",
+    "isHan": true,
+    "zhuyin": "ㄌㄧㄢˊ",
+    "initial": "ㄌ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 2
+   },
+   {
+    "char": "刀",
+    "isHan": true,
+    "zhuyin": "ㄉㄠ",
+    "initial": "ㄉ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 1
+   },
+   {
+    "char": "盔",
+    "isHan": true,
+    "zhuyin": "ㄎㄨㄟ",
+    "initial": "ㄎ",
+    "medial": "ㄨ",
+    "final": "ㄟ",
+    "tone": 1
+   }
+  ]
+ },
+ {
+  "id": 142,
+  "name": "化石翼龍",
+  "en": "Aerodactyl",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "化",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄚˋ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄚ",
+    "tone": 4
+   },
+   {
+    "char": "石",
+    "isHan": true,
+    "zhuyin": "ㄕˊ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "翼",
+    "isHan": true,
+    "zhuyin": "ㄧˋ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 4
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 143,
+  "name": "卡比獸",
+  "en": "Snorlax",
+  "zone": "meadow",
+  "rare": true,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "卡",
+    "isHan": true,
+    "zhuyin": "ㄎㄚˇ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 3
+   },
+   {
+    "char": "比",
+    "isHan": true,
+    "zhuyin": "ㄅㄧˇ",
+    "initial": "ㄅ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "獸",
+    "isHan": true,
+    "zhuyin": "ㄕㄡˋ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄡ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 144,
+  "name": "急凍鳥",
+  "en": "Articuno",
+  "zone": "beach",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "急",
+    "isHan": true,
+    "zhuyin": "ㄐㄧˊ",
+    "initial": "ㄐ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "凍",
+    "isHan": true,
+    "zhuyin": "ㄉㄨㄥˋ",
+    "initial": "ㄉ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 4
+   },
+   {
+    "char": "鳥",
+    "isHan": true,
+    "zhuyin": "ㄋㄧㄠˇ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 145,
+  "name": "閃電鳥",
+  "en": "Zapdos",
+  "zone": "forest",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "閃",
+    "isHan": true,
+    "zhuyin": "ㄕㄢˇ",
+    "initial": "ㄕ",
+    "medial": null,
+    "final": "ㄢ",
+    "tone": 3
+   },
+   {
+    "char": "電",
+    "isHan": true,
+    "zhuyin": "ㄉㄧㄢˋ",
+    "initial": "ㄉ",
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "鳥",
+    "isHan": true,
+    "zhuyin": "ㄋㄧㄠˇ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 146,
+  "name": "火焰鳥",
+  "en": "Moltres",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "火",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄛˇ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄛ",
+    "tone": 3
+   },
+   {
+    "char": "焰",
+    "isHan": true,
+    "zhuyin": "ㄧㄢˋ",
+    "initial": null,
+    "medial": "ㄧ",
+    "final": "ㄢ",
+    "tone": 4
+   },
+   {
+    "char": "鳥",
+    "isHan": true,
+    "zhuyin": "ㄋㄧㄠˇ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": "ㄠ",
+    "tone": 3
+   }
+  ]
+ },
+ {
+  "id": 147,
+  "name": "迷你龍",
+  "en": "Dratini",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "迷",
+    "isHan": true,
+    "zhuyin": "ㄇㄧˊ",
+    "initial": "ㄇ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 2
+   },
+   {
+    "char": "你",
+    "isHan": true,
+    "zhuyin": "ㄋㄧˇ",
+    "initial": "ㄋ",
+    "medial": "ㄧ",
+    "final": null,
+    "tone": 3
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 148,
+  "name": "哈克龍",
+  "en": "Dragonair",
+  "zone": "hill",
+  "rare": false,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "哈",
+    "isHan": true,
+    "zhuyin": "ㄏㄚ",
+    "initial": "ㄏ",
+    "medial": null,
+    "final": "ㄚ",
+    "tone": 1
+   },
+   {
+    "char": "克",
+    "isHan": true,
+    "zhuyin": "ㄎㄜˋ",
+    "initial": "ㄎ",
+    "medial": null,
+    "final": "ㄜ",
+    "tone": 4
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 149,
+  "name": "快龍",
+  "en": "Dragonite",
+  "zone": "hill",
+  "rare": true,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "快",
+    "isHan": true,
+    "zhuyin": "ㄎㄨㄞˋ",
+    "initial": "ㄎ",
+    "medial": "ㄨ",
+    "final": "ㄞ",
+    "tone": 4
+   },
+   {
+    "char": "龍",
+    "isHan": true,
+    "zhuyin": "ㄌㄨㄥˊ",
+    "initial": "ㄌ",
+    "medial": "ㄨ",
+    "final": "ㄥ",
+    "tone": 2
+   }
+  ]
+ },
+ {
+  "id": 150,
+  "name": "超夢",
+  "en": "Mewtwo",
+  "zone": "forest",
+  "rare": true,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "超",
+    "isHan": true,
+    "zhuyin": "ㄔㄠ",
+    "initial": "ㄔ",
+    "medial": null,
+    "final": "ㄠ",
+    "tone": 1
+   },
+   {
+    "char": "夢",
+    "isHan": true,
+    "zhuyin": "ㄇㄥˋ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄥ",
+    "tone": 4
+   }
+  ]
+ },
+ {
+  "id": 151,
+  "name": "夢幻",
+  "en": "Mew",
+  "zone": "forest",
+  "rare": true,
+  "evolvesTo": null,
+  "syllables": [
+   {
+    "char": "夢",
+    "isHan": true,
+    "zhuyin": "ㄇㄥˋ",
+    "initial": "ㄇ",
+    "medial": null,
+    "final": "ㄥ",
+    "tone": 4
+   },
+   {
+    "char": "幻",
+    "isHan": true,
+    "zhuyin": "ㄏㄨㄢˋ",
+    "initial": "ㄏ",
+    "medial": "ㄨ",
+    "final": "ㄢ",
+    "tone": 4
+   }
+  ]
+ }
+]

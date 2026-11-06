@@ -1,0 +1,15 @@
+.card { width: min(760px, calc(100vw - 24px)); padding: 24px; text-align: center; }
+.title { margin: 0 0 18px; font-size: 30px; font-weight: normal; }
+.row { display: flex; gap: 16px; justify-content: center; margin-bottom: 22px; }
+.choice {
+  flex: 1 1 0; min-width: 0; max-width: 200px; padding: 12px; border-radius: 24px; box-shadow: var(--lift-sm);
+  display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 24px;
+}
+.choice img { width: 100%; max-width: 150px; aspect-ratio: 1; height: auto; object-fit: contain; }
+.on { background: #fff4cc; box-shadow: 0 0 0 6px var(--star), var(--lift-sm); }
+.card :global(.btn:disabled) { opacity: 0.4; }
+
+@media (max-width: 640px) {
+  .choice { width: 30vw; font-size: 16px; padding: 6px; }
+  .choice img { width: 24vw; height: 24vw; }
+}

@@ -1,14 +1,5 @@
-"use client"
-import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+import { BootContainer } from '@/containers/BootContainer'
 
 export default function Home() {
-
-  const { replace } = useRouter();
-
-  useEffect(() => {
-    replace('/pokedex-kids');
-  }, [replace]);
-
-  return <p>Redirecting...</p>;
+  return <BootContainer />
 }

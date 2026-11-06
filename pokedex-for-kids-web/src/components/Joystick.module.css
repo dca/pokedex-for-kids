@@ -1,0 +1,12 @@
+.joystick {
+  zoom: var(--ui);
+  position: fixed; left: 28px; bottom: max(40px, env(safe-area-inset-bottom)); width: 140px; height: 140px; z-index: 5;
+  border-radius: 50%; background: rgba(255, 255, 255, 0.55); border: 4px solid var(--ink);
+  display: none; touch-action: none;
+}
+.knob {
+  position: absolute; left: 50%; top: 50%; width: 64px; height: 64px; margin: -32px 0 0 -32px;
+  border-radius: 50%; background: var(--paper); border: 4px solid var(--ink); box-shadow: var(--lift-sm);
+}
+@media (pointer: coarse) { .joystick { display: block; } }
+@media (max-width: 640px) { .joystick { left: 18px; width: 120px; height: 120px; } }

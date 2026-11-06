@@ -1,0 +1,26 @@
+.screen {
+  position: fixed; inset: 0; z-index: 50; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 24px; padding: 24px; text-align: center;
+  background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 70%);
+}
+.title, .start, .ask, .kids, .error, .account { zoom: var(--ui); }
+.title { margin: 0; font-size: 72px; font-weight: normal; display: flex; flex-direction: column; gap: 8px; text-shadow: 0 4px 0 #fff; }
+.title small { font-size: 26px; }
+.start {
+  min-width: 240px; min-height: 110px; padding: 0 48px; border-radius: 32px; font-size: 44px;
+  background: var(--star); box-shadow: var(--lift);
+}
+.ask { margin: 0; font-size: 28px; }
+.kids { display: flex; gap: 18px; flex-wrap: wrap; justify-content: center; padding: 0; margin: 0; list-style: none; }
+.kid {
+  display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 14px 20px;
+  border-radius: 24px; font-size: 24px; box-shadow: var(--lift-sm); min-width: 140px;
+}
+.error { margin: 0; font-size: 20px; background: #fff; border: 3px solid var(--tone); border-radius: 16px; padding: 8px 16px; }
+.account { font-size: 18px; min-height: 56px; }
+.credit { position: absolute; bottom: max(12px, env(safe-area-inset-bottom)); left: 16px; right: 16px; margin: 0; font-size: 13px; line-height: 1.5; }
+.credit a { color: inherit; }
+
+@media (max-width: 640px) {
+  .title { font-size: 52px; }
+}

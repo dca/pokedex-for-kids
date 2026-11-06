@@ -1,0 +1,10 @@
+.row { display: inline-flex; gap: 2px; align-items: center; }
+.col { position: relative; display: inline-flex; flex-direction: column; align-items: center; line-height: 1.05; padding-right: 0.7em; }
+.cell { display: block; }
+.tone { position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 0.85em; }
+.neutral { display: block; font-size: 0.85em; line-height: 0.6; }
+.slot {
+  display: inline-grid; place-items: center; width: 1.3em; height: 1.4em;
+  border: 3px dashed var(--ink); border-radius: 10px; background: #fff;
+}
+.slot.filled { border-style: solid; animation: pop 0.5s; }

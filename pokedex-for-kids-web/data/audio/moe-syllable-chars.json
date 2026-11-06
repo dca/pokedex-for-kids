@@ -1,0 +1,1375 @@
+{
+ "˙ㄅㄚ": {
+  "char": "吧",
+  "same": false,
+  "name_chars": [
+   "叭"
+  ]
+ },
+ "ㄅㄚ": {
+  "char": "巴",
+  "same": true,
+  "name_chars": [
+   "巴"
+  ]
+ },
+ "ㄅㄚˋ": {
+  "char": "霸",
+  "same": true,
+  "name_chars": [
+   "霸"
+  ]
+ },
+ "ㄅㄛ": {
+  "char": "波",
+  "same": true,
+  "name_chars": [
+   "波"
+  ]
+ },
+ "ㄅㄛˊ": {
+  "char": "柏",
+  "same": true,
+  "name_chars": [
+   "柏"
+  ]
+ },
+ "ㄅㄞˇ": {
+  "char": "百",
+  "same": true,
+  "name_chars": [
+   "百"
+  ]
+ },
+ "ㄅㄞˊ": {
+  "char": "白",
+  "same": true,
+  "name_chars": [
+   "白"
+  ]
+ },
+ "ㄅㄟˋ": {
+  "char": "貝",
+  "same": true,
+  "name_chars": [
+   "貝"
+  ]
+ },
+ "ㄅㄠˇ": {
+  "char": "寶",
+  "same": true,
+  "name_chars": [
+   "寶"
+  ]
+ },
+ "ㄅㄠˋ": {
+  "char": "爆",
+  "same": true,
+  "name_chars": [
+   "暴",
+   "爆"
+  ]
+ },
+ "ㄅㄧˇ": {
+  "char": "比",
+  "same": true,
+  "name_chars": [
+   "比"
+  ]
+ },
+ "ㄅㄧㄢ": {
+  "char": "邊",
+  "same": true,
+  "name_chars": [
+   "邊"
+  ]
+ },
+ "ㄅㄧㄢˋ": {
+  "char": "變",
+  "same": true,
+  "name_chars": [
+   "變"
+  ]
+ },
+ "ㄅㄨˋ": {
+  "char": "怖",
+  "same": false,
+  "name_chars": [
+   "布"
+  ]
+ },
+ "ㄆㄞˋ": {
+  "char": "派",
+  "same": true,
+  "name_chars": [
+   "派"
+  ]
+ },
+ "ㄆㄣ": {
+  "char": "噴",
+  "same": true,
+  "name_chars": [
+   "噴"
+  ]
+ },
+ "ㄆㄤˋ": {
+  "char": "胖",
+  "same": true,
+  "name_chars": [
+   "胖"
+  ]
+ },
+ "ㄆㄧ": {
+  "char": "霹",
+  "same": true,
+  "name_chars": [
+   "霹"
+  ]
+ },
+ "ㄆㄧˊ": {
+  "char": "皮",
+  "same": true,
+  "name_chars": [
+   "皮"
+  ]
+ },
+ "ㄆㄨˇ": {
+  "char": "普",
+  "same": true,
+  "name_chars": [
+   "普"
+  ]
+ },
+ "ㄇㄚˇ": {
+  "char": "馬",
+  "same": true,
+  "name_chars": [
+   "瑪",
+   "馬"
+  ]
+ },
+ "ㄇㄛˊ": {
+  "char": "摩",
+  "same": true,
+  "name_chars": [
+   "摩",
+   "魔"
+  ]
+ },
+ "ㄇㄛˋ": {
+  "char": "墨",
+  "same": true,
+  "name_chars": [
+   "墨",
+   "貘"
+  ]
+ },
+ "ㄇㄠ": {
+  "char": "貓",
+  "same": true,
+  "name_chars": [
+   "貓"
+  ]
+ },
+ "ㄇㄠˊ": {
+  "char": "毛",
+  "same": true,
+  "name_chars": [
+   "毛"
+  ]
+ },
+ "ㄇㄢˋ": {
+  "char": "蔓",
+  "same": true,
+  "name_chars": [
+   "蔓"
+  ]
+ },
+ "ㄇㄥˋ": {
+  "char": "夢",
+  "same": true,
+  "name_chars": [
+   "夢"
+  ]
+ },
+ "ㄇㄧ": {
+  "char": "咪",
+  "same": true,
+  "name_chars": [
+   "咪"
+  ]
+ },
+ "ㄇㄧˊ": {
+  "char": "迷",
+  "same": true,
+  "name_chars": [
+   "迷"
+  ]
+ },
+ "ㄇㄧㄠ": {
+  "char": "喵",
+  "same": true,
+  "name_chars": [
+   "喵"
+  ]
+ },
+ "ㄇㄧㄠˋ": {
+  "char": "妙",
+  "same": true,
+  "name_chars": [
+   "妙"
+  ]
+ },
+ "ㄇㄧㄢˊ": {
+  "char": "眠",
+  "same": true,
+  "name_chars": [
+   "眠"
+  ]
+ },
+ "ㄇㄨˇ": {
+  "char": "坶",
+  "same": false,
+  "name_chars": [
+   "母"
+  ]
+ },
+ "ㄈㄟ": {
+  "char": "飛",
+  "same": true,
+  "name_chars": [
+   "飛"
+  ]
+ },
+ "ㄈㄥ": {
+  "char": "蜂",
+  "same": true,
+  "name_chars": [
+   "蜂",
+   "風"
+  ]
+ },
+ "ㄈㄨˊ": {
+  "char": "蝠",
+  "same": true,
+  "name_chars": [
+   "蝠"
+  ]
+ },
+ "ㄉㄚˊ": {
+  "char": "妲",
+  "same": false,
+  "name_chars": [
+   "達"
+  ]
+ },
+ "ㄉㄚˋ": {
+  "char": "大",
+  "same": true,
+  "name_chars": [
+   "大"
+  ]
+ },
+ "ㄉㄞ": {
+  "char": "呆",
+  "same": true,
+  "name_chars": [
+   "呆"
+  ]
+ },
+ "ㄉㄞˋ": {
+  "char": "袋",
+  "same": true,
+  "name_chars": [
+   "袋"
+  ]
+ },
+ "ㄉㄠ": {
+  "char": "刀",
+  "same": true,
+  "name_chars": [
+   "刀"
+  ]
+ },
+ "ㄉㄡˇ": {
+  "char": "蚪",
+  "same": true,
+  "name_chars": [
+   "蚪"
+  ]
+ },
+ "ㄉㄢˋ": {
+  "char": "蛋",
+  "same": true,
+  "name_chars": [
+   "彈",
+   "蛋"
+  ]
+ },
+ "ㄉㄧˋ": {
+  "char": "蒂",
+  "same": true,
+  "name_chars": [
+   "地",
+   "蒂"
+  ]
+ },
+ "ㄉㄧㄝˊ": {
+  "char": "蝶",
+  "same": true,
+  "name_chars": [
+   "蝶"
+  ]
+ },
+ "ㄉㄧㄢˋ": {
+  "char": "電",
+  "same": true,
+  "name_chars": [
+   "電"
+  ]
+ },
+ "ㄉㄧㄥ": {
+  "char": "丁",
+  "same": true,
+  "name_chars": [
+   "丁"
+  ]
+ },
+ "ㄉㄨ": {
+  "char": "嘟",
+  "same": true,
+  "name_chars": [
+   "嘟"
+  ]
+ },
+ "ㄉㄨˊ": {
+  "char": "毒",
+  "same": true,
+  "name_chars": [
+   "毒",
+   "獨"
+  ]
+ },
+ "ㄉㄨㄛ": {
+  "char": "多",
+  "same": true,
+  "name_chars": [
+   "多"
+  ]
+ },
+ "ㄉㄨㄥˋ": {
+  "char": "凍",
+  "same": true,
+  "name_chars": [
+   "凍"
+  ]
+ },
+ "ㄊㄜˋ": {
+  "char": "特",
+  "same": true,
+  "name_chars": [
+   "特"
+  ]
+ },
+ "ㄊㄞˋ": {
+  "char": "泰",
+  "same": true,
+  "name_chars": [
+   "泰"
+  ]
+ },
+ "ㄊㄡˊ": {
+  "char": "頭",
+  "same": true,
+  "name_chars": [
+   "頭"
+  ]
+ },
+ "ㄊㄤˊ": {
+  "char": "螳",
+  "same": true,
+  "name_chars": [
+   "螳"
+  ]
+ },
+ "ㄊㄥˊ": {
+  "char": "藤",
+  "same": true,
+  "name_chars": [
+   "藤"
+  ]
+ },
+ "ㄊㄧㄝˇ": {
+  "char": "鐵",
+  "same": true,
+  "name_chars": [
+   "鐵"
+  ]
+ },
+ "ㄊㄧㄢ": {
+  "char": "添",
+  "same": false,
+  "name_chars": [
+   "天"
+  ]
+ },
+ "ㄊㄨㄟˇ": {
+  "char": "腿",
+  "same": true,
+  "name_chars": [
+   "腿"
+  ]
+ },
+ "ㄊㄨㄥ": {
+  "char": "通",
+  "same": true,
+  "name_chars": [
+   "通"
+  ]
+ },
+ "ㄋㄚˋ": {
+  "char": "娜",
+  "same": true,
+  "name_chars": [
+   "娜"
+  ]
+ },
+ "ㄋㄠˇ": {
+  "char": "瑙",
+  "same": true,
+  "name_chars": [
+   "瑙"
+  ]
+ },
+ "ㄋㄧˇ": {
+  "char": "你",
+  "same": true,
+  "name_chars": [
+   "你"
+  ]
+ },
+ "ㄋㄧˊ": {
+  "char": "尼",
+  "same": true,
+  "name_chars": [
+   "尼",
+   "泥"
+  ]
+ },
+ "ㄋㄧㄠˇ": {
+  "char": "鳥",
+  "same": true,
+  "name_chars": [
+   "鳥"
+  ]
+ },
+ "ㄋㄧㄡˊ": {
+  "char": "牛",
+  "same": true,
+  "name_chars": [
+   "牛"
+  ]
+ },
+ "ㄋㄨㄛˋ": {
+  "char": "諾",
+  "same": true,
+  "name_chars": [
+   "諾"
+  ]
+ },
+ "ㄌㄚ": {
+  "char": "拉",
+  "same": true,
+  "name_chars": [
+   "啦",
+   "拉"
+  ]
+ },
+ "ㄌㄚˇ": {
+  "char": "喇",
+  "same": true,
+  "name_chars": [
+   "喇"
+  ]
+ },
+ "ㄌㄟˊ": {
+  "char": "雷",
+  "same": true,
+  "name_chars": [
+   "雷"
+  ]
+ },
+ "ㄌㄠˇ": {
+  "char": "老",
+  "same": true,
+  "name_chars": [
+   "老"
+  ]
+ },
+ "ㄌㄢˊ": {
+  "char": "蘭",
+  "same": true,
+  "name_chars": [
+   "蘭"
+  ]
+ },
+ "ㄌㄤˇ": {
+  "char": "朗",
+  "same": true,
+  "name_chars": [
+   "朗"
+  ]
+ },
+ "ㄌㄤˊ": {
+  "char": "郎",
+  "same": true,
+  "name_chars": [
+   "螂",
+   "郎"
+  ]
+ },
+ "ㄌㄧˇ": {
+  "char": "鯉",
+  "same": true,
+  "name_chars": [
+   "鯉"
+  ]
+ },
+ "ㄌㄧˋ": {
+  "char": "力",
+  "same": true,
+  "name_chars": [
+   "利",
+   "力",
+   "靂"
+  ]
+ },
+ "ㄌㄧㄝˋ": {
+  "char": "烈",
+  "same": true,
+  "name_chars": [
+   "烈"
+  ]
+ },
+ "ㄌㄧㄡˋ": {
+  "char": "六",
+  "same": true,
+  "name_chars": [
+   "六"
+  ]
+ },
+ "ㄌㄧㄢˊ": {
+  "char": "鐮",
+  "same": true,
+  "name_chars": [
+   "鐮"
+  ]
+ },
+ "ㄌㄨˇ": {
+  "char": "魯",
+  "same": true,
+  "name_chars": [
+   "魯"
+  ]
+ },
+ "ㄌㄨˋ": {
+  "char": "路",
+  "same": true,
+  "name_chars": [
+   "路"
+  ]
+ },
+ "ㄌㄨㄛˊ": {
+  "char": "羅",
+  "same": true,
+  "name_chars": [
+   "羅"
+  ]
+ },
+ "ㄌㄨㄥˊ": {
+  "char": "隆",
+  "same": true,
+  "name_chars": [
+   "隆",
+   "龍"
+  ]
+ },
+ "ㄌㄩˋ": {
+  "char": "綠",
+  "same": true,
+  "name_chars": [
+   "綠"
+  ]
+ },
+ "ㄍㄚ": {
+  "char": "嘎",
+  "same": true,
+  "name_chars": [
+   "嘎"
+  ]
+ },
+ "ㄍㄜ": {
+  "char": "哥",
+  "same": true,
+  "name_chars": [
+   "哥"
+  ]
+ },
+ "ㄍㄡˇ": {
+  "char": "狗",
+  "same": true,
+  "name_chars": [
+   "狗"
+  ]
+ },
+ "ㄍㄥˇ": {
+  "char": "耿",
+  "same": true,
+  "name_chars": [
+   "耿"
+  ]
+ },
+ "ㄍㄨㄞˋ": {
+  "char": "怪",
+  "same": true,
+  "name_chars": [
+   "怪"
+  ]
+ },
+ "ㄍㄨㄟ": {
+  "char": "龜",
+  "same": true,
+  "name_chars": [
+   "龜"
+  ]
+ },
+ "ㄍㄨㄟˇ": {
+  "char": "鬼",
+  "same": true,
+  "name_chars": [
+   "鬼"
+  ]
+ },
+ "ㄎㄚˇ": {
+  "char": "卡",
+  "same": true,
+  "name_chars": [
+   "卡"
+  ]
+ },
+ "ㄎㄜ": {
+  "char": "蝌",
+  "same": true,
+  "name_chars": [
+   "蝌"
+  ]
+ },
+ "ㄎㄜˇ": {
+  "char": "可",
+  "same": true,
+  "name_chars": [
+   "可"
+  ]
+ },
+ "ㄎㄜˊ": {
+  "char": "殼",
+  "same": true,
+  "name_chars": [
+   "殼"
+  ]
+ },
+ "ㄎㄜˋ": {
+  "char": "克",
+  "same": true,
+  "name_chars": [
+   "克"
+  ]
+ },
+ "ㄎㄞˇ": {
+  "char": "凱",
+  "same": true,
+  "name_chars": [
+   "凱"
+  ]
+ },
+ "ㄎㄡˇ": {
+  "char": "口",
+  "same": true,
+  "name_chars": [
+   "口"
+  ]
+ },
+ "ㄎㄣˇ": {
+  "char": "肯",
+  "same": true,
+  "name_chars": [
+   "肯"
+  ]
+ },
+ "ㄎㄨㄞˋ": {
+  "char": "快",
+  "same": true,
+  "name_chars": [
+   "快"
+  ]
+ },
+ "ㄎㄨㄟ": {
+  "char": "盔",
+  "same": true,
+  "name_chars": [
+   "盔"
+  ]
+ },
+ "ㄎㄨㄥˇ": {
+  "char": "恐",
+  "same": true,
+  "name_chars": [
+   "恐"
+  ]
+ },
+ "ㄏㄚ": {
+  "char": "哈",
+  "same": true,
+  "name_chars": [
+   "哈"
+  ]
+ },
+ "ㄏㄜˊ": {
+  "char": "合",
+  "same": true,
+  "name_chars": [
+   "合"
+  ]
+ },
+ "ㄏㄞˇ": {
+  "char": "海",
+  "same": true,
+  "name_chars": [
+   "海"
+  ]
+ },
+ "ㄏㄠˊ": {
+  "char": "豪",
+  "same": true,
+  "name_chars": [
+   "豪"
+  ]
+ },
+ "ㄏㄡˊ": {
+  "char": "猴",
+  "same": true,
+  "name_chars": [
+   "猴"
+  ]
+ },
+ "ㄏㄡˋ": {
+  "char": "后",
+  "same": true,
+  "name_chars": [
+   "后"
+  ]
+ },
+ "ㄏㄨˊ": {
+  "char": "胡",
+  "same": true,
+  "name_chars": [
+   "胡"
+  ]
+ },
+ "ㄏㄨㄚ": {
+  "char": "化",
+  "same": false,
+  "name_chars": [
+   "花"
+  ]
+ },
+ "ㄏㄨㄚˋ": {
+  "char": "化",
+  "same": true,
+  "name_chars": [
+   "化"
+  ]
+ },
+ "ㄏㄨㄛˇ": {
+  "char": "火",
+  "same": true,
+  "name_chars": [
+   "火"
+  ]
+ },
+ "ㄏㄨㄢˋ": {
+  "char": "幻",
+  "same": true,
+  "name_chars": [
+   "幻"
+  ]
+ },
+ "ㄐㄧ": {
+  "char": "基",
+  "same": true,
+  "name_chars": [
+   "基"
+  ]
+ },
+ "ㄐㄧˊ": {
+  "char": "吉",
+  "same": true,
+  "name_chars": [
+   "吉",
+   "急",
+   "擊"
+  ]
+ },
+ "ㄐㄧㄚˇ": {
+  "char": "甲",
+  "same": true,
+  "name_chars": [
+   "甲"
+  ]
+ },
+ "ㄐㄧㄝˇ": {
+  "char": "姐",
+  "same": true,
+  "name_chars": [
+   "姐"
+  ]
+ },
+ "ㄐㄧㄝˊ": {
+  "char": "傑",
+  "same": true,
+  "name_chars": [
+   "傑"
+  ]
+ },
+ "ㄐㄧㄠˇ": {
+  "char": "佼",
+  "same": false,
+  "name_chars": [
+   "角"
+  ]
+ },
+ "ㄐㄧㄡˇ": {
+  "char": "九",
+  "same": true,
+  "name_chars": [
+   "九"
+  ]
+ },
+ "ㄐㄧㄢˋ": {
+  "char": "箭",
+  "same": true,
+  "name_chars": [
+   "箭"
+  ]
+ },
+ "ㄐㄧㄣ": {
+  "char": "金",
+  "same": true,
+  "name_chars": [
+   "金"
+  ]
+ },
+ "ㄐㄩˊ": {
+  "char": "局",
+  "same": false,
+  "name_chars": [
+   "菊"
+  ]
+ },
+ "ㄐㄩˋ": {
+  "char": "巨",
+  "same": true,
+  "name_chars": [
+   "巨"
+  ]
+ },
+ "ㄐㄩㄣ": {
+  "char": "君",
+  "same": true,
+  "name_chars": [
+   "君"
+  ]
+ },
+ "ㄑㄧㄡ": {
+  "char": "丘",
+  "same": true,
+  "name_chars": [
+   "丘"
+  ]
+ },
+ "ㄑㄧㄡˊ": {
+  "char": "球",
+  "same": true,
+  "name_chars": [
+   "球"
+  ]
+ },
+ "ㄑㄧㄢˊ": {
+  "char": "鉗",
+  "same": true,
+  "name_chars": [
+   "鉗"
+  ]
+ },
+ "ㄑㄧㄤˊ": {
+  "char": "牆",
+  "same": true,
+  "name_chars": [
+   "牆"
+  ]
+ },
+ "ㄑㄩㄝˋ": {
+  "char": "雀",
+  "same": true,
+  "name_chars": [
+   "雀"
+  ]
+ },
+ "ㄑㄩㄢˊ": {
+  "char": "拳",
+  "same": true,
+  "name_chars": [
+   "拳"
+  ]
+ },
+ "ㄒㄧ": {
+  "char": "西",
+  "same": true,
+  "name_chars": [
+   "犀",
+   "西"
+  ]
+ },
+ "ㄒㄧㄝˋ": {
+  "char": "蟹",
+  "same": true,
+  "name_chars": [
+   "蟹"
+  ]
+ },
+ "ㄒㄧㄠˇ": {
+  "char": "小",
+  "same": true,
+  "name_chars": [
+   "小"
+  ]
+ },
+ "ㄒㄧㄤ": {
+  "char": "香",
+  "same": true,
+  "name_chars": [
+   "香"
+  ]
+ },
+ "ㄒㄧㄥ": {
+  "char": "星",
+  "same": true,
+  "name_chars": [
+   "星"
+  ]
+ },
+ "ㄓㄣ": {
+  "char": "針",
+  "same": true,
+  "name_chars": [
+   "針"
+  ]
+ },
+ "ㄓㄨㄥˇ": {
+  "char": "種",
+  "same": true,
+  "name_chars": [
+   "種"
+  ]
+ },
+ "ㄔㄠ": {
+  "char": "抄",
+  "same": false,
+  "name_chars": [
+   "超"
+  ]
+ },
+ "ㄔㄡˋ": {
+  "char": "臭",
+  "same": true,
+  "name_chars": [
+   "臭"
+  ]
+ },
+ "ㄔㄨㄢ": {
+  "char": "穿",
+  "same": true,
+  "name_chars": [
+   "穿"
+  ]
+ },
+ "ㄔㄨㄣˊ": {
+  "char": "純",
+  "same": false,
+  "name_chars": [
+   "唇"
+  ]
+ },
+ "ㄔㄨㄥˊ": {
+  "char": "蟲",
+  "same": true,
+  "name_chars": [
+   "蟲"
+  ]
+ },
+ "ㄕ": {
+  "char": "獅",
+  "same": true,
+  "name_chars": [
+   "獅"
+  ]
+ },
+ "ㄕˊ": {
+  "char": "石",
+  "same": true,
+  "name_chars": [
+   "石",
+   "食"
+  ]
+ },
+ "ㄕˋ": {
+  "char": "士",
+  "same": true,
+  "name_chars": [
+   "士"
+  ]
+ },
+ "ㄕㄜˊ": {
+  "char": "舌",
+  "same": true,
+  "name_chars": [
+   "舌",
+   "蛇"
+  ]
+ },
+ "ㄕㄡˋ": {
+  "char": "獸",
+  "same": true,
+  "name_chars": [
+   "獸"
+  ]
+ },
+ "ㄕㄢ": {
+  "char": "山",
+  "same": true,
+  "name_chars": [
+   "山"
+  ]
+ },
+ "ㄕㄢˇ": {
+  "char": "閃",
+  "same": true,
+  "name_chars": [
+   "閃"
+  ]
+ },
+ "ㄕㄨˇ": {
+  "char": "鼠",
+  "same": true,
+  "name_chars": [
+   "鼠"
+  ]
+ },
+ "ㄕㄨˋ": {
+  "char": "樹",
+  "same": true,
+  "name_chars": [
+   "樹"
+  ]
+ },
+ "ㄕㄨㄟˇ": {
+  "char": "水",
+  "same": true,
+  "name_chars": [
+   "水"
+  ]
+ },
+ "ㄕㄨㄤ": {
+  "char": "雙",
+  "same": true,
+  "name_chars": [
+   "雙"
+  ]
+ },
+ "ㄖㄣˊ": {
+  "char": "人",
+  "same": true,
+  "name_chars": [
+   "人"
+  ]
+ },
+ "ㄗˇ": {
+  "char": "子",
+  "same": true,
+  "name_chars": [
+   "子"
+  ]
+ },
+ "ㄗㄡˇ": {
+  "char": "走",
+  "same": true,
+  "name_chars": [
+   "走"
+  ]
+ },
+ "ㄗㄨㄟˇ": {
+  "char": "嘴",
+  "same": true,
+  "name_chars": [
+   "嘴"
+  ]
+ },
+ "ㄗㄨㄢˋ": {
+  "char": "鑽",
+  "same": true,
+  "name_chars": [
+   "鑽"
+  ]
+ },
+ "ㄘˊ": {
+  "char": "磁",
+  "same": true,
+  "name_chars": [
+   "磁"
+  ]
+ },
+ "ㄘˋ": {
+  "char": "刺",
+  "same": true,
+  "name_chars": [
+   "刺"
+  ]
+ },
+ "ㄘㄠˇ": {
+  "char": "草",
+  "same": true,
+  "name_chars": [
+   "草"
+  ]
+ },
+ "ㄘㄨㄟ": {
+  "char": "催",
+  "same": true,
+  "name_chars": [
+   "催"
+  ]
+ },
+ "ㄘㄨㄥ": {
+  "char": "蔥",
+  "same": true,
+  "name_chars": [
+   "蔥"
+  ]
+ },
+ "ㄙ": {
+  "char": "斯",
+  "same": true,
+  "name_chars": [
+   "斯"
+  ]
+ },
+ "ㄙㄢ": {
+  "char": "三",
+  "same": true,
+  "name_chars": [
+   "三"
+  ]
+ },
+ "ㄙㄨˋ": {
+  "char": "速",
+  "same": true,
+  "name_chars": [
+   "速"
+  ]
+ },
+ "ㄚ": {
+  "char": "阿",
+  "same": true,
+  "name_chars": [
+   "阿"
+  ]
+ },
+ "ㄜˊ": {
+  "char": "蛾",
+  "same": true,
+  "name_chars": [
+   "蛾"
+  ]
+ },
+ "ㄡˇ": {
+  "char": "偶",
+  "same": true,
+  "name_chars": [
+   "偶"
+  ]
+ },
+ "ㄧ": {
+  "char": "一",
+  "same": true,
+  "name_chars": [
+   "一",
+   "伊"
+  ]
+ },
+ "ㄧˋ": {
+  "char": "翼",
+  "same": true,
+  "name_chars": [
+   "翼"
+  ]
+ },
+ "ㄧㄚ": {
+  "char": "鴨",
+  "same": true,
+  "name_chars": [
+   "鴨"
+  ]
+ },
+ "ㄧㄚˊ": {
+  "char": "芽",
+  "same": true,
+  "name_chars": [
+   "芽"
+  ]
+ },
+ "ㄧㄝ": {
+  "char": "噎",
+  "same": false,
+  "name_chars": [
+   "椰"
+  ]
+ },
+ "ㄧㄢˊ": {
+  "char": "岩",
+  "same": true,
+  "name_chars": [
+   "岩"
+  ]
+ },
+ "ㄧㄢˋ": {
+  "char": "焰",
+  "same": true,
+  "name_chars": [
+   "焰"
+  ]
+ },
+ "ㄧㄣ": {
+  "char": "音",
+  "same": true,
+  "name_chars": [
+   "音"
+  ]
+ },
+ "ㄧㄣˇ": {
+  "char": "引",
+  "same": true,
+  "name_chars": [
+   "引"
+  ]
+ },
+ "ㄨㄚ": {
+  "char": "蛙",
+  "same": true,
+  "name_chars": [
+   "蛙"
+  ]
+ },
+ "ㄨㄚˇ": {
+  "char": "瓦",
+  "same": true,
+  "name_chars": [
+   "瓦"
+  ]
+ },
+ "ㄨㄟˇ": {
+  "char": "尾",
+  "same": true,
+  "name_chars": [
+   "尾"
+  ]
+ },
+ "ㄨㄢˊ": {
+  "char": "頑",
+  "same": true,
+  "name_chars": [
+   "頑"
+  ]
+ },
+ "ㄨㄢˋ": {
+  "char": "腕",
+  "same": true,
+  "name_chars": [
+   "腕"
+  ]
+ },
+ "ㄨㄣˊ": {
+  "char": "蚊",
+  "same": true,
+  "name_chars": [
+   "蚊"
+  ]
+ },
+ "ㄨㄤˊ": {
+  "char": "王",
+  "same": true,
+  "name_chars": [
+   "王"
+  ]
+ },
+ "ㄩˊ": {
+  "char": "魚",
+  "same": true,
+  "name_chars": [
+   "魚"
+  ]
+ },
+ "ㄩㄥˇ": {
+  "char": "泳",
+  "same": true,
+  "name_chars": [
+   "勇",
+   "泳",
+   "蛹"
+  ]
+ },
+ "tone1": {
+  "char": "媽",
+  "same": true,
+  "name_chars": [
+   "媽"
+  ]
+ },
+ "tone2": {
+  "char": "麻",
+  "same": true,
+  "name_chars": [
+   "麻"
+  ]
+ },
+ "tone3": {
+  "char": "馬",
+  "same": true,
+  "name_chars": [
+   "馬"
+  ]
+ },
+ "tone4": {
+  "char": "罵",
+  "same": true,
+  "name_chars": [
+   "罵"
+  ]
+ },
+ "tone5": {
+  "char": "嗎",
+  "same": true,
+  "name_chars": [
+   "嗎"
+  ]
+ }
+}

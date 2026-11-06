@@ -1,0 +1,741 @@
+openapi: 3.0.3
+info:
+  title: 注音島 game-api
+  version: 0.2.0
+  description: |
+    注音島的後端 API，也是唯一的資料來源：所有規則（出題、熟練度、星星、經驗值、進化、區域開放、道館）都由伺服器計算。
+    前端與 API 在同一個網域，`/api/*` 由 Caddy 轉給 game-api。
+    驗證方式是 HttpOnly session cookie `zi_session`（Path=/api）。訪客也有 session。
+    所有寫入請求必須是 `Content-Type: application/json`（CSRF 防護，見 research R6）。
+    這份檔案是單一來源：Go 用 oapi-codegen 產生 server 介面，前端用 openapi-typescript 產生型別。
+servers:
+  - url: /api/v1
+
+security:
+  - session: []
+
+paths:
+  /healthz:
+    get:
+      operationId: healthz
+      security: []
+      responses:
+        '200':
+          description: 服務與資料庫正常
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [ok]
+                properties:
+                  ok: { type: boolean }
+
+  # ── 帳號 ──────────────────────────────────────────────
+
+  /auth/guest:
+    post:
+      operationId: startGuest
+      security: []
+      summary: 以訪客身分開始（FR-058）；已有 session 時直接回傳目前帳號
+      responses:
+        '200':
+          description: 已有 session
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Me' }
+        '201':
+          description: 建立訪客帳號與一個預設小朋友檔案，並設定 session cookie
+          headers:
+            Set-Cookie: { schema: { type: string } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Me' }
+
+  /auth/register:
+    post:
+      operationId: register
+      security: []
+      summary: 註冊（FR-050、FR-051、FR-060）。目前是訪客 session 時，直接把訪客升級為正式帳號
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/Credentials' }
+      responses:
+        '201':
+          description: 註冊成功，回傳救援碼並設定 session cookie
+          headers:
+            Set-Cookie: { schema: { type: string } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/RegisterResult' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '409':
+          description: 帳號名稱已被使用，或目前已是正式帳號
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /auth/login:
+    post:
+      operationId: login
+      security: []
+      summary: 登入（FR-050、FR-053）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/Credentials'
+                - type: object
+                  properties:
+                    bringGuestChildren:
+                      type: boolean
+                      default: false
+                      description: 目前是訪客 session 時，是否把訪客的小朋友檔案移到這個帳號；之後訪客帳號會被刪除
+      responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '200':
+          description: 登入成功，設定 session cookie
+          headers:
+            Set-Cookie: { schema: { type: string } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Me' }
+        '401':
+          description: 帳號或密碼不正確（不區分是哪一個錯）
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '422':
+          description: 帶入訪客檔案後會超過 8 個上限
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '429': { $ref: '#/components/responses/Locked' }
+
+  /auth/logout:
+    post:
+      operationId: logout
+      summary: 登出目前裝置
+      responses:
+        '204': { description: 已登出，清除 cookie }
+
+  /auth/reset-password:
+    post:
+      operationId: resetPassword
+      security: []
+      summary: 用救援碼重設密碼（FR-051）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [username, rescueCode, newPassword]
+              properties:
+                username: { $ref: '#/components/schemas/Username' }
+                rescueCode:
+                  type: string
+                  description: 大小寫與連字號都不影響比對
+                  example: 7K3M-Q9TB-2WXR-H4ZD
+                newPassword: { $ref: '#/components/schemas/Password' }
+      responses:
+        '200':
+          description: 重設成功；舊救援碼失效並回傳新的；所有舊 session 失效，並為目前裝置建立新 session
+          headers:
+            Set-Cookie: { schema: { type: string } }
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/RegisterResult' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '401':
+          description: 帳號或救援碼不正確
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '429': { $ref: '#/components/responses/Locked' }
+
+  /me:
+    get:
+      operationId: getMe
+      summary: 取得目前帳號與所有小朋友檔案
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Me' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+    delete:
+      operationId: deleteMe
+      summary: 刪除整個帳號（FR-059、FR-062）；訪客不能使用
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/PasswordConfirm' }
+      responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '204': { description: 帳號、小朋友檔案與所有進度都已刪除 }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '403': { $ref: '#/components/responses/Forbidden' }
+
+  # ── 小朋友檔案 ────────────────────────────────────────
+
+  /children:
+    post:
+      operationId: createChild
+      summary: 建立小朋友檔案（US5 驗收 6）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/ChildInput' }
+      responses:
+        '201':
+          description: 已建立
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Child' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '422':
+          description: 已達 8 個上限
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /children/{childId}:
+    parameters:
+      - $ref: '#/components/parameters/ChildId'
+    patch:
+      operationId: updateChild
+      summary: 修改暱稱或頭像
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nickname: { $ref: '#/components/schemas/Nickname' }
+                avatar: { $ref: '#/components/schemas/Avatar' }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Child' }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+    delete:
+      operationId: deleteChild
+      summary: 刪除小朋友檔案與所有進度（FR-059、FR-062）；訪客不能使用
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/PasswordConfirm' }
+      responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '204': { description: 已刪除 }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '403': { $ref: '#/components/responses/Forbidden' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /children/{childId}/state:
+    parameters:
+      - $ref: '#/components/parameters/ChildId'
+    get:
+      operationId: getChildState
+      summary: 取得收集冊、夥伴、徽章、已開放區域等進度
+      responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ChildState' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /children/{childId}/partner:
+    parameters:
+      - $ref: '#/components/parameters/ChildId'
+    post:
+      operationId: choosePartner
+      summary: 選擇夥伴（FR-040）；只能選一次
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [pokemonId]
+              properties:
+                pokemonId: { type: integer, enum: [1, 4, 7] }
+      responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ChildState' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+        '409':
+          description: 已經選過夥伴
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  # ── 遭遇與作答 ────────────────────────────────────────
+
+  /children/{childId}/encounters:
+    parameters:
+      - $ref: '#/components/parameters/ChildId'
+    post:
+      operationId: createEncounter
+      summary: 由伺服器挑選寶可夢並產生題目（FR-035、FR-057）
+      description: |
+        - `kind: wild`：1～3 題，寶可夢依熟練度與收服狀態挑選（research R3）。
+        - `kind: gym`：10 題，從本區練習項目均勻抽題（FR-008）。
+        - 題目包含正確答案，前端用來立即判斷對錯（research R5）。
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [zone, kind]
+              properties:
+                zone: { $ref: '#/components/schemas/ZoneId' }
+                kind: { type: string, enum: [wild, gym] }
+      responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '201':
+          description: 已建立
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Encounter' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '403':
+          description: 這個區域尚未開放
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '404': { $ref: '#/components/responses/NotFound' }
+        '409':
+          description: 尚未選擇夥伴
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /encounters/{encounterId}/answers/{questionIndex}:
+    parameters:
+      - $ref: '#/components/parameters/EncounterId'
+      - name: questionIndex
+        in: path
+        required: true
+        schema: { type: integer, minimum: 0, maximum: 9 }
+    put:
+      operationId: submitAnswer
+      summary: 送出一題的作答結果；同樣內容重送只計算一次（FR-061）
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [wrongCount, durationMs]
+              properties:
+                wrongCount: { type: integer, minimum: 0, maximum: 2 }
+                durationMs: { type: integer, minimum: 0, maximum: 600000 }
+      responses:
+        '204': { description: 已記錄（或先前已記錄相同內容） }
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+        '409':
+          description: 這題已用不同內容作答過，或遭遇已完成
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+  /encounters/{encounterId}/complete:
+    parameters:
+      - $ref: '#/components/parameters/EncounterId'
+    post:
+      operationId: completeEncounter
+      summary: 結算遭遇：星星、收服、經驗值、進化、區域開放、徽章；重送回傳同樣結果
+      responses:
+        '400': { $ref: '#/components/responses/ValidationError' }
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/EncounterResult' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+        '409':
+          description: 還有題目沒有作答
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+
+components:
+  securitySchemes:
+    session:
+      type: apiKey
+      in: cookie
+      name: zi_session
+
+  parameters:
+    ChildId:
+      name: childId
+      in: path
+      required: true
+      schema: { type: string, format: uuid }
+    EncounterId:
+      name: encounterId
+      in: path
+      required: true
+      schema: { type: string, format: uuid }
+
+  responses:
+    Unauthorized:
+      description: 沒有 session 或 session 過期
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+    Forbidden:
+      description: 密碼錯誤或訪客不能執行這個動作
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+    NotFound:
+      description: 找不到，或不屬於目前帳號
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+    ValidationError:
+      description: 欄位格式錯誤
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+    Locked:
+      description: 連續失敗 5 次，暫時鎖定 15 分鐘
+      headers:
+        Retry-After:
+          description: 幾秒後可以再試
+          schema: { type: integer }
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+
+  schemas:
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: string
+          enum:
+            - validation_failed
+            - username_taken
+            - already_registered
+            - invalid_credentials
+            - locked
+            - unauthorized
+            - forbidden
+            - not_found
+            - child_limit_reached
+            - zone_locked
+            - partner_required
+            - partner_already_chosen
+            - answer_conflict
+            - encounter_incomplete
+            - internal
+        message:
+          type: string
+          description: 給家長看的正體中文訊息
+        fields:
+          type: object
+          additionalProperties: { type: string }
+
+    Username:
+      type: string
+      minLength: 3
+      maxLength: 20
+      pattern: '^[A-Za-z0-9_]+$'
+
+    Password:
+      type: string
+      minLength: 8
+      maxLength: 128
+
+    Credentials:
+      type: object
+      required: [username, password]
+      properties:
+        username: { $ref: '#/components/schemas/Username' }
+        password: { $ref: '#/components/schemas/Password' }
+
+    PasswordConfirm:
+      type: object
+      required: [password]
+      properties:
+        password: { type: string }
+
+    RegisterResult:
+      type: object
+      required: [me, rescueCode]
+      properties:
+        me: { $ref: '#/components/schemas/Me' }
+        rescueCode:
+          type: string
+          description: 只會顯示這一次，伺服器只保存雜湊
+          example: 7K3M-Q9TB-2WXR-H4ZD
+
+    Me:
+      type: object
+      required: [accountId, isGuest, children]
+      properties:
+        accountId: { type: string, format: uuid }
+        isGuest: { type: boolean }
+        username: { type: string, nullable: true }
+        children:
+          type: array
+          items: { $ref: '#/components/schemas/Child' }
+
+    Stage:
+      type: string
+      enum: [learn, spell, read]
+
+    ZoneId:
+      type: string
+      enum: [meadow, beach, forest, hill]
+
+    Nickname: { type: string, minLength: 1, maxLength: 10 }
+    Avatar: { type: string, pattern: '^avatar-(0[1-9]|1[0-2])$' }
+
+    ChildInput:
+      type: object
+      required: [nickname, avatar, startStage]
+      properties:
+        nickname: { $ref: '#/components/schemas/Nickname' }
+        avatar: { $ref: '#/components/schemas/Avatar' }
+        startStage: { $ref: '#/components/schemas/Stage' }
+
+    Child:
+      allOf:
+        - $ref: '#/components/schemas/ChildInput'
+        - type: object
+          required: [id, createdAt]
+          properties:
+            id: { type: string, format: uuid }
+            createdAt: { type: string, format: date-time }
+
+    Partner:
+      type: object
+      required: [baseId, currentId, xp, nextEvolutionXp, title]
+      properties:
+        baseId: { type: integer, enum: [1, 4, 7] }
+        currentId: { type: integer }
+        xp: { type: integer }
+        nextEvolutionXp:
+          type: integer
+          nullable: true
+          description: 下一次進化需要的 xp；已是最終進化時為 null
+        title:
+          type: string
+          nullable: true
+          description: 最終進化後依 xp 解鎖的稱號
+
+    CaughtEntry:
+      type: object
+      required: [pokemonId, bestStars, firstCaughtAt]
+      properties:
+        pokemonId: { type: integer, minimum: 1, maximum: 151 }
+        bestStars: { type: integer, minimum: 1, maximum: 3 }
+        firstCaughtAt: { type: string, format: date-time }
+
+    Badge:
+      type: object
+      required: [zone, earnedAt]
+      properties:
+        zone: { $ref: '#/components/schemas/ZoneId' }
+        earnedAt: { type: string, format: date-time }
+
+    ZoneProgress:
+      type: object
+      required: [zone, familiar, total]
+      properties:
+        zone: { $ref: '#/components/schemas/ZoneId' }
+        familiar: { type: integer, description: 熟練度 ≥ 3 的項目數 }
+        total: { type: integer }
+
+    ChildState:
+      type: object
+      required: [child, partner, caught, badges, unlockedZones, zoneProgress, correctStreak, encounterCount, allCaught]
+      properties:
+        child: { $ref: '#/components/schemas/Child' }
+        partner:
+          allOf:
+            - $ref: '#/components/schemas/Partner'
+          nullable: true
+        caught:
+          type: array
+          items: { $ref: '#/components/schemas/CaughtEntry' }
+        badges:
+          type: array
+          items: { $ref: '#/components/schemas/Badge' }
+        unlockedZones:
+          type: array
+          items: { $ref: '#/components/schemas/ZoneId' }
+        zoneProgress:
+          type: array
+          items: { $ref: '#/components/schemas/ZoneProgress' }
+        correctStreak: { type: integer }
+        encounterCount: { type: integer }
+        allCaught: { type: boolean }
+
+    QuestionType:
+      type: string
+      enum:
+        - listen_symbol
+        - first_sound
+        - listen_tone
+        - fill_symbol
+        - fill_tone
+        - build_syllable
+        - listen_name
+        - zhuyin_to_char
+        - fill_char
+
+    SymbolCategory:
+      type: string
+      enum: [initial, medial, final, tone]
+
+    PromptPart:
+      type: object
+      required: [kind]
+      description: 題目語音與文字依序組成，例如 [名稱音檔「皮卡丘」, 固定語句「的第一個音是哪一個？」]
+      properties:
+        kind: { type: string, enum: [audio, text] }
+        audioKey: { type: string, description: AudioManifest 的鍵，kind=audio 時必填 }
+        text: { type: string, description: 畫面上顯示的文字 }
+
+    DisplayCell:
+      type: object
+      required: [char, zhuyin, blank]
+      description: 題目中名稱的一個字。`char` 或 `zhuyin` 為 null 代表不顯示；`zhuyin` 中的「＿」是挖空的符號或聲調
+      properties:
+        char: { type: string, nullable: true }
+        zhuyin: { type: string, nullable: true }
+        blank:
+          type: string
+          enum: [none, char, symbol, tone, syllable]
+
+    QuestionDisplay:
+      type: object
+      required: [layout, cells, showSpeaker]
+      properties:
+        layout:
+          type: string
+          enum: [none, horizontal, vertical]
+          description: none = 只有喇叭（聽音題）；vertical = 課本式直排注音（認字，FR-013）
+        cells:
+          type: array
+          items: { $ref: '#/components/schemas/DisplayCell' }
+        showSpeaker: { type: boolean }
+
+    Option:
+      type: object
+      required: [id, label]
+      properties:
+        id: { type: string }
+        label: { type: string }
+        audioKey: { type: string }
+        category: { $ref: '#/components/schemas/SymbolCategory' }
+
+    Question:
+      type: object
+      required: [type, pokemonId, itemIds, prompt, display, options, answer]
+      properties:
+        type: { $ref: '#/components/schemas/QuestionType' }
+        pokemonId:
+          type: integer
+          description: 題目用到的寶可夢（顯示貼紙用）；野生遭遇與遭遇的寶可夢相同，道館每題可能不同
+        audioOnAnswer:
+          type: string
+          description: 答對後播放的音檔鍵（例如正確符號或字的發音）；選項本身不播放聲音，以免直接聽出答案
+        itemIds:
+          type: array
+          items: { type: string }
+        prompt:
+          type: array
+          items: { $ref: '#/components/schemas/PromptPart' }
+        display: { $ref: '#/components/schemas/QuestionDisplay' }
+        options:
+          type: array
+          minItems: 2
+          maxItems: 8
+          items: { $ref: '#/components/schemas/Option' }
+        answer:
+          type: array
+          minItems: 1
+          description: 正確選項的 id；build_syllable 為有順序的多個 id，其他題型只有一個
+          items: { type: string }
+
+    Encounter:
+      type: object
+      required: [id, childId, zone, kind, pokemonId, questions]
+      properties:
+        id: { type: string, format: uuid }
+        childId: { type: string, format: uuid }
+        zone: { $ref: '#/components/schemas/ZoneId' }
+        kind: { type: string, enum: [wild, gym] }
+        pokemonId: { type: integer, minimum: 1, maximum: 151 }
+        questions:
+          type: array
+          minItems: 1
+          maxItems: 10
+          items: { $ref: '#/components/schemas/Question' }
+
+    EncounterResult:
+      type: object
+      required: [encounterId, kind, stars, newlyCaught, xpGained, evolved, newlyUnlockedZones, gym, state]
+      properties:
+        encounterId: { type: string, format: uuid }
+        kind: { type: string, enum: [wild, gym] }
+        stars:
+          type: integer
+          nullable: true
+          minimum: 1
+          maximum: 3
+          description: 野生遭遇的星星；0 次錯 3 顆、1 次 2 顆、2 次以上 1 顆。道館為 null
+        newlyCaught: { type: boolean }
+        xpGained: { type: integer }
+        evolved:
+          type: object
+          nullable: true
+          required: [fromId, toId]
+          properties:
+            fromId: { type: integer }
+            toId: { type: integer }
+        newlyUnlockedZones:
+          type: array
+          items: { $ref: '#/components/schemas/ZoneId' }
+        gym:
+          type: object
+          nullable: true
+          required: [correctCount, passed, badgeEarned]
+          properties:
+            correctCount: { type: integer, minimum: 0, maximum: 10 }
+            passed: { type: boolean }
+            badgeEarned: { type: boolean, description: 這次才第一次得到徽章 }
+        state: { $ref: '#/components/schemas/ChildState' }

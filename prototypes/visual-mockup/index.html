@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>注音島 視覺樣稿</title>
+<style>
+@font-face {
+  font-family: "Huninn";
+  src: url("https://cdn.jsdelivr.net/gh/justfont/open-huninn-font@master/font/jf-openhuninn-2.1.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --ink: #2B3A67;
+  --sky-top: #8FD3FF;
+  --sky-bottom: #E4F6FF;
+  --paper: #FFFFFF;
+  --grass: #7BD389;
+  --sand: #FFE3A3;
+  --star: #FFC93C;
+  /* 注音分類色 */
+  --initial: #3D7BF7;   /* 聲母 */
+  --medial: #2FB36B;    /* 介音 */
+  --final: #FF8A3D;     /* 韻母 */
+  --tone: #F2545B;      /* 聲調 */
+  --radius-chip: 999px;
+  --radius-card: 22px;
+  --radius-sheet: 32px;
+  --lift: 0 6px 0 var(--ink);
+  --lift-sm: 0 4px 0 var(--ink);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; }
+body {
+  font-family: "Huninn", "PingFang TC", "Noto Sans TC", sans-serif;
+  color: var(--ink);
+  background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 70%);
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+canvas#world { position: fixed; inset: 0; display: block; touch-action: none; }
+
+button {
+  font: inherit; color: inherit; cursor: pointer;
+  border: 4px solid var(--ink); background: var(--paper);
+}
+button:focus-visible { outline: 4px solid var(--star); outline-offset: 4px; }
+button:active { transform: translateY(4px); box-shadow: none !important; }
+
+/* ---------- HUD ---------- */
+.hud {
+  position: fixed; top: 0; left: 0; right: 0;
+  display: flex; justify-content: space-between; align-items: flex-start;
+  padding: max(16px, env(safe-area-inset-top)) 20px 0;
+  pointer-events: none;
+}
+.hud > * { pointer-events: auto; }
+.profile {
+  display: flex; align-items: center; gap: 10px;
+  padding: 6px 18px 6px 6px;
+  background: var(--paper); border: 4px solid var(--ink);
+  border-radius: var(--radius-chip); box-shadow: var(--lift-sm);
+  font-size: 22px;
+}
+.profile img { width: 48px; height: 48px; border-radius: 50%; background: #DDF3FF; }
+.profile .stars { color: var(--ink); font-size: 18px; margin-left: 6px; }
+.profile .stars b { color: #E0A800; }
+.hud-actions { display: flex; gap: 12px; }
+.round-btn {
+  width: 64px; height: 64px; border-radius: 50%;
+  font-size: 30px; box-shadow: var(--lift-sm);
+  display: grid; place-items: center;
+}
+
+/* 樣稿切換（只在樣稿裡出現） */
+.proto-nav {
+  position: fixed; left: 50%; top: max(20px, env(safe-area-inset-top));
+  transform: translateX(-50%);
+  display: flex; gap: 4px; padding: 6px;
+  background: rgba(43, 58, 103, 0.88); border-radius: var(--radius-chip);
+  z-index: 50; max-width: calc(100vw - 24px); overflow-x: auto;
+}
+.proto-nav span { color: #fff; font-size: 14px; padding: 8px 10px 8px 12px; white-space: nowrap; opacity: .8; }
+.proto-nav button {
+  border: 0; background: transparent; color: #fff;
+  font-size: 16px; padding: 8px 14px; border-radius: var(--radius-chip); white-space: nowrap;
+}
+.proto-nav button[aria-pressed="true"] { background: #fff; color: var(--ink); }
+.proto-nav button:active { transform: none; }
+
+/* 草叢提示 */
+.hint {
+  position: fixed; left: 50%; top: 96px; transform: translateX(-50%);
+  background: var(--paper); border: 4px solid var(--ink); border-radius: var(--radius-chip);
+  box-shadow: var(--lift-sm); padding: 10px 22px; font-size: 20px; white-space: nowrap;
+  transition: opacity .3s;
+}
+.hint.hidden { opacity: 0; pointer-events: none; }
+
+/* 虛擬搖桿 */
+.joystick {
+  position: fixed; left: 28px; bottom: 96px; width: 132px; height: 132px;
+  border-radius: 50%; background: rgba(255,255,255,.55); border: 4px solid var(--ink);
+  display: none; touch-action: none;
+}
+.joystick .knob {
+  position: absolute; left: 50%; top: 50%; width: 60px; height: 60px; margin: -30px 0 0 -30px;
+  border-radius: 50%; background: var(--paper); border: 4px solid var(--ink); box-shadow: var(--lift-sm);
+}
+@media (pointer: coarse) { .joystick { display: block; } }
+
+/* ---------- 遭遇 ---------- */
+.vignette {
+  position: fixed; inset: 0; pointer-events: none; opacity: 0; transition: opacity .5s;
+  background: radial-gradient(ellipse at 50% 40%, transparent 30%, rgba(43,58,103,.55) 100%);
+}
+.vignette.on { opacity: 1; }
+
+.banner {
+  position: fixed; left: 50%; bottom: 22%; transform: translate(-50%, 20px) scale(.9);
+  opacity: 0; transition: transform .4s cubic-bezier(.34,1.56,.64,1), opacity .3s;
+  background: var(--paper); border: 4px solid var(--ink); border-radius: 20px; box-shadow: var(--lift);
+  padding: 12px 28px; font-size: 26px; white-space: nowrap; pointer-events: none;
+}
+.banner.on { opacity: 1; transform: translate(-50%, 0) scale(1); }
+.banner strong { font-size: 32px; }
+
+.sheet {
+  position: fixed; left: 50%; bottom: 0; width: min(820px, 100vw);
+  transform: translate(-50%, 110%); transition: transform .45s cubic-bezier(.22,1.2,.36,1);
+  background: var(--paper); border: 4px solid var(--ink); border-bottom: 0;
+  border-radius: var(--radius-sheet) var(--radius-sheet) 0 0;
+  padding: 24px 28px max(28px, env(safe-area-inset-bottom));
+  z-index: 20;
+}
+.sheet.on { transform: translate(-50%, 0); }
+.prompt { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+.speak {
+  flex: none; width: 72px; height: 72px; border-radius: 50%; font-size: 32px;
+  background: var(--star); box-shadow: var(--lift-sm);
+}
+.prompt-text { font-size: 28px; line-height: 1.35; }
+.stage-chip {
+  margin-left: auto; flex: none; font-size: 16px; padding: 6px 14px;
+  border: 3px solid var(--ink); border-radius: var(--radius-chip); background: #EAF8EE;
+}
+
+/* 題目顯示區 */
+.puzzle { display: flex; justify-content: center; align-items: flex-end; gap: 14px; margin: 4px 0 22px; flex-wrap: wrap; }
+.syl {
+  display: flex; gap: 2px; padding: 8px 10px; border: 3px solid var(--ink); border-radius: 16px;
+  background: #F6FAFF; font-size: 34px; min-height: 64px; align-items: center;
+}
+.syl .sym { padding: 0 2px; }
+.slot {
+  display: inline-grid; place-items: center; width: 44px; height: 48px;
+  border: 3px dashed var(--ink); border-radius: 10px; background: #fff; font-size: 30px;
+}
+.slot.filled { border-style: solid; }
+.syl-wrap { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.syl-ch { font-size: 24px; }
+
+/* 漢字＋直排注音（課本式） */
+.han-row { display: flex; gap: 12px; justify-content: center; margin: 0 0 22px; }
+.han {
+  display: flex; align-items: center; gap: 4px; padding: 8px 12px 8px 16px;
+  border: 3px solid var(--ink); border-radius: 18px; background: #FFFBEF;
+}
+.han .ch { font-size: 64px; line-height: 1; }
+.han .zy {
+  position: relative; display: flex; flex-direction: column; font-size: 17px; line-height: 1.05;
+  padding-right: 12px;
+}
+.han .zy .t { position: absolute; right: -2px; top: 50%; transform: translateY(-50%); font-size: 15px; }
+.han .zy .t.neutral { top: -14px; right: auto; left: 50%; transform: translateX(-50%); }
+.han.blank .ch {
+  width: 64px; height: 64px; border: 3px dashed var(--ink); border-radius: 12px;
+  display: grid; place-items: center; font-size: 40px; color: var(--ink);
+}
+
+/* 選項字卡 */
+.options { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; }
+.card {
+  position: relative; width: 132px; height: 156px; padding: 0; overflow: hidden;
+  border-radius: var(--radius-card); box-shadow: var(--lift);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  transition: transform .15s, opacity .3s, filter .3s;
+}
+.card .tab {
+  position: absolute; top: 0; left: 0; right: 0; height: 30px;
+  color: #fff; font-size: 15px; display: grid; place-items: center; letter-spacing: .1em;
+}
+.card .face { font-size: 72px; line-height: 1; margin-top: 22px; }
+.card.han-card .face { font-size: 76px; }
+.card.wrong { opacity: .35; filter: grayscale(1); pointer-events: none; animation: shake .4s; }
+.card.right { animation: pop .5s; background: #EFFFF3; }
+@keyframes shake { 0%,100% { transform: translateX(0) } 25% { transform: translateX(-10px) } 75% { transform: translateX(10px) } }
+@keyframes pop { 0% { transform: scale(1) } 40% { transform: scale(1.15) rotate(-3deg) } 100% { transform: scale(1) } }
+
+.feedback { min-height: 30px; text-align: center; font-size: 20px; margin-top: 18px; }
+
+.c-initial { background: var(--initial); }
+.c-medial { background: var(--medial); }
+.c-final { background: var(--final); }
+.c-tone { background: var(--tone); }
+.t-initial { color: var(--initial); }
+.t-medial { color: var(--medial); }
+.t-final { color: var(--final); }
+.t-tone { color: var(--tone); }
+
+/* ---------- 收服 ---------- */
+.catch {
+  position: fixed; inset: 0; display: grid; place-items: center; z-index: 30;
+  background: rgba(43,58,103,.45); opacity: 0; pointer-events: none; transition: opacity .3s;
+}
+.catch.on { opacity: 1; pointer-events: auto; }
+.catch-card {
+  width: min(440px, calc(100vw - 32px)); text-align: center; padding: 28px 24px 26px;
+  background: var(--paper); border: 4px solid var(--ink); border-radius: var(--radius-sheet); box-shadow: 0 10px 0 var(--ink);
+}
+.ball {
+  width: 112px; height: 112px; margin: 0 auto 10px; border-radius: 50%; position: relative;
+  border: 6px solid var(--ink);
+  background: linear-gradient(180deg, var(--tone) 0 46%, var(--ink) 46% 54%, #fff 54% 100%);
+}
+.ball::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 34px; height: 34px; margin: -17px 0 0 -17px;
+  border-radius: 50%; background: #fff; border: 6px solid var(--ink);
+}
+.catch.on .ball { animation: wobble 1.5s ease-in-out; }
+@keyframes wobble {
+  0%, 100% { transform: rotate(0) } 10% { transform: rotate(-18deg) } 20% { transform: rotate(14deg) } 30% { transform: rotate(0) }
+  45% { transform: rotate(-14deg) } 55% { transform: rotate(10deg) } 65% { transform: rotate(0) }
+  78% { transform: rotate(-8deg) } 86% { transform: rotate(5deg) }
+}
+.catch-sticker { width: 150px; height: 150px; margin: -8px auto 4px; display: none; padding: 10px; border-radius: 50%; background: #DDF3FF; border: 4px solid var(--ink); }
+.catch.done .ball { display: none; }
+.catch.done .catch-sticker { display: block; animation: pop .5s; }
+.catch h2 { margin: 6px 0 4px; font-size: 32px; font-weight: normal; }
+.catch .zy-line { font-size: 22px; margin: 6px 0 8px; }
+.rating { font-size: 40px; letter-spacing: 4px; margin: 4px 0 18px; }
+.rating .off { filter: grayscale(1); opacity: .3; }
+.btn-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.btn {
+  min-height: 64px; padding: 0 26px; border-radius: 20px; font-size: 22px; box-shadow: var(--lift-sm);
+}
+.btn.primary { background: var(--star); }
+
+/* ---------- 收集冊 ---------- */
+.book {
+  position: fixed; inset: 0; z-index: 40; padding: 96px 20px 40px;
+  background: #DDF3FF; overflow-y: auto; display: none;
+  background-image: radial-gradient(#C3E6FA 2px, transparent 2px); background-size: 26px 26px;
+}
+.book.on { display: block; }
+.book-head { max-width: 980px; margin: 0 auto 20px; display: flex; align-items: center; gap: 16px; }
+.book-head h2 { margin: 0; font-size: 34px; font-weight: normal; }
+.book-head .count { font-size: 20px; }
+.book-head .round-btn { margin-left: auto; }
+.progress {
+  max-width: 980px; margin: 0 auto 24px; height: 26px; border: 4px solid var(--ink); border-radius: 999px;
+  background: #fff; overflow: hidden;
+}
+.progress i { display: block; height: 100%; background: var(--grass); border-right: 4px solid var(--ink); }
+.grid { max-width: 980px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 18px; }
+.slot-card {
+  aspect-ratio: 3 / 4; background: #fff; border: 4px solid var(--ink); border-radius: 22px; box-shadow: var(--lift-sm);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; position: relative;
+}
+.slot-card img { width: 78%; aspect-ratio: 1; object-fit: contain; filter: drop-shadow(0 0 0 #fff); }
+.slot-card .no { position: absolute; top: 8px; left: 12px; font-size: 14px; opacity: .6; }
+.slot-card .nm { font-size: 20px; margin-top: 2px; }
+.slot-card .zy-s { font-size: 15px; opacity: .75; }
+.slot-card.unknown { background: #F1F5FA; border-style: dashed; box-shadow: none; }
+.slot-card.unknown img { filter: brightness(0); opacity: .18; }
+.slot-card.gold { border-color: #E0A800; box-shadow: 0 4px 0 #E0A800; }
+.slot-card.gold::after { content: "⭐⭐⭐"; position: absolute; top: 6px; right: 10px; font-size: 12px; }
+
+/* ---------- 手機直向 ---------- */
+@media (max-width: 640px) {
+  .profile { font-size: 18px; padding-right: 14px; }
+  .proto-nav { top: 86px; }
+  .hint { top: 150px; }
+  .profile img { width: 40px; height: 40px; }
+  .round-btn { width: 56px; height: 56px; font-size: 26px; }
+  .sheet { padding: 18px 16px max(20px, env(safe-area-inset-bottom)); }
+  .prompt { gap: 12px; margin-bottom: 14px; }
+  .speak { width: 60px; height: 60px; font-size: 26px; }
+  .prompt-text { font-size: 22px; }
+  .stage-chip { display: none; }
+  .options { gap: 12px; }
+  .card { width: 96px; height: 120px; }
+  .card .face { font-size: 54px; }
+  .card.han-card .face { font-size: 56px; }
+  .puzzle { gap: 8px; flex-wrap: nowrap; }
+  .syl { font-size: 22px; min-height: 46px; padding: 4px 6px; }
+  .syl-ch { font-size: 20px; }
+  .slot { width: 36px; height: 40px; font-size: 24px; }
+  .han .ch { font-size: 48px; }
+  .han.blank .ch { width: 48px; height: 48px; }
+  .banner { font-size: 20px; } .banner strong { font-size: 24px; }
+  .joystick { bottom: 84px; left: 18px; width: 116px; height: 116px; }
+  .grid { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .slot-card .nm { font-size: 15px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
+}
+</style>
+</head>
+<body>
+<canvas id="world" aria-label="注音島 3D 場景"></canvas>
+
+<div class="vignette" id="vignette"></div>
+
+<header class="hud">
+  <div class="profile">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" alt="">
+    <span>妹妹</span>
+    <span class="stars"><b>★</b> 42</span>
+  </div>
+  <div class="hud-actions">
+    <button class="round-btn" id="open-book" aria-label="打開收集冊">📖</button>
+    <button class="round-btn" aria-label="家長區">⚙️</button>
+  </div>
+</header>
+
+<div class="hint" id="hint">草叢在動！走過去看看</div>
+
+<div class="joystick" id="joystick" aria-hidden="true"><div class="knob"></div></div>
+
+<div class="banner" id="banner">野生的 <strong id="banner-name">皮卡丘</strong> 出現了！</div>
+
+<section class="sheet" id="sheet" aria-live="polite">
+  <div class="prompt">
+    <button class="speak" id="speak" aria-label="再聽一次">🔊</button>
+    <div class="prompt-text" id="prompt-text"></div>
+    <span class="stage-chip" id="stage-chip"></span>
+  </div>
+  <div id="puzzle"></div>
+  <div class="options" id="options"></div>
+  <div class="feedback" id="feedback"></div>
+</section>
+
+<div class="catch" id="catch">
+  <div class="catch-card">
+    <div class="ball"></div>
+    <img class="catch-sticker" id="catch-sticker" alt="">
+    <h2 id="catch-title">收服了皮卡丘！</h2>
+    <div class="zy-line" id="catch-zy"></div>
+    <div class="rating" id="rating"></div>
+    <div class="btn-row">
+      <button class="btn" id="btn-continue">繼續探索</button>
+      <button class="btn primary" id="btn-book">打開收集冊</button>
+    </div>
+  </div>
+</div>
+
+<section class="book" id="book">
+  <div class="book-head">
+    <h2>我的收集冊</h2>
+    <span class="count" id="book-count"></span>
+    <button class="round-btn" id="close-book" aria-label="關閉收集冊">✕</button>
+  </div>
+  <div class="progress"><i id="book-progress"></i></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<nav class="proto-nav" aria-label="樣稿切換">
+  <span>樣稿</span>
+  <button data-mode="explore" aria-pressed="true">探索</button>
+  <button data-mode="learn">🌱 學注音</button>
+  <button data-mode="spell">🌿 拼注音</button>
+  <button data-mode="read">🌳 認字</button>
+  <button data-mode="book">📖 收集冊</button>
+</nav>
+
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js" } }
+</script>
+<script type="module">
+import * as THREE from 'three';
+
+// ------------------------------------------------------------------
+// 資料（取自 public/data/pokemon-zhuyin.json）
+// ------------------------------------------------------------------
+const POKEMON = [{"id":25,"name":"皮卡丘","zy":["ㄆㄧˊ","ㄎㄚˇ","ㄑㄧㄡ"]},{"id":1,"name":"妙蛙種子","zy":["ㄇㄧㄠˋ","ㄨㄚ","ㄓㄨㄥˇ","ㄗˇ"]},{"id":4,"name":"小火龍","zy":["ㄒㄧㄠˇ","ㄏㄨㄛˇ","ㄌㄨㄥˊ"]},{"id":7,"name":"傑尼龜","zy":["ㄐㄧㄝˊ","ㄋㄧˊ","ㄍㄨㄟ"]},{"id":16,"name":"波波","zy":["ㄅㄛ","ㄅㄛ"]},{"id":19,"name":"小拉達","zy":["ㄒㄧㄠˇ","ㄌㄚ","ㄉㄚˊ"]},{"id":54,"name":"可達鴨","zy":["ㄎㄜˇ","ㄉㄚˊ","ㄧㄚ"]},{"id":39,"name":"胖丁","zy":["ㄆㄤˋ","ㄉㄧㄥ"]},{"id":52,"name":"喵喵","zy":["ㄇㄧㄠ","ㄇㄧㄠ"]},{"id":133,"name":"伊布","zy":["ㄧ","ㄅㄨˋ"]},{"id":43,"name":"走路草","zy":["ㄗㄡˇ","ㄌㄨˋ","ㄘㄠˇ"]},{"id":10,"name":"綠毛蟲","zy":["ㄌㄩˋ","ㄇㄠˊ","ㄔㄨㄥˊ"]},{"id":74,"name":"小拳石","zy":["ㄒㄧㄠˇ","ㄑㄩㄢˊ","ㄕˊ"]},{"id":120,"name":"海星星","zy":["ㄏㄞˇ","ㄒㄧㄥ","ㄒㄧㄥ"]},{"id":129,"name":"鯉魚王","zy":["ㄌㄧˇ","ㄩˊ","ㄨㄤˊ"]},{"id":35,"name":"皮皮","zy":["ㄆㄧˊ","ㄆㄧˊ"]},{"id":79,"name":"呆呆獸","zy":["ㄉㄞ","ㄉㄞ","ㄕㄡˋ"]},{"id":104,"name":"卡拉卡拉","zy":["ㄎㄚˇ","ㄌㄚ","ㄎㄚˇ","ㄌㄚ"]}];
+const byId = Object.fromEntries(POKEMON.map(p => [p.id, p]));
+const art = id => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
+const CAUGHT = new Set([7, 16, 19, 10, 43, 52]);
+const GOLD = new Set([7, 16]);
+
+const INITIALS = 'ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙ';
+const MEDIALS = 'ㄧㄨㄩ';
+const TONES = 'ˊˇˋ˙';
+const kind = s => INITIALS.includes(s) ? 'initial' : MEDIALS.includes(s) ? 'medial' : TONES.includes(s) ? 'tone' : 'final';
+const KIND_LABEL = { initial: '聲母', medial: '介音', final: '韻母', tone: '聲調' };
+
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// ------------------------------------------------------------------
+// 3D 場景
+// ------------------------------------------------------------------
+const canvas = document.getElementById('world');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+const isSmall = Math.min(innerWidth, innerHeight) < 600;
+renderer.setPixelRatio(Math.min(devicePixelRatio, isSmall ? 1.5 : 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+const scene = new THREE.Scene();
+scene.fog = new THREE.Fog(0xE4F6FF, 40, 80);
+const camera = new THREE.PerspectiveCamera(34, innerWidth / innerHeight, 0.1, 200);
+
+scene.add(new THREE.HemisphereLight(0xFFFFFF, 0xA8D8A0, 1.6));
+const sun = new THREE.DirectionalLight(0xFFF1D6, 2.4);
+sun.position.set(-10, 22, 12);
+sun.castShadow = true;
+sun.shadow.mapSize.set(isSmall ? 1024 : 2048, isSmall ? 1024 : 2048);
+Object.assign(sun.shadow.camera, { left: -20, right: 20, top: 20, bottom: -20, near: 1, far: 60 });
+sun.shadow.bias = -0.0008;
+scene.add(sun);
+
+const mat = (color, extra = {}) => new THREE.MeshStandardMaterial({ color, flatShading: true, roughness: 0.9, ...extra });
+const rand = (a, b) => a + Math.random() * (b - a);
+let seed = 7;
+const srand = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+const srange = (a, b) => a + srand() * (b - a);
+
+// 小島：沙灘 → 草地 → 下方的土層，像浮在空中的模型
+const island = new THREE.Group();
+scene.add(island);
+const TOP = 0;
+const RADIUS = 13;
+
+const sand = new THREE.Mesh(new THREE.CylinderGeometry(15, 15.4, 1, 36), mat(0xFFE3A3));
+sand.position.y = TOP - 0.62; sand.receiveShadow = true; island.add(sand);
+
+const grassTop = new THREE.Mesh(new THREE.CylinderGeometry(12.6, 13, 1, 36), mat(0x7BD389));
+grassTop.position.set(1.4, TOP - 0.5, -0.6); grassTop.receiveShadow = true; island.add(grassTop);
+
+const dirt1 = new THREE.Mesh(new THREE.CylinderGeometry(15.4, 10, 3.2, 14), mat(0xD9965F));
+dirt1.position.y = TOP - 2.7; island.add(dirt1);
+const dirt2 = new THREE.Mesh(new THREE.CylinderGeometry(10, 3.5, 4, 10), mat(0xB97A4A));
+dirt2.position.y = TOP - 6.3; island.add(dirt2);
+const dirt3 = new THREE.Mesh(new THREE.ConeGeometry(3.5, 3, 8), mat(0x9A6440));
+dirt3.rotation.x = Math.PI; dirt3.position.y = TOP - 9.8; island.add(dirt3);
+
+// 小池塘，在沙灘邊
+const pond = new THREE.Mesh(new THREE.CylinderGeometry(3.2, 3.2, 0.2, 24), mat(0x4FC3E8, { roughness: 0.3, metalness: 0.1 }));
+pond.position.set(-9.2, TOP - 0.05, 4.6); pond.scale.set(1, 1, 0.75); island.add(pond);
+
+// 樹：棒棒糖造型
+const treeColors = [0x4FB477, 0x6CC77C, 0x3FA36B, 0x8BD46A];
+function tree(x, z, s = 1) {
+  const g = new THREE.Group();
+  const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.22 * s, 0.32 * s, 1.4 * s, 6), mat(0xA8703F));
+  trunk.position.y = 0.7 * s; trunk.castShadow = true; g.add(trunk);
+  const crown = new THREE.Mesh(new THREE.IcosahedronGeometry(1.15 * s, 0), mat(treeColors[Math.floor(srand() * treeColors.length)]));
+  crown.position.y = 2.0 * s; crown.rotation.set(srand(), srand(), srand()); crown.castShadow = true; g.add(crown);
+  if (srand() > 0.5) {
+    const top = new THREE.Mesh(new THREE.IcosahedronGeometry(0.75 * s, 0), crown.material);
+    top.position.set(0.3 * s, 2.9 * s, 0.1 * s); top.castShadow = true; g.add(top);
+  }
+  g.position.set(x, TOP, z);
+  island.add(g);
+  return g;
+}
+const treeSpots = [[-4, -9], [-1, -10.5], [3, -10], [7, -8], [10, -4.5], [11.5, 0.5], [10.5, 5], [7.5, 8.5], [-7, -7], [-10, -3], [4.5, 9.8], [0.5, -7.5], [8, -1.5]];
+treeSpots.forEach(([x, z]) => tree(x, z, srange(0.85, 1.25)));
+
+// 石頭：圓潤的麻糬石
+function rock(x, z, s) {
+  const r = new THREE.Mesh(new THREE.DodecahedronGeometry(s, 0), mat(0xC4BEDA));
+  r.scale.y = 0.65; r.position.set(x, TOP + s * 0.3, z); r.rotation.y = srand() * 3; r.castShadow = true; r.receiveShadow = true;
+  island.add(r);
+}
+[[-6, -4, 0.8], [-5.2, -3.4, 0.45], [5, 6, 0.6], [-11.5, 1.5, 0.7], [2, 7.5, 0.4]].forEach(a => rock(...a));
+
+// 小草和花
+const tuftGeo = new THREE.ConeGeometry(0.12, 0.45, 4);
+const tuftMat = mat(0x58B96E);
+for (let i = 0; i < 160; i++) {
+  const a = srand() * Math.PI * 2, d = Math.sqrt(srand()) * 11.5;
+  const x = 1.4 + Math.cos(a) * d, z = -0.6 + Math.sin(a) * d;
+  const t = new THREE.Mesh(tuftGeo, tuftMat);
+  t.position.set(x, TOP + 0.2, z); t.rotation.z = srange(-0.3, 0.3);
+  island.add(t);
+}
+const flowerColors = [0xFF8FB1, 0xFFC93C, 0xFFFFFF, 0xB59CFF];
+for (let i = 0; i < 26; i++) {
+  const a = srand() * Math.PI * 2, d = 3 + srand() * 8;
+  const f = new THREE.Mesh(new THREE.IcosahedronGeometry(0.16, 0), mat(flowerColors[i % 4]));
+  f.position.set(1.4 + Math.cos(a) * d, TOP + 0.3, -0.6 + Math.sin(a) * d);
+  island.add(f);
+}
+
+// 高草叢：寶可夢藏身的地方
+const tallMat = mat(0x3E9E5C);
+const tallGeo = new THREE.ConeGeometry(0.28, 1.5, 4);
+function grassPatch(cx, cz) {
+  const g = new THREE.Group();
+  for (let i = 0; i < 16; i++) {
+    const b = new THREE.Mesh(tallGeo, tallMat);
+    const a = (i / 16) * Math.PI * 2 + srand(), d = srand() * 1.3;
+    b.position.set(Math.cos(a) * d, 0.7, Math.sin(a) * d);
+    b.rotation.set(srange(-.15, .15), 0, srange(-.15, .15));
+    b.castShadow = true; g.add(b);
+  }
+  g.position.set(cx, TOP, cz);
+  island.add(g);
+  return g;
+}
+const patches = [grassPatch(4.5, 2), grassPatch(-2.5, 5.5), grassPatch(6.5, -5)];
+const activePatch = patches[0];
+
+// 雲
+const cloudMat = new THREE.MeshStandardMaterial({ color: 0xFFFFFF, flatShading: true, roughness: 1 });
+const clouds = [];
+function cloud(x, y, z, s) {
+  const g = new THREE.Group();
+  [[0, 0, 0, 1.6], [1.6, -0.2, 0.3, 1.2], [-1.5, -0.3, 0, 1.1], [0.4, 0.7, -0.2, 1]].forEach(([px, py, pz, r]) => {
+    const m = new THREE.Mesh(new THREE.IcosahedronGeometry(r * s, 1), cloudMat);
+    m.position.set(px * s, py * s, pz * s); g.add(m);
+  });
+  g.position.set(x, y, z); scene.add(g); clouds.push(g);
+}
+cloud(-20, -4, -8, 1.4); cloud(19, -6, -4, 1.7); cloud(-14, -9, 10, 1.3); cloud(16, 2, -16, 1.1); cloud(-6, -12, -4, 2); cloud(9, -11, 9, 1.6);
+
+// 玩家：簡單的 Q 版小訓練家
+const player = new THREE.Group();
+const body = new THREE.Mesh(new THREE.CapsuleGeometry(0.45, 0.55, 4, 10), mat(0x3D7BF7));
+body.position.y = 0.75; body.castShadow = true; player.add(body);
+const head = new THREE.Mesh(new THREE.SphereGeometry(0.52, 16, 12), mat(0xFFD9B3, { flatShading: false }));
+head.position.y = 1.75; head.castShadow = true; player.add(head);
+const cap = new THREE.Mesh(new THREE.SphereGeometry(0.55, 16, 8, 0, Math.PI * 2, 0, Math.PI / 2), mat(0xF2545B, { flatShading: false }));
+cap.position.y = 1.82; player.add(cap);
+const brim = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.42, 0.08, 16, 1, false, -Math.PI / 2, Math.PI), mat(0xF2545B));
+brim.position.set(0, 1.84, 0.28); player.add(brim);
+const eyeMat = new THREE.MeshBasicMaterial({ color: 0x2B3A67 });
+[-0.17, 0.17].forEach(x => {
+  const e = new THREE.Mesh(new THREE.SphereGeometry(0.07, 8, 8), eyeMat);
+  e.position.set(x, 1.72, 0.47); player.add(e);
+});
+player.position.set(-1, TOP, 1);
+scene.add(player);
+
+// 貼紙：寶可夢圖片加上白色粗邊和深藍墨線
+const loader = new THREE.ImageLoader().setCrossOrigin('anonymous');
+function stickerTexture(id) {
+  const size = 512, pad = 40;
+  const c = document.createElement('canvas'); c.width = c.height = size;
+  const tex = new THREE.CanvasTexture(c); tex.colorSpace = THREE.SRGBColorSpace;
+  loader.load(art(id), img => {
+    const ctx = c.getContext('2d');
+    const inner = size - pad * 2;
+    const sil = (color) => {
+      const s = document.createElement('canvas'); s.width = s.height = size;
+      const sc = s.getContext('2d');
+      sc.drawImage(img, pad, pad, inner, inner);
+      sc.globalCompositeOperation = 'source-in'; sc.fillStyle = color; sc.fillRect(0, 0, size, size);
+      return s;
+    };
+    const ink = sil('#2B3A67'), white = sil('#FFFFFF');
+    const ring = (s, r) => { for (let i = 0; i < 32; i++) { const a = i / 32 * Math.PI * 2; ctx.drawImage(s, Math.cos(a) * r, Math.sin(a) * r); } };
+    ring(ink, 20); ring(white, 16);
+    ctx.drawImage(img, pad, pad, inner, inner);
+    tex.needsUpdate = true;
+  });
+  return tex;
+}
+const shadowTex = (() => {
+  const c = document.createElement('canvas'); c.width = c.height = 128;
+  const g = c.getContext('2d').createRadialGradient(64, 64, 4, 64, 64, 64);
+  g.addColorStop(0, 'rgba(43,58,103,.45)'); g.addColorStop(1, 'rgba(43,58,103,0)');
+  const ctx = c.getContext('2d'); ctx.fillStyle = g; ctx.fillRect(0, 0, 128, 128);
+  return new THREE.CanvasTexture(c);
+})();
+function sticker(id, scale = 2.4) {
+  const g = new THREE.Group();
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: stickerTexture(id), transparent: true, alphaTest: 0.05 }));
+  sp.scale.set(scale, scale, 1); sp.position.y = scale * 0.5; sp.center.set(0.5, 0.08);
+  sp.position.y = 0; g.add(sp);
+  const sh = new THREE.Mesh(new THREE.PlaneGeometry(scale * 0.8, scale * 0.45), new THREE.MeshBasicMaterial({ map: shadowTex, transparent: true, depthWrite: false }));
+  sh.rotation.x = -Math.PI / 2; sh.position.y = 0.03; g.add(sh);
+  g.userData = { sprite: sp, base: scale, phase: Math.random() * 6 };
+  scene.add(g);
+  return g;
+}
+
+const partner = sticker(7, 2.3);
+partner.position.set(-2.2, TOP, 2.2);
+const wanderers = [
+  { s: sticker(16, 2.5), home: new THREE.Vector3(-6, TOP, -1), r: 2.2 },
+  { s: sticker(10, 2.0), home: new THREE.Vector3(2, TOP, -6), r: 1.8 },
+  { s: sticker(43, 2.1), home: new THREE.Vector3(-3, TOP, 8), r: 1.5 },
+  { s: sticker(129, 2.4), home: new THREE.Vector3(-9.2, TOP + 0.1, 4.6), r: 1.4 },
+];
+let wild = null; // 遭遇時才從草叢裡跳出來
+
+// 點擊地面的目標圈
+const marker = new THREE.Mesh(new THREE.RingGeometry(0.35, 0.5, 24), new THREE.MeshBasicMaterial({ color: 0xFFFFFF, transparent: true, opacity: 0.9 }));
+marker.rotation.x = -Math.PI / 2; marker.visible = false; scene.add(marker);
+
+// ------------------------------------------------------------------
+// 操作：鍵盤、點擊地面、虛擬搖桿
+// ------------------------------------------------------------------
+const keys = new Set();
+addEventListener('keydown', e => keys.add(e.key.toLowerCase()));
+addEventListener('keyup', e => keys.delete(e.key.toLowerCase()));
+let target = null;
+const ray = new THREE.Raycaster();
+const groundPlane = new THREE.Plane(new THREE.Vector3(0, 1, 0), -TOP);
+canvas.addEventListener('pointerdown', e => {
+  if (state !== 'explore') return;
+  const p = new THREE.Vector2((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
+  ray.setFromCamera(p, camera);
+  const hit = new THREE.Vector3();
+  if (ray.ray.intersectPlane(groundPlane, hit)) { target = hit; marker.position.set(hit.x, TOP + 0.05, hit.z); marker.visible = true; }
+});
+const joy = document.getElementById('joystick'), knob = joy.querySelector('.knob');
+const joyVec = new THREE.Vector2();
+joy.addEventListener('pointerdown', e => { joy.setPointerCapture(e.pointerId); moveJoy(e); });
+joy.addEventListener('pointermove', e => { if (joy.hasPointerCapture(e.pointerId)) moveJoy(e); });
+joy.addEventListener('pointerup', () => { joyVec.set(0, 0); knob.style.transform = ''; });
+function moveJoy(e) {
+  const r = joy.getBoundingClientRect();
+  const v = new THREE.Vector2(e.clientX - r.left - r.width / 2, e.clientY - r.top - r.height / 2);
+  const max = r.width / 2 - 20; if (v.length() > max) v.setLength(max);
+  knob.style.transform = `translate(${v.x}px, ${v.y}px)`;
+  joyVec.set(v.x / max, v.y / max); target = null; marker.visible = false;
+}
+
+// ------------------------------------------------------------------
+// 遊戲狀態與畫面流程
+// ------------------------------------------------------------------
+let state = 'explore';
+let mode = 'learn';
+const $ = id => document.getElementById(id);
+const camOffset = new THREE.Vector3(0, 21, 24);
+const camLook = new THREE.Vector3();
+const camPos = new THREE.Vector3();
+let camFocus = null;
+let viewShift = 0;
+
+function speak(text) {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text); u.lang = 'zh-TW'; u.rate = 0.85;
+  speechSynthesis.speak(u);
+}
+
+const CHALLENGES = {
+  learn: { id: 25, chip: '🌱 學注音', prompt: '皮卡丘的第一個音是哪一個？', say: '皮卡丘的第一個音是哪一個？' },
+  spell: { id: 25, chip: '🌿 拼注音', prompt: '「丘」少了哪一個注音？', say: '皮卡丘的丘，少了哪一個注音？' },
+  read: { id: 25, chip: '🌳 認字', prompt: '皮卡丘的「ㄎㄚˇ」是哪一個字？', say: '皮卡丘的卡，是哪一個字？' },
+};
+
+function symSpan(s) { return `<span class="sym t-${kind(s)}">${s}</span>`; }
+function sylHTML(zy, blankIndex = -1, fill = '') {
+  return `<div class="syl">${[...zy].map((s, i) => i === blankIndex
+    ? `<span class="slot ${fill ? 'filled' : ''}" id="slot">${fill ? symSpan(fill) : ''}</span>` : symSpan(s)).join('')}</div>`;
+}
+// 每格注音上方標出對應的漢字，題目說「丘」時才找得到是哪一格
+function namePuzzle(p, blankSyl, blankIndex, fill = '') {
+  const chars = [...p.name];
+  return `<div class="puzzle">${p.zy.map((z, i) => `<div class="syl-wrap"><span class="syl-ch">${chars[i]}</span>${sylHTML(z, i === blankSyl ? blankIndex : -1, i === blankSyl ? fill : '')}</div>`).join('')}</div>`;
+}
+function hanHTML(ch, zy, blank = false) {
+  const syms = [...zy].filter(s => !TONES.includes(s));
+  const tone = [...zy].find(s => TONES.includes(s));
+  const col = `<span class="zy">${syms.map(s => `<span>${s}</span>`).join('')}${tone ? `<span class="t ${tone === '˙' ? 'neutral' : ''}">${tone}</span>` : ''}</span>`;
+  return `<div class="han ${blank ? 'blank' : ''}" ${blank ? 'id="han-blank"' : ''}><span class="ch">${blank ? '？' : ch}</span>${col}</div>`;
+}
+function cardHTML(face, k, opts = '') {
+  return `<button class="card ${opts}" data-face="${face}"><span class="tab c-${k}">${KIND_LABEL[k]}</span><span class="face">${face}</span></button>`;
+}
+
+function renderChallenge() {
+  const c = CHALLENGES[mode], p = byId[c.id];
+  $('stage-chip').textContent = c.chip;
+  $('prompt-text').textContent = c.prompt;
+  $('feedback').textContent = '';
+  let puzzle = '', options = [], answer = '';
+  if (mode === 'learn') {
+    puzzle = namePuzzle(p, 0, 0);
+    answer = 'ㄆ'; options = ['ㄅ', 'ㄆ', 'ㄇ'];
+    $('options').innerHTML = options.map(o => cardHTML(o, kind(o))).join('');
+  } else if (mode === 'spell') {
+    puzzle = namePuzzle(p, 2, 1);
+    answer = 'ㄧ'; options = ['ㄨ', 'ㄧ', 'ㄩ'];
+    $('options').innerHTML = options.map(o => cardHTML(o, kind(o))).join('');
+  } else {
+    puzzle = `<div class="han-row">${hanHTML('皮', p.zy[0])}${hanHTML('卡', p.zy[1], true)}${hanHTML('丘', p.zy[2])}</div>`;
+    answer = '卡'; options = ['下', '卡', '卞'];
+    $('options').innerHTML = options.map(o => `<button class="card han-card" data-face="${o}"><span class="tab" style="background:var(--ink)">漢字</span><span class="face">${o}</span></button>`).join('');
+  }
+  $('puzzle').innerHTML = puzzle;
+  let mistakes = 0;
+  $('options').querySelectorAll('.card').forEach(btn => btn.addEventListener('click', () => {
+    if (btn.dataset.face === answer) {
+      btn.classList.add('right');
+      if (mode === 'spell') $('puzzle').innerHTML = namePuzzle(p, 2, 1, answer);
+      if (mode === 'learn') $('puzzle').innerHTML = namePuzzle(p, 0, 0, answer);
+      if (mode === 'read') $('han-blank').outerHTML = hanHTML('卡', p.zy[1]);
+      $('feedback').textContent = '答對了！';
+      speak('答對了！');
+      setTimeout(() => startCatch(p, mistakes), 900);
+    } else {
+      mistakes++;
+      btn.classList.add('wrong');
+      $('feedback').textContent = mistakes === 1 ? '再聽一次，仔細聽喔！' : '答案在這裡，點點看！';
+      if (mistakes >= 2) $('options').querySelector(`[data-face="${answer}"]`).style.boxShadow = '0 0 0 6px var(--star), 0 6px 0 var(--ink)';
+      speak(c.say);
+    }
+  }));
+}
+
+function startEncounter(m = mode) {
+  if (state === 'encounter') return;
+  mode = m; state = 'encounter';
+  $('hint').classList.add('hidden');
+  if (!wild) wild = sticker(25, 2.6);
+  wild.position.copy(activePatch.position).add(new THREE.Vector3(0.3, 0, 2.3));
+  wild.userData.pop = 0;
+  camFocus = wild.position.clone();
+  $('vignette').classList.add('on');
+  $('banner-name').textContent = byId[25].name;
+  $('banner').classList.add('on');
+  speak('野生的皮卡丘出現了！');
+  setTimeout(() => {
+    $('banner').classList.remove('on');
+    renderChallenge();
+    $('sheet').classList.add('on');
+    setTimeout(() => speak(CHALLENGES[mode].say), 400);
+  }, 1500);
+}
+
+function startCatch(p, mistakes) {
+  $('sheet').classList.remove('on');
+  const stars = Math.max(1, 3 - mistakes);
+  $('catch-title').textContent = `收服了${p.name}！`;
+  $('catch-zy').innerHTML = p.zy.map(z => [...z].map(symSpan).join('')).join('　');
+  $('rating').innerHTML = [0, 1, 2].map(i => `<span class="${i < stars ? '' : 'off'}">⭐</span>`).join('');
+  $('catch-sticker').src = art(p.id);
+  const box = $('catch'); box.classList.remove('done'); box.classList.add('on');
+  setTimeout(() => { box.classList.add('done'); speak(`收服了${p.name}！`); }, reduceMotion ? 100 : 1600);
+  CAUGHT.add(p.id); if (stars === 3) GOLD.add(p.id);
+}
+
+function endEncounter() {
+  $('catch').classList.remove('on', 'done');
+  $('sheet').classList.remove('on');
+  $('banner').classList.remove('on');
+  $('vignette').classList.remove('on');
+  if (wild) { scene.remove(wild); wild = null; }
+  camFocus = null; state = 'explore';
+  player.position.set(-1, TOP, 1); target = null; marker.visible = false;
+  setNav('explore');
+}
+
+function renderBook() {
+  const all = POKEMON.slice().sort((a, b) => a.id - b.id);
+  $('book-count').textContent = `已收集 ${CAUGHT.size} ／ 151`;
+  $('book-progress').style.width = `${(CAUGHT.size / 151) * 100}%`;
+  $('grid').innerHTML = all.map(p => {
+    const got = CAUGHT.has(p.id);
+    return `<div class="slot-card ${got ? '' : 'unknown'} ${GOLD.has(p.id) ? 'gold' : ''}">
+      <span class="no">#${String(p.id).padStart(3, '0')}</span>
+      <img src="${art(p.id)}" alt="${got ? p.name : '還沒收服'}" loading="lazy">
+      <span class="nm">${got ? p.name : '？？？'}</span>
+      <span class="zy-s">${got ? p.zy.join(' ') : ''}</span>
+    </div>`;
+  }).join('');
+}
+function openBook() { renderBook(); $('book').classList.add('on'); setNav('book'); }
+function closeBook() { $('book').classList.remove('on'); setNav(state === 'explore' ? 'explore' : mode); }
+
+$('open-book').onclick = openBook;
+$('close-book').onclick = closeBook;
+$('btn-book').onclick = () => { endEncounter(); openBook(); };
+$('btn-continue').onclick = endEncounter;
+$('speak').onclick = () => speak(CHALLENGES[mode].say);
+
+function setNav(m) { document.querySelectorAll('.proto-nav button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === m))); }
+document.querySelectorAll('.proto-nav button').forEach(b => b.addEventListener('click', () => {
+  const m = b.dataset.mode;
+  $('book').classList.remove('on');
+  if (m === 'book') return openBook();
+  if (state === 'encounter') endEncounter();
+  setNav(m);
+  if (m !== 'explore') setTimeout(() => startEncounter(m), 50);
+}));
+
+// ------------------------------------------------------------------
+// 主迴圈
+// ------------------------------------------------------------------
+const clock = new THREE.Clock();
+const tmp = new THREE.Vector3();
+function tick() {
+  const dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
+
+  // 玩家移動
+  const move = new THREE.Vector3();
+  if (state === 'explore') {
+    if (keys.has('w') || keys.has('arrowup')) move.z -= 1;
+    if (keys.has('s') || keys.has('arrowdown')) move.z += 1;
+    if (keys.has('a') || keys.has('arrowleft')) move.x -= 1;
+    if (keys.has('d') || keys.has('arrowright')) move.x += 1;
+    if (joyVec.lengthSq() > 0.01) move.set(joyVec.x, 0, joyVec.y);
+    if (move.lengthSq() > 0) { target = null; marker.visible = false; }
+    if (target) {
+      tmp.subVectors(target, player.position); tmp.y = 0;
+      if (tmp.length() < 0.15) { target = null; marker.visible = false; } else move.copy(tmp).normalize();
+    }
+  }
+  const moving = move.lengthSq() > 0;
+  if (moving) {
+    if (move.length() > 1) move.normalize();
+    player.position.addScaledVector(move, dt * 5.2);
+    const c = new THREE.Vector2(player.position.x - 0.6, player.position.z - 0.2);
+    if (c.length() > RADIUS) { c.setLength(RADIUS); player.position.x = c.x + 0.6; player.position.z = c.y + 0.2; }
+    player.rotation.y = THREE.MathUtils.lerp(player.rotation.y, Math.atan2(move.x, move.z), 0.25);
+  }
+  const bob = moving && !reduceMotion ? Math.abs(Math.sin(t * 12)) * 0.12 : 0;
+  body.position.y = 0.75 + bob; head.position.y = 1.75 + bob; cap.position.y = 1.82 + bob; brim.position.y = 1.84 + bob;
+  player.children.slice(4).forEach(e => (e.position.y = 1.72 + bob));
+
+  // 夥伴跟在後面
+  tmp.copy(player.position).add(new THREE.Vector3(-1.2, 0, 1.0));
+  partner.position.lerp(tmp, Math.min(1, dt * 3));
+
+  // 貼紙彈跳
+  const stickers = [partner, ...wanderers.map(w => w.s), ...(wild ? [wild] : [])];
+  stickers.forEach(s => {
+    const u = s.userData, sp = u.sprite;
+    const hop = reduceMotion ? 0 : Math.abs(Math.sin(t * 3 + u.phase)) * 0.18;
+    sp.position.y = hop;
+    sp.scale.set(u.base * (1 + hop * 0.15), u.base * (1 - hop * 0.08), 1);
+  });
+  wanderers.forEach((w, i) => {
+    const a = t * 0.35 + i * 2;
+    w.s.position.set(w.home.x + Math.cos(a) * w.r, w.home.y, w.home.z + Math.sin(a * 1.3) * w.r * 0.6);
+  });
+  if (wild) {
+    wild.userData.pop = Math.min(1, (wild.userData.pop || 0) + dt * 2.5);
+    const k = wild.userData.pop, e = 1 + 2.7 * Math.pow(k - 1, 3) + 1.7 * Math.pow(k - 1, 2);
+    wild.userData.base = 2.6 * e;
+  }
+
+  // 草叢晃動
+  patches.forEach(p => (p.rotation.z = 0));
+  if (state === 'explore' && !reduceMotion) {
+    activePatch.rotation.z = Math.sin(t * 18) * 0.05 * (Math.sin(t * 2) > 0 ? 1 : 0.15);
+  }
+
+  // 走進草叢就遭遇
+  if (state === 'explore') {
+    tmp.subVectors(player.position, activePatch.position); tmp.y = 0;
+    if (tmp.length() < 1.6) { setNav('learn'); startEncounter('learn'); }
+  }
+
+  // 雲飄動
+  clouds.forEach((c, i) => { c.position.x += Math.sin(t * 0.1 + i) * dt * 0.3; });
+
+  // 鏡頭：固定斜上方，跟著玩家；遭遇時拉近
+  const focus = camFocus ?? player.position;
+  const off = camFocus ? new THREE.Vector3(-4, 6, 6.5) : camOffset;
+  const portrait = innerHeight > innerWidth;
+  camPos.copy(focus).add(portrait ? off.clone().multiplyScalar(camFocus ? 2.0 : 1.35) : off);
+  camera.position.lerp(camPos, Math.min(1, dt * 3));
+  tmp.copy(focus).add(new THREE.Vector3(0, camFocus ? 1.2 : 0, 0));
+  camLook.lerp(tmp, Math.min(1, dt * 3));
+  camera.lookAt(camLook);
+  // 遭遇時把畫面往上平移，讓寶可夢落在挑戰面板上方
+  const wantShift = camFocus ? (portrait ? 0.1 : 0.24) : 0;
+  viewShift += (wantShift - viewShift) * Math.min(1, dt * 3);
+  if (viewShift > 0.001) camera.setViewOffset(innerWidth, innerHeight, 0, innerHeight * viewShift, innerWidth, innerHeight);
+  else camera.clearViewOffset();
+
+  renderer.render(scene, camera);
+  requestAnimationFrame(tick);
+}
+camera.position.copy(player.position).add(camOffset);
+camLook.copy(player.position);
+tick();
+
+addEventListener('resize', () => {
+  camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+</script>
+</body>
+</html>
