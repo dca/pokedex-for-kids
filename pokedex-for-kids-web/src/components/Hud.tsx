@@ -19,7 +19,7 @@ export function Hud({ nickname, avatar, caughtCount, zoneName, badges, hint, onB
       <header className={styles.hud}>
         <div className={styles.profile}>
           <Avatar id={avatar} size={52} />
-          <span>{nickname}</span>
+          <span className={styles.name}>{nickname}</span>
           <span className={styles.meta} aria-label={`已收集 ${caughtCount} 隻，徽章 ${badges} 個`}>
             📒 {caughtCount}　🏅 {badges}
           </span>

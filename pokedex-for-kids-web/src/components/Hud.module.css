@@ -22,7 +22,7 @@
 
 @media (max-width: 640px) {
   .profile { font-size: 16px; padding-right: 12px; }
-  .meta { display: none; }
+  .name { display: none; }
   .zone { display: none; }
   .hint { top: 110px; font-size: 16px; }
 }

@@ -1,6 +1,6 @@
 // 3D 場景的組合：燈光、小島、裝飾、草叢、道館、玩家、夥伴、遭遇的寶可夢。
 // 畫面掉格時自動降低畫質（FR-082），手機從低畫質開始。
-import { Suspense, useCallback, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { Canvas, type ThreeEvent } from '@react-three/fiber'
 import { PerformanceMonitor } from '@react-three/drei'
 import * as THREE from 'three'
@@ -10,7 +10,7 @@ import { Decor } from './Decor'
 import { TallGrass } from './TallGrass'
 import { GymBuilding } from './GymBuilding'
 import { Player } from './Player'
-import { Sticker } from './Sticker'
+import { SafeSticker } from './SafeSticker'
 import { CameraRig } from './CameraRig'
 import { allPatches, walkable, ZONES, type PatchRef } from './layout'
 import { runtime } from './runtime'
@@ -111,10 +111,8 @@ export function GameCanvas(props: GameCanvasProps) {
           onEnterPatch={props.onEnterPatch}
           onEnterGym={props.onEnterGym}
         />
-        <Suspense fallback={null}>
-          {partnerId && <Sticker key={`partner-${partnerId}`} id={partnerId} scale={2.2} reducedMotion={reducedMotion} follow={followPlayer} />}
-          {wild && <Sticker key={`wild-${wild.id}`} id={wild.id} scale={2.6} reducedMotion={reducedMotion} position={[wild.x, 0, wild.z]} popIn />}
-        </Suspense>
+        {partnerId && <SafeSticker key={`partner-${partnerId}`} id={partnerId} scale={2.2} reducedMotion={reducedMotion} follow={followPlayer} />}
+        {wild && <SafeSticker key={`wild-${wild.id}`} id={wild.id} scale={2.6} reducedMotion={reducedMotion} position={[wild.x, 0, wild.z]} popIn />}
         <CameraRig reducedMotion={reducedMotion} />
       </Canvas>
     </div>

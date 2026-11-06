@@ -3,3 +3,4 @@
 
 # Claude Code 個人設定
 .claude/settings.local.json
+.playwright-mcp/

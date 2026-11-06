@@ -280,7 +280,8 @@
   - 前端用 `next dev`，在 `next.config.js` 裡設定 rewrites，把 `/api` 轉到 `localhost:8080`。
   - 同源的 cookie 行為和正式環境一致。
   - Next 的 rewrites 只在 dev 有效，靜態輸出不受影響。
-- **Go 版本**：本機為 Go 1.23，Docker 映像用 `golang:1.23-alpine` 建置、`gcr.io/distroless/static` 執行，最終映像約 15 MB。
+- **Go 版本**：pgx 與 goose 的新版要求 Go 1.26，本機的舊版 Go 會自動下載 toolchain；Docker 映像用 `golang:1.26-alpine` 建置、`gcr.io/distroless/static` 執行。
+- **本機埠號**：開發機的 8080、5432 已被其他服務占用，所以 compose.dev 對外開 18080（API）與 55432（Postgres）。
 
 ---
 

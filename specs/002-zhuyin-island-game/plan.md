@@ -25,7 +25,7 @@
 
 **Language/Version**：
 - 前端：TypeScript 5.9（strict）、Node.js 20 LTS
-- 後端：Go 1.23
+- 後端：Go 1.26（pgx、goose 新版要求）
 
 **Primary Dependencies**：
 - 前端：

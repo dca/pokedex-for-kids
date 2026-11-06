@@ -9,7 +9,7 @@
 | 工具 | 版本 |
 |---|---|
 | Node.js | 20 LTS 以上 |
-| Go | 1.23 以上 |
+| Go | 1.26 以上（套件要求；舊版 Go 會自動下載對應的 toolchain） |
 | Docker | 含 Docker Compose v2 |
 | sqlc、goose、oapi-codegen | 由 `make tools` 安裝到 `game-api/bin/` |
 
@@ -19,7 +19,7 @@
 # 1. 先產生靜態內容（API 會嵌入），再啟動資料庫與 API（API 啟動時自動執行資料庫遷移）
 (cd pokedex-for-kids-web && npm ci && npm run content)
 docker compose -f deploy/compose.dev.yml up -d
-curl http://localhost:8080/api/v1/healthz        # → {"ok":true}
+curl http://localhost:18080/api/v1/healthz       # → {"ok":true}（本機 8080、5432 常被占用，所以改用 18080、55432）
 
 # npm run content 會產生 gen1.json、zones.json、confusables.json、audio.json，
 # 同時輸出到 public/data/ 與 game-api/internal/content/data/
@@ -28,15 +28,18 @@ curl http://localhost:8080/api/v1/healthz        # → {"ok":true}
 cd pokedex-for-kids-web
 npm run api-types      # 從 game-api/openapi.yaml 產生 src/api/types.ts
 
-# 3. 啟動前端（/api 會轉到 localhost:8080）
+# 3. 啟動前端（/api 會轉到 localhost:18080）
 npm run dev            # → http://localhost:3000
 ```
 
 音檔需要 Google Cloud TTS 憑證才能重新產生，平常不需要，產生好的音檔會提交到 repo：
 
 ```bash
-cd crawlers
-go run ./cmd/synthesize-zhuyin    # 產生 sym、tone、syl、prompt 音檔與 data/audio/review.md
+cd pokedex-for-kids-web
+npm run audio                     # 用 macOS 內建語音產生暫用音檔（目前提交的版本）
+npm run audio -- --engine google --force   # 用 Google Cloud TTS 重新產生（需要 gcloud 登入，會產生費用）
+npm run stickers                  # 下載 151 張官方圖片並做成貼紙
+npm run font                      # 字型子集化
 ```
 
 ## 測試
@@ -53,7 +56,7 @@ go test ./...
 # 端到端：啟動完整環境後跑 Playwright
 docker compose -f deploy/compose.dev.yml up -d
 cd pokedex-for-kids-web
-npm run build:e2e && npm run e2e
+npm run build:e2e && npm run e2e   # 三種裝置：desktop、ipad、iphone
 ```
 
 ## 驗證主要情境
