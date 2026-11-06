@@ -16,7 +16,8 @@ export const api = createApiClient({
 export const audio = createAudioPlayer({
   createContext: () => new AudioContext(),
   fetch: (...args) => fetch(...args),
-  manifest: () => fetch(`${basePath}/data/audio.json`).then((r) => r.json()),
+  // 清單不用快取：音檔網址帶有內容雜湊，清單更新後就會下載新的音檔
+  manifest: () => fetch(`${basePath}/data/audio.json`, { cache: 'no-cache' }).then((r) => r.json()),
   basePath,
   onError: (key, err) => console.warn('音檔無法播放', key, err),
 })

@@ -2,6 +2,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { buildContent, type SourcePokemon } from './content/buildContent'
+import { rewriteAudioManifest } from './content/audioVersion'
 
 const web = path.resolve(__dirname, '..')
 const repo = path.resolve(web, '..')
@@ -42,6 +43,7 @@ for (const p of out.gen1) {
   else missing++
 }
 
+rewriteAudioManifest(web)
 console.log(`gen1：${out.gen1.length} 隻；音檔鍵：${Object.keys(out.audio).length} 個；缺少名稱音檔：${missing} 個`)
 console.log(out.report)
 if (missing > 0) process.exitCode = 1

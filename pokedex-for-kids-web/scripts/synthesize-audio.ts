@@ -10,6 +10,7 @@ import path from 'node:path'
 import os from 'node:os'
 import { execFileSync } from 'node:child_process'
 import { audioFileName } from './content/buildContent'
+import { rewriteAudioManifest } from './content/audioVersion'
 
 type Engine = 'say' | 'google'
 const args = process.argv.slice(2)
@@ -112,4 +113,5 @@ const review = [
   '',
 ]
 fs.writeFileSync(path.join(web, 'data/audio/review.md'), review.join('\n'))
+rewriteAudioManifest(web)
 console.log(`產生 ${made} 個、略過已存在 ${skipped} 個、共 ${jobs.length} 個`)
