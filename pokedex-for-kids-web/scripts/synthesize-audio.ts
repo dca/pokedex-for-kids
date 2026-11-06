@@ -64,8 +64,9 @@ function synthSay(text: string, target: string) {
 function synthGoogle(text: string, target: string, token: string) {
   const body = JSON.stringify({
     input: { text },
-    voice: { languageCode: 'cmn-TW', name: 'cmn-TW-Wavenet-A' },
-    audioConfig: { audioEncoding: 'MP3', speakingRate: 0.85 },
+    // 與 crawlers/ 產生寶可夢名稱音檔的設定相同（cmn-TW 女聲、預設語速），題目接著名稱播放時聲音才一致
+    voice: { languageCode: 'cmn-TW', ssmlGender: 'FEMALE' },
+    audioConfig: { audioEncoding: 'MP3' },
   })
   const res = execFileSync('curl', [
     '-sS', '-X', 'POST', 'https://texttospeech.googleapis.com/v1/text:synthesize',

@@ -36,8 +36,8 @@ npm run dev            # → http://localhost:3200（3000 常被其他服務占�
 
 ```bash
 cd pokedex-for-kids-web
-npm run audio                     # 用 macOS 內建語音產生暫用音檔（目前提交的版本）
-npm run audio -- --engine google --force   # 用 Google Cloud TTS 重新產生（需要 gcloud 登入，會產生費用）
+npm run audio                     # 用 macOS 內建語音產生（沒有 GCP 時的備案）
+GOOGLE_CLOUD_PROJECT=pokedex-for-kids npm run audio -- --engine google --force   # Google Cloud TTS（需要 gcloud auth application-default login；目前提交的版本）
 npm run stickers                  # 下載 151 張官方圖片並做成貼紙
 npm run font                      # 字型子集化
 ```

@@ -1,6 +1,6 @@
 # 音檔試聽清單
 
-產生方式：macOS Meijia（暫用，待正式產生）。
+產生方式：Google Cloud TTS cmn-TW。
 試聽後不合格的檔案，請把真人錄音放到 `data/audio/overrides/` 的相同路徑，再執行 `npm run audio`。
 
 | 檔案 | 唸的字 | 備註 |
