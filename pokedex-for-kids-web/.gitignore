@@ -47,3 +47,4 @@ next-env.d.ts
 
 # 本機試聽頁（不部署）
 /public/audio-review.html
+/public/name-review.html

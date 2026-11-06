@@ -400,3 +400,13 @@ description: "注音島實作任務清單（雲端化修訂）"
 - 依 Phase 順序完成，每個 Checkpoint 都確認先前的測試仍然通過。
 - 每完成一組邏輯相關的任務就 commit，commit 訊息用正體中文加語義化前綴。
 - 元件不超過 200 行；不使用 `any`。
+
+---
+
+## 後續待辦（Phase 1～7 之後）
+
+- [ ] TODO-01 寶可夢名稱改用教育部真人發音：目前 151 隻的中文名稱是 Google TTS（`public/audio/name/zh/`）。
+  - 候選來源：《國語辭典簡編本》的「詞目全文聲音檔」（CC BY-ND 3.0 TW，約 5 個分割壓縮檔）；寶可夢名稱多半不是辭典詞目，可能找不到整個名稱的錄音。
+  - 備案：用已經換成真人錄音的名稱音節（`data/audio/overrides/syl/`）拼接；每個字是真人發音，但字與字之間較不自然。
+  - 拼接前先用試聽頁（`public/name-review.html`，本機產生、不提交）標出 TTS 唸錯的名稱，評估要全部替換或只換唸錯的。
+- [ ] Phase 9（延後）：部署到 VPS（Caddy、compose.yml、每日備份）、CI、README、無障礙與效能檢查。
