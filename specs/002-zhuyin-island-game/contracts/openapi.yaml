@@ -657,9 +657,15 @@ components:
 
     Question:
       type: object
-      required: [type, itemIds, prompt, display, options, answer]
+      required: [type, pokemonId, itemIds, prompt, display, options, answer]
       properties:
         type: { $ref: '#/components/schemas/QuestionType' }
+        pokemonId:
+          type: integer
+          description: 題目用到的寶可夢（顯示貼紙用）；野生遭遇與遭遇的寶可夢相同，道館每題可能不同
+        audioOnAnswer:
+          type: string
+          description: 答對後播放的音檔鍵（例如正確符號或字的發音）；選項本身不播放聲音，以免直接聽出答案
         itemIds:
           type: array
           items: { type: string }
