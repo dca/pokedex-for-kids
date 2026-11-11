@@ -1,46 +1,18 @@
 /** @type {import('next').NextConfig} */
+const isDev = process.env.NODE_ENV === 'development'
+
 const nextConfig = {
-    output: 'export',
-    basePath: '/pokedex-for-kids',
-    images: { unoptimized: true }
+  output: 'export',
+  // GitHub Pages 用 /pokedex-for-kids；自己的主機用空字串
+  basePath: process.env.NEXT_BASE_PATH ?? '',
+  reactStrictMode: true,
+  images: { unoptimized: true },
+  // 靜態輸出不支援 rewrites，只在開發模式把 /api 轉給本機的 game-api
+  ...(isDev && {
+    async rewrites() {
+      return [{ source: '/api/:path*', destination: 'http://localhost:18080/api/:path*' }]
+    },
+  }),
 }
 
 module.exports = nextConfig
-
-
-// Injected content via Sentry wizard below
-
-const { withSentryConfig } = require("@sentry/nextjs");
-
-module.exports = withSentryConfig(
-  module.exports,
-  {
-    // For all available options, see:
-    // https://github.com/getsentry/sentry-webpack-plugin#options
-
-    // Suppresses source map uploading logs during build
-    silent: true,
-
-    org: "pokedex-for-kids",
-    project: "pokedex-for-kids-web",
-  },
-  {
-    // For all available options, see:
-    // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
-
-    // Upload a larger set of source maps for prettier stack traces (increases build time)
-    widenClientFileUpload: true,
-
-    // Transpiles SDK to be compatible with IE11 (increases bundle size)
-    transpileClientSDK: true,
-
-    // Routes browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers (increases server load)
-    tunnelRoute: "/monitoring",
-
-    // Hides source maps from generated client bundles
-    hideSourceMaps: true,
-
-    // Automatically tree-shake Sentry logger statements to reduce bundle size
-    disableLogger: true,
-  }
-);

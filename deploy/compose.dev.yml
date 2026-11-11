@@ -1,0 +1,37 @@
+# 本機開發與 E2E 測試：postgres + game-api。
+# 前端用 npm run dev（/api 會轉到 localhost:8080）。
+name: zhuyin-island-dev
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: zhuyin
+      POSTGRES_PASSWORD: zhuyin
+      POSTGRES_DB: zhuyin
+    ports:
+      - "55432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U zhuyin"]
+      interval: 2s
+      retries: 30
+
+  game-api:
+    build: ../game-api
+    environment:
+      DATABASE_URL: postgres://zhuyin:zhuyin@postgres:5432/zhuyin?sslmode=disable
+      # 本機用 http，cookie 不能加 Secure
+      COOKIE_SECURE: "false"
+      # E2E 測試用：允許 X-Test-Pokemon 指定遭遇的寶可夢（正式環境不要開）
+      GAME_API_TEST_HOOKS: "1"
+      ARGON2_MEMORY_KIB: "16384"
+    ports:
+      - "18080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:

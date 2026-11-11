@@ -9,6 +9,8 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jest-environment-jsdom',
+  // e2e/ 是 Playwright 測試，由 npm run e2e 執行
+  testPathIgnorePatterns: ['/node_modules/', '/.next/', '/e2e/'],
 
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1"

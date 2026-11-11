@@ -1,0 +1,32 @@
+.listen { display: flex; justify-content: center; margin: 0 0 22px; }
+.bigSpeaker {
+  width: 120px; height: 120px; border-radius: 50%; font-size: 56px;
+  background: var(--star); box-shadow: var(--lift);
+}
+.puzzle { display: flex; justify-content: center; align-items: flex-end; gap: 14px; margin: 4px 0 22px; flex-wrap: wrap; }
+.syl { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.char { font-size: 30px; }
+.box {
+  display: flex; padding: 8px 10px; border: 3px solid var(--ink); border-radius: 16px;
+  background: #f6faff; font-size: 34px; min-height: 64px; align-items: center;
+}
+.target { background: #fff8e1; border-width: 4px; }
+.hanRow { display: flex; gap: 12px; justify-content: center; margin: 0 0 22px; flex-wrap: wrap; }
+.han {
+  display: flex; align-items: center; gap: 4px; padding: 8px 12px 8px 16px;
+  border: 3px solid var(--ink); border-radius: 18px; background: #fffbef; font-size: 18px;
+}
+.ch { font-size: 64px; line-height: 1; }
+.blank .ch {
+  width: 64px; height: 64px; border: 3px dashed var(--ink); border-radius: 12px;
+  display: grid; place-items: center; font-size: 44px;
+}
+
+@media (max-width: 640px) {
+  .puzzle { gap: 8px; }
+  .box { font-size: 22px; min-height: 46px; padding: 4px 6px; }
+  .char { font-size: 22px; }
+  .ch { font-size: 48px; }
+  .blank .ch { width: 48px; height: 48px; font-size: 32px; }
+  .bigSpeaker { width: 96px; height: 96px; font-size: 44px; }
+}

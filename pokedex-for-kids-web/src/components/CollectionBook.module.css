@@ -1,0 +1,36 @@
+.book {
+  position: fixed; inset: 0; z-index: 40; padding: max(24px, env(safe-area-inset-top)) 20px 40px;
+  background: #ddf3ff; overflow-y: auto;
+  background-image: radial-gradient(#c3e6fa 2px, transparent 2px); background-size: 26px 26px;
+}
+.complete { background-color: #fff4cc; background-image: radial-gradient(#ffe38a 2px, transparent 2px); }
+.head, .progress, .grid { zoom: var(--ui); }
+.head { max-width: 980px; margin: 0 auto 20px; display: flex; align-items: center; gap: 16px; }
+.head h2 { margin: 0; font-size: 34px; font-weight: normal; }
+.count { font-size: 20px; }
+.head :global(.round-btn) { margin-left: auto; }
+.progress { max-width: 980px; margin: 0 auto 24px; height: 26px; border: 4px solid var(--ink); border-radius: 999px; background: #fff; overflow: hidden; }
+.progress i { display: block; height: 100%; background: var(--grass); }
+.grid { max-width: 980px; margin: 0 auto; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 18px; }
+.slot {
+  width: 100%; aspect-ratio: 3 / 4; border-radius: 22px; box-shadow: var(--lift-sm);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; position: relative;
+}
+.slot img { width: 78%; aspect-ratio: 1; object-fit: contain; }
+.no { position: absolute; top: 8px; left: 12px; font-size: 14px; }
+.nm { font-size: 20px; margin-top: 2px; }
+.unknown { background: #f1f5fa; border-style: dashed; box-shadow: none; }
+.unknown img { filter: brightness(0); opacity: 0.18; }
+.gold { border-color: #b88600; box-shadow: 0 4px 0 #b88600, 0 0 0 4px #ffd54a inset; }
+.gold::after { content: "⭐⭐⭐"; position: absolute; top: 6px; right: 10px; font-size: 12px; }
+.detail { width: min(460px, calc(100vw - 32px)); text-align: center; padding: 24px; }
+.detail img { width: 180px; height: 180px; object-fit: contain; }
+.detail h3 { margin: 4px 0; font-size: 34px; font-weight: normal; }
+.zy { font-size: 26px; display: flex; gap: 14px; justify-content: center; margin: 6px 0; }
+.en { font-size: 20px; margin: 4px 0; }
+
+@media (max-width: 640px) {
+  .grid { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .nm { font-size: 15px; }
+  .head h2 { font-size: 24px; }
+}

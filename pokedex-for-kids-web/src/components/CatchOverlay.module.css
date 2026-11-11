@@ -1,0 +1,20 @@
+.card { width: min(460px, calc(100vw - 32px)); text-align: center; padding: 28px 24px 26px; animation: fade 0.3s; }
+.ball {
+  width: 112px; height: 112px; margin: 0 auto 10px; border-radius: 50%; position: relative;
+  border: 6px solid var(--ink); animation: wobble 1.5s ease-in-out;
+  background: linear-gradient(180deg, var(--tone) 0 46%, var(--ink) 46% 54%, #fff 54% 100%);
+}
+.ball::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 34px; height: 34px; margin: -17px 0 0 -17px;
+  border-radius: 50%; background: #fff; border: 6px solid var(--ink);
+}
+.sticker {
+  width: 150px; height: 150px; margin: -8px auto 4px; display: block; padding: 6px; border-radius: 50%;
+  background: #ddf3ff; border: 4px solid var(--ink); animation: pop 0.5s; object-fit: contain;
+}
+.title { margin: 6px 0 4px; font-size: 32px; font-weight: normal; }
+.new { margin: 0; font-size: 20px; color: var(--tone); }
+.zy { font-size: 24px; margin: 8px 0; display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+.syl { display: inline-flex; }
+.rating { font-size: 40px; letter-spacing: 4px; margin: 4px 0 18px; }
+.off { filter: grayscale(1); opacity: 0.3; }
